@@ -18,17 +18,11 @@ use_preset_vocabulary: false
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - cn_dicts_zrm/8105     # 字表
-  - cn_dicts_zrm/41448     # 字表
-  - cn_dicts_zrm/rongcuo     # 字表
-  - cn_dicts_zrm/base     # 基础词库
-  - cn_dicts_zrm/ext      # 扩展词库
-  # - cn_dicts_zrm/others   #  # 一些杂项 容错音和错字 可以不开
-  - cn_dicts_zrm/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
-  - cn_dicts_zrm/chengyu   # 成语
-  - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
-  - cn_dicts_cell/luna_pinyin.place     # 细胞词库 地名
-  - cn_dicts_cell/luna_pinyin.computer  # 细胞词库 计算机
-  - cn_dicts_cell/luna_pinyin.history   # 细胞词库 历史
-  - cn_dicts_cell/luna_pinyin.movie     # 细胞词库 电影
+  - cn_dicts/8105     # 字表
+  - cn_dicts/41448     # 字表
+  - cn_dicts/base     # 基础词库
+  - cn_dicts/ext      # 扩展词库
+  - cn_dicts/others   #  # 一些杂项 容错音和错字 可以不开
+  - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
+  - cn_dicts/chengyu   # 成语
 ...
