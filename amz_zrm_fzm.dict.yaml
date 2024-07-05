@@ -25,7 +25,6 @@ import_tables:
   - cn_dicts_zrm/ext      # 扩展词库
   # - cn_dicts_zrm/others   #  # 一些杂项 容错音和错字 可以不开
   - cn_dicts_zrm/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
-  - cn_dicts_zrm/user # 用户自定义词典
   - cn_dicts_zrm/chengyu   # 成语
   - cn_dicts_cell/luna_pinyin.poetry    # 细胞词库 古诗文
   - cn_dicts_cell/luna_pinyin.place     # 细胞词库 地名

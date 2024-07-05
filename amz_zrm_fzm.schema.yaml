@@ -70,6 +70,7 @@ engine:
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
+    - lua_filter@*long_word_filter                  #长词优先
     - lua_filter@corrector                          # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@autocap_filter                     # 英文自动大写
@@ -141,22 +142,29 @@ reduce_english_filter:
 pin_cand_filter:
   # 格式：编码<Tab>字词1<Space>字词2……
   - d	的
+#长词优先
+long_word_filter:
+  count: 2
+  idx: 1
 
 
 # 主翻译器，拼音
 translator:
   dictionary: amz_zrm_fzm          # 挂载词库 amz_zrm_fzm.dict.yaml
   prism: double_pinyin          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
-  enable_completion: false
+  enable_completion: true
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
   spelling_hints: 1
+  contextual_suggestions: true   #上下文建议开启
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 
   enable_user_dict: true # 是否开启自动调频
+  user_dict: user.dict  # 用户词典的文件名称
 #  spelling_hints: 8             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
 #  always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
+  db_class: tabledb
   initial_quality: 1.2          # 拼音的权重应该比英文大
   comment_format:               # 标记拼音注释，供 corrector.lua 做判断用
     - xform/^/［/
@@ -222,7 +230,7 @@ cn_en:
 # 自定义短语
 custom_phrase:
   dictionary: ""
-  user_dict: custom_phrase_double  # 需要手动创建 custom_phrase_double.txt 文件
+  user_dict: custom_phrase  # 需要手动创建 custom_phrase.txt 文件
   db_class: stabledb
   enable_completion: false # 补全提示
   enable_sentence: false   # 禁止造句
@@ -379,7 +387,7 @@ user_dict_set:
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   enable_user_dict: true # 是否开启自动调频
-  user_dict: user.custom.dict
+  user_dict: user.dict
   db_class: tabledb
 
 # 自定义词典加词(ac引导)
@@ -387,7 +395,7 @@ add_user_dict:
   tag: add_user_dict
   dictionary: amz_zrm_fzm
   initial_quality: -1
-  user_dict: user.custom.dict
+  user_dict: user.dict
 # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
   db_class: tabledb
   enable_charset_filter: false # 是否开启字符集过滤
