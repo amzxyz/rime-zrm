@@ -1,12 +1,5 @@
 --[[
-	错音错字提示。
-	示例：「给予」的正确读音是 ji yu，当用户输入 gei yu 时，在候选项的 comment 显示正确读音
-	示例：「按耐」的正确写法是「按捺」，当用户输入「按耐」时，在候选项的 comment 显示正确写法
-
-	为了让这个 Lua 同时适配全拼与双拼，使用 `spelling_hints` 生成的 comment（全拼拼音）作为通用的判断条件。
-	感谢大佬@[Shewer Lu](https://github.com/shewer)提供的思路。
-	
-	容错词在 cn_dicts/others.dict.yaml 中，有新增建议可以提个 issue
+	匹配自然码双拼带辅助码的错音错字提示，本脚本与词库格式与comment_format表达式强相关。
 --]]
 
 local M = {}
