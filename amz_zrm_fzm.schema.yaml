@@ -40,7 +40,7 @@ switches:
 # 输入引擎
 engine:
   processors:
-    - lua_processor@select_character          # 以词定字
+#    - lua_processor@select_character          # 以词定字，有了辅助码了，想开启可以注释掉
     - ascii_composer
     - recognizer
     - key_binder
@@ -54,11 +54,14 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@radical_lookup  # 部件拆字自定义 tag
+    - affix_segmentor@add_user_dict
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
+    - script_translator@user_dict_set
+    - script_translator@add_user_dict
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
     - lua_translator@*unicode            # Unicode
@@ -67,6 +70,7 @@ engine:
     - table_translator@custom_phrase    # 自定义短语 custom_phrase_double.txt
     - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
+    - table_translator@jianma            # 简码
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
@@ -79,6 +83,7 @@ engine:
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - lua_filter@search@radical_pinyin              # 部件拆字辅码
+    - simplifier@mars                               #火星文
     - uniquifier                                    # 去重
 
 
@@ -90,10 +95,23 @@ date_translator:
   datetime: datetime    # ISO 8601： 2022-11-29T18:13:11+08:00
   timestamp: timestamp  # 时间戳： 1669716794
 
-
 # Lua 配置：农历的触发关键字
 lunar: lunar  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
 
+# Lua 配置：计算器触发关键字
+calculator:
+  trigger: "V"
+
+# Lua 配置: 置顶候选项
+# 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
+pin_cand_filter:
+  # 格式：编码<Tab>字词1<Space>字词2……
+  - d	的
+
+#Lua 配置:长词优先
+long_word_filter:
+  count: 3
+  idx: 3
 
 # Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
 # 默认 "{comment}" 输入 hun dun 时会在「馄饨」旁边生成 hún tun 的 comment
@@ -137,17 +155,6 @@ reduce_english_filter:
   ]
 
 
-# Lua 配置: 置顶候选项
-# 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
-pin_cand_filter:
-  # 格式：编码<Tab>字词1<Space>字词2……
-  - d	的
-#长词优先
-long_word_filter:
-  count: 2
-  idx: 1
-
-
 # 主翻译器，拼音
 translator:
   dictionary: amz_zrm_fzm          # 挂载词库 amz_zrm_fzm.dict.yaml
@@ -165,7 +172,7 @@ translator:
 #  spelling_hints: 8             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
 #  always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
   db_class: tabledb
-  initial_quality: 1.2          # 拼音的权重应该比英文大
+  initial_quality: 3          # 拼音的权重应该比英文大
   comment_format:               # 标记拼音注释，供 corrector.lua 做判断用
     - xform/^/［/
     - xform/$/］/
@@ -204,6 +211,25 @@ translator:
     - xform/([nl])v/$1ü/
     - xform/ü/v/  # ü 显示为 v
 
+# 自定义短语
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase  # 需要手动创建 custom_phrase.txt 文件
+  db_class: stabledb
+  enable_completion: false # 补全提示
+  enable_sentence: false   # 禁止造句
+  initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
+
+# 简码词库导入位于jm_dicts得txt文件词库
+jianma:
+  dictionary: ""
+  user_dict: jm_dicts/chengyu
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1.2 #本表词和系统词重码居后
+
+
 
 # 次翻译器，英文
 melt_eng:
@@ -226,15 +252,6 @@ cn_en:
   comment_format:
     - xform/^.+$//
 
-
-# 自定义短语
-custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase  # 需要手动创建 custom_phrase.txt 文件
-  db_class: stabledb
-  enable_completion: false # 补全提示
-  enable_sentence: false   # 禁止造句
-  initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
 
 
 # Emoji
@@ -314,11 +331,9 @@ recognizer:
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
 #造词
-    add_user_dict: "^ac[A-Za-z]*$"
+    add_user_dict: "^zc[A-Za-z]*$"
     calculator: "^V.*$"
-    # 计算器触发关键字
-calculator:
-  trigger: "V"
+
 
 # 从 default 继承快捷键
 key_binder:
@@ -390,7 +405,7 @@ user_dict_set:
   user_dict: user.dict
   db_class: tabledb
 
-# 自定义词典加词(ac引导)
+# 自定义词典加词(zc引导)
 add_user_dict:
   tag: add_user_dict
   dictionary: amz_zrm_fzm
@@ -408,5 +423,5 @@ add_user_dict:
       
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
-  prefix: "ac"
+  prefix: "zc"
   tips: "〔自造词〕"
