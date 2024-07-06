@@ -26,7 +26,7 @@
 
 ![截图_选择区域_20240704150917.png](https://storage.deepin.org/thread/202407041151271858_截图_选择区域_20240704150917.png)
 
-**功能4**
+**其它亮点功能**
 
 - **日期时间：**
   输入：```date        time   week    datetime                   timestamp```
@@ -39,3 +39,4 @@
 - **/模式：** 通过输入 /sx 快捷输入关于“数学”的特殊符号，具体能输入什么可以打开 symbols\_v.yaml学习。
 - **计算器：** 通过输入大写V引导继续输入如：V3+5  候选框就会有8和3+5=8，基础功能 `+ - * / % ^` 还支持 `sin(x) cos(x)` 等众多运算方式 [点击全面学习](https://github.com/gaboolic/rime-shuangpin-fuzhuma/blob/main/md/calc.md)
 - **造词** 通过zc引导自造词，写入用户词典
+- **自动上屏** 三位、四位简码自动上屏如jjkw岌岌可危 zmhu怎么回事 之类
