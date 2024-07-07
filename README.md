@@ -1,4 +1,4 @@
-### 词库来自[墨奇方案]（https://github.com/gaboolic/rime-shuangpin-fuzhuma），剔除多余方案只保留自然码辅码方案
+### 词库来自[墨奇方案](https://github.com/gaboolic/rime-shuangpin-fuzhuma)，剔除多余方案只保留自然码辅码方案
 #### 使用说明:
 #### 一个rime自然码双拼的纯净方案，支持辅助码、中英混输、拆字、计算器、农历、金额大写等 
 
