@@ -12,9 +12,9 @@ function M.init(env)
   M.idx = config:get_int(env.name_space .. "/idx") or 4
   M.input_str = env.engine.context.input
 
-  local path_1 = rime_api.get_user_data_dir() .. ("/custom_phrase/custom_phrase_super_1jian.txt")
-  local path_2 = rime_api.get_user_data_dir() .. ("/custom_phrase/custom_phrase_super_2jian.txt")
-  local path_3 = rime_api.get_user_data_dir() .. ("/custom_phrase/custom_phrase_super_3jian.txt")
+  local path_1 = rime_api.get_user_data_dir() .. ("/jm_dicts/custom_phrase_super_1jian.txt")
+  local path_2 = rime_api.get_user_data_dir() .. ("/jm_dicts/custom_phrase_super_2jian.txt")
+  local path_3 = rime_api.get_user_data_dir() .. ("/jm_dicts/custom_phrase_super_3jian.txt")
   local paths = {
     path_1,
     path_2,

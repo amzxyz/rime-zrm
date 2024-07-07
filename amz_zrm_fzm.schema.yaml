@@ -67,19 +67,23 @@ engine:
     - lua_translator@*unicode            # Unicode
     - lua_translator@*number_translator  # 数字、金额大写
     - lua_translator@*calculator        # 计算器
-    - table_translator@custom_phrase    # 自定义短语 custom_phrase_double.txt
+    - table_translator@custom_phrase    # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
-    - table_translator@jianma            # 简码
+    - table_translator@chengyu            # 简码成语
+    - table_translator@custom_phrase_super_1jian   #超强tab 1码
+    - table_translator@custom_phrase_super_2jian   #超强tab 2码
+    - table_translator@custom_phrase_super_3jian   #超强tab 3码
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
     - lua_filter@*long_word_filter                  #长词优先
-    - lua_filter@*corrector                         # 错音错字提示
+    - lua_filter@*corrector                         # 错音错字提示，放在stick的前面不显示简拼码，放在后面可以获得简拼码提示
+#    - lua_filter@*stick                             # tab置顶词回显在第一个comment中，与corrector代码有一定影响
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
-    - lua_filter@autocap_filter                     # 英文自动大写
-    - lua_filter@pin_cand_filter                    # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
-    - lua_filter@reduce_english_filter              # 降低部分英语单词在候选项的位置
+    - lua_filter@*autocap_filter                    # 英文自动大写
+    - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
+    - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - lua_filter@search@radical_pinyin              # 部件拆字辅码
@@ -110,7 +114,7 @@ pin_cand_filter:
 
 #Lua 配置:长词优先
 long_word_filter:
-  count: 4
+  count: 3
   idx: 3
 
 # Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
@@ -158,19 +162,19 @@ reduce_english_filter:
 # 主翻译器，拼音
 translator:
   dictionary: amz_zrm_fzm          # 挂载词库 amz_zrm_fzm.dict.yaml
-  prism: amz_zrm_fzm          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
+  prism: double_pinyin          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   enable_completion: true
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
   contextual_suggestions: true   #上下文建议开启
   enable_user_dict: true # 是否开启自动调频
   user_dict: user.dict  # 用户词典的文件名称
-  db_class: tabledb
-  initial_quality: 1.3         # 拼音的权重应该比英文大
   spelling_hints: 8             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
-  comment_format:               # 标记拼音注释，供 corrector.lua 做判断用
-    - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分
+  db_class: tabledb
+  initial_quality: 3          # 拼音的权重应该比英文大
+  comment_format:
+    - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分，用于corrector.lua获取双拼码识别
     - xform/^/［/
     - xform/$/］/
 #    - xform/(^|[ '])[^[]+[[]/$1/          # 编码提示只显示辅助码部分
@@ -219,7 +223,7 @@ custom_phrase:
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
 
 # 简码词库导入位于jm_dicts得txt文件词库
-jianma:
+chengyu:
   dictionary: ""
   user_dict: jm_dicts/chengyu
   db_class: stabledb
@@ -227,7 +231,32 @@ jianma:
   enable_completion: false
   initial_quality: 1.2 #本表词和系统词重码居后
 
+# 超强tab 1码
+custom_phrase_super_1jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_1jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
+# 超强tab 2码
+custom_phrase_super_2jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_2jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
+
+# 超强tab 3码
+custom_phrase_super_3jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_3jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 # 次翻译器，英文
 melt_eng:
@@ -309,17 +338,11 @@ radical_reverse_lookup:
   # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
   # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
   dictionary: amz_zrm_fzm
-  # comment_format:     # 自定义 comment，例如在左右加上括号
-  #  - xform/^/(/
-  #  - xform/$/)/
-# 部件拆字反查辅助码提示词
-fzm_reverse_lookup:
-  tags: [ radical_lookup]
-  overwrite_comment: true
-  dictionary: amz_zrm_fzm # 提示码词表
+  comment_format:     # 自定义 comment，例如在左右加上括号
+    - xform/^/(/
+    - xform/$/)/
 
 # 处理符合特定规则的输入码，如网址、反查
-
 recognizer:
   import_preset: default  # 从 default.yaml 继承通用的
   patterns:  # 再增加方案专有的：
@@ -348,15 +371,19 @@ key_binder:
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+#    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+#    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
+#    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
-
-    ## 对以下4行取消注释后：启用光标回退至特定音节后、补充辅助码的功能
-    #- { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
-    #- { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
-    #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+   ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
+#    - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
+#    - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
+#    - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+#    - { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+#    - { when: composing, accept: Control+5, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+#    - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+#    - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
 
 
@@ -364,15 +391,13 @@ key_binder:
 # 拼写设定
 speller:
 # table_translator翻译器，支持自动上屏。例如 “zmhu”可以自动上屏“怎么回事”
-  auto_select: true
-  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
-# 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
+#  auto_select: true
+#  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
-  delimiter: " '"
-  ## speller 未允许 aj 表示 an
+  delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
     # 这一段是为了支持加载全拼词库
     # - xform/^([aoe])$/$1$1/
@@ -431,6 +456,7 @@ speller:
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
 
+
 user_dict_set:
   dictionary: amz_zrm_fzm
   initial_quality: 0
@@ -438,8 +464,9 @@ user_dict_set:
   enable_sentence: false
     ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
     ##  改为 1 则是只显示单字的输入码，依此类推。
-#  spelling_hints: 8
-#  comment_format:
+  spelling_hints: 8
+  comment_format:
+    - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分
 #    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   enable_user_dict: true # 是否开启自动调频
   user_dict: user.dict
@@ -461,7 +488,8 @@ add_user_dict:
   encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
   preedit_format:
       
-#  comment_format:
+  comment_format:
+    - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分
 #    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   prefix: "zc"
   tips: "〔自造词〕"
