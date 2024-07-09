@@ -44,6 +44,7 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder
+    - lua_processor@*key_binder # 绑定按键扩展能力
     - speller
     - punctuator
     - selector
@@ -60,8 +61,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - script_translator@user_dict_set
-    - script_translator@add_user_dict
+    - script_translator@user_dict_set    #用户词典
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
     - lua_translator@*unicode            # Unicode
@@ -77,7 +77,8 @@ engine:
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
-    - lua_filter@*long_word_filter                  #长词优先
+    - lua_filter@*long_word_filter                  #长词优先      
+    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
     - lua_filter@*corrector                         # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@*autocap_filter                    # 英文自动大写
@@ -113,7 +114,7 @@ pin_cand_filter:
 
 #Lua 配置:长词优先
 long_word_filter:
-  count: 3
+  count: 4
   idx: 3
 
 # Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
@@ -337,9 +338,9 @@ radical_reverse_lookup:
   # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
   # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
   dictionary: amz_zrm_fzm
-  comment_format:     # 自定义 comment，例如在左右加上括号
-    - xform/^/(/
-    - xform/$/)/
+#  comment_format:     # 自定义 comment，例如在左右加上括号
+#    - xform/^/(/
+#    - xform/$/)/
 
 # 处理符合特定规则的输入码，如网址、反查
 recognizer:
@@ -368,9 +369,9 @@ key_binder:
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-#    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
-#    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
-#    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
    ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
@@ -391,7 +392,7 @@ speller:
 #  auto_select: true
 #  auto_select_pattern: ^[a-z]+/|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`/
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
@@ -464,6 +465,8 @@ user_dict_set:
   spelling_hints: 8
   comment_format:
     - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分
+    - xform/^/(/
+    - xform/$/)/
 #    - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
   enable_user_dict: true # 是否开启自动调频
   user_dict: user.dict
