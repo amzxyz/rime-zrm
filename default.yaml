@@ -10,7 +10,7 @@ config_version: '2024-02-05'
 schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
   # 除了 t9，它依赖于 rime_amz，用九宫格别删 rime_amz.schema.yaml
-  - schema: amz          # 自然码双拼
+  - schema: zrm          # 自然码双拼
 
 
 # 菜单
