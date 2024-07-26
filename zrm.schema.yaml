@@ -4,13 +4,13 @@
 
 # 方案说明
 schema:
-  schema_id: amz
+  schema_id: zrm
   name: 自然码双拼
   version: "1"
   author:
-    - AMZ
+    - amzxyz
   description: |
-    自然码双拼
+    自然码(辅)
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
@@ -161,7 +161,7 @@ reduce_english_filter:
 
 # 主翻译器，拼音
 translator:
-  dictionary: amz          # 挂载词库 amz.dict.yaml
+  dictionary: zrm         # 挂载词库 zrm.dict.yaml
 #  prism: double_pinyin          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   enable_completion: true
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
