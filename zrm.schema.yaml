@@ -320,7 +320,7 @@ punctuator:
   half_shape:
     __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
   symbols:
-    __include: symbols_v:/symbols         # 从 symbols_v.yaml 导入配置
+    __include: symbols:/symbols         # 从 symbols.yaml 导入配置
 
 
 # 部件拆字反查
