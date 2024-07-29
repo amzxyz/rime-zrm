@@ -8,9 +8,9 @@ schema:
   name: 自然万象
   version: "1"
   author:
-    - amzxyz
+    - zrmxyz
   description: |
-    自然码(辅)
+    自然码双拼
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
@@ -55,13 +55,11 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@radical_lookup  # 部件拆字自定义 tag
-#    - affix_segmentor@add_user_dict
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-#    - script_translator@user_dict_set    #用户词典
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
     - lua_translator@*unicode            # Unicode
@@ -71,23 +69,25 @@ engine:
     - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
     - table_translator@chengyu            # 简码成语
-    - table_translator@custom_phrase_super_1jian   #超强tab 1码
-    - table_translator@custom_phrase_super_2jian   #超强tab 2码
-    - table_translator@custom_phrase_super_3jian   #超强tab 3码
+#    - table_translator@custom_phrase_super_1jian   #超强tab 1码
+#    - table_translator@custom_phrase_super_2jian   #超强tab 2码
+#    - table_translator@custom_phrase_super_3jian   #超强tab 3码
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
     - lua_filter@*long_word_filter                  #长词优先      
-    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
     - lua_filter@*corrector                         # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@*autocap_filter                    # 英文自动大写
     - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
+    - lua_filter@search@radical_pinyin              # 部件拆字辅码
+
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
-    - lua_filter@search@radical_pinyin              # 部件拆字辅码
     - simplifier@mars                               #火星文
+    - simplifier@chinese_english                    #中英翻译
+#    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
     - uniquifier                                    # 去重
 
 
@@ -161,7 +161,7 @@ reduce_english_filter:
 
 # 主翻译器，拼音
 translator:
-  dictionary: zrm         # 挂载词库 zrm.dict.yaml
+  dictionary: zrm          # 挂载词库 zrm.dict.yaml
 #  prism: double_pinyin          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
   enable_completion: true
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
@@ -170,8 +170,8 @@ translator:
   enable_user_dict: true # 是否开启自动调频
   spelling_hints: 8             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
-#  user_dict: amz.userdb  # 用户词典的文件名称
-#  db_class: tabledb  #开启后就不会产生amz.userdb这样的文件夹，会直接输出文本amz.txt同时无法使用同步能力
+#  user_dict: zrm.userdb  # 用户词典的文件名称
+#  db_class: tabledb  #开启后就不会产生zrm.userdb这样的文件夹，会直接输出文本zrm.txt同时无法使用同步能力
   initial_quality: 3          # 拼音的权重应该比英文大
   comment_format:
     - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分，用于corrector.lua获取双拼码识别
@@ -232,31 +232,31 @@ chengyu:
   initial_quality: 1.2 #本表词和系统词重码居后
 
 # 超强tab 1码
-custom_phrase_super_1jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_1jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
+#custom_phrase_super_1jian:
+#  dictionary: ""
+#  user_dict: jm_dicts/custom_phrase_super_1jian
+#  db_class: stabledb
+#  enable_sentence: false
+#  enable_completion: false
+#  initial_quality: -1 #本表词和系统词重码居后
 
 # 超强tab 2码
-custom_phrase_super_2jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_2jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
+#custom_phrase_super_2jian:
+#  dictionary: ""
+#  user_dict: jm_dicts/custom_phrase_super_2jian
+#  db_class: stabledb
+#  enable_sentence: false
+#  enable_completion: false
+#  initial_quality: -1 #本表词和系统词重码居后
 
 # 超强tab 3码
-custom_phrase_super_3jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_3jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
+#custom_phrase_super_3jian:
+#  dictionary: ""
+#  user_dict: jm_dicts/custom_phrase_super_3jian
+#  db_class: stabledb
+#  enable_sentence: false
+#  enable_completion: false
+#  initial_quality: -1 #本表词和系统词重码居后
 
 # 次翻译器，英文
 melt_eng:
@@ -320,7 +320,7 @@ punctuator:
   half_shape:
     __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
   symbols:
-    __include: symbols:/symbols         # 从 symbols.yaml 导入配置
+    __include: symbols:/symbols         # 从 symbols_v.yaml 导入配置
 
 
 # 部件拆字反查
@@ -337,7 +337,7 @@ radical_reverse_lookup:
   tags: [ radical_lookup ]
   # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
   # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
-  dictionary: amz
+  dictionary: zrm
 #  comment_format:     # 自定义 comment，例如在左右加上括号
 #    - xform/^/(/
 #    - xform/$/)/
@@ -351,7 +351,7 @@ recognizer:
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
-    calculator: "^V.*$"                 #用于计算器响应符号
+    calculator: "^V.*$"
 
 
 # 从 default 继承快捷键
@@ -362,16 +362,14 @@ key_binder:
     #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
     - { when: composing, accept: Control+m, send: Return }
     - { when: composing, accept: Control+w, send: Control+BackSpace }
-    #分号上屏第二候选词
     - { when: has_menu, accept: semicolon, send: 2 }
     # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
-    #进入翻译模式
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+#    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
 #    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
     - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
@@ -455,3 +453,31 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
+
+#启用语言模型
+octagram:
+  disable:
+    __patch:
+      grammar: {}
+  enable_for_sentence:
+    __patch:
+      grammar:
+        language: zh-hans-t-huayu-v7-bgw
+#        collocation_max_length: 4
+#        collocation_min_length: 3
+        non_collocation_penalty: -24
+        collocation_penalty: -6
+        weak_collocation_penalty: -12
+        rear_penalty: -18
+#  enable_for_fixed:
+#    __patch:
+#      grammar:
+#        language: zh-hant-t-essay-bgc
+#        collocation_max_length: 4
+#        collocation_min_length: 2
+#      fixed/+:
+#        contextual_suggestions: true
+#        max_homographs: 7
+#      translator/+:
+#        contextual_suggestions: true
+#        max_homographs: 7
