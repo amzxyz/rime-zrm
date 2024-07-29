@@ -8,7 +8,7 @@ schema:
   name: 自然万象
   version: "1"
   author:
-    - zrmxyz
+    - amzxyz
   description: |
     自然码双拼
   dependencies:
