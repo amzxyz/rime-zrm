@@ -69,9 +69,9 @@ engine:
     - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
     - table_translator@chengyu            # 简码成语
-#    - table_translator@custom_phrase_super_1jian   #超强tab 1码
-#    - table_translator@custom_phrase_super_2jian   #超强tab 2码
-#    - table_translator@custom_phrase_super_3jian   #超强tab 3码
+    - table_translator@custom_phrase_super_1jian   #超强tab 1码
+    - table_translator@custom_phrase_super_2jian   #超强tab 2码
+    - table_translator@custom_phrase_super_3jian   #超强tab 3码
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@force_gc           # 暴力 GC
   filters:
@@ -87,7 +87,7 @@ engine:
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
-#    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
+    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
     - uniquifier                                    # 去重
 
 
@@ -232,31 +232,31 @@ chengyu:
   initial_quality: 1.2 #本表词和系统词重码居后
 
 # 超强tab 1码
-#custom_phrase_super_1jian:
-#  dictionary: ""
-#  user_dict: jm_dicts/custom_phrase_super_1jian
-#  db_class: stabledb
-#  enable_sentence: false
-#  enable_completion: false
-#  initial_quality: -1 #本表词和系统词重码居后
+custom_phrase_super_1jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_1jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 # 超强tab 2码
-#custom_phrase_super_2jian:
-#  dictionary: ""
-#  user_dict: jm_dicts/custom_phrase_super_2jian
-#  db_class: stabledb
-#  enable_sentence: false
-#  enable_completion: false
-#  initial_quality: -1 #本表词和系统词重码居后
+custom_phrase_super_2jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_2jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 # 超强tab 3码
-#custom_phrase_super_3jian:
-#  dictionary: ""
-#  user_dict: jm_dicts/custom_phrase_super_3jian
-#  db_class: stabledb
-#  enable_sentence: false
-#  enable_completion: false
-#  initial_quality: -1 #本表词和系统词重码居后
+custom_phrase_super_3jian:
+  dictionary: ""
+  user_dict: jm_dicts/custom_phrase_super_3jian
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: -1 #本表词和系统词重码居后
 
 # 次翻译器，英文
 melt_eng:
@@ -351,7 +351,7 @@ recognizer:
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
-    calculator: "^V.*$"
+    calculator: "^V.*$"                 #计算器功能引导
 
 
 # 从 default 继承快捷键
@@ -369,9 +369,9 @@ key_binder:
     - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
-#    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
+    - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
 #    - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
-    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
+#    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
    ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
