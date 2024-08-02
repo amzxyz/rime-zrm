@@ -5,7 +5,7 @@
 # 方案说明
 schema:
   schema_id: zrm
-  name: 自然双辅
+  name: 自然万象
   version: "1"
   author:
     - zrmxyz
@@ -448,23 +448,23 @@ speller:
     # - derive/^([rgv])c/$1n/
 
 #启用语言模型
-octagram:
-  disable:
-    __patch:
-      grammar: {}
-  enable_for_sentence:
-    __patch:
-      grammar:
-        language: zh-hans-t-huayu-v7-bgw   # 华宇模型
-        collocation_max_length: 4
-        collocation_min_length: 3
+#octagram:
+#  disable:
+#    __patch:
+#      grammar: {}
+#  enable_for_sentence:
+#    __patch:
+#      grammar:
+#        language: zh-hans-t-huayu-v7-bgw   # 华宇模型
+#        collocation_max_length: 4
+#        collocation_min_length: 3
 #        non_collocation_penalty: -24
 #        collocation_penalty: -6
 #        weak_collocation_penalty: -12
 #        rear_penalty: -18
-        translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
-        translator/max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
-        translator/max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
+#        translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
+#        translator/max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
+#        translator/max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
 #  enable_for_fixed:
 #    __patch:
 #      grammar:
