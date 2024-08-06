@@ -5,10 +5,10 @@
 # 方案说明
 schema:
   schema_id: zrm
-  name: 自然万象
+  name: 自然码
   version: "1"
   author:
-    - zrmxyz
+    - amzxyz
   description: |
     自然码双拼
   dependencies:
@@ -167,16 +167,27 @@ reduce_english_filter:
 translator:
   dictionary: zrm          # 挂载词库 zrm.dict.yaml
 #  prism: double_pinyin          # 多方案共用一个词库时，为避免冲突，需要用 prism 指定一个名字。
-  enable_completion: true
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
-  contextual_suggestions: true   #上下文建议开启
+  contextual_suggestions: true   #上下文建议开启〔需配合 grammar 使用〕
+  max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
+  max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
+  dynamic_model: true  # 启用动态语言模型
+  segment_length: 4  # 设置分词长度
+  prioritize_quality: true  # 启用优先质量选项
+  max_phrase_length: 7  # 设置短语的最大长度，如果主要输入单词或短短的短语，可以设置为4。句子更长一些
+  enable_completion: true  # 启用候选词补全
+  max_candidates: 10  # 设置最大候选词数量
+#  punctuation_model: default  # 设置标点符号模型
+#  single_char_first: true  # 优先显示单个字符
+#  candidate_filter: "^(?!abc).*$"  # 过滤掉包含 "abc" 的候选词
   enable_user_dict: true # 是否开启自动调频
-  spelling_hints: 8             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
+  spelling_hints: 1             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
   always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
 #  user_dict: zrm.userdb  # 用户词典的文件名称
 #  db_class: tabledb  #开启后就不会产生zrm.userdb这样的文件夹，会直接输出文本zrm.txt同时无法使用同步能力
-  initial_quality: 3          # 拼音的权重应该比英文大
+  initial_quality: 3       # 初始质量拼音的权重应该比英文大
+#  secondary_quality: 0.8  # 设置次要质量
   comment_format:
     - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分，用于corrector.lua获取双拼码识别
     - xform/^/［/
@@ -447,33 +458,32 @@ speller:
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
 
+__include: octagram/enable_for_sentence   #启用语言模型
 #启用语言模型
-#octagram:
-#  disable:
-#    __patch:
-#      grammar: {}
-#  enable_for_sentence:
-#    __patch:
-#      grammar:
-#        language: zh-hans-t-huayu-v7-bgw   # 华宇模型
-#        collocation_max_length: 4
-#        collocation_min_length: 3
-#        non_collocation_penalty: -24
-#        collocation_penalty: -6
-#        weak_collocation_penalty: -12
-#        rear_penalty: -18
-#        translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
-#        translator/max_homophones: 4 # 最大同音簇长度〔需配合 grammar 使用〕
-#        translator/max_homographs: 2 # 最大同形簇长度〔需配合 grammar 使用〕
-#  enable_for_fixed:
-#    __patch:
-#      grammar:
-#        language: zh-hant-t-essay-bgc
-#        collocation_max_length: 4
-#        collocation_min_length: 2
-#      fixed/+:
-#        contextual_suggestions: true
-#        max_homographs: 7
-#      translator/+:
-#        contextual_suggestions: true
-#        max_homographs: 7
+#语言模型
+octagram:
+  disable:
+    __patch:
+      grammar: {}
+  enable_for_sentence:
+    __patch:
+      grammar:
+        language: zh-hans-t-essay-bgw   
+        collocation_max_length: 4
+        collocation_min_length: 2
+        non_collocation_penalty: -20
+        collocation_penalty: -8
+        weak_collocation_penalty: -15
+        rear_penalty: -18
+  enable_for_fixed:
+    __patch:
+      grammar:
+        language: zh-hant-t-essay-bgc
+        collocation_max_length: 4
+        collocation_min_length: 2
+      fixed/+:
+        contextual_suggestions: true
+        max_homographs: 7
+      translator/+:
+        contextual_suggestions: true
+        max_homographs: 7
