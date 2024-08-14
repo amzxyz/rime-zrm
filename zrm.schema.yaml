@@ -77,8 +77,7 @@ engine:
     - lua_translator@*force_gc          # 暴力 GC 降低内存
   filters:
     - lua_filter@*cold_word_drop.filter
-    - lua_filter@*long_word_filter                  #长词优先      
-    - lua_filter@*corrector                         # 错音错字提示，关闭同时需要关闭 translator/spelling_hints，否则 comment 里都是拼音
+    - lua_filter@*long_word_filter                  #长词优先   
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@*autocap_filter                    # 英文自动大写
     - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
@@ -91,7 +90,7 @@ engine:
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
-    - lua_filter@*stick                             # tab置顶词回显在第一个comment中
+    - lua_filter@*pro_comment_format                #超级注释模块，支持简码前置、错词提示、辅助码显示，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
 
 
@@ -121,10 +120,17 @@ long_word_filter:
   count: 4
   idx: 3
 
-# Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
-# 默认 "{comment}" 输入 hun dun 时会在「馄饨」旁边生成 hún tun 的 comment
-# 例如左右加个括号 "({comment})" 就会变成 (hún tun)
-corrector: "{comment}"
+#Lua 配置: 超级注释模块
+pro_comment_format:                   # 超级注释，子项配置 true 开启，false 关闭
+  jiancode_priority: true             # 简码前置：开启即查询 1-3 简码的词库回显到第一个候选词的注释里，可配合快捷键设置上屏       
+  jiancode_identifier: "{identifier}⚡" #回显样式定义：假设值为 "*{identifier}*", 然后注释会被生成为 "*注释*" 的形式。如果值为 "⚡", 则注释会显示为 "注释⚡"，清空⚡也是默认值
+
+  corrector: true                     # 启用错音错词提醒，例如输入 geiyu 给予 获得 jiyu 提示
+  corrector_type: "{comment}"         # 新增一个提示类型，比如"【{comment}】" 
+
+  fuzhu_code: true                    # 启用辅助码提醒，用于辅助输入练习辅助码，成熟后可关闭（预留型开关）
+  candidate_length: 1                 # 候选词辅助码提醒的生效长度，0为关闭      
+  fuzhu_type: "zrm"                     # 用于匹配对应的辅助码类型
 
 
 # Lua 配置: 降低部分英语单词在候选项的位置。
@@ -181,17 +187,16 @@ translator:
 #  punctuation_model: default  # 设置标点符号模型
 #  single_char_first: true  # 优先显示单个字符
 #  candidate_filter: "^(?!abc).*$"  # 过滤掉包含 "abc" 的候选词
-  enable_user_dict: true # 是否开启自动调频
-  spelling_hints: 1             # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
-  always_show_comments: true    # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
 #  user_dict: zrm.userdb  # 用户词典的文件名称
 #  db_class: tabledb  #开启后就不会产生zrm.userdb这样的文件夹，会直接输出文本zrm.txt同时无法使用同步能力
+  enable_user_dict: true # 是否开启自动调频
+  encode_commit_history: true   # 预留历史上屏自动编码成词
   initial_quality: 3       # 初始质量拼音的权重应该比英文大
 #  secondary_quality: 0.8  # 设置次要质量
-  comment_format:
-    - xform/([^\[]{2})\[[^\]]{2}/$1/       # 编码只获取双拼码部分，用于corrector.lua获取双拼码识别
-    - xform/^/［/
-    - xform/$/］/
+  spelling_hints: 10             # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
+  always_show_comments: true    # Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供pro_comment_format.lua做判断用。
+  comment_format: {comment}   #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
+#    - xform/([^\[]{2})\[[^\]]{2}/$1/      #编码只显示双拼码部分
 #    - xform/(^|[ '])[^[]+[[]/$1/          # 编码提示只显示辅助码部分
   preedit_format:               # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
     - xform/([bpmnljqxy])n/$1in/
@@ -311,7 +316,7 @@ mars:
 chinese_english:
   option_name: chinese_english
   opencc_config: chinese_english.json
-  tips: char
+  tips: all    #提示: all 都显示 | char 仅单字显示 | none 不显示。
   comment_format:
     - "xform/-/ /"
 
@@ -475,15 +480,3 @@ octagram:
         collocation_penalty: -8
         weak_collocation_penalty: -15
         rear_penalty: -18
-  enable_for_fixed:
-    __patch:
-      grammar:
-        language: zh-hant-t-essay-bgc
-        collocation_max_length: 4
-        collocation_min_length: 2
-      fixed/+:
-        contextual_suggestions: true
-        max_homographs: 7
-      translator/+:
-        contextual_suggestions: true
-        max_homographs: 7
