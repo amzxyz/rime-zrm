@@ -28,10 +28,10 @@ switches:
   - name: traditionalization
     states: [ 简, 繁 ]
   - name: emoji
-    states: [ 🈚️, 🈶 ]
+    states: [ 无, 有 ]
     reset: 1
   - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [ 半, 全 ]
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
     abbrev: [词, 单]
     states: [正常, 单字]
@@ -70,9 +70,6 @@ engine:
     - table_translator@melt_eng         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
     - table_translator@chengyu            # 简码成语
-    - table_translator@custom_phrase_super_1jian   #超强tab 1码
-    - table_translator@custom_phrase_super_2jian   #超强tab 2码
-    - table_translator@custom_phrase_super_3jian   #超强tab 3码
     - table_translator@radical_lookup   # 部件拆字反查
     - lua_translator@*force_gc          # 暴力 GC 降低内存
   filters:
@@ -122,9 +119,6 @@ long_word_filter:
 
 #Lua 配置: 超级注释模块
 pro_comment_format:                   # 超级注释，子项配置 true 开启，false 关闭
-  jiancode_priority: true             # 简码前置：开启即查询 1-3 简码的词库回显到第一个候选词的注释里，可配合快捷键设置上屏       
-  jiancode_identifier: "{identifier}⚡" #回显样式定义：假设值为 "*{identifier}*", 然后注释会被生成为 "*注释*" 的形式。如果值为 "⚡", 则注释会显示为 "注释⚡"，清空⚡也是默认值
-
   corrector: true                     # 启用错音错词提醒，例如输入 geiyu 给予 获得 jiyu 提示
   corrector_type: "{comment}"         # 新增一个提示类型，比如"【{comment}】" 
 
@@ -196,8 +190,6 @@ translator:
   spelling_hints: 10             # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
   always_show_comments: true    # Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供pro_comment_format.lua做判断用。
   comment_format: {comment}   #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
-#    - xform/([^\[]{2})\[[^\]]{2}/$1/      #编码只显示双拼码部分
-#    - xform/(^|[ '])[^[]+[[]/$1/          # 编码提示只显示辅助码部分
   preedit_format:               # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
     - xform/([bpmnljqxy])n/$1in/
     - xform/(\w)g/$1eng/
@@ -251,32 +243,6 @@ chengyu:
   enable_completion: false
   initial_quality: 1.2 #本表词和系统词重码居后
 
-# 超强tab 1码
-custom_phrase_super_1jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_1jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-# 超强tab 2码
-custom_phrase_super_2jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_2jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-
-# 超强tab 3码
-custom_phrase_super_3jian:
-  dictionary: ""
-  user_dict: jm_dicts/custom_phrase_super_3jian
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
 
 # 次翻译器，英文
 melt_eng:
