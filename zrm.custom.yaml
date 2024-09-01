@@ -1,4 +1,0 @@
-# Rime default settings
-# encoding: utf-8
-patch:
-  translator/preedit_format: []  #这样的补丁可以取消原本双拼码转全拼显示的设定

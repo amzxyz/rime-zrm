@@ -3,19 +3,18 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2024-02-05'
+config_version: '2024-09-01'
 
 
 # 方案列表
 schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
-  # 除了 t9，它依赖于 rime_amz，用九宫格别删 rime_amz.schema.yaml
   - schema: zrm          # 自然码双拼
 
 
 # 菜单
 menu:
-  page_size: 5  # 候选词个数
+  page_size: 7  # 候选词个数
   # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
   # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
 

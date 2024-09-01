@@ -9,12 +9,13 @@ use_preset_vocabulary: false
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - cn_dicts/8105     # 字表
-  - cn_dicts/cell     # 细胞词库
-  - cn_dicts/base     # 基础词库
-  - cn_dicts/ext      # 扩展词库
-  - cn_dicts/others   #  # 一些杂项 容错音和错字 可以不开
-  - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长 选择性开启）
+  - cn_dicts/8105       # 单字表
+  - cn_dicts/base       # 基础词库
+  - cn_dicts/ext        # 扩展词库
+  - cn_dicts/41448      # 大字集
+  - cn_dicts/corrections  #
+  - cn_dicts/others     # 一些杂项 容错音和错字 可以不开
+  - cn_dicts/tencent    # 腾讯词向量（大词库，部署时间较长 选择性开启）
 ...
 
 
