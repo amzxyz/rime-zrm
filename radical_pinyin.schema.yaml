@@ -3,7 +3,7 @@
 
 schema:
   schema_id: radical_pinyin
-  name: "部件拆字 | 全拼双拼"
+  name: "自然码部件组字"
   version: "1.1.0"
   author: Mirtle
   description: |

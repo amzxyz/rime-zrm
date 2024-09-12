@@ -3,7 +3,7 @@
 # 方案说明
 schema:
   schema_id: zrm
-  name: 自然码(辅)
+  name: 自然码
   version: "1"
   author:
     - amzxyz
@@ -36,9 +36,6 @@ switches:
     states: [ 助, 辅 ]
   - name: zrm_chaifen
     states: [ 然, 自 ]
-#  - name: prediction
-#    states: [ 测, 预 ]
-#    reset: 1
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
     states: [词, 单]
 
@@ -46,7 +43,6 @@ switches:
 # 输入引擎
 engine:
   processors:
-#    - predictor     #上屏预测组件
 #    - lua_processor@select_character          # 以词定字，有了辅助码了，想开启可以注释掉
     - lua_processor@*cold_word_drop.processor
     - ascii_composer
@@ -90,7 +86,6 @@ engine:
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
-    - simplifier@moqi_chaifen                      #墨奇拆分型辅助码查询
     - simplifier@zrm_chaifen                        #自然码拆分型辅助码查询
     - simplifier@pinyinhint                         #注释里显示汉字读音，多音字支持
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码放在简繁转换之后
@@ -101,6 +96,10 @@ engine:
     - uniquifier                                    # 去重
 
 
+# Lua 配置 超级注释模块
+pro_comment_format:           
+  candidate_length: 1         # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理
+  corrector_type: "{comment}"  # 换一种显示类型，比如"({comment})" 
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
 date_translator:
@@ -237,7 +236,7 @@ cn_en:
 emoji:
   option_name: emoji
   opencc_config: emoji.json
-  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
+  inherit_comment: false  # 在反查中，emoji 返回空注释
 
 # 火星文切换
 mars:
@@ -275,18 +274,7 @@ traditionalize:
   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 
-# 标点符号
-# punctuator 下面有三个子项：
-#   full_shape 全角标点映射
-#   half_shape 半角标点映射
-#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_v.yaml 修改成了 'V' 开头。
-punctuator:
-  full_shape:
-    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
-  half_shape:
-    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
-  symbols:
-    __include: symbols:/symbols         # 从 symbols_v.yaml 导入配置
+
 
 
 # 部件拆字反查
@@ -336,6 +324,8 @@ key_binder:
     - { when: composing, accept: "Tab", send: "Control+Right" }
 #通过stick.lua显示到注释里，用来上屏带/的简码词汇。最好是用句号，这样可以与手机上可以做同样的定义，保持同样的习惯
 #    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" } 
+
+
 
 
 
@@ -425,6 +415,88 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
+
+
+
+# 标点符号
+# punctuator 下面有三个子项：
+# 设置为一个映射，就自动上屏；设置为多个映射，如 '/' : [ '/', ÷ ] 则进行复选。
+#   full_shape: 全角没改，使用预设值
+#   half_shape: 标点符号全部直接上屏，和 macOS 自带输入法的区别是
+#              '|' 是半角的，
+#              '~' 是半角的，
+#              '`'（反引号）没有改成 '·'（间隔号）。
+#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的修改 symbols.yaml
+punctuator:
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '/' : [ ／, ÷ ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : ＝
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : '，'
+    '.' : '。'
+    '<' : '《'
+    '>' : '》'
+    '/' : [ /, ÷ ]
+    '?' : '？'
+    ';' : '；'
+    ':' : '：'
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : '、'
+    '|' : '|'
+    '`' : '`'
+    '~' : '~'
+    '!' : '！'
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '¥'
+    '^' : '……'
+    '&' : '&'
+    '*' : '*'
+    '(' : '（'
+    ')' : '）'
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : '【'
+    ']' : '】'
+    '{' : '「'
+    '}' : '」'
+  symbols:
+    __include: symbols:/symbols         # 从 symbols.yaml 导入配置
 
 __include: octagram/enable_for_sentence   #启用语言模型
 #启用语言模型

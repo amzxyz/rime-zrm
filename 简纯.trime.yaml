@@ -1,7 +1,7 @@
 # Trime style settings
 # encoding: utf-8
 
-name: 简纯 #方案名称
+name: 简纯+ #方案名称
 author: 'amzxyz' #作者
 conf:
   # 数字、编辑、功能键盘
@@ -10,13 +10,11 @@ conf:
   # 添加数字行
   num_line:
     height: 39 # 数字行按键高度
-#  __patch:
-#    - 单静.patch.无障碍:/num?
   # 主键盘
   main:
     height: 52 #按键高度
-    horizontal_gap: 3 #按键水平间距
-    vertical_gap: 5 #按键行距
+    horizontal_gap: 6 #按键水平间距
+    vertical_gap: 7 #按键行距
     key_symbol_offset_x: 3
     key_hint_offset_y: -1.3
     key_press_offset_x: 2
@@ -41,8 +39,6 @@ conf:
   sym_bottom_switch: 0 #底部留白开关
   sym_bottom: 1 #底部留白
   sym_long_text_size: 20 #长标签字号
-#  __patch:
-#    - 单静.patch.无障碍:/main?
 
   # 符号键盘配置
   sym:
@@ -62,36 +58,14 @@ conf:
       - width: { __include: conf/sym_bottom_switch }
         height: { __include: conf/sym_bottom }
 
-plus:
-  'keys/@4/hint': ' '
-  'keys/@7/hint': ' '
-  'keys/@0/': { click: num1, __include: conf/num_line }
-  'keys/@after 0/': { click: num2 }
-  'keys/@after 1/': { click: num3 }
-  'keys/@after 2/': { click: num4 }
-  'keys/@after 3/': { click: num5 }
-  'keys/@after 4/': { click: num6 }
-  'keys/@after 5/': { click: num7 }
-  'keys/@after 6/': { click: num8 }
-  'keys/@after 7/': { click: num9 }
-  'keys/@after 8/': { click: num0 }
-
-pure:
-  plus:
-    height: 47 #按键高度
-    horizontal_gap: 6 #按键水平间距
-    vertical_gap: 7 #按键行距
-    key_hint_offset_y: 0
-  key_height_last: 46
 
 
 style:
-#  __include: trime:/style
   color_scheme: default #默认配色方案
-  keyboard_height: 280 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  keyboard_height: 270 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   horizontal: true #水平模式。改变方向键的功能 （true：方向键适配横排候选；false：方向键适配竖排候选）
-  keyboard_padding: 5 #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
+  keyboard_padding: 6 #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
   keyboard_padding_left: 0 #竖屏屏模式下，左手键盘布局，屏幕左侧与键盘的距离
   keyboard_padding_right: 40 #竖屏屏模式下，左手键盘布局，屏幕右侧与键盘的距离
   keyboard_padding_bottom: 5 #竖屏模式下，屏幕下边缘与键盘的距离（避免误触发全面屏手势）
@@ -171,7 +145,7 @@ style:
   # 候选区
   ## 候选
   candidate_use_cursor: true #高亮候选项
-  candidate_view_height: 30 #候选区高度
+  candidate_view_height: 21 #候选区高度
   candidate_padding: 5 #候选项内边距
   candidate_spacing: 0.5 #候选间距
   candidate_font: han.ttf #候选字型
@@ -180,7 +154,7 @@ style:
   comment_on_top: false #编码提示在上方或右侧
   comment_height: 18 #编码提示区高度
   comment_font: comment.ttf #编码提示字型
-  comment_text_size: 15 #编码提示字号
+  comment_text_size: 18 #编码提示字号
 
   # 按键区
   proximity_correction: true #按键纠错
@@ -188,10 +162,10 @@ style:
   horizontal_gap: 0 #键水平间距
   vertical_gap: 0 #键盘行距
   ## 主按键
-  key_height: 62 #键高
-  key_width: 10.2 #键宽，占屏幕宽的百分比
-  round_corner: 10 #按键圆角半径
-  shadow_radius: 0.0#按键阴影半径
+  key_height: { __include: conf/sym_height } #键高
+  key_width: 12 #键宽，占屏幕宽的百分比
+  round_corner: 13 #按键圆角半径
+  shadow_radius: 0.9#按键阴影半径
   key_font: symbol.ttf #键盘字型
   latin_font: latin.ttf #西文字型
   hanb_font: hanb.ttf #扩充字型
@@ -250,7 +224,6 @@ style:
     line_spacing_multiplier: 1.1 #候选词的行间距(倍数)
 
 fallback_colors:
-#  __include: trime:/fallback_colors
   # 悬浮窗
   border_color: back_color #悬浮窗边框
   label_color: hilited_text_color #标签（候选序号）
@@ -468,7 +441,7 @@ preset_color_schemes:
     # candidate_text_color: hilited_text_color #候选文字
     comment_text_color: 0x808080 #提示
     # hilited_candidate_back_color: back_color #高亮候选背景
-    hilited_candidate_text_color: 0x333333 #高亮候选文字
+    hilited_candidate_text_color: 0x00A39C    #高亮候选文字
     # hilited_comment_text_color: hilited_candidate_text_color #高亮提示
 
     # 键盘通用
@@ -516,6 +489,76 @@ preset_color_schemes:
     # menu_text_color: off_sym_text_color #菜单文字 ※
     # hilited_menu_back_color: key_back_color #高亮菜单背景 ※
     # hilited_menu_text_color: enter_sym_back_color #高亮菜单文字 ※
+
+
+  white:
+    name: 黄昏 #方案名称
+    author: amzxyz #作者资讯
+    dark_scheme: google_black #夜间模式
+    # 悬浮窗
+    # border_color: back_color #悬浮窗边框
+    # label_color: hilited_text_color #标签（候选序号）
+    # text_back_color: back_color #编码区背景
+    text_color: 0xbc763c #编码 色
+    # hilited_back_color: back_color #高亮编码背景
+    hilited_text_color: 0xff5a676e #高亮编码 黑
+
+    # 候选栏
+    # candidate_separator_color: back_color #候选分割线
+    back_color: 0xf8fbf8 #候选栏背景 灰
+    # candidate_text_color: hilited_text_color #候选文字
+    comment_text_color: 0x7b868c #提示
+    # hilited_candidate_back_color: back_color #高亮候选背景
+    # hilited_candidate_text_color: text_color #高亮候选文字
+    # hilited_comment_text_color: hilited_candidate_text_color #高亮提示
+
+    # 键盘通用
+    # keyboard_back_color: back_color #键盘背景
+    # key_border_color: border_color #按键边框
+    # shadow_color: border_color #按键文字阴影
+    # preview_back_color: back_color #按键提示背景
+    # preview_text_color: key_text_color #按键提示文字
+    # key_text_color: candidate_text_color #按键文字
+    # key_symbol_color: comment_text_color #按键符号
+    # hilited_key_text_color: key_text_color #高亮按键文字
+    # hilited_key_symbol_color: key_symbol_color #高亮按键符号
+
+    # 主键盘
+    main_back_color: 0xf3f3f3 #按键背景 ※
+    hilited_main_back_color: 0xffd3d7da #高亮按键背景 ※
+    # space_back_color: 0xFAFAFA #空格背景 ※
+    # hilited_space_back_color: 0xD7D9DD #高亮空格背景 ※
+    off_key_back_color: 0xf8f4e6 #功能键背景
+    # off_key_text_color: key_text_color #功能键文字
+    # off_key_symbol_color: off_key_text_color #功能键符号 高亮功能键符号※
+    hilited_off_key_back_color: 0xffD7D6D6  #高亮功能键背景
+    # hilited_off_key_text_color: off_key_text_color #高亮功能键文字
+    on_key_back_color: 0xcbb994 #shift锁定时背景
+    on_key_text_color: 0xff37474f #shift锁定时文字
+    hilited_on_key_back_color: 0xffd3d7da #高亮shift锁定时背景
+    # hilited_on_key_text_color: on_key_text_color #高亮shift锁定时文字
+    enter_back_color: 0xcbb994 #enter背景 ※
+    enter_text_color: 0xff37474f #enter文字 高亮enter文字※
+    enter_symbol_color: 0xFFFFFF #enter符号 高亮enter符号※
+    hilited_enter_back_color: 0xffd3d7da #高亮enter背景 ※
+
+    # 附键盘
+    key_back_color: 0xf8fbf8 #按键背景
+    # hilited_key_back_color: back_color #高亮按键背景
+    # off_sym_back_color: back_color #功能键背景 ※
+    # off_sym_text_color: off_key_text_color #功能键文字 ※
+    # off_sym_fy_text_color: hilited_off_sym_back_color #翻页停止箭头文字 高亮※
+    hilited_off_sym_back_color: 0xede4cd #高亮功能键背景 ※
+    # hilited_off_sym_text_color: hilited_off_key_text_color #高亮功能键文字 ※
+    enter_sym_back_color: 0xe9e4d4 # enter背景 ※
+    # enter_sym_text_color: on_key_text_color #enter文字 高亮enter文字※
+    hilited_enter_sym_back_color: 0xe9e4d4 ##高亮enter背景 ※
+    # menu_back_color: off_sym_back_color #菜单背景 ※
+    # menu_text_color: off_sym_text_color #菜单文字 ※
+    # hilited_menu_back_color: key_back_color #高亮菜单背景 ※
+    # hilited_menu_text_color: enter_sym_back_color #高亮菜单文字 ※
+
+
 
 
 # 按键样式
@@ -3065,18 +3108,26 @@ preset_keyboards:
   default:
     name: 默认26键
     author: 'amzxyz'
-    ascii_mode: 1
+    ascii_mode: 0
     label_transform: uppercase   #键盘字母转化为大写
     lock: true #切换程序时记忆键盘
     width: 10
     __patch: 
       - conf/main
-      - plus
-      - pure/plus
-      - 'keys/@40/height': { __include: pure/key_height_last }
+      - 'keys/@40/height': { __include: conf/key_height_last }
     keys:
+      # 数字行
+      - {click: num1, __include: conf/num_line}
+      - {click: num2}
+      - {click: num3}
+      - {click: num4}
+      - {click: num5}
+      - {click: num6}
+      - {click: num7}
+      - {click: num8}
+      - {click: num9}
+      - {click: num0}
       # 第 1 行
-      - { width: 0 } #备用
       - { click: 'q', long_click: '!', swipe_down: 1, __include: styl/key }
       - { click: 'w', long_click: '@', swipe_down: 2, __include: styl/key }
       - { click: 'e', long_click: '#', swipe_down: 3, __include: styl/key }
@@ -3171,18 +3222,19 @@ preset_keyboards:
           __include: styl/key,
         }
       - { click: 'm', long_click: 'fenhao', __include: styl/key }
-      - { click: BS, width: 15 }
+      - { click: BS, width: 15, 
+          swipe_up: 'Escape',
+        }
       # 第 4 行
       - {
           click: Keyboard_symbols,
           long_click: Color_switch,
-          composing: Tab,
           width: 11,
           __include: styl/off_key,
         }     
       - {
           click: Keyboard_number,
-          composing: "/",
+          composing: Tab,
           width: 12,      
           __include: styl/off_key,
           __patch: conf/key_height_last,
@@ -3206,13 +3258,13 @@ preset_keyboards:
       - {
           click: 'juhao',
           label: ' 。',
-          long_click: '? ',
+          long_click: '?',
           width: 11,
           __include: styl/key,
         }
       - {
           click: 'Mode_switch',
-          composing: Escape,
+          composing: "xiegang",
           width: 11,
           __include: styl/off_key,  
         }
@@ -3232,32 +3284,32 @@ preset_keyboards:
       - {
           click: IME_switch1,
           width: 20,      
-          __include: styl/menu,
+          key_back_color: keyboard_back_color, 
           height: 25,
         }
       - {
           click: Left,
           width: 20, 
           height: 25,     
-          __include: styl/menu,
+          key_back_color: keyboard_back_color, 
         }  
       - {
           click: 'VOICE_ASSIST',
           width: 20,
           height: 25,
-          __include: styl/menu,
+          key_back_color: keyboard_back_color, 
         }
       - {
           click: Right,
           width: 20, 
           height: 25,     
-          __include: styl/menu,
+          key_back_color: keyboard_back_color, 
         } 
       - {
           click: 'Back1',
           width: 20,
           height: 25,
-          __include: styl/menu,
+          key_back_color: keyboard_back_color, 
         }
 
   letter:
@@ -3266,14 +3318,12 @@ preset_keyboards:
     __include: preset_keyboards/default
     __patch:
       - 'keys/@33/long_click': Keyboard_default
-      - plus
-      - pure/plus
-      - 'keys/@40/height': { __include: pure/key_height_last }
+      - 'keys/@40/height': { __include: conf/key_height_last }
 
   number:
     name: 数字
     author: 'amzxyz'
-    ascii_mode: 1
+    ascii_mode: 0
     width: 16.6
     __patch:
       - conf/num
@@ -3287,21 +3337,21 @@ preset_keyboards:
       - { click: 3 }
       - { click: Back, __include: styl/off_func }
       # 第二行
-      - { click: '[]{Left}', long_click: '_' }
+      - { click: '[]{Left}', long_click: 'riqi' }
       - { click: '-', long_click: '±' }
       - { click: 4 }
       - { click: 5 }
       - { click: 6 }
       - { click: Delete, __include: styl/off_func }
       # 第三行
-      - { click: '(){Left}', long_click: '!' }
+      - { click: '(){Left}', long_click: 'jine' }
       - { click: '*', long_click: '×' }
       - { click: 7 }
       - { click: 8 }
       - { click: 9 }
       - { click: BackSpace, __include: styl/off_func }
       # 第四行
-      - { click: '=', long_click: '≠' }
+      - { click: '=', long_click: 'jisuan' }
       - { click: '/', long_click: '÷' }
       - { click: space2, long_click: paste}
       - { click: 0 }
@@ -3472,8 +3522,8 @@ preset_keys:
   Deploy: { label: 部署, command: broadcast, option: 'com.osfans.trime.deploy' }
   Sync: { label: 同步, command: broadcast, option: 'com.osfans.trime.sync' }
   # 编辑
-  Shift_L: { label: Shift, send: Shift_L, shift_lock: ascii_long }
-#  Shift_L: { label: Shift, send: Shift_L, shift_lock: long }
+#  Shift_L: { label: Shift, send: Shift_L, shift_lock: ascii_long }
+  Shift_L: { label: Shift, send: Shift_L, shift_lock: long }
   Return: { label: Enter, send: Return }
   Return1: { label: 回车, send: Return }
   Hide: { label: '▼', send: BACK }
@@ -3481,6 +3531,9 @@ preset_keys:
   space: { label: '', preview: '{schema}', repeatable: false, functional: false, send: space}
   space1: {label: 空格, repeatable: false, functional: false, send: space}  #用于liquidkeyboard显示一致性
   space2: {label: ⎵, repeatable: false, functional: false, send: space}  #用与数字键盘空格的展现形式
+  jisuan: { label: '计算', send: V }
+  jine: { label: '金额', send: R }
+  riqi: { label: '日期', send: N }
   Escape: { label: Esc, send: Escape }
   Clear: {label: 全清, send: Clear}
   Tab: { label: Tab, send: Tab }
@@ -3518,7 +3571,7 @@ preset_keys:
   CommitComment: { label: 编码, send: Control+Shift+Return }
   DeleteCandidate: { label: 删词, send: Control+Delete }
   # rime状态
-  Mode_switch: { toggle: ascii_mode, send: Mode_switch, states: [中文, 英文] }
+  Mode_switch: { toggle: ascii_mode, send: Mode_switch, states: [中, 英] }
   Zenkaku_Hankaku:
     { toggle: full_shape, send: Mode_switch, states: [半角, 全角] }
   Henkan: { toggle: simplification, send: Mode_switch, states: [汉字, 汉字] }
@@ -3574,6 +3627,17 @@ preset_keys:
   fenhao: { label: ";", text: ";" }
   douhao: { label: ",", text: "," }
   juhao: { label: ".", text: "." }
+#顶部数字排映射  
+  num1: { label: 1, send: 1 }
+  num2: { label: 2, send: 2 }
+  num3: { label: 3, send: 3 }
+  num4: { label: 4, send: 4 }
+  num5: { label: 5, send: 5 }
+  num6: { label: 6, send: 6 }
+  num7: { label: 7, send: 7 }
+  num8: { label: 8, send: 8 }
+  num9: { label: 9, send: 9 }
+  num0: { label: 0, send: 0 }
 
 
   kb_sym1: { label: '◀', send: Eisu_toggle, select: symbols }
@@ -3688,13 +3752,3 @@ preset_keys:
   kb_ywz6: { label: 无奈, send: Eisu_toggle, select: ywz61 }
   kb_ywz6u: { label: '▲', send: Eisu_toggle, select: ywz61 }
   kb_ywz6d: { label: '▼', send: Eisu_toggle, select: ywz62 }
-  num1: { label: 1, send: 1 }
-  num2: { label: 2, send: 2 }
-  num3: { label: 3, send: 3 }
-  num4: { label: 4, send: 4 }
-  num5: { label: 5, send: 5 }
-  num6: { label: 6, send: 6 }
-  num7: { label: 7, send: 7 }
-  num8: { label: 8, send: 8 }
-  num9: { label: 9, send: 9 }
-  num0: { label: 0, send: 0 }
