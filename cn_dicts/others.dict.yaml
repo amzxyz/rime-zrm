@@ -10,410 +10,410 @@ sort: by_weight
 ...
 ##### 容错词
 # 一些口语读音
-空落落	kong;xg,bg luo;cl luo;cl	16
-空落落	kong;xg,bg lao;cl lao;cl	16
-空落落的	kong;xg,bg luo;cl luo;cl de;bu	87
-空落落的	kong;xg,bg lao;cl lao;cl de;bu	87
+空落落	kōng;xg,bg luò;cl luò;cl	16
+空落落	kōng;xg,bg luò;cl luò;cl	16
+空落落的	kōng;xg,bg luò;cl luò;cl de;bu	87
+空落落的	kōng;xg,bg luò;cl luò;cl de;bu	87
 # 「阿房宫」的注音争议比较大
-阿房宫	e;ek pang;hf gong;bl	180
-阿房宫	a;ek pang;hf gong;bl	180
-阿房宫	e;ek fang;hf gong;bl	180
-阿房宫	a;ek fang;hf gong;bl	180
-阿房宫赋	e;ek pang;hf gong;bl fu;bw	44
-阿房宫赋	a;ek pang;hf gong;bl fu;bw	44
-阿房宫赋	e;ek fang;hf gong;bl fu;bw	44
-阿房宫赋	a;ek fang;hf gong;bl fu;bw	44
+阿房宫	ē;ek páng;hf gōng;bl	180
+阿房宫	ē;ek páng;hf gōng;bl	180
+阿房宫	ē;ek páng;hf gōng;bl	180
+阿房宫	ē;ek páng;hf gōng;bl	180
+阿房宫赋	ē;ek páng;hf gōng;bl fù;bw	44
+阿房宫赋	ē;ek páng;hf gōng;bl fù;bw	44
+阿房宫赋	ē;ek páng;hf gōng;bl fù;bw	44
+阿房宫赋	ē;ek páng;hf gōng;bl fù;bw	44
 # 「伯伯」方言
-伯伯	bo;rb bo;rb	541
-伯伯	bai;rb bai;rb	541
+伯伯	bó;rb bó;rb	541
+伯伯	bó;rb bó;rb	541
 # 「斜」的古音
-远上寒山石径斜	yuan;zy shang;aa,ba han;bd shan;aa shi;kp,aa,ak,pk jing;xg xie;dy	38
-远上寒山石径斜	yuan;zy shang;aa,ba han;bd shan;aa shi;kp,aa,ak,pk jing;xg xia;dy	38
+远上寒山石径斜	yuǎn;zy shàng;aa,ba hán;bd shān;aa shí;kp,aa,ak,pk jìng;xg xié;dy	38
+远上寒山石径斜	yuǎn;zy shàng;aa,ba hán;bd shān;aa shí;kp,aa,ak,pk jìng;xg xié;dy	38
 # 「骑」目前统读 qi
-坐骑	zuo;tc,tr,rt qi;mq	1019
-坐骑	zuo;tc,tr,rt ji;mq	1019
-铁骑	tie;ju qi;mq	383
-铁骑	tie;ju ji;mq	383
-一骑绝尘	yi;aa qi;mq jue;ss chen;tx,xt	684
-一骑绝尘	yi;aa ji;mq jue;ss chen;tx,xt	684
-一骑当千	yi;aa qi;mq dang;xx qian;pa	53
-一骑当千	yi;aa ji;mq dang;xx qian;pa	53
-一骑红尘妃子笑	yi;aa qi;mq hong;sg chen;tx,xt fei;nj zi;aa,vh xiao;vy	37
-一骑红尘妃子笑	yi;aa ji;mq hong;sg chen;tx,xt fei;nj zi;aa,vh xiao;vy	37
-走单骑	zou;tv dan;ba,bd qi;mq	0
-走单骑	zou;tv dan;ba,bd ji;mq	0
-千里走单骑	qian;pa li;aa,tt zou;tv dan;ba,bd qi;mq	100
-千里走单骑	qian;pa li;aa,tt zou;tv dan;ba,bd ji;mq	100
+坐骑	zuò;tc,tr,rt qí;mq	1019
+坐骑	zuò;tc,tr,rt qí;mq	1019
+铁骑	tiě;ju qí;mq	383
+铁骑	tiě;ju qí;mq	383
+一骑绝尘	yī;aa qí;mq jué;ss chén;tx,xt	684
+一骑绝尘	yī;aa qí;mq jué;ss chén;tx,xt	684
+一骑当千	yī;aa qí;mq dāng;xx qiān;pa	53
+一骑当千	yī;aa qí;mq dāng;xx qiān;pa	53
+一骑红尘妃子笑	yī;aa qí;mq hóng;sg chén;tx,xt fēi;nj zǐ;aa,vh xiào;vy	37
+一骑红尘妃子笑	yī;aa qí;mq hóng;sg chén;tx,xt fēi;nj zǐ;aa,vh xiào;vy	37
+走单骑	zǒu;tv dān;ba,bd qí;mq	0
+走单骑	zǒu;tv dān;ba,bd qí;mq	0
+千里走单骑	qiān;pa lǐ;aa,tt zǒu;tv dān;ba,bd qí;mq	100
+千里走单骑	qiān;pa lǐ;aa,tt zǒu;tv dān;ba,bd qí;mq	100
 # 「街」的粤语和东北话读音及常见的两种写法
-仆街	pu;rb jie;xg,xi	37
-仆街	pu;rb gai;xg,xi	37
-扑街	pu;fb jie;xg,xi	1315
-扑街	pu;fb gai;xg,xi	1315
-扑街仔	pu;fb jie;xg,xi zai;rz	20
-扑街仔	pu;fb gai;xg,xi zai;rz	20
-仆街仔	pu;rb jie;xg,xi zai;rz	0
-仆街仔	pu;rb gai;xg,xi zai;rz	0
-街溜子	jie;xg,xi liu;dl zi;aa,vh	70
-街溜子	gai;xg,xi liu;dl zi;aa,vh	70
+仆街	pū;rb jiē;xg,xi	37
+仆街	pū;rb jiē;xg,xi	37
+扑街	pū;fb jiē;xg,xi	1315
+扑街	pū;fb jiē;xg,xi	1315
+扑街仔	pū;fb jiē;xg,xi zǎi;rz	20
+扑街仔	pū;fb jiē;xg,xi zǎi;rz	20
+仆街仔	pū;rb jiē;xg,xi zǎi;rz	0
+仆街仔	pū;rb jiē;xg,xi zǎi;rz	0
+街溜子	jiē;xg,xi liū;dl zǐ;aa,vh	70
+街溜子	jiē;xg,xi liū;dl zǐ;aa,vh	70
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
-郭明錤	guo;ex ming;oo ji;jq	38
-郭明錤	guo;ex ming;oo qi;jq	38
+郭明錤	guō;ex míng;oo jī;jq	38
+郭明錤	guō;ex míng;oo jī;jq	38
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
-李昌镐	li;mz chang;oo hao;jg	242
-曹世镐	cao;oc,co shi;ca,cv,aa hao;jg	0
-张镐哲	zhang;gi gao;jg zhe;kv	0
-姜成镐	jiang;ny,yn cheng;gg,wg hao;jg	0
-姜镐童	jiang;ny,yn hao;jg tong;ll	0
-张镐濂	zhang;gi hao;jg lian;dl	0
-李敏镐	li;mz min;wm hao;jg	28
-李陈镐	li;mz chen;ed hao;jg	2
-赵亮镐	zhao;zi liang;wj,jb hao;jg	0
-郑俊镐	zheng;eg jun;rj,rw hao;jg	1
+李昌镐	lǐ;mz chāng;oo gǎo;jg	242
+曹世镐	cáo;oc,co shì;ca,cv,aa gǎo;jg	0
+张镐哲	zhāng;gi gǎo;jg zhé;kv	0
+姜成镐	jiāng;ny,yn chéng;gg,wg gǎo;jg	0
+姜镐童	jiāng;ny,yn gǎo;jg tóng;ll	0
+张镐濂	zhāng;gi gǎo;jg lián;dl	0
+李敏镐	lǐ;mz mǐn;wm gǎo;jg	28
+李陈镐	lǐ;mz chén;ed gǎo;jg	2
+赵亮镐	zhào;zi liàng;wj,jb gǎo;jg	0
+郑俊镐	zhèng;eg jùn;rj,rw gǎo;jg	1
 ##### 叠字
 # 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
 # 二叠字
-两个火	liang;ad ge;ra,pa huo;dd	0
-两个土	liang;ad ge;ra,pa tu;aa	0
-两个一	liang;ad ge;ra,pa yi;aa	0
-两个二	liang;ad ge;ra,pa er;aa	0
-两个山	liang;ad ge;ra,pa shan;aa	0
-两个口	liang;ad ge;ra,pa kou;aa	0
-两个田	liang;ad ge;ra,pa tian;aa	0
-两个九	liang;ad ge;ra,pa jiu;py	0
-两个人	liang;ad ge;ra,pa ren;pd	18484
-两个飞	liang;ad ge;ra,pa fei;yd	0
-两个戈	liang;ad ge;ra,pa ge;ad	0
-两个厶	liang;ad ge;ra,pa si;ad,si,vd	0
-两个厶	liang;ad ge;ra,pa mou;ad,si,vd	0
-两个又	liang;ad ge;ra,pa you;vd,ad	0
-两个香	liang;ad ge;ra,pa xiang;ho	0
-两个面	liang;ad ge;ra,pa mian;aa	0
-两个兀	liang;ad ge;ra,pa wu;ae,ag,wu	0
-两个女	liang;ad ge;ra,pa nv;aa,vh	0
-两个𡥦	liang;ad ge;ra,pa ni;zz	0
-两个臣	liang;ad ge;ra,pa chen;aa,ka	0
-两个巾	liang;ad ge;ra,pa jin;aa	0
-两个左	liang;ad ge;ra,pa zuo;gu,ug	0
-两个母	liang;ad ge;ra,pa mu;ad,vd	0
-两个来	liang;ad ge;ra,pa lai;am,wb	0
-两个凡	liang;ad ge;ra,pa fan;dj,jd	0
-两个夕	liang;ad ge;ra,pa xi;pd	0
-两个彐	liang;ad ge;ra,pa ji;aa,vh,xt	0
-两个𢎘	liang;ad ge;ra,pa han;	0
-两个魚	liang;ad ge;ra,pa yu;dh	0
-两个明	liang;ad ge;ra,pa ming;oo	0
-两个朿	liang;ad ge;ra,pa ci;ad,mk	0
-两个乂	liang;ad ge;ra,pa yi;pd,yi	0
-两个曰	liang;ad ge;ra,pa yue;aa,oy,yt	0
-两个尸	liang;ad ge;ra,pa shi;ap,kp,vp	0
-两个户	liang;ad ge;ra,pa hu;dp,du	0
-两个大	liang;ad ge;ra,pa da;ad	541
-两个八	liang;ad ge;ra,pa ba;pd	12
-两个而	liang;ad ge;ra,pa er;aa	0
-两个羊	liang;ad ge;ra,pa yang;da	0
-两个吉	liang;ad ge;ra,pa ji;ku,uk	0
-两个马	liang;ad ge;ra,pa ma;aa,vh	0
-两个卅	liang;ad ge;ra,pa sa;aa,ia	0
-两个巛	liang;ad ge;ra,pa chuan;aa,vv	0
-两个止	liang;ad ge;ra,pa zhi;aa	0
-两个比	liang;ad ge;ra,pa bi;bb	0
-两个言	liang;ad ge;ra,pa yan;da,dk,wk	0
-两个申	liang;ad ge;ra,pa shen;aa,oa	0
-两个牛	liang;ad ge;ra,pa niu;pa	0
-两个余	liang;ad ge;ra,pa yu;rb,rd,rh	0
-两个束	liang;ad ge;ra,pa shu;ad,mk	0
-两个罒	liang;ad ge;ra,pa mu;aa,si	0
-两个㐅	liang;ad ge;ra,pa wu;pd	0
-两个金	liang;ad ge;ra,pa jin;ra,pa	0
-两个木	liang;ad ge;ra,pa mu;ad	0
-两个水	liang;ad ge;ra,pa shui;ad,uv	0
-两个風	liang;ad ge;ra,pa feng;ji	0
-两个石	liang;ad ge;ra,pa shi;kp,aa,ak,pk	0
-两个日	liang;ad ge;ra,pa ri;aa,or,ri	0
-两个月	liang;ad ge;ra,pa yue;oy,pa,yt	7342
-两个目	liang;ad ge;ra,pa mu;aa,om,mu	0
-两个白	liang;ad ge;ra,pa bai;pa,po	0
-两个百	liang;ad ge;ra,pa bai;ab	0
-两个耳	liang;ad ge;ra,pa er;aa	0
-两个屮	liang;ad ge;ra,pa che;aa,ck	0
-两个屮	liang;ad ge;ra,pa cao;aa,ck	0
-两个廿	liang;ad ge;ra,pa nian;aa,ck	0
-两个卄	liang;ad ge;ra,pa nian;aa,ck	0
-两个虫	liang;ad ge;ra,pa chong;ad,vd	0
-两个虎	liang;ad ge;ra,pa hu;hj	0
-两个龍	liang;ad ge;ra,pa long;dg,lg	0
-两个馬	liang;ad ge;ra,pa ma;ah	0
-两个犬	liang;ad ge;ra,pa quan;dd,ad	0
-两个入	liang;ad ge;ra,pa ru;pd	0
-两个习	liang;ad ge;ra,pa xi;ga	0
-两个卪	liang;ad ge;ra,pa jie;ed	0
-两个㔾	liang;ad ge;ra,pa jie;aa	0
-两个几	liang;ad ge;ra,pa ji;py	0
-两个乙	liang;ad ge;ra,pa yi;aa,vv,yy	0
-两个夫	liang;ad ge;ra,pa fu;ad,er	0
-两个禾	liang;ad ge;ra,pa he;pd,pm	0
-两个干	liang;ad ge;ra,pa gan;aa	0
-两个井	liang;ad ge;ra,pa jing;aa,ep	0
-两个斤	liang;ad ge;ra,pa jin;pa	0
-两个片	liang;ad ge;ra,pa pian;pa,pv	0
-两个牙	liang;ad ge;ra,pa ya;ap	0
-两个炎	liang;ad ge;ra,pa yan;hh	0
-两个弓	liang;ad ge;ra,pa gong;ag,vg	0
-两个永	liang;ad ge;ra,pa yong;dd	0
-两个亦	liang;ad ge;ra,pa yi;wb,wy,dd	0
-两个手	liang;ad ge;ra,pa shou;pa,ub	0
-两个毛	liang;ad ge;ra,pa mao;pg	0
-两个王	liang;ad ge;ra,pa wang;aa	0
-两个男	liang;ad ge;ra,pa nan;tl	0
-两个支	liang;ad ge;ra,pa zhi;uy	0
-两个隻	liang;ad ge;ra,pa zhi;vy,yv	0
-两个古	liang;ad ge;ra,pa gu;uk	0
-两个舌	liang;ad ge;ra,pa she;qk	0
-两个启	liang;ad ge;ra,pa qi;hk,kh	0
-两个來	liang;ad ge;ra,pa lai;ad,mc,mr	0
-两个桼	liang;ad ge;ra,pa qi;mu	0
-两个旡	liang;ad ge;ra,pa ji;ag	0
-两个歹	liang;ad ge;ra,pa dai;ad,ax	0
-两个匕	liang;ad ge;ra,pa bi;pg	0
-两个幺	liang;ad ge;ra,pa yao;ad,as,vd,vs	0
-两个玄	liang;ad ge;ra,pa xuan;wy	0
-两个心	liang;ad ge;ra,pa xin;dd	0
-两个力	liang;ad ge;ra,pa li;gp	0
-两个欠	liang;ad ge;ra,pa qian;dr	0
-两个子	liang;ad ge;ra,pa zi;aa,vh	0
-两个予	liang;ad ge;ra,pa yu;sa,aa	0
-两个享	liang;ad ge;ra,pa xiang;wz,zk	0
-两个立	liang;ad ge;ra,pa li;da	0
-两个音	liang;ad ge;ra,pa yin;lo	0
-两个竟	liang;ad ge;ra,pa jing;le	0
-两个竞	liang;ad ge;ra,pa jing;lx	0
-两个兄	liang;ad ge;ra,pa xiong;ke	0
-两个見	liang;ad ge;ra,pa jian;oe	0
-两个貝	liang;ad ge;ra,pa bei;ad,ob	0
-两个辛	liang;ad ge;ra,pa xin;lu	0
-两个瓜	liang;ad ge;ra,pa gua;pd	0
-两个呆	liang;ad ge;ra,pa dai;km	0
-两个果	liang;ad ge;ra,pa guo;ad,tm	0
-两个鸟	liang;ad ge;ra,pa niao;na,pa	0
-两个巢	liang;ad ge;ra,pa chao;ig	0
-两个禺	liang;ad ge;ra,pa yu;ad,od	0
-两个巿	liang;ad ge;ra,pa fu;aa,aj	0
-两个句	liang;ad ge;ra,pa ju;gk,kg,pk	0
-两个奇	liang;ad ge;ra,pa qi;dk	0
-两个真	liang;ad ge;ra,pa zhen;uj	0
-两个尹	liang;ad ge;ra,pa yin;ap,vp	0
-两个昔	liang;ad ge;ra,pa xi;co,oc	0
-两个易	liang;ad ge;ra,pa yi;ow	0
-两个先	liang;ad ge;ra,pa xian;ne,en	0
-两个老	liang;ad ge;ra,pa lao;bl,lb	0
-两个示	liang;ad ge;ra,pa shi;ex,ad	0
-两个至	liang;ad ge;ra,pa zhi;tv,vt	0
-两个生	liang;ad ge;ra,pa sheng;na	0
-两个車	liang;ad ge;ra,pa che;aa	0
-两个車	liang;ad ge;ra,pa ju;aa	0
-两个足	liang;ad ge;ra,pa zu;kv	0
-两个區	liang;ad ge;ra,pa qu;kp	0
-两个隹	liang;ad ge;ra,pa zhui;pa,rv	0
-两个牟	liang;ad ge;ra,pa mou;sn	0
-两个豕	liang;ad ge;ra,pa shi;ad,ui	0
-两个𠂢	liang;ad ge;ra,pa pai;pp	0
-两个畐	liang;ad ge;ra,pa fu;at	0
-两个㣇	liang;ad ge;ra,pa yi;jj,jx	0
-两个邑	liang;ad ge;ra,pa yi;kb	0
-两个堯	liang;ad ge;ra,pa yao;tw,wy	0
-两个秉	liang;ad ge;ra,pa bing;ha,pd	0
-两个倉	liang;ad ge;ra,pa cang;rk	0
-两个東	liang;ad ge;ra,pa dong;ad,mo	0
-两个善	liang;ad ge;ra,pa shan;yk,ka,kq	0
-两个僉	liang;ad ge;ra,pa qian;rc	0
-两个齒	liang;ad ge;ra,pa chi;vk	0
-两个喜	liang;ad ge;ra,pa xi;uk	0
-两个走	liang;ad ge;ra,pa zou;tv	0
-两个昌	liang;ad ge;ra,pa chang;oo	0
-两个串	liang;ad ge;ra,pa chuan;aa,vv	0
-两个米	liang;ad ge;ra,pa mi;dd	0
-两个隶	liang;ad ge;ra,pa li;ad,vd,vu,yd	0
-两个不	liang;ad ge;ra,pa bu;ad,ax	0
-两个龙	liang;ad ge;ra,pa long;ad	0
-两个乞	liang;ad ge;ra,pa qi;py,ry,yr	0
-两个夋	liang;ad ge;ra,pa qun;sw,wb	0
-两个天	liang;ad ge;ra,pa tian;ad	0
+两个火	liǎng;ad gè;ra,pa huǒ;dd	0
+两个土	liǎng;ad gè;ra,pa tǔ;aa	0
+两个一	liǎng;ad gè;ra,pa yī;aa	0
+两个二	liǎng;ad gè;ra,pa èr;aa	0
+两个山	liǎng;ad gè;ra,pa shān;aa	0
+两个口	liǎng;ad gè;ra,pa kǒu;aa	0
+两个田	liǎng;ad gè;ra,pa tián;aa	0
+两个九	liǎng;ad gè;ra,pa jiǔ;py	0
+两个人	liǎng;ad gè;ra,pa rén;pd	18484
+两个飞	liǎng;ad gè;ra,pa fēi;yd	0
+两个戈	liǎng;ad gè;ra,pa gē;ad	0
+两个厶	liǎng;ad gè;ra,pa sī;ad,si,vd	0
+两个厶	liǎng;ad gè;ra,pa sī;ad,si,vd	0
+两个又	liǎng;ad gè;ra,pa yòu;vd,ad	0
+两个香	liǎng;ad gè;ra,pa xiāng;ho	0
+两个面	liǎng;ad gè;ra,pa miàn;aa	0
+两个兀	liǎng;ad gè;ra,pa wù;ae,ag,wu	0
+两个女	liǎng;ad gè;ra,pa nǚ;aa,vh	0
+两个𡥦	liǎng;ad gè;ra,pa nǐ;zz	0
+两个臣	liǎng;ad gè;ra,pa chén;aa,ka	0
+两个巾	liǎng;ad gè;ra,pa jīn;aa	0
+两个左	liǎng;ad gè;ra,pa zuǒ;gu,ug	0
+两个母	liǎng;ad gè;ra,pa mǔ;ad,vd	0
+两个来	liǎng;ad gè;ra,pa lái;am,wb	0
+两个凡	liǎng;ad gè;ra,pa fán;dj,jd	0
+两个夕	liǎng;ad gè;ra,pa xī;pd	0
+两个彐	liǎng;ad gè;ra,pa jì;aa,vh,xt	0
+两个𢎘	liǎng;ad gè;ra,pa hàn;	0
+两个魚	liǎng;ad gè;ra,pa yú;dh	0
+两个明	liǎng;ad gè;ra,pa míng;oo	0
+两个朿	liǎng;ad gè;ra,pa cì;ad,mk	0
+两个乂	liǎng;ad gè;ra,pa yì;pd,yi	0
+两个曰	liǎng;ad gè;ra,pa yuē;aa,oy,yt	0
+两个尸	liǎng;ad gè;ra,pa shī;ap,kp,vp	0
+两个户	liǎng;ad gè;ra,pa hù;dp,du	0
+两个大	liǎng;ad gè;ra,pa dà;ad	541
+两个八	liǎng;ad gè;ra,pa bā;pd	12
+两个而	liǎng;ad gè;ra,pa ér;aa	0
+两个羊	liǎng;ad gè;ra,pa yáng;da	0
+两个吉	liǎng;ad gè;ra,pa jí;ku,uk	0
+两个马	liǎng;ad gè;ra,pa mǎ;aa,vh	0
+两个卅	liǎng;ad gè;ra,pa sà;aa,ia	0
+两个巛	liǎng;ad gè;ra,pa chuān;aa,vv	0
+两个止	liǎng;ad gè;ra,pa zhǐ;aa	0
+两个比	liǎng;ad gè;ra,pa bǐ;bb	0
+两个言	liǎng;ad gè;ra,pa yán;da,dk,wk	0
+两个申	liǎng;ad gè;ra,pa shēn;aa,oa	0
+两个牛	liǎng;ad gè;ra,pa niú;pa	0
+两个余	liǎng;ad gè;ra,pa yú;rb,rd,rh	0
+两个束	liǎng;ad gè;ra,pa shù;ad,mk	0
+两个罒	liǎng;ad gè;ra,pa wǎng;aa,si	0
+两个㐅	liǎng;ad gè;ra,pa wǔ;pd	0
+两个金	liǎng;ad gè;ra,pa jīn;ra,pa	0
+两个木	liǎng;ad gè;ra,pa mù;ad	0
+两个水	liǎng;ad gè;ra,pa shuǐ;ad,uv	0
+两个風	liǎng;ad gè;ra,pa fēng;ji	0
+两个石	liǎng;ad gè;ra,pa shí;kp,aa,ak,pk	0
+两个日	liǎng;ad gè;ra,pa rì;aa,or,ri	0
+两个月	liǎng;ad gè;ra,pa yuè;oy,pa,yt	7342
+两个目	liǎng;ad gè;ra,pa mù;aa,om,mu	0
+两个白	liǎng;ad gè;ra,pa bái;pa,po	0
+两个百	liǎng;ad gè;ra,pa bǎi;ab	0
+两个耳	liǎng;ad gè;ra,pa ěr;aa	0
+两个屮	liǎng;ad gè;ra,pa chè;aa,ck	0
+两个屮	liǎng;ad gè;ra,pa chè;aa,ck	0
+两个廿	liǎng;ad gè;ra,pa niàn;aa,ck	0
+两个卄	liǎng;ad gè;ra,pa niàn;aa,ck	0
+两个虫	liǎng;ad gè;ra,pa chóng;ad,vd	0
+两个虎	liǎng;ad gè;ra,pa hǔ;hj	0
+两个龍	liǎng;ad gè;ra,pa lóng;dg,lg	0
+两个馬	liǎng;ad gè;ra,pa mǎ;ah	0
+两个犬	liǎng;ad gè;ra,pa quǎn;dd,ad	0
+两个入	liǎng;ad gè;ra,pa rù;pd	0
+两个习	liǎng;ad gè;ra,pa xí;ga	0
+两个卪	liǎng;ad gè;ra,pa jié;ed	0
+两个㔾	liǎng;ad gè;ra,pa xiān;aa	0
+两个几	liǎng;ad gè;ra,pa jǐ;py	0
+两个乙	liǎng;ad gè;ra,pa yǐ;aa,vv,yy	0
+两个夫	liǎng;ad gè;ra,pa fū;ad,er	0
+两个禾	liǎng;ad gè;ra,pa hé;pd,pm	0
+两个干	liǎng;ad gè;ra,pa gàn;aa	0
+两个井	liǎng;ad gè;ra,pa jǐng;aa,ep	0
+两个斤	liǎng;ad gè;ra,pa jīn;pa	0
+两个片	liǎng;ad gè;ra,pa piàn;pa,pv	0
+两个牙	liǎng;ad gè;ra,pa yá;ap	0
+两个炎	liǎng;ad gè;ra,pa yán;hh	0
+两个弓	liǎng;ad gè;ra,pa gōng;ag,vg	0
+两个永	liǎng;ad gè;ra,pa yǒng;dd	0
+两个亦	liǎng;ad gè;ra,pa yì;wb,wy,dd	0
+两个手	liǎng;ad gè;ra,pa shǒu;pa,ub	0
+两个毛	liǎng;ad gè;ra,pa máo;pg	0
+两个王	liǎng;ad gè;ra,pa wáng;aa	0
+两个男	liǎng;ad gè;ra,pa nán;tl	0
+两个支	liǎng;ad gè;ra,pa zhī;uy	0
+两个隻	liǎng;ad gè;ra,pa zhī;vy,yv	0
+两个古	liǎng;ad gè;ra,pa gǔ;uk	0
+两个舌	liǎng;ad gè;ra,pa shé;qk	0
+两个启	liǎng;ad gè;ra,pa qǐ;hk,kh	0
+两个來	liǎng;ad gè;ra,pa lái;ad,mc,mr	0
+两个桼	liǎng;ad gè;ra,pa qī;mu	0
+两个旡	liǎng;ad gè;ra,pa jì;ag	0
+两个歹	liǎng;ad gè;ra,pa dǎi;ad,ax	0
+两个匕	liǎng;ad gè;ra,pa bǐ;pg	0
+两个幺	liǎng;ad gè;ra,pa yāo;ad,as,vd,vs	0
+两个玄	liǎng;ad gè;ra,pa xuán;wy	0
+两个心	liǎng;ad gè;ra,pa xīn;dd	0
+两个力	liǎng;ad gè;ra,pa lì;gp	0
+两个欠	liǎng;ad gè;ra,pa qiàn;dr	0
+两个子	liǎng;ad gè;ra,pa zi;aa,vh	0
+两个予	liǎng;ad gè;ra,pa yǔ;sa,aa	0
+两个享	liǎng;ad gè;ra,pa xiǎng;wz,zk	0
+两个立	liǎng;ad gè;ra,pa lì;da	0
+两个音	liǎng;ad gè;ra,pa yīn;lo	0
+两个竟	liǎng;ad gè;ra,pa jìng;le	0
+两个竞	liǎng;ad gè;ra,pa jìng;lx	0
+两个兄	liǎng;ad gè;ra,pa xiōng;ke	0
+两个見	liǎng;ad gè;ra,pa jiàn;oe	0
+两个貝	liǎng;ad gè;ra,pa bèi;ad,ob	0
+两个辛	liǎng;ad gè;ra,pa xīn;lu	0
+两个瓜	liǎng;ad gè;ra,pa guā;pd	0
+两个呆	liǎng;ad gè;ra,pa dāi;km	0
+两个果	liǎng;ad gè;ra,pa guǒ;ad,tm	0
+两个鸟	liǎng;ad gè;ra,pa niǎo;na,pa	0
+两个巢	liǎng;ad gè;ra,pa cháo;ig	0
+两个禺	liǎng;ad gè;ra,pa yú;ad,od	0
+两个巿	liǎng;ad gè;ra,pa fú;aa,aj	0
+两个句	liǎng;ad gè;ra,pa jù;gk,kg,pk	0
+两个奇	liǎng;ad gè;ra,pa qí;dk	0
+两个真	liǎng;ad gè;ra,pa zhēn;uj	0
+两个尹	liǎng;ad gè;ra,pa yǐn;ap,vp	0
+两个昔	liǎng;ad gè;ra,pa xī;co,oc	0
+两个易	liǎng;ad gè;ra,pa yì;ow	0
+两个先	liǎng;ad gè;ra,pa xiān;ne,en	0
+两个老	liǎng;ad gè;ra,pa lǎo;bl,lb	0
+两个示	liǎng;ad gè;ra,pa shì;ex,ad	0
+两个至	liǎng;ad gè;ra,pa zhì;tv,vt	0
+两个生	liǎng;ad gè;ra,pa shēng;na	0
+两个車	liǎng;ad gè;ra,pa chē;aa	0
+两个車	liǎng;ad gè;ra,pa chē;aa	0
+两个足	liǎng;ad gè;ra,pa zú;kv	0
+两个區	liǎng;ad gè;ra,pa qū;kp	0
+两个隹	liǎng;ad gè;ra,pa zhuī;pa,rv	0
+两个牟	liǎng;ad gè;ra,pa móu;sn	0
+两个豕	liǎng;ad gè;ra,pa shǐ;ad,ui	0
+两个𠂢	liǎng;ad gè;ra,pa pài;pp	0
+两个畐	liǎng;ad gè;ra,pa fú;at	0
+两个㣇	liǎng;ad gè;ra,pa yì;jj,jx	0
+两个邑	liǎng;ad gè;ra,pa yì;kb	0
+两个堯	liǎng;ad gè;ra,pa yáo;tw,wy	0
+两个秉	liǎng;ad gè;ra,pa bǐng;ha,pd	0
+两个倉	liǎng;ad gè;ra,pa cāng;rk	0
+两个東	liǎng;ad gè;ra,pa dōng;ad,mo	0
+两个善	liǎng;ad gè;ra,pa shàn;yk,ka,kq	0
+两个僉	liǎng;ad gè;ra,pa qiān;rc	0
+两个齒	liǎng;ad gè;ra,pa chǐ;vk	0
+两个喜	liǎng;ad gè;ra,pa xǐ;uk	0
+两个走	liǎng;ad gè;ra,pa zǒu;tv	0
+两个昌	liǎng;ad gè;ra,pa chāng;oo	0
+两个串	liǎng;ad gè;ra,pa chuàn;aa,vv	0
+两个米	liǎng;ad gè;ra,pa mǐ;dd	0
+两个隶	liǎng;ad gè;ra,pa lì;ad,vd,vu,yd	0
+两个不	liǎng;ad gè;ra,pa bù;ad,ax	0
+两个龙	liǎng;ad gè;ra,pa lóng;ad	0
+两个乞	liǎng;ad gè;ra,pa qǐ;py,ry,yr	0
+两个夋	liǎng;ad gè;ra,pa qūn;sw,wb	0
+两个天	liǎng;ad gè;ra,pa tiān;ad	0
 # 三叠字
-三个生	san;aa ge;ra,pa sheng;na	0
-三个秦	san;aa ge;ra,pa qin;hf,fh	0
-三个若	san;aa ge;ra,pa ruo;cy	0
-三个雲	san;aa ge;ra,pa yun;yy	0
-三个人	san;aa ge;ra,pa ren;pd	4260
-三个刀	san;aa ge;ra,pa dao;gp,pg	0
-三个十	san;aa ge;ra,pa shi;aa	1
-三个力	san;aa ge;ra,pa li;gp	0
-三个原	san;aa ge;ra,pa yuan;ix	0
-三个厶	san;aa ge;ra,pa si;ad,si,vd	0
-三个厶	san;aa ge;ra,pa mou;ad,si,vd	0
-三个又	san;aa ge;ra,pa you;vd,ad	0
-三个口	san;aa ge;ra,pa kou;aa	5
-三个七	san;aa ge;ra,pa qi;ag	0
-三个吉	san;aa ge;ra,pa ji;ku,uk	0
-三个土	san;aa ge;ra,pa tu;aa	0
-三个士	san;aa ge;ra,pa shi;aa	0
-三个女	san;aa ge;ra,pa nv;aa,vh	0
-三个子	san;aa ge;ra,pa zi;aa,vh	0
-三个小	san;aa ge;ra,pa xiao;ad	0
-三个心	san;aa ge;ra,pa xin;dd	0
-三个手	san;aa ge;ra,pa shou;pa,ub	0
-三个日	san;aa ge;ra,pa ri;aa,or,ri	0
-三个木	san;aa ge;ra,pa mu;ad	0
-三个止	san;aa ge;ra,pa zhi;aa	0
-三个毛	san;aa ge;ra,pa mao;pg	0
-三个水	san;aa ge;ra,pa shui;ad,uv	0
-三个泉	san;aa ge;ra,pa quan;bu,ub	0
-三个火	san;aa ge;ra,pa huo;dd	0
-三个牛	san;aa ge;ra,pa niu;pa	0
-三个犬	san;aa ge;ra,pa quan;dd,ad	0
-三个田	san;aa ge;ra,pa tian;aa	0
-三个白	san;aa ge;ra,pa bai;pa,po	0
-三个目	san;aa ge;ra,pa mu;aa,om,mu	0
-三个直	san;aa ge;ra,pa zhi;aa,uq	0
-三个石	san;aa ge;ra,pa shi;kp,aa,ak,pk	0
-三个羊	san;aa ge;ra,pa yang;da	0
-三个耳	san;aa ge;ra,pa er;aa	0
-三个舌	san;aa ge;ra,pa she;qk	0
-三个屮	san;aa ge;ra,pa che;aa,ck	0
-三个屮	san;aa ge;ra,pa cao;aa,ck	0
-三个虫	san;aa ge;ra,pa chong;ad,vd	0
-三个言	san;aa ge;ra,pa yan;da,dk,wk	0
-三个贝	san;aa ge;ra,pa bei;ad,kr	0
-三个車	san;aa ge;ra,pa che;aa	0
-三个金	san;aa ge;ra,pa jin;ra,pa	0
-三个隹	san;aa ge;ra,pa zhui;pa,rv	0
-三个雷	san;aa ge;ra,pa lei;yt	0
-三个風	san;aa ge;ra,pa feng;ji	0
-三个飛	san;aa ge;ra,pa fei;ff,yd	0
-三个香	san;aa ge;ra,pa xiang;ho	0
-三个马	san;aa ge;ra,pa ma;aa,vh	0
-三个魚	san;aa ge;ra,pa yu;dh	0
-三个鹿	san;aa ge;ra,pa lu;gb,lb	0
-三个龍	san;aa ge;ra,pa long;dg,lg	0
-三个个	san;aa ge;ra,pa ge;ra,pa	0
-三个丶	san;aa ge;ra,pa zhu;dd,dm	0
-三个丶	san;aa ge;ra,pa dian;dd,dm	0
-三个了	san;aa ge;ra,pa le;aa,vu	0
-三个介	san;aa ge;ra,pa jie;ra,rd	0
-三个企	san;aa ge;ra,pa qi;rv	0
-三个舍	san;aa ge;ra,pa she;ru	0
-三个圥	san;aa ge;ra,pa lu;te,uw	0
-三个光	san;aa ge;ra,pa guang;ea,xw	0
-三个兔	san;aa ge;ra,pa tu;dd	0
-三个全	san;aa ge;ra,pa quan;rw	0
-三个𠙽	san;aa ge;ra,pa kuai;ku	0
-三个𠧪	san;aa ge;ra,pa tiao;br	0
-三个𠧪	san;aa ge;ra,pa you;br	0
-三个㔾	san;aa ge;ra,pa jie;aa	0
-三个厡	san;aa ge;ra,pa yuan;iq	0
-三个可	san;aa ge;ra,pa ke;dk	0
-三个因	san;aa ge;ra,pa yin;kd	0
-三个夏	san;aa ge;ra,pa xia;wz,aw	0
-三个大	san;aa ge;ra,pa da;ad	0
-三个天	san;aa ge;ra,pa tian;ad	0
-三个太	san;aa ge;ra,pa tai;dd	0
-三个𦉼	san;aa ge;ra,pa ku;sd	0
-三个宝	san;aa ge;ra,pa bao;by	0
-三个宜	san;aa ge;ra,pa yi;bq	0
-三个客	san;aa ge;ra,pa ke;bg	0
-三个寒	san;aa ge;ra,pa han;bd	0
-三个少	san;aa ge;ra,pa shao;xp	0
-三个山	san;aa ge;ra,pa shan;aa	0
-三个市	san;aa ge;ra,pa shi;wj	3
-三个文	san;aa ge;ra,pa wen;wi,dd	0
-三个斗	san;aa ge;ra,pa dou;du	0
-三个朿	san;aa ge;ra,pa ci;ad,mk	0
-三个束	san;aa ge;ra,pa shu;ad,mk	0
-三个林	san;aa ge;ra,pa lin;mm	0
-三个果	san;aa ge;ra,pa guo;ad,tm	0
-三个欠	san;aa ge;ra,pa qian;dr	0
-三个𣥚	san;aa ge;ra,pa zou;vy,yv	0
-三个爪	san;aa ge;ra,pa zhao;pd	0
-三个妥	san;aa ge;ra,pa tuo;vn	0
-三个用	san;aa ge;ra,pa yong;kf	0
-三个甲	san;aa ge;ra,pa jia;aa,oa	0
-三个百	san;aa ge;ra,pa bai;ab	0
-三个盖	san;aa ge;ra,pa gai;my,ym	0
-三个県	san;aa ge;ra,pa xian;ox	0
-三个空	san;aa ge;ra,pa kong;xg,bg	0
-三个亇	san;aa ge;ra,pa ge;da,ra	0
-三个竹	san;aa ge;ra,pa zhu;gg	0
-三个罒	san;aa ge;ra,pa mu;aa,si	0
-三个羗	san;aa ge;ra,pa qiang;qs,ys	0
-三个老	san;aa ge;ra,pa lao;bl,lb	0
-三个月	san;aa ge;ra,pa yue;oy,pa,yt	9003
-三个至	san;aa ge;ra,pa zhi;tv,vt	0
-三个興	san;aa ge;ra,pa xing;ba,jb,tb	0
-三个足	san;aa ge;ra,pa zu;kv	0
-三个㖖	san;aa ge;ra,pa nie;kx	0
-三个門	san;aa ge;ra,pa men;aa,vh,xa	0
-三个面	san;aa ge;ra,pa mian;aa	0
-三个頁	san;aa ge;ra,pa ye;ab	0
-三个鳥	san;aa ge;ra,pa niao;ph	0
-三个男	san;aa ge;ra,pa nan;tl	0
-三个立	san;aa ge;ra,pa li;da	0
-三个九	san;aa ge;ra,pa jiu;py	3
-三个也	san;aa ge;ra,pa ye;gg	0
-三个加	san;aa ge;ra,pa jia;lk,kl	0
-三个動	san;aa ge;ra,pa dong;lv	0
-三个千	san;aa ge;ra,pa qian;pa	0
-三个方	san;aa ge;ra,pa fang;dg,wd,dp,dw	0
-三个朔	san;aa ge;ra,pa shuo;on	0
-三个玉	san;aa ge;ra,pa yu;ad,wd	0
-三个申	san;aa ge;ra,pa shen;aa,oa	0
-三个𡿨	san;aa ge;ra,pa quan;	0
-三个去	san;aa ge;ra,pa qu;ts	0
-三个弓	san;aa ge;ra,pa gong;ag,vg	0
-三个䖝	san;aa ge;ra,pa chong;pi	0
-三个丿	san;aa ge;ra,pa pie;px	0
-三个户	san;aa ge;ra,pa hu;dp,du	0
-三个瓜	san;aa ge;ra,pa gua;pd	0
-三个鸟	san;aa ge;ra,pa niao;na,pa	0
-三个米	san;aa ge;ra,pa mi;dd	0
+三个生	sān;aa gè;ra,pa shēng;na	0
+三个秦	sān;aa gè;ra,pa qín;hf,fh	0
+三个若	sān;aa gè;ra,pa ruò;cy	0
+三个雲	sān;aa gè;ra,pa yún;yy	0
+三个人	sān;aa gè;ra,pa rén;pd	4260
+三个刀	sān;aa gè;ra,pa dāo;gp,pg	0
+三个十	sān;aa gè;ra,pa shí;aa	1
+三个力	sān;aa gè;ra,pa lì;gp	0
+三个原	sān;aa gè;ra,pa yuán;ix	0
+三个厶	sān;aa gè;ra,pa sī;ad,si,vd	0
+三个厶	sān;aa gè;ra,pa sī;ad,si,vd	0
+三个又	sān;aa gè;ra,pa yòu;vd,ad	0
+三个口	sān;aa gè;ra,pa kǒu;aa	5
+三个七	sān;aa gè;ra,pa qī;ag	0
+三个吉	sān;aa gè;ra,pa jí;ku,uk	0
+三个土	sān;aa gè;ra,pa tǔ;aa	0
+三个士	sān;aa gè;ra,pa shì;aa	0
+三个女	sān;aa gè;ra,pa nǚ;aa,vh	0
+三个子	sān;aa gè;ra,pa zi;aa,vh	0
+三个小	sān;aa gè;ra,pa xiǎo;ad	0
+三个心	sān;aa gè;ra,pa xīn;dd	0
+三个手	sān;aa gè;ra,pa shǒu;pa,ub	0
+三个日	sān;aa gè;ra,pa rì;aa,or,ri	0
+三个木	sān;aa gè;ra,pa mù;ad	0
+三个止	sān;aa gè;ra,pa zhǐ;aa	0
+三个毛	sān;aa gè;ra,pa máo;pg	0
+三个水	sān;aa gè;ra,pa shuǐ;ad,uv	0
+三个泉	sān;aa gè;ra,pa quán;bu,ub	0
+三个火	sān;aa gè;ra,pa huǒ;dd	0
+三个牛	sān;aa gè;ra,pa niú;pa	0
+三个犬	sān;aa gè;ra,pa quǎn;dd,ad	0
+三个田	sān;aa gè;ra,pa tián;aa	0
+三个白	sān;aa gè;ra,pa bái;pa,po	0
+三个目	sān;aa gè;ra,pa mù;aa,om,mu	0
+三个直	sān;aa gè;ra,pa zhí;aa,uq	0
+三个石	sān;aa gè;ra,pa shí;kp,aa,ak,pk	0
+三个羊	sān;aa gè;ra,pa yáng;da	0
+三个耳	sān;aa gè;ra,pa ěr;aa	0
+三个舌	sān;aa gè;ra,pa shé;qk	0
+三个屮	sān;aa gè;ra,pa chè;aa,ck	0
+三个屮	sān;aa gè;ra,pa chè;aa,ck	0
+三个虫	sān;aa gè;ra,pa chóng;ad,vd	0
+三个言	sān;aa gè;ra,pa yán;da,dk,wk	0
+三个贝	sān;aa gè;ra,pa bèi;ad,kr	0
+三个車	sān;aa gè;ra,pa chē;aa	0
+三个金	sān;aa gè;ra,pa jīn;ra,pa	0
+三个隹	sān;aa gè;ra,pa zhuī;pa,rv	0
+三个雷	sān;aa gè;ra,pa léi;yt	0
+三个風	sān;aa gè;ra,pa fēng;ji	0
+三个飛	sān;aa gè;ra,pa fēi;ff,yd	0
+三个香	sān;aa gè;ra,pa xiāng;ho	0
+三个马	sān;aa gè;ra,pa mǎ;aa,vh	0
+三个魚	sān;aa gè;ra,pa yú;dh	0
+三个鹿	sān;aa gè;ra,pa lù;gb,lb	0
+三个龍	sān;aa gè;ra,pa lóng;dg,lg	0
+三个个	sān;aa gè;ra,pa gè;ra,pa	0
+三个丶	sān;aa gè;ra,pa zhǔ;dd,dm	0
+三个丶	sān;aa gè;ra,pa zhǔ;dd,dm	0
+三个了	sān;aa gè;ra,pa le;aa,vu	0
+三个介	sān;aa gè;ra,pa jiè;ra,rd	0
+三个企	sān;aa gè;ra,pa qǐ;rv	0
+三个舍	sān;aa gè;ra,pa shě;ru	0
+三个圥	sān;aa gè;ra,pa lù;te,uw	0
+三个光	sān;aa gè;ra,pa guāng;ea,xw	0
+三个兔	sān;aa gè;ra,pa tù;dd	0
+三个全	sān;aa gè;ra,pa quán;rw	0
+三个𠙽	sān;aa gè;ra,pa kuai;ku	0
+三个𠧪	sān;aa gè;ra,pa tiáo;br	0
+三个𠧪	sān;aa gè;ra,pa tiáo;br	0
+三个㔾	sān;aa gè;ra,pa xiān;aa	0
+三个厡	sān;aa gè;ra,pa yuán;iq	0
+三个可	sān;aa gè;ra,pa kě;dk	0
+三个因	sān;aa gè;ra,pa yīn;kd	0
+三个夏	sān;aa gè;ra,pa xià;wz,aw	0
+三个大	sān;aa gè;ra,pa dà;ad	0
+三个天	sān;aa gè;ra,pa tiān;ad	0
+三个太	sān;aa gè;ra,pa tài;dd	0
+三个𦉼	sān;aa gè;ra,pa ku;sd	0
+三个宝	sān;aa gè;ra,pa bǎo;by	0
+三个宜	sān;aa gè;ra,pa yí;bq	0
+三个客	sān;aa gè;ra,pa kè;bg	0
+三个寒	sān;aa gè;ra,pa hán;bd	0
+三个少	sān;aa gè;ra,pa shǎo;xp	0
+三个山	sān;aa gè;ra,pa shān;aa	0
+三个市	sān;aa gè;ra,pa shì;wj	3
+三个文	sān;aa gè;ra,pa wén;wi,dd	0
+三个斗	sān;aa gè;ra,pa dòu;du	0
+三个朿	sān;aa gè;ra,pa cì;ad,mk	0
+三个束	sān;aa gè;ra,pa shù;ad,mk	0
+三个林	sān;aa gè;ra,pa lín;mm	0
+三个果	sān;aa gè;ra,pa guǒ;ad,tm	0
+三个欠	sān;aa gè;ra,pa qiàn;dr	0
+三个𣥚	sān;aa gè;ra,pa zou;vy,yv	0
+三个爪	sān;aa gè;ra,pa zhǎo;pd	0
+三个妥	sān;aa gè;ra,pa tuǒ;vn	0
+三个用	sān;aa gè;ra,pa yòng;kf	0
+三个甲	sān;aa gè;ra,pa jiǎ;aa,oa	0
+三个百	sān;aa gè;ra,pa bǎi;ab	0
+三个盖	sān;aa gè;ra,pa gài;my,ym	0
+三个県	sān;aa gè;ra,pa xiàn;ox	0
+三个空	sān;aa gè;ra,pa kōng;xg,bg	0
+三个亇	sān;aa gè;ra,pa ma;da,ra	0
+三个竹	sān;aa gè;ra,pa zhú;gg	0
+三个罒	sān;aa gè;ra,pa wǎng;aa,si	0
+三个羗	sān;aa gè;ra,pa qiāng;qs,ys	0
+三个老	sān;aa gè;ra,pa lǎo;bl,lb	0
+三个月	sān;aa gè;ra,pa yuè;oy,pa,yt	9003
+三个至	sān;aa gè;ra,pa zhì;tv,vt	0
+三个興	sān;aa gè;ra,pa xìng;ba,jb,tb	0
+三个足	sān;aa gè;ra,pa zú;kv	0
+三个㖖	sān;aa gè;ra,pa niè;kx	0
+三个門	sān;aa gè;ra,pa mén;aa,vh,xa	0
+三个面	sān;aa gè;ra,pa miàn;aa	0
+三个頁	sān;aa gè;ra,pa yè;ab	0
+三个鳥	sān;aa gè;ra,pa niǎo;ph	0
+三个男	sān;aa gè;ra,pa nán;tl	0
+三个立	sān;aa gè;ra,pa lì;da	0
+三个九	sān;aa gè;ra,pa jiǔ;py	3
+三个也	sān;aa gè;ra,pa yě;gg	0
+三个加	sān;aa gè;ra,pa jiā;lk,kl	0
+三个動	sān;aa gè;ra,pa dòng;lv	0
+三个千	sān;aa gè;ra,pa qiān;pa	0
+三个方	sān;aa gè;ra,pa fāng;dg,wd,dp,dw	0
+三个朔	sān;aa gè;ra,pa shuò;on	0
+三个玉	sān;aa gè;ra,pa yù;ad,wd	0
+三个申	sān;aa gè;ra,pa shēn;aa,oa	0
+三个𡿨	sān;aa gè;ra,pa quǎn;	0
+三个去	sān;aa gè;ra,pa qù;ts	0
+三个弓	sān;aa gè;ra,pa gōng;ag,vg	0
+三个䖝	sān;aa gè;ra,pa chóng;pi	0
+三个丿	sān;aa gè;ra,pa piě;px	0
+三个户	sān;aa gè;ra,pa hù;dp,du	0
+三个瓜	sān;aa gè;ra,pa guā;pd	0
+三个鸟	sān;aa gè;ra,pa niǎo;na,pa	0
+三个米	sān;aa gè;ra,pa mǐ;dd	0
 # 四叠字
-四个乂	si;aa,ke ge;ra,pa yi;pd,yi	0
-四个人	si;aa,ke ge;ra,pa ren;pd	2268
-四个厶	si;aa,ke ge;ra,pa si;ad,si,vd	0
-四个厶	si;aa,ke ge;ra,pa mou;ad,si,vd	0
-四个又	si;aa,ke ge;ra,pa you;vd,ad	0
-四个匕	si;aa,ke ge;ra,pa bi;pg	0
-四个工	si;aa,ke ge;ra,pa gong;aa	0
-四个口	si;aa,ke ge;ra,pa kou;aa	0
-四个天	si;aa,ke ge;ra,pa tian;ad	0
-四个小	si;aa,ke ge;ra,pa xiao;ad	0
-四个屮	si;aa,ke ge;ra,pa che;aa,ck	0
-四个屮	si;aa,ke ge;ra,pa cao;aa,ck	0
-四个火	si;aa,ke ge;ra,pa huo;dd	0
-四个牛	si;aa,ke ge;ra,pa niu;pa	0
-四个魚	si;aa,ke ge;ra,pa yu;dh	0
-四个月	si;aa,ke ge;ra,pa yue;oy,pa,yt	1860
-四个日	si;aa,ke ge;ra,pa ri;aa,or,ri	0
-四个林	si;aa,ke ge;ra,pa lin;mm	0
-四个水	si;aa,ke ge;ra,pa shui;ad,uv	0
-四个石	si;aa,ke ge;ra,pa shi;kp,aa,ak,pk	0
-四个田	si;aa,ke ge;ra,pa tian;aa	0
-四个甲	si;aa,ke ge;ra,pa jia;aa,oa	0
-四个且	si;aa,ke ge;ra,pa qie;aa	0
-四个囚	si;aa,ke ge;ra,pa qiu;kr	0
-四个困	si;aa,ke ge;ra,pa kun;km	0
-四个竹	si;aa,ke ge;ra,pa zhu;gg	0
-四个老	si;aa,ke ge;ra,pa lao;bl,lb	0
-四个朿	si;aa,ke ge;ra,pa ci;ad,mk	0
-四个先	si;aa,ke ge;ra,pa xian;ne,en	0
-四个金	si;aa,ke ge;ra,pa jin;ra,pa	0
-四个泉	si;aa,ke ge;ra,pa quan;bu,ub	0
-四个言	si;aa,ke ge;ra,pa yan;da,dk,wk	0
-四个門	si;aa,ke ge;ra,pa men;aa,vh,xa	0
-四个果	si;aa,ke ge;ra,pa guo;ad,tm	0
-四个春	si;aa,ke ge;ra,pa chun;of,fo	0
-四个車	si;aa,ke ge;ra,pa che;aa	0
-四个風	si;aa,ke ge;ra,pa feng;ji	0
-四个雷	si;aa,ke ge;ra,pa lei;yt	0
-四个雲	si;aa,ke ge;ra,pa yun;yy	0
-四个興	si;aa,ke ge;ra,pa xing;ba,jb,tb	0
-四个龍	si;aa,ke ge;ra,pa long;dg,lg	0
-四个土	si;aa,ke ge;ra,pa tu;aa	0
+四个乂	sì;aa,ke gè;ra,pa yì;pd,yi	0
+四个人	sì;aa,ke gè;ra,pa rén;pd	2268
+四个厶	sì;aa,ke gè;ra,pa sī;ad,si,vd	0
+四个厶	sì;aa,ke gè;ra,pa sī;ad,si,vd	0
+四个又	sì;aa,ke gè;ra,pa yòu;vd,ad	0
+四个匕	sì;aa,ke gè;ra,pa bǐ;pg	0
+四个工	sì;aa,ke gè;ra,pa gōng;aa	0
+四个口	sì;aa,ke gè;ra,pa kǒu;aa	0
+四个天	sì;aa,ke gè;ra,pa tiān;ad	0
+四个小	sì;aa,ke gè;ra,pa xiǎo;ad	0
+四个屮	sì;aa,ke gè;ra,pa chè;aa,ck	0
+四个屮	sì;aa,ke gè;ra,pa chè;aa,ck	0
+四个火	sì;aa,ke gè;ra,pa huǒ;dd	0
+四个牛	sì;aa,ke gè;ra,pa niú;pa	0
+四个魚	sì;aa,ke gè;ra,pa yú;dh	0
+四个月	sì;aa,ke gè;ra,pa yuè;oy,pa,yt	1860
+四个日	sì;aa,ke gè;ra,pa rì;aa,or,ri	0
+四个林	sì;aa,ke gè;ra,pa lín;mm	0
+四个水	sì;aa,ke gè;ra,pa shuǐ;ad,uv	0
+四个石	sì;aa,ke gè;ra,pa shí;kp,aa,ak,pk	0
+四个田	sì;aa,ke gè;ra,pa tián;aa	0
+四个甲	sì;aa,ke gè;ra,pa jiǎ;aa,oa	0
+四个且	sì;aa,ke gè;ra,pa qiě;aa	0
+四个囚	sì;aa,ke gè;ra,pa qiú;kr	0
+四个困	sì;aa,ke gè;ra,pa kùn;km	0
+四个竹	sì;aa,ke gè;ra,pa zhú;gg	0
+四个老	sì;aa,ke gè;ra,pa lǎo;bl,lb	0
+四个朿	sì;aa,ke gè;ra,pa cì;ad,mk	0
+四个先	sì;aa,ke gè;ra,pa xiān;ne,en	0
+四个金	sì;aa,ke gè;ra,pa jīn;ra,pa	0
+四个泉	sì;aa,ke gè;ra,pa quán;bu,ub	0
+四个言	sì;aa,ke gè;ra,pa yán;da,dk,wk	0
+四个門	sì;aa,ke gè;ra,pa mén;aa,vh,xa	0
+四个果	sì;aa,ke gè;ra,pa guǒ;ad,tm	0
+四个春	sì;aa,ke gè;ra,pa chūn;of,fo	0
+四个車	sì;aa,ke gè;ra,pa chē;aa	0
+四个風	sì;aa,ke gè;ra,pa fēng;ji	0
+四个雷	sì;aa,ke gè;ra,pa léi;yt	0
+四个雲	sì;aa,ke gè;ra,pa yún;yy	0
+四个興	sì;aa,ke gè;ra,pa xìng;ba,jb,tb	0
+四个龍	sì;aa,ke gè;ra,pa lóng;dg,lg	0
+四个土	sì;aa,ke gè;ra,pa tǔ;aa	0

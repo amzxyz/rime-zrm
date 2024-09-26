@@ -30,8 +30,8 @@ switches:
   - name: emoji
     states: [ 💀, 😄 ]
     reset: 1
-  - name: pinyinhint
-    states: [ 音, 读 ]
+  - name: tone_display
+    states: [ 调, 音 ]
   - name: fuzhu_switch
     states: [ 助, 辅 ]
   - name: zrm_chaifen
@@ -59,6 +59,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@radical_lookup  # 部件拆字自定义 tag
+    - affix_segmentor@reverse_stroke  #笔画反查
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -74,6 +75,7 @@ engine:
     - table_translator@cn_en            # 中英混合词汇
     - table_translator@chengyu            # 简码成语
     - table_translator@radical_lookup   # 部件拆字反查
+    - table_translator@reverse_stroke   #笔画反查
     - lua_translator@*force_gc          # 暴力 GC 降低内存
   filters:
     - lua_filter@*cold_word_drop.filter
@@ -82,14 +84,13 @@ engine:
     - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜，放在pro_comment_format前面，进一步被超级注释处理以获得拼音编码+辅助码的提示
+    - lua_filter@*pro_preedit_format                #将输入码显示为带音调全拼
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - simplifier@mars                               #火星文
     - simplifier@chinese_english                    #中英翻译
     - simplifier@zrm_chaifen                        #自然码拆分型辅助码查询
-    - simplifier@pinyinhint                         #注释里显示汉字读音，多音字支持
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码放在简繁转换之后
-#    - lua_filter@*is_in_user_dict                  # 根据是否在用户词典，在结尾加上一个星号 *
 #    - lua_filter@*cn_en_spacer                     #启用时中英混输为中英混输词条（cn_en.dict.yaml）自动增加空格，示例：`VIP中P` → `VIP 中 P`              
 #    - lua_filter@*en_spacer                        #启用时中文状态下输入英文单词后面自动追加空格
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
@@ -189,8 +190,7 @@ translator:
   spelling_hints: 10             # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
   always_show_comments: true    # Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供pro_comment_format.lua做判断用。
   comment_format: {comment}  #将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
-  preedit_format:               # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
-
+  preedit_format:               # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符，pro_preedit_format.lua接管
 
 # 自定义短语
 custom_phrase:
@@ -259,12 +259,6 @@ zrm_chaifen:
   show_in_comment: true
   comment_format:
     - "xform/	/ /"
-#显示汉字读音，支持多音字
-pinyinhint:
-  option_name: pinyinhint
-  opencc_config: pinyinhint.json
-  tips: char
-  show_in_comment: true
 
 # 简繁切换
 traditionalize:
@@ -274,9 +268,6 @@ traditionalize:
   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 
-
-
-
 # 部件拆字反查
 radical_lookup:
   tag: radical_lookup
@@ -284,14 +275,25 @@ radical_lookup:
   enable_user_dict: false
   prefix: "az"  # 反查前缀（反查时前缀会消失影响打英文所以设定为两个字母，或可改成一个非字母符号），与 recognizer/patterns/radical_lookup 匹配
   tips: "  〔部件组字〕"
-  comment_format: #{comment}
+  comment_format:  #{comment}
     - erase/^.*$//
+
+reverse_stroke:
+  tag: reverse_stroke
+  dictionary: stroke 
+  db_class: stabledb
+  enable_completion: true
+  prefix: "ab"
+  suffix: "'"
+  tips: 〔笔画 hspnz〕 
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
 # 部件拆字滤镜
 radical_reverse_lookup:
-  tags: [ radical_lookup ]
-  # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
-  # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
-  dictionary: zrm
+  tags: [ radical_lookup,reverse_stroke ]
+  overwrite_comment: true
+  dictionary: zrm #带音调的词典
 
 
 # 处理符合特定规则的输入码，如网址、反查
@@ -300,6 +302,7 @@ recognizer:
   patterns:  # 再增加方案专有的：
     punct: "^/([0-9]|10|[A-Za-z]+)$"    # 响应 symbols.yaml 的 symbols
     radical_lookup: "^az[a-z]+$"        # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
+    reverse_stroke: "^ab[A-Za-z]*$"     #响应笔画反查，与reverse_stroke/prefix 匹配
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
@@ -317,17 +320,13 @@ key_binder:
 #使用Control+e进入翻译模式
     - { when: has_menu, accept: "Control+e", toggle: chinese_english}
     - { when: has_menu, accept: "Control+z", toggle: zrm_chaifen }
-#使用快捷键Control+q开启和关闭辅助码显示
-    - { when: has_menu, accept: "Control+q", toggle: fuzhu_switch }
+#使用快捷键Control+a开启和关闭辅助码显示,Control+a开启和关闭输入码音调显示
+    - { when: has_menu, accept: "Control+a", toggle: fuzhu_switch }
+    - { when: has_menu, accept: "Control+s", toggle: tone_display }
 # 使用 tab 在不同音节之间跳转
     - { when: has_menu, accept: "Tab", send: "Control+Right" }
-    - { when: composing, accept: "Tab", send: "Control+Right" }
 #通过stick.lua显示到注释里，用来上屏带/的简码词汇。最好是用句号，这样可以与手机上可以做同样的定义，保持同样的习惯
 #    - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" } 
-
-
-
-
 
 # 拼写设定
 speller:
@@ -340,6 +339,7 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - derive/^([jqxy])u(;.*)$/$1v$2/
     - derive/^([aoe])([ioun])(;.*)$/$1$1$2$3/
     - xform/^([aoe])(ng)?(;.*)$/$1$1$2$3/
@@ -371,12 +371,13 @@ speller:
     - xform/^zh/Ⓥ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⓂⒿⒸⓀⓁⓏⓍⓋⒷⓃ/qwrtyuiopsdfghmjcklzxvbn/
 # 模糊音 可选择性开启
-    # - derive/^z([a-z])/v$1/
-    # - derive/^c([a-z])/i$1/
-    # - derive/^s([a-z])/u$1/
-    # - derive/^v([a-z])/z$1/
-    # - derive/^i([a-z])/c$1/
-    # - derive/^u([a-z])/s$1/
+#    - derive/^z([a-z])/v$1/
+#    - derive/^c([a-z])/i$1/
+#    - derive/^s([a-z])/u$1/
+#    - derive/^v([a-z])/z$1/
+#    - derive/^i([a-z])/c$1/
+#    - derive/^u([a-z])/s$1/
+
 #以下是双拼运算
     - derive/^(.+);.*$/$1/ # 纯双拼的情况
 #分号后面第一组辅助码
@@ -415,8 +416,6 @@ speller:
     # - derive/^([y])h/$1g/
     # - derive/^([rgv])f/$1m/
     # - derive/^([rgv])c/$1n/
-
-
 
 # 标点符号
 # punctuator 下面有三个子项：
@@ -508,10 +507,14 @@ octagram:
   enable_for_sentence:
     __patch:
       grammar:
-        language: zh-hans-t-essay-bgw   
+        language: zh-hans-t-huayu-v7-bgw
         collocation_max_length: 4
         collocation_min_length: 2
         non_collocation_penalty: -20
         collocation_penalty: -8
         weak_collocation_penalty: -15
         rear_penalty: -18
+
+
+
+
