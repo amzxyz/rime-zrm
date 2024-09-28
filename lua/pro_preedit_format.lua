@@ -11,8 +11,15 @@ local function modify_preedit_filter(input, env)
 
     -- 获取开关状态
     local is_tone_display = env.settings.tone_display
+    local context = env.engine.context
 
     for cand in input:iter() do
+        -- 检查输入状态是否符合不执行条件，即进入反查模式
+        if context.input:len() == 0 or context.input:find("^az") or context.input:find("^ab") then
+            yield(cand)  -- 不执行替换，直接返回原候选
+            goto continue  -- 跳过后续处理
+        end
+
         local genuine_cand = cand:get_genuine()
         local preedit = genuine_cand.preedit or ""
 
@@ -67,8 +74,8 @@ local function modify_preedit_filter(input, env)
                 end
             end
         end
-
         yield(genuine_cand)
+        ::continue::
     end
 end
 
