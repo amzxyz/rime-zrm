@@ -136,13 +136,5 @@ translator:
   dictionary: melt_eng
   spelling_hints: 9
 
-key_binder:
-  import_preset: default
-
-punctuator:
-  import_preset: default
-
-recognizer:
-  import_preset: default
 
 

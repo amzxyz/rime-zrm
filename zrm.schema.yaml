@@ -10,9 +10,9 @@ schema:
   description: |
     自然码双拼
   dependencies:
-    - melt_eng        #英文输入
     - stroke          #笔画反查
     - radical_pinyin  #部件拆字，反查及辅码
+    - melt_eng        #英文输入
 
 
 # 开关
