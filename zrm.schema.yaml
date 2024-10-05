@@ -46,6 +46,7 @@ engine:
   processors:
 #    - lua_processor@select_character          # 以词定字，有了辅助码了，想开启可以注释掉
     - lua_processor@*cold_word_drop.processor
+    - lua_processor@*quick_symbol_repeat    #快符引导以及重复上屏
     - ascii_composer
     - recognizer
     - key_binder
@@ -96,7 +97,6 @@ engine:
 #    - lua_filter@*en_spacer                        #启用时中文状态下输入英文单词后面自动追加空格
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
-
 
 # Lua 配置 超级注释模块
 pro_comment_format:           
@@ -233,6 +233,7 @@ cn_en:
   comment_format:
     - xform/^.+$//
 
+
 # Emoji
 emoji:
   option_name: emoji
@@ -308,6 +309,8 @@ recognizer:
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
     calculator: "^V.*$"                 #计算器功能引导
+    quick_symbol_repeat: "^'.*$"  # 快符引导，例如输入'q 后自动上屏快速符号，双击''重复上屏
+
 
 # 从 default 继承快捷键
 key_binder:
@@ -497,6 +500,7 @@ punctuator:
     '}' : '」'
   symbols:
     __include: symbols:/symbols         # 从 symbols.yaml 导入配置
+
 
 __include: octagram/enable_for_sentence   #启用语言模型
 #启用语言模型
