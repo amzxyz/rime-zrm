@@ -295,7 +295,7 @@ reverse_stroke:
 radical_reverse_lookup:
   tags: [ radical_lookup,reverse_stroke ]
   overwrite_comment: true
-  dictionary: zrm #带音调的词典
+  dictionary: zrm  #带音调的词典
 
 
 # 处理符合特定规则的输入码，如网址、反查
