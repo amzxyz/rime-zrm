@@ -47,6 +47,7 @@ engine:
 #    - lua_processor@select_character          # 以词定字，有了辅助码了，想开启可以注释掉
     - lua_processor@*cold_word_drop.processor
     - lua_processor@*quick_symbol_text    #快符引导以及重复上屏
+    - lua_processor@*userdb_sync_delete
     - ascii_composer
     - recognizer
     - key_binder
@@ -97,6 +98,7 @@ engine:
 #    - lua_filter@*en_spacer                        #启用时中文状态下输入英文单词后面自动追加空格
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
+
 
 # Lua 配置 超级注释模块
 pro_comment_format:           
@@ -185,7 +187,7 @@ translator:
 #  db_class: tabledb  #开启后就不会产生zrm.userdb这样的文件夹，会直接输出文本zrm.txt同时无法使用同步能力
   enable_user_dict: true # 是否开启自动调频
   enable_correction: false #是否开启自动纠错
-  encode_commit_history: true   # 预留历史上屏自动编码成词
+#  encode_commit_history: true   # 预留历史上屏自动编码成词
   initial_quality: 3       # 初始质量拼音的权重应该比英文大
 #  secondary_quality: 0.8  # 设置次要质量
   spelling_hints: 10             # 将注释以词典字符串形式完全暴露，通过pro_comment_format.lua完全接管，灵活配置。
@@ -232,7 +234,6 @@ cn_en:
   initial_quality: 0.5
   comment_format:
     - xform/^.+$//
-
 
 # Emoji
 emoji:
@@ -295,7 +296,7 @@ reverse_stroke:
 radical_reverse_lookup:
   tags: [ radical_lookup,reverse_stroke ]
   overwrite_comment: true
-  dictionary: zrm  #带音调的词典
+  dictionary: zrm #带音调的词典
 
 
 # 处理符合特定规则的输入码，如网址、反查
@@ -310,7 +311,7 @@ recognizer:
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
     calculator: "^V.*$"                 #计算器功能引导
     quick_symbol: "^'.*$"  # 快符引导，例如输入'q 后自动上屏快速符号，双击''重复上屏符号
-    quick_text: "^;.*$"  # 双击;;重复上屏汉字和字母
+    quick_text: "^;.*$"  # 双击;;重复上屏
 
 # 从 default 继承快捷键
 key_binder:
@@ -500,7 +501,6 @@ punctuator:
     '}' : '」'
   symbols:
     __include: symbols:/symbols         # 从 symbols.yaml 导入配置
-
 
 __include: octagram/enable_for_sentence   #启用语言模型
 #启用语言模型
