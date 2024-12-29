@@ -249,7 +249,7 @@ sort: by_weight
 白灼	bái;po zhuó;hu	642
 白浊	bái;po zhuó;di	414
 白字	bái;po zì;gz	541
-白子	bái;po zi;va	502
+白子	bái;po zǐ;va	502
 白走	bái;po zǒu;tr	373
 白族	bái;po zú;fd	587
 白足	bái;po zú;kr	286
@@ -376,7 +376,7 @@ sort: by_weight
 岑山	cén;sj shān;aa	356
 岑参	cén;sj shēn;vp	456
 岑溪	cén;sj xī;dd	459
-岑子	cén;sj zi;va	240
+岑子	cén;sj zǐ;va	240
 陈艾	chén;ed ài;cx	447
 陈安	chén;ed ān;gn	596
 陈柏	chén;ed bǎi;lb	578
@@ -984,7 +984,7 @@ sort: by_weight
 丁中	dīng;av zhōng;aa	302
 丁庄	dīng;av zhuāng;gt	363
 丁字	dīng;av zì;gz	629
-丁子	dīng;av zǐ;va	473
+丁子	dīng;av zi;va	473
 丁组	dīng;av zǔ;sq	371
 杜安	dù;lt ān;gn	463
 杜比	dù;lt bǐ;bb	581
@@ -1327,7 +1327,7 @@ sort: by_weight
 韩忠	hán;uw zhōng;vx	375
 韩妆	hán;uw zhuāng;dn	524
 韩庄	hán;uw zhuāng;gt	422
-韩子	hán;uw zi;va	480
+韩子	hán;uw zǐ;va	480
 韩综	hán;uw zōng;sx	430
 何必	hé;rk bì;dd	727
 何斌	hé;rk bīn;wg	395
@@ -1658,7 +1658,7 @@ sort: by_weight
 华洲	huá;ru zhōu;dv	329
 华胄	huá;ru zhòu;yo	257
 华庄	huá;ru zhuāng;gt	337
-华子	huá;ru zi;va	523
+华子	huá;ru zǐ;va	523
 华资	huá;ru zī;dr	429
 华族	huá;ru zú;fd	481
 黄爱	huáng;cb ài;py	401
@@ -2385,7 +2385,7 @@ sort: by_weight
 江渚	jiāng;dg zhǔ;do	366
 蒋庄	jiǎng;cc zhuāng;gt	325
 江孜	jiāng;dg zī;zw	469
-江子	jiāng;dg zi;va	435
+江子	jiāng;dg zǐ;va	435
 江总	jiāng;dg zǒng;ex	399
 江钻	jiāng;dg zuān;jk	363
 江左	jiāng;dg zuǒ;ag	467
@@ -2894,7 +2894,7 @@ sort: by_weight
 金准	jīn;ra zhǔn;da	286
 金镯	jīn;ra zhuó;ji	369
 金字	jīn;ra zì;gz	731
-金子	jīn;ra zi;va	671
+金子	jīn;ra zǐ;va	671
 金紫	jīn;ra zǐ;vx	528
 金总	jīn;ra zǒng;ex	403
 金钻	jīn;ra zuān;jk	489
@@ -3056,7 +3056,7 @@ sort: by_weight
 雷珠	léi;yt zhū;wv	288
 雷庄	léi;yt zhuāng;gt	285
 雷兹	léi;yt zī;es	596
-雷子	léi;yt zi;va	459
+雷子	léi;yt zǐ;va	459
 雷总	léi;yt zǒng;ex	524
 李爱	lǐ;lz ài;py	503
 李艾	lǐ;lz ài;cx	475
@@ -3786,7 +3786,7 @@ sort: by_weight
 梁洲	liáng;dl zhōu;dv	300
 梁柱	liáng;dl zhù;lv	591
 梁庄	liáng;dl zhuāng;gt	430
-梁子	liáng;dl zi;va	552
+梁子	liáng;dl zǐ;va	552
 寥寂	liáo;gp jì;gy	219
 寥廓	liáo;gp kuò;ge	376
 寥落	liáo;gp luò;ck	431
@@ -4056,7 +4056,7 @@ sort: by_weight
 罗中	luó;sx zhōng;aa	444
 罗州	luó;sx zhōu;da	542
 罗庄	luó;sx zhuāng;gt	472
-罗子	luó;sx zi;va	500
+罗子	luó;sx zǐ;va	500
 吕安	lǚ;kk ān;gn	370
 吕斌	lǚ;kk bīn;wg	463
 吕波	lǚ;kk bō;dy	435
@@ -4120,7 +4120,7 @@ sort: by_weight
 吕征	lǚ;kk zhēng;rv	406
 吕雉	lǚ;kk zhì;ua	484
 吕州	lǚ;kk zhōu;da	390
-吕子	lǚ;kk zi;va	439
+吕子	lǚ;kk zǐ;va	439
 吕祖	lǚ;kk zǔ;pq	454
 马爱	mǎ;va ài;py	449
 马安	mǎ;va ān;gn	436
@@ -4623,7 +4623,7 @@ sort: by_weight
 秦州	qín;ah zhōu;da	526
 秦篆	qín;ah zhuàn;vn	302
 秦庄	qín;ah zhuāng;gt	415
-秦子	qín;ah zi;va	341
+秦子	qín;ah zǐ;va	341
 沈岸	shěn;dv àn;sg	299
 沈北	shěn;dv běi;ab	498
 沈斌	shěn;dv bīn;wg	317
@@ -5208,7 +5208,7 @@ sort: by_weight
 陶朱	táo;ef zhū;pw	451
 陶砖	táo;ef zhuān;uv	258
 陶庄	táo;ef zhuāng;gt	328
-陶子	táo;ef zi;va	441
+陶子	táo;ef zǐ;va	441
 王爱	wáng;at ài;py	499
 王安	wáng;at ān;gn	659
 王鏊	wáng;at ào;aj	326
@@ -6214,7 +6214,7 @@ sort: by_weight
 吴州	wú;kt zhōu;da	342
 吴洲	wú;kt zhōu;dv	324
 吴庄	wú;kt zhuāng;gt	348
-吴子	wú;kt zi;va	495
+吴子	wú;kt zǐ;va	495
 吴祖	wú;kt zǔ;pq	429
 吴作	wú;kt zuò;rv	453
 夏安	xià;aw ān;gn	428
@@ -8303,7 +8303,7 @@ sort: by_weight
 周洲	zhōu;pk zhōu;dv	323
 周助	zhōu;pk zhù;ql	360
 周卓	zhōu;pk zhuó;au	396
-周子	zhōu;pk zi;va	567
+周子	zhōu;pk zǐ;va	567
 周总	zhōu;pk zǒng;ex	586
 朱安	zhū;pw ān;gn	483
 朱巴	zhū;pw bā;vv	463
@@ -8585,7 +8585,7 @@ sort: by_weight
 白城村	bái;po chéng;tg cūn;lc	178
 白城的	bái;po chéng;tg de;bu	265
 白城市	bái;po chéng;tg shì;wj	416
-白城子	bái;po chéng;tg zi;va	354
+白城子	bái;po chéng;tg zǐ;va	354
 白痴啊	bái;po chī;bk a;kk	350
 白痴吧	bái;po chī;bk ba;kb	229
 白翅膀	bái;po chì;ux bǎng;of	219
@@ -8721,6 +8721,7 @@ sort: by_weight
 白附子	bái;po fù;ec zi;va	372
 白改黑	bái;po gǎi;jw hēi;ae	292
 白杆兵	bái;po gān;lg bīng;qb	221
+白干活	bái;po gàn;au huó;dk	264
 白钢刀	bái;po gāng;jx dāo;vp	150
 白搞了	bái;po gǎo;fk le;vv	199
 白高粱	bái;po gāo;wk liáng;dm	150
@@ -8847,7 +8848,7 @@ sort: by_weight
 白胡须	bái;po hú;uo xū;pr	243
 白虎牙	bái;po hǔ;aj yá;ap	256
 白湖镇	bái;po hú;do zhèn;jb	276
-白胡子	bái;po hú;uo zi;va	567
+白胡子	bái;po hú;uo zǐ;va	567
 白虎族	bái;po hǔ;aj zú;fd	201
 白话版	bái;po huà;yk bǎn;py	408
 白花瓣	bái;po huā;cb bàn;lu	313
@@ -9189,7 +9190,7 @@ sort: by_weight
 白描画	bái;po miáo;ft huà;aa	222
 白庙乡	bái;po miào;gy xiāng;vp	265
 白庙镇	bái;po miào;gy zhèn;jb	222
-白庙子	bái;po miào;gy zi;va	252
+白庙子	bái;po miào;gy zǐ;va	252
 白敏中	bái;po mǐn;mw zhōng;aa	306
 白名单	bái;po míng;xk dān;ea	537
 白魔法	bái;po mó;gv fǎ;dv	352
@@ -9222,9 +9223,9 @@ sort: by_weight
 白糯米	bái;po nuò;me mǐ;dl	324
 白欧泊	bái;po ōu;kr pō;db	229
 白胖胖	bái;po pàng;ob pàng;ob	449
-白胖子	bái;po pàng;ob zi;va	343
+白胖子	bái;po pàng;ob zǐ;va	343
 白跑了	bái;po pǎo;zv le;vv	417
-白泡子	bái;po pāo;dv zǐ;va	181
+白泡子	bái;po pāo;dv zi;va	181
 白培中	bái;po péi;tk zhōng;aa	299
 白盆窑	bái;po pén;bm yáo;gf	271
 白鹏飞	bái;po péng;on fēi;vd	210
@@ -9255,11 +9256,10 @@ sort: by_weight
 白鳍豚	bái;po qí;eo tún;on	360
 白七爷	bái;po qī;av yé;be	224
 白千层	bái;po qiān;pu céng;uv	299
-白干活	bái;po gàn;au huó;dk	264
 白铅矿	bái;po qiān;jk kuàng;ug	240
 白谦慎	bái;po qiān;yj shèn;xb	259
 白蔷薇	bái;po qiáng;ck wēi;cw	320
-白墙子	bái;po qiáng;tk zi;va	163
+白墙子	bái;po qiáng;tk zǐ;va	163
 白桥村	bái;po qiáo;lq cūn;lc	163
 白桥镇	bái;po qiáo;lq zhèn;jb	213
 白切狗	bái;po qiè;qd gǒu;qk	226
@@ -9429,7 +9429,7 @@ sort: by_weight
 白石镇	bái;po shí;ak zhèn;jb	325
 白石洲	bái;po shí;ak zhōu;dv	418
 白狮子	bái;po shī;qj zi;va	313
-白石子	bái;po shí;ak zi;va	208
+白石子	bái;po shí;ak zǐ;va	208
 白瘦美	bái;po shòu;by měi;ed	273
 白手套	bái;po shǒu;pv tào;dv	493
 白首乌	bái;po shǒu;em wū;pa	254
@@ -9557,7 +9557,7 @@ sort: by_weight
 白铁军	bái;po tiě;ju jūn;gi	231
 白铁皮	bái;po tiě;ju pí;vy	269
 白通汤	bái;po tōng;zy tāng;dp	167
-白童子	bái;po tóng;ll zi;va	215
+白童子	bái;po tóng;ll zǐ;va	215
 白头鹎	bái;po tóu;dd bēi;bn	272
 白头村	bái;po tóu;dd cūn;lc	201
 白头格	bái;po tóu;dd gé;lk	199
@@ -9580,7 +9580,7 @@ sort: by_weight
 白土镇	bái;po tǔ;ua zhèn;jb	300
 白兔镇	bái;po tù;ed zhèn;jb	245
 白兔子	bái;po tù;ed zi;va	305
-白团子	bái;po tuán;wc zi;va	245
+白团子	bái;po tuán;wc zǐ;va	245
 白驼山	bái;po tuó;mb shān;aa	354
 白陀山	bái;po tuó;eb shān;aa	178
 白袜脚	bái;po wà;pm jiǎo;oe	181
@@ -9623,8 +9623,8 @@ sort: by_weight
 白鲜皮	bái;po xiān;ey pí;vy	376
 白藓皮	bái;po xiǎn;cy pí;vy	335
 白先勇	bái;po xiān;pe yǒng;vl	492
-白蚬子	bái;po xiǎn;ij zi;va	245
-白仙子	bái;po xiān;rs zi;va	155
+白蚬子	bái;po xiǎn;ij zǐ;va	245
+白仙子	bái;po xiān;rs zǐ;va	155
 白象的	bái;po xiàng;en de;bu	257
 白象街	bái;po xiàng;en jiē;rd	296
 白象路	bái;po xiàng;en lù;zk	181
@@ -9754,7 +9754,7 @@ sort: by_weight
 白银网	bái;po yín;jh wǎng;ax	163
 白银五	bái;po yín;jh wǔ;aa	196
 白银一	bái;po yín;jh yī;aa	285
-白印子	bái;po yìn;pe zi;va	199
+白印子	bái;po yìn;pe zǐ;va	199
 白英杰	bái;po yīng;cy jié;le	210
 白鹦鹉	bái;po yīng;bn wǔ;vn	239
 白莹莹	bái;po yíng;cy yíng;cy	159
@@ -9899,7 +9899,7 @@ sort: by_weight
 白钟元	bái;po zhōng;jv yuán;ee	210
 白中镇	bái;po zhōng;aa zhèn;jb	178
 白昼梦	bái;po zhòu;id mèng;lx	233
-白肘子	bái;po zhǒu;oc zi;va	240
+白肘子	bái;po zhǒu;oc zǐ;va	240
 白竹村	bái;po zhú;pd cūn;lc	219
 白珠村	bái;po zhū;wv cūn;lc	196
 白煮蛋	bái;po zhǔ;ue dàn;vi	504
@@ -9910,7 +9910,7 @@ sort: by_weight
 白术丸	bái;po zhú;ld wán;pd	191
 白庄村	bái;po zhuāng;gt cūn;lc	264
 白灼虾	bái;po zhuó;hu xiā;ix	480
-白子画	bái;po zi;va huà;aa	430
+白子画	bái;po zǐ;va huà;aa	430
 白字戏	bái;po zì;gz xì;yg	300
 白梓轩	bái;po zǐ;lu xuān;ig	236
 白自在	bái;po zì;pm zài;at	285
@@ -10368,15 +10368,15 @@ sort: by_weight
 曹庄公	cáo;ao zhuāng;gt gōng;bv	145
 曹庄乡	cáo;ao zhuāng;gt xiāng;vp	127
 曹庄镇	cáo;ao zhuāng;gt zhèn;jb	294
-曹庄子	cáo;ao zhuāng;gt zi;va	256
-曹子昂	cáo;ao zi;va áng;oe	1
-曹子丹	cáo;ao zi;va dān;pa	133
-曹子桓	cáo;ao zi;va huán;ld	240
-曹子建	cáo;ao zi;va jiàn;za	353
-曹子里	cáo;ao zi;va lǐ;aa	94
-曹子西	cáo;ao zi;va xī;aa	1
-曹子孝	cáo;ao zi;va xiào;uz	201
-曹子玉	cáo;ao zi;va yù;wd	127
+曹庄子	cáo;ao zhuāng;gt zǐ;va	256
+曹子昂	cáo;ao zǐ;va áng;oe	1
+曹子丹	cáo;ao zǐ;va dān;pa	133
+曹子桓	cáo;ao zǐ;va huán;ld	240
+曹子建	cáo;ao zǐ;va jiàn;za	353
+曹子里	cáo;ao zǐ;va lǐ;aa	94
+曹子西	cáo;ao zǐ;va xī;aa	1
+曹子孝	cáo;ao zǐ;va xiào;uz	201
+曹子玉	cáo;ao zǐ;va yù;wd	127
 岑敖晖	cén;sj áo;aw huī;oi	348
 岑长倩	cén;sj cháng;pn qiàn;ro	233
 岑春煊	cén;sj chūn;ao xuān;hd	413
@@ -10624,7 +10624,7 @@ sort: by_weight
 陈承昭	chén;ed chéng;vn zhāo;ok	188
 陈城镇	chén;ed chéng;tg zhèn;jb	171
 陈诚之	chén;ed chéng;yg zhī;dn	155
-陈成子	chén;ed chéng;vg zi;va	204
+陈成子	chén;ed chéng;vg zǐ;va	204
 陈炽昌	chén;ed chì;hb chāng;oo	321
 陈赤赤	chén;ed chì;td chì;td	365
 陈崇桂	chén;ed chóng;sx guì;lt	171
@@ -13664,7 +13664,7 @@ sort: by_weight
 陈有西	chén;ed yǒu;ao xī;aa	322
 陈又新	chén;ed yòu;vn xīn;lj	199
 陈宥臻	chén;ed yòu;go zhēn;vh	1
-陈忧子	chén;ed yōu;xy zi;va	299
+陈忧子	chén;ed yōu;xy zǐ;va	299
 陈语安	chén;ed yǔ;yk ān;gn	236
 陈玉安	chén;ed yù;wd ān;gn	210
 陈雨昂	chén;ed yǔ;ad áng;oe	188
@@ -14084,7 +14084,7 @@ sort: by_weight
 陈重羽	chén;ed zhòng;pa yǔ;xx	178
 陈忠正	chén;ed zhōng;vx zhèng;av	112
 陈中柱	chén;ed zhōng;aa zhù;lv	94
-陈仲子	chén;ed zhòng;rv zi;va	193
+陈仲子	chén;ed zhòng;rv zǐ;va	193
 陈周全	chén;ed zhōu;pk quán;rw	234
 陈筑藩	chén;ed zhù;vf fān;ct	139
 陈主惠	chén;ed zhǔ;wt huì;ax	188
@@ -14105,69 +14105,69 @@ sort: by_weight
 陈卓欣	chén;ed zhuó;au xīn;jr	1
 陈卓璇	chén;ed zhuó;au xuán;wr	275
 陈卓智	chén;ed zhuó;au zhì;uo	415
-陈子昂	chén;ed zi;va áng;oe	427
-陈子聪	chén;ed zi;va cōng;ex	294
-陈子垤	chén;ed zi;va dié;tt	262
-陈子凡	chén;ed zi;va fán;jd	319
-陈子丰	chén;ed zi;va fēng;aa	262
+陈子昂	chén;ed zǐ;va áng;oe	427
+陈子聪	chén;ed zǐ;va cōng;ex	294
+陈子垤	chén;ed zǐ;va dié;tt	262
+陈子凡	chén;ed zǐ;va fán;jd	319
+陈子丰	chén;ed zǐ;va fēng;aa	262
 陈紫枫	chén;ed zǐ;vx fēng;lx	103
-陈子福	chén;ed zi;va fú;pt	193
+陈子福	chén;ed zǐ;va fú;pt	193
 陈紫函	chén;ed zǐ;vx hán;la	440
 陈紫涵	chén;ed zǐ;vx hán;dh	242
-陈子涵	chén;ed zi;va hán;dh	222
-陈子豪	chén;ed zi;va háo;wn	369
+陈子涵	chén;ed zǐ;va hán;dh	222
+陈子豪	chén;ed zǐ;va háo;wn	369
 陈孜昊	chén;ed zī;zw hào;ot	163
-陈子浩	chén;ed zi;va hào;dk	159
-陈子和	chén;ed zi;va hé;hk	145
-陈子荷	chén;ed zi;va hé;ck	112
-陈子辉	chén;ed zi;va huī;ei	222
+陈子浩	chén;ed zǐ;va hào;dk	159
+陈子和	chén;ed zǐ;va hé;hk	145
+陈子荷	chén;ed zǐ;va hé;ck	112
+陈子辉	chén;ed zǐ;va huī;ei	222
 陈梓健	chén;ed zǐ;lu jiàn;rj	193
-陈子坚	chén;ed zi;va jiān;at	167
-陈子建	chén;ed zi;va jiàn;za	145
-陈子江	chén;ed zi;va jiāng;dg	229
-陈子介	chén;ed zi;va jiè;ra	319
-陈子杰	chén;ed zi;va jié;le	185
-陈子敬	chén;ed zi;va jìng;cw	239
-陈子钧	chén;ed zi;va jūn;jd	155
-陈子君	chén;ed zi;va jūn;yk	120
-陈子俊	chén;ed zi;va jùn;rw	52
-陈子坤	chén;ed zi;va kūn;tu	284
-陈子朗	chén;ed zi;va lǎng;do	52
-陈子乐	chén;ed zi;va lè;pd	31
+陈子坚	chén;ed zǐ;va jiān;at	167
+陈子建	chén;ed zǐ;va jiàn;za	145
+陈子江	chén;ed zǐ;va jiāng;dg	229
+陈子介	chén;ed zǐ;va jiè;ra	319
+陈子杰	chén;ed zǐ;va jié;le	185
+陈子敬	chén;ed zǐ;va jìng;cw	239
+陈子钧	chén;ed zǐ;va jūn;jd	155
+陈子君	chén;ed zǐ;va jūn;yk	120
+陈子俊	chén;ed zǐ;va jùn;rw	52
+陈子坤	chén;ed zǐ;va kūn;tu	284
+陈子朗	chén;ed zǐ;va lǎng;do	52
+陈子乐	chén;ed zǐ;va lè;pd	31
 陈自力	chén;ed zì;pm lì;vp	237
-陈子良	chén;ed zi;va liáng;dh	217
-陈子林	chén;ed zi;va lín;ll	280
-陈子龙	chén;ed zi;va lóng;ab	381
-陈子敏	chén;ed zi;va mǐn;mw	69
-陈子明	chén;ed zi;va míng;oo	286
+陈子良	chén;ed zǐ;va liáng;dh	217
+陈子林	chén;ed zǐ;va lín;ll	280
+陈子龙	chén;ed zǐ;va lóng;ab	381
+陈子敏	chén;ed zǐ;va mǐn;mw	69
+陈子明	chén;ed zǐ;va míng;oo	286
 陈梓铭	chén;ed zǐ;lu míng;jk	103
-陈子谦	chén;ed zi;va qiān;yj	219
+陈子谦	chén;ed zǐ;va qiān;yj	219
 陈自强	chén;ed zì;pm qiáng;gi	338
-陈子强	chén;ed zi;va qiáng;gi	268
+陈子强	chén;ed zǐ;va qiáng;gi	268
 陈姿蓉	chén;ed zī;dn róng;ck	208
-陈子善	chén;ed zi;va shàn;ek	306
-陈子升	chén;ed zi;va shēng;pa	171
-陈子廷	chén;ed zi;va tíng;zr	1
+陈子善	chén;ed zǐ;va shàn;ek	306
+陈子升	chén;ed zǐ;va shēng;pa	171
+陈子廷	chén;ed zǐ;va tíng;zr	1
 陈梓童	chén;ed zǐ;lu tóng;ll	305
-陈子威	chén;ed zi;va wēi;ng	155
-陈子文	chén;ed zi;va wén;wx	94
+陈子威	chén;ed zǐ;va wēi;ng	155
+陈子文	chén;ed zǐ;va wén;wx	94
 陈紫萱	chén;ed zǐ;vx xuān;cd	219
-陈子玄	chén;ed zi;va xuán;ws	188
-陈子轩	chén;ed zi;va xuān;ig	52
+陈子玄	chén;ed zǐ;va xuán;ws	188
+陈子轩	chén;ed zǐ;va xuān;ig	52
 陈自瑶	chén;ed zì;pm yáo;wf	324
-陈子怡	chén;ed zi;va yí;xk	155
-陈子毅	chén;ed zi;va yì;ly	145
-陈子莹	chén;ed zi;va yíng;cy	276
-陈子颖	chén;ed zi;va yǐng;br	257
-陈子英	chén;ed zi;va yīng;cy	150
+陈子怡	chén;ed zǐ;va yí;xk	155
+陈子毅	chén;ed zǐ;va yì;ly	145
+陈子莹	chén;ed zǐ;va yíng;cy	276
+陈子颖	chén;ed zǐ;va yǐng;br	257
+陈子英	chén;ed zǐ;va yīng;cy	150
 陈梓荧	chén;ed zǐ;lu yíng;ch	139
-陈子镛	chén;ed zi;va yōng;jy	210
-陈子云	chén;ed zi;va yún;ev	155
-陈子贞	chén;ed zi;va zhēn;ar	167
-陈子正	chén;ed zi;va zhèng;av	208
+陈子镛	chén;ed zǐ;va yōng;jy	210
+陈子云	chén;ed zǐ;va yún;ev	155
+陈子贞	chén;ed zǐ;va zhēn;ar	167
+陈子正	chén;ed zǐ;va zhèng;av	208
 陈紫芝	chén;ed zǐ;vx zhī;cv	103
-陈子壮	chén;ed zi;va zhuàng;du	257
-陈子庄	chén;ed zi;va zhuāng;gt	243
+陈子壮	chén;ed zǐ;va zhuàng;du	257
+陈子庄	chén;ed zǐ;va zhuāng;gt	243
 陈宗昊	chén;ed zōng;gx hào;ot	139
 陈宗宏	chén;ed zōng;gx hóng;gv	145
 陈宗基	chén;ed zōng;gx jī;qt	155
@@ -14222,7 +14222,7 @@ sort: by_weight
 褚师段	chǔ;po shī;aj duàn;py	112
 褚时健	chǔ;po shí;oc jiàn;rj	503
 褚栓忠	chǔ;po shuān;lw zhōng;vx	167
-褚蒜子	chǔ;po suàn;cx zi;va	255
+褚蒜子	chǔ;po suàn;cx zǐ;va	255
 褚遂良	chǔ;po suì;zd liáng;dh	449
 褚太后	chǔ;po tài;dd hòu;pk	222
 褚廷璋	chǔ;po tíng;zr zhāng;wu	69
@@ -14316,7 +14316,7 @@ sort: by_weight
 崔基翁	cuī;sa jī;qt wēng;bx	1
 崔基勋	cuī;sa jī;qt xūn;kl	52
 崔济愚	cuī;sa jì;dq yú;ax	210
-崔季子	cuī;sa jì;hz zi;va	120
+崔季子	cuī;sa jì;hz zǐ;va	120
 崔嘉宝	cuī;sa jiā;uk bǎo;gy	226
 崔家菜	cuī;sa jiā;gn cài;cl	167
 崔家村	cuī;sa jiā;gn cūn;lc	226
@@ -14588,8 +14588,8 @@ sort: by_weight
 崔庄区	cuī;sa zhuāng;gt qū;kx	1
 崔庄乡	cuī;sa zhuāng;gt xiāng;vp	206
 崔庄镇	cuī;sa zhuāng;gt zhèn;jb	210
-崔子范	cuī;sa zi;va fàn;cv	196
-崔子格	cuī;sa zi;va gé;lk	313
+崔子范	cuī;sa zǐ;va fàn;cv	196
+崔子格	cuī;sa zǐ;va gé;lk	313
 崔自默	cuī;sa zì;pm mò;hq	291
 崔宗伯	cuī;sa zōng;gx bó;rb	191
 崔宗之	cuī;sa zōng;gx zhī;dn	277
@@ -14602,6 +14602,9 @@ sort: by_weight
 戴名世	dài;bg míng;xk shì;av	276
 戴明说	dài;bg míng;oo shuō;ye	133
 戴乃迭	dài;bg nǎi;vp dié;zu	347
+戴胜科	dài;bg shèng;ou kē;hu	197
+戴胜鸟	dài;bg shèng;ou niǎo;pa	254
+戴胜益	dài;bg shèng;ou yì;em	222
 丁宝臣	dīng;av bǎo;gy chén;ka	159
 丁宝铨	dīng;av bǎo;gy quán;jw	171
 丁宝书	dīng;av bǎo;gy shū;vd	112
@@ -15020,16 +15023,16 @@ sort: by_weight
 丁字坝	dīng;av zì;gz bà;tr	167
 丁字步	dīng;av zì;gz bù;vp	251
 丁字尺	dīng;av zì;gz chǐ;un	276
-丁子高	dīng;av zǐ;va gāo;wk	365
+丁子高	dīng;av zi;va gāo;wk	365
 丁字沽	dīng;av zì;gz gū;dk	353
-丁子涵	dīng;av zǐ;va hán;dh	163
+丁子涵	dīng;av zi;va hán;dh	163
 丁字街	dīng;av zì;gz jiē;rd	302
-丁子峻	dīng;av zǐ;va jùn;sw	317
+丁子峻	dīng;av zi;va jùn;sw	317
 丁字口	dīng;av zì;gz kǒu;aa	319
 丁字裤	dīng;av zì;gz kù;pi	502
-丁子朗	dīng;av zǐ;va lǎng;do	292
-丁子霖	dīng;av zǐ;va lín;yl	281
-丁子玲	dīng;av zǐ;va líng;wv	249
+丁子朗	dīng;av zi;va lǎng;do	292
+丁子霖	dīng;av zi;va lín;yl	281
+丁子玲	dīng;av zi;va líng;wv	249
 丁字路	dīng;av zì;gz lù;zk	482
 丁字坡	dīng;av zì;gz pō;ty	215
 丁字桥	dīng;av zì;gz qiáo;lq	330
@@ -15417,7 +15420,7 @@ sort: by_weight
 杜斯龙	dù;lt sī;qj lóng;ab	208
 杜斯妥	dù;lt sī;qj tuǒ;pn	291
 杜松树	dù;lt sōng;lv shù;lc	217
-杜松子	dù;lt sōng;lv zi;va	414
+杜松子	dù;lt sōng;lv zǐ;va	414
 杜苏芮	dù;lt sū;cb ruì;cn	356
 杜太后	dù;lt tài;dd hòu;pk	265
 杜台卿	dù;lt tái;vk qīng;pe	215
@@ -15576,14 +15579,14 @@ sort: by_weight
 杜庄村	dù;lt zhuāng;gt cūn;lc	266
 杜庄乡	dù;lt zhuāng;gt xiāng;vp	167
 杜庄镇	dù;lt zhuāng;gt zhèn;jb	150
-杜子春	dù;lt zi;va chūn;ao	307
-杜子恭	dù;lt zi;va gōng;cd	133
-杜子建	dù;lt zi;va jiàn;za	377
-杜子健	dù;lt zi;va jiàn;rj	273
+杜子春	dù;lt zǐ;va chūn;ao	307
+杜子恭	dù;lt zǐ;va gōng;cd	133
+杜子建	dù;lt zǐ;va jiàn;za	377
+杜子健	dù;lt zǐ;va jiàn;rj	273
 杜紫军	dù;lt zǐ;vx jūn;gi	239
-杜子美	dù;lt zi;va měi;ed	305
-杜子仁	dù;lt zi;va rén;re	175
-杜子腾	dù;lt zi;va téng;om	303
+杜子美	dù;lt zǐ;va měi;ed	305
+杜子仁	dù;lt zǐ;va rén;re	175
+杜子腾	dù;lt zǐ;va téng;om	303
 杜遵道	dù;lt zūn;zc dào;zm	213
 杜佐周	dù;lt zuǒ;rg zhōu;pk	82
 段爱平	duàn;py ài;py píng;au	325
@@ -15794,13 +15797,13 @@ sort: by_weight
 段志玄	duàn;py zhì;ux xuán;ws	277
 段中间	duàn;py zhōng;aa jiān;mo	255
 段庄村	duàn;py zhuāng;gt cūn;lc	210
-段子吧	duàn;py zi;va ba;kb	388
-段子来	duàn;py zi;va lái;an	348
-段子里	duàn;py zi;va lǐ;aa	389
-段子王	duàn;py zi;va wáng;at	268
-段子一	duàn;py zi;va yī;aa	298
-段子璋	duàn;py zi;va zhāng;wu	208
-段子中	duàn;py zi;va zhōng;aa	326
+段子吧	duàn;py zǐ;va ba;kb	388
+段子来	duàn;py zǐ;va lái;an	348
+段子里	duàn;py zǐ;va lǐ;aa	389
+段子王	duàn;py zǐ;va wáng;at	268
+段子一	duàn;py zǐ;va yī;aa	298
+段子璋	duàn;py zǐ;va zhāng;wu	208
+段子中	duàn;py zǐ;va zhōng;aa	326
 冯安邦	féng;dm ān;gn bāng;ae	215
 冯白驹	féng;dm bái;po jū;mk	375
 冯柏源	féng;dm bǎi;lb yuán;dx	52
@@ -16132,8 +16135,8 @@ sort: by_weight
 冯应湘	féng;dm yīng;ga xiāng;dm	167
 冯营乡	féng;dm yíng;ck xiāng;vp	145
 冯盈盈	féng;dm yíng;nm yíng;nm	376
-冯营子	féng;dm yíng;ck zi;va	145
-冯英子	féng;dm yīng;cy zi;va	145
+冯营子	féng;dm yíng;ck zǐ;va	145
+冯英子	féng;dm yīng;cy zǐ;va	145
 冯永兵	féng;dm yǒng;dn bīng;qb	163
 冯咏恩	féng;dm yǒng;ky ēn;wx	299
 冯永辉	féng;dm yǒng;dn huī;ei	309
@@ -16197,15 +16200,15 @@ sort: by_weight
 冯庄村	féng;dm zhuāng;gt cūn;lc	240
 冯庄乡	féng;dm zhuāng;gt xiāng;vp	171
 冯卓毅	féng;dm zhuó;au yì;ly	302
-冯子材	féng;dm zi;va cái;lc	351
-冯子琮	féng;dm zi;va cóng;wx	204
-冯子存	féng;dm zi;va cún;az	181
-冯子和	féng;dm zi;va hé;hk	82
-冯子健	féng;dm zi;va jiàn;rj	204
-冯子明	féng;dm zi;va míng;oo	52
+冯子材	féng;dm zǐ;va cái;lc	351
+冯子琮	féng;dm zǐ;va cóng;wx	204
+冯子存	féng;dm zǐ;va cún;az	181
+冯子和	féng;dm zǐ;va hé;hk	82
+冯子健	féng;dm zǐ;va jiàn;rj	204
+冯子明	féng;dm zǐ;va míng;oo	52
 冯紫英	féng;dm zǐ;vx yīng;cy	222
 冯自由	féng;dm zì;pm yóu;aa	344
-冯子振	féng;dm zi;va zhèn;fh	224
+冯子振	féng;dm zǐ;va zhèn;fh	224
 冯宗炜	féng;dm zōng;gx wěi;hw	127
 冯祖华	féng;dm zǔ;pq huá;ru	191
 傅佩嘉	fù;rc pèi;rj jiā;uk	273
@@ -16263,7 +16266,7 @@ sort: by_weight
 韩宝凛	hán;uw bǎo;gy lǐn;dx	171
 韩宝生	hán;uw bǎo;gy shēng;pa	145
 韩宝仪	hán;uw bǎo;gy yí;ry	304
-韩包子	hán;uw bāo;pv zi;va	397
+韩包子	hán;uw bāo;pv zǐ;va	397
 韩北乡	hán;uw běi;ab xiāng;vp	82
 韩本立	hán;uw běn;aa lì;wa	163
 韩冰岩	hán;uw bīng;du yán;sk	193
@@ -16340,7 +16343,7 @@ sort: by_weight
 韩方明	hán;uw fāng;wp míng;oo	217
 韩方腾	hán;uw fāng;wp téng;om	231
 韩飞龙	hán;uw fēi;vd lóng;ab	250
-韩非子	hán;uw fēi;aa zi;va	525
+韩非子	hán;uw fēi;aa zǐ;va	525
 韩复矩	hán;uw fù;pw jǔ;uj	432
 韩复渠	hán;uw fù;pw qú;dl	254
 韩夫人	hán;uw fū;an rén;pn	266
@@ -16515,7 +16518,7 @@ sort: by_weight
 韩剧网	hán;uw jù;ud wǎng;ax	69
 韩局长	hán;uw jú;uk zhǎng;pn	254
 韩剧中	hán;uw jù;ud zhōng;aa	466
-韩莒子	hán;uw jǔ;ck zi;va	155
+韩莒子	hán;uw jǔ;ck zǐ;va	155
 韩军方	hán;uw jūn;gi fāng;wp	246
 韩俊杰	hán;uw jùn;rw jié;le	199
 韩俊良	hán;uw jùn;rw liáng;dh	155
@@ -16525,7 +16528,7 @@ sort: by_weight
 韩俊英	hán;uw jùn;rw yīng;cy	1
 韩俊宇	hán;uw jùn;rw yǔ;gy	1
 韩君子	hán;uw jūn;yk zǐ;va	1
-韩康子	hán;uw kāng;gl zi;va	312
+韩康子	hán;uw kāng;gl zǐ;va	312
 韩克忠	hán;uw kè;ue zhōng;vx	145
 韩口村	hán;uw kǒu;aa cūn;lc	82
 韩匡嗣	hán;uw kuāng;kw sì;kk	262
@@ -16696,7 +16699,7 @@ sort: by_weight
 韩文约	hán;uw wén;wx yuē;su	133
 韩文中	hán;uw wén;wx zhōng;aa	261
 韩屋村	hán;uw wū;ut cūn;lc	367
-韩武子	hán;uw wǔ;vg zi;va	236
+韩武子	hán;uw wǔ;vg zǐ;va	236
 韩系车	hán;uw xì;px chē;aa	497
 韩西村	hán;uw xī;aa cūn;lc	82
 韩系风	hán;uw xì;px fēng;jx	213
@@ -16713,7 +16716,7 @@ sort: by_weight
 韩相烈	hán;uw xiāng;lm liè;de	69
 韩襄王	hán;uw xiāng;wh wáng;at	243
 韩相训	hán;uw xiāng;lm xùn;yi	127
-韩湘子	hán;uw xiāng;dm zi;va	394
+韩湘子	hán;uw xiāng;dm zǐ;va	394
 韩晓东	hán;uw xiǎo;oe dōng;ad	206
 韩小红	hán;uw xiǎo;vd hóng;sg	237
 韩小姐	hán;uw xiǎo;vd jiě;nq	302
@@ -16742,7 +16745,7 @@ sort: by_weight
 韩旭阳	hán;uw xù;jo yáng;eo	281
 韩炫旻	hán;uw xuàn;hs mín;ox	31
 韩宣王	hán;uw xuān;gd wáng;at	159
-韩宣子	hán;uw xuān;gd zi;va	281
+韩宣子	hán;uw xuān;gd zǐ;va	281
 韩雪和	hán;uw xuě;ya hé;hk	215
 韩雪晒	hán;uw xuě;ya shài;ox	155
 韩雪松	hán;uw xuě;ya sōng;lv	155
@@ -16841,13 +16844,13 @@ sort: by_weight
 韩庄村	hán;uw zhuāng;gt cūn;lc	265
 韩庄乡	hán;uw zhuāng;gt xiāng;vp	196
 韩庄镇	hán;uw zhuāng;gt zhèn;jb	252
-韩庄子	hán;uw zhuāng;gt zi;va	188
-韩子昂	hán;uw zi;va áng;oe	303
-韩子栋	hán;uw zi;va dòng;ld	219
-韩子高	hán;uw zi;va gāo;wk	328
-韩子平	hán;uw zi;va píng;au	201
-韩子奇	hán;uw zi;va qí;dk	359
-韩子荣	hán;uw zi;va róng;cl	368
+韩庄子	hán;uw zhuāng;gt zǐ;va	188
+韩子昂	hán;uw zǐ;va áng;oe	303
+韩子栋	hán;uw zǐ;va dòng;ld	219
+韩子高	hán;uw zǐ;va gāo;wk	328
+韩子平	hán;uw zǐ;va píng;au	201
+韩子奇	hán;uw zǐ;va qí;dk	359
+韩子荣	hán;uw zǐ;va róng;cl	368
 韩紫石	hán;uw zǐ;vx shí;ak	69
 韩宗道	hán;uw zōng;gx dào;zm	150
 韩总统	hán;uw zǒng;ex tǒng;se	273
@@ -16918,7 +16921,7 @@ sort: by_weight
 何多苓	hé;rk duō;xx líng;cv	323
 何而来	hé;rk ér;aa lái;an	610
 何尔萌	hé;rk ěr;ex méng;co	191
-何芳子	hé;rk fāng;cf zi;va	263
+何芳子	hé;rk fāng;cf zǐ;va	263
 何凤山	hé;rk fèng;jy shān;aa	315
 何奉天	hé;rk fèng;aa tiān;ad	360
 何福礼	hé;rk fú;pt lǐ;pv	181
@@ -17036,7 +17039,7 @@ sort: by_weight
 何律师	hé;rk lǜ;ra shī;aj	290
 何麻车	hé;rk má;gl chē;aa	196
 何妈妈	hé;rk mā;nm ma;nm	204
-何满子	hé;rk mǎn;dl zi;va	287
+何满子	hé;rk mǎn;dl zǐ;va	287
 何茂才	hé;rk mào;cg cái;ap	237
 何美钿	hé;rk měi;ed diàn;jt	350
 何孟雄	hé;rk mèng;zm xióng;aa	307
@@ -17269,8 +17272,8 @@ sort: by_weight
 何主任	hé;rk zhǔ;wt rèn;rr	286
 何庄村	hé;rk zhuāng;gt cūn;lc	231
 何资格	hé;rk zī;dr gé;lk	206
-何子健	hé;rk zi;va jiàn;rj	112
-何子杰	hé;rk zi;va jié;le	163
+何子健	hé;rk zǐ;va jiàn;rj	112
+何子杰	hé;rk zǐ;va jié;le	163
 何兹全	hé;rk zī;es quán;rw	288
 何宗宪	hé;rk zōng;gx xiàn;ge	196
 何足道	hé;rk zú;kr dào;zm	396
@@ -17881,12 +17884,12 @@ sort: by_weight
 华州镇	huá;ru zhōu;da zhèn;jb	69
 华主席	huá;ru zhǔ;wt xí;gj	319
 华庄村	huá;ru zhuāng;gt cūn;lc	69
-华庄子	huá;ru zhuāng;gt zi;va	52
+华庄子	huá;ru zhuāng;gt zǐ;va	52
 华兹华	huá;ru zī;es huá;ru	395
-华子良	huá;ru zi;va liáng;dh	219
+华子良	huá;ru zǐ;va liáng;dh	219
 华兹年	huá;ru zī;es nián;pa	1
 华兹新	huá;ru zī;es xīn;lj	1
-华子鱼	huá;ru zi;va yú;ea	326
+华子鱼	huá;ru zǐ;va yú;ea	326
 华总荣	huá;ru zǒng;ex róng;cl	1
 华总义	huá;ru zǒng;ex yì;dx	31
 华祖庵	huá;ru zǔ;pq ān;gd	139
@@ -18052,7 +18055,7 @@ sort: by_weight
 黄承乙	huáng;cb chéng;vn yǐ;vv	217
 黄成义	huáng;cb chéng;vg yì;dx	213
 黄承志	huáng;cb chéng;vn zhì;ux	213
-黄橙子	huáng;cb chéng;ld zǐ;va	199
+黄橙子	huáng;cb chéng;ld zi;va	199
 黄赤波	huáng;cb chì;td bō;dy	133
 黄池村	huáng;cb chí;dy cūn;lc	1
 黄翅鱼	huáng;cb chì;ux yú;ea	219
@@ -18215,7 +18218,7 @@ sort: by_weight
 黄渡路	huáng;cb dù;dy lù;zk	206
 黄渡乡	huáng;cb dù;dy xiāng;vp	52
 黄渡镇	huáng;cb dù;dy zhèn;jb	219
-黄段子	huáng;cb duàn;py zi;va	557
+黄段子	huáng;cb duàn;py zǐ;va	557
 黄堆村	huáng;cb duī;ta cūn;lc	69
 黄队长	huáng;cb duì;er zhǎng;pn	159
 黄墩村	huáng;cb dūn;tw cūn;lc	139
@@ -18554,7 +18557,7 @@ sort: by_weight
 黄乎乎	huáng;cb hū;pv hū;pv	231
 黄笏南	huáng;cb hù;vw nán;uu	261
 黄湖镇	huáng;cb hú;do zhèn;jb	178
-黄胡子	huáng;cb hú;uo zi;va	150
+黄胡子	huáng;cb hú;uo zǐ;va	150
 黄花瓣	huáng;cb huā;cb bàn;lu	175
 黄华宝	huáng;cb huá;ru bǎo;gy	229
 黄化病	huáng;cb huà;rb bìng;bb	268
@@ -19026,7 +19029,7 @@ sort: by_weight
 黄金粥	huáng;cb jīn;ra zhōu;gg	294
 黄金柱	huáng;cb jīn;ra zhù;lv	311
 黄金猪	huáng;cb jīn;ra zhū;qo	204
-黄金子	huáng;cb jīn;ra zi;va	31
+黄金子	huáng;cb jīn;ra zǐ;va	31
 黄金组	huáng;cb jīn;ra zǔ;sq	215
 黄井村	huáng;cb jǐng;aa cūn;lc	1
 黄荆村	huáng;cb jīng;cd cūn;lc	1
@@ -19376,7 +19379,7 @@ sort: by_weight
 黄冕乡	huáng;cb miǎn;am xiāng;vp	133
 黄庙村	huáng;cb miào;gy cūn;lc	127
 黄妙珠	huáng;cb miào;nu zhū;wv	265
-黄苗子	huáng;cb miáo;ct zi;va	315
+黄苗子	huáng;cb miáo;ct zǐ;va	315
 黄敏华	huáng;cb mǐn;mw huá;ru	206
 黄旼炫	huáng;cb mín; xuàn;hs	243
 黄敏仪	huáng;cb mǐn;mw yí;ry	247
@@ -19509,7 +19512,7 @@ sort: by_weight
 黄陂县	huáng;cb pí;ey xiàn;qv	332
 黄皮叶	huáng;cb pí;vy yè;ku	167
 黄陂镇	huáng;cb pí;ey zhèn;jb	199
-黄皮子	huáng;cb pí;vy zi;va	349
+黄皮子	huáng;cb pí;vy zǐ;va	349
 黄片儿	huáng;cb piān;pv er;pv	171
 黄嘌呤	huáng;cb piào;kx líng;kv	415
 黄品冠	huáng;cb pǐn;kk guān;gc	219
@@ -20220,7 +20223,7 @@ sort: by_weight
 黄仙线	huáng;cb xiān;rs xiàn;sg	1
 黄先耀	huáng;cb xiān;pe yào;ea	267
 黄仙站	huáng;cb xiān;rs zhàn;lk	1
-黄蚬子	huáng;cb xiǎn;ij zi;va	420
+黄蚬子	huáng;cb xiǎn;ij zǐ;va	420
 黄巷村	huáng;cb xiàng;cv cūn;lc	82
 黄向东	huáng;cb xiàng;pk dōng;ad	269
 黄香蕉	huáng;cb xiāng;ho jiāo;ce	261
@@ -20466,14 +20469,14 @@ sort: by_weight
 黄耀祥	huáng;cb yào;ea xiáng;py	239
 黄耀英	huáng;cb yào;ea yīng;cy	167
 黄姚镇	huáng;cb yáo;nv zhèn;jb	247
-黄药子	huáng;cb yào;cu zi;va	282
+黄药子	huáng;cb yào;cu zǐ;va	282
 黄耀宗	huáng;cb yào;ea zōng;gx	52
 黄叶病	huáng;cb yè;ku bìng;bb	286
 黄叶村	huáng;cb yè;ku cūn;lc	258
 黄烨军	huáng;cb yè;hu jūn;gi	270
 黄叶林	huáng;cb yè;ku lín;ll	163
 黄叶落	huáng;cb yè;ku luò;ck	292
-黄叶子	huáng;cb yè;ku zi;va	296
+黄叶子	huáng;cb yè;ku zǐ;va	296
 黄椰子	huáng;cb yē;le zi;va	159
 黄异庵	huáng;cb yì;va ān;gd	52
 黄一白	huáng;cb yī;aa bái;po	270
@@ -20787,7 +20790,7 @@ sort: by_weight
 黄志勇	huáng;cb zhì;ux yǒng;vl	284
 黄执中	huáng;cb zhí;fw zhōng;aa	493
 黄志忠	huáng;cb zhì;ux zhōng;vx	403
-黄栀子	huáng;cb zhī;lv zi;va	317
+黄栀子	huáng;cb zhī;lv zǐ;va	317
 黄仲标	huáng;cb zhòng;rv biāo;lx	82
 黄忠东	huáng;cb zhōng;vx dōng;ad	150
 黄钟宫	huáng;cb zhōng;jv gōng;gk	236
@@ -20839,45 +20842,45 @@ sort: by_weight
 黄卓玲	huáng;cb zhuó;au líng;wv	193
 黄卓颖	huáng;cb zhuó;au yǐng;br	112
 黄紫昌	huáng;cb zǐ;vx chāng;oo	181
-黄子澄	huáng;cb zi;va chéng;dd	349
+黄子澄	huáng;cb zǐ;va chéng;dd	349
 黄紫恩	huáng;cb zǐ;vx ēn;wx	206
 黄梓浩	huáng;cb zǐ;lu hào;dk	217
 黄梓豪	huáng;cb zǐ;lu háo;wn	178
-黄子豪	huáng;cb zi;va háo;wn	155
-黄子恒	huáng;cb zi;va héng;xd	292
-黄子衡	huáng;cb zi;va héng;rd	112
+黄子豪	huáng;cb zǐ;va háo;wn	155
+黄子恒	huáng;cb zǐ;va héng;xd	292
+黄子衡	huáng;cb zǐ;va héng;rd	112
 黄梓恒	huáng;cb zǐ;lu héng;xd	94
 黄紫红	huáng;cb zǐ;vx hóng;sg	275
-黄子弘	huáng;cb zi;va hóng;gv	196
-黄子华	huáng;cb zi;va huá;ru	459
-黄子佼	huáng;cb zi;va jiǎo;rx	476
-黄子敬	huáng;cb zi;va jìng;cw	392
-黄子君	huáng;cb zi;va jūn;yk	150
+黄子弘	huáng;cb zǐ;va hóng;gv	196
+黄子华	huáng;cb zǐ;va huá;ru	459
+黄子佼	huáng;cb zǐ;va jiǎo;rx	476
+黄子敬	huáng;cb zǐ;va jìng;cw	392
+黄子君	huáng;cb zǐ;va jūn;yk	150
 黄梓乐	huáng;cb zǐ;lu lè;pd	133
 黄自力	huáng;cb zì;pm lì;vp	171
 黄梓良	huáng;cb zǐ;lu liáng;dh	175
 黄兹梁	huáng;cb zī;es liáng;dl	112
-黄子鹏	huáng;cb zi;va péng;on	217
-黄子平	huáng;cb zi;va píng;au	193
-黄子萍	huáng;cb zi;va píng;cu	139
+黄子鹏	huáng;cb zǐ;va péng;on	217
+黄子平	huáng;cb zǐ;va píng;au	193
+黄子萍	huáng;cb zǐ;va píng;cu	139
 黄梓琪	huáng;cb zǐ;lu qí;wb	277
-黄子琦	huáng;cb zi;va qí;wk	1
+黄子琦	huáng;cb zǐ;va qí;wk	1
 黄自强	huáng;cb zì;pm qiáng;gi	297
-黄子卿	huáng;cb zi;va qīng;pe	210
-黄子荣	huáng;cb zi;va róng;cl	242
-黄子桐	huáng;cb zi;va tóng;lk	181
+黄子卿	huáng;cb zǐ;va qīng;pe	210
+黄子荣	huáng;cb zǐ;va róng;cl	242
+黄子桐	huáng;cb zǐ;va tóng;lk	181
 黄梓玮	huáng;cb zǐ;lu wěi;ww	163
 黄紫娴	huáng;cb zǐ;vx xián;nl	302
-黄子星	huáng;cb zi;va xīng;ou	82
-黄子雄	huáng;cb zi;va xióng;aa	250
-黄子轩	huáng;cb zi;va xuān;ig	236
+黄子星	huáng;cb zǐ;va xīng;ou	82
+黄子雄	huáng;cb zǐ;va xióng;aa	250
+黄子轩	huáng;cb zǐ;va xuān;ig	236
 黄紫燕	huáng;cb zǐ;vx yàn;ce	233
-黄子扬	huáng;cb zi;va yáng;fp	249
+黄子扬	huáng;cb zǐ;va yáng;fp	249
 黄紫盈	huáng;cb zǐ;vx yíng;nm	229
 黄自元	huáng;cb zì;pm yuán;ee	285
-黄子悦	huáng;cb zi;va yuè;xe	275
-黄子哲	huáng;cb zi;va zhé;fk	188
-黄子忠	huáng;cb zi;va zhōng;vx	215
+黄子悦	huáng;cb zǐ;va yuè;xe	275
+黄子哲	huáng;cb zǐ;va zhé;fk	188
+黄子忠	huáng;cb zǐ;va zhōng;vx	215
 黄宗昌	huáng;cb zōng;gx chāng;oo	120
 黄宗赐	huáng;cb zōng;gx cì;bw	249
 黄宗道	huáng;cb zōng;gx dào;zm	94
@@ -21013,7 +21016,7 @@ sort: by_weight
 姜成妍	jiāng;en chéng;vg yán;nk	191
 江承宇	jiāng;dg chéng;vn yǔ;gy	103
 江城镇	jiāng;dg chéng;tg zhèn;jb	204
-江城子	jiāng;dg chéng;tg zi;va	465
+江城子	jiāng;dg chéng;tg zǐ;va	465
 蒋崇璟	jiǎng;cc chóng;sx jǐng;wx	120
 蒋锄欧	jiǎng;cc chú;jl ōu;kr	31
 江川村	jiāng;dg chuān;pa cūn;lc	178
@@ -21143,7 +21146,7 @@ sort: by_weight
 姜福堂	jiāng;en fú;pt táng;et	163
 江府町	jiāng;dg fǔ;gc tīng;td	196
 江福英	jiāng;dg fú;pt yīng;cy	31
-姜富子	jiāng;en fù;gt zi;va	167
+姜富子	jiāng;en fù;gt zǐ;va	167
 江干区	jiāng;dg gān;au qū;kx	485
 江港生	jiāng;dg gǎng;dv shēng;pa	236
 姜镐童	jiāng;en gǎo;jk tóng;ll	315
@@ -21445,7 +21448,7 @@ sort: by_weight
 姜丽仪	jiāng;en lì;ad yí;ry	261
 蒋丽芸	jiǎng;cc lì;ad yún;cv	347
 蒋立章	jiǎng;cc lì;wa zhāng;lu	262
-江梨子	jiāng;dg lí;hl zǐ;va	257
+江梨子	jiāng;dg lí;hl zi;va	257
 蒋联军	jiǎng;cc lián;ed jūn;gi	31
 江两岸	jiāng;dg liǎng;ad àn;sg	467
 江良诚	jiāng;dg liáng;dh chéng;yg	1
@@ -21706,7 +21709,7 @@ sort: by_weight
 江少虞	jiāng;dg shǎo;ap yú;at	127
 姜绍祖	jiāng;en shào;sk zǔ;pq	275
 姜畲镇	jiāng;en shē;rt zhèn;jb	199
-江神子	jiāng;dg shén;pu zi;va	193
+江神子	jiāng;dg shén;pu zǐ;va	193
 蒋圣龙	jiǎng;cc shèng;yt lóng;ab	120
 江盛路	jiāng;dg shèng;im lù;zk	150
 蒋胜男	jiǎng;cc shèng;ou nán;tl	453
@@ -21893,8 +21896,8 @@ sort: by_weight
 蒋文文	jiǎng;cc wén;wx wén;wx	267
 姜吻吻	jiāng;en wěn;kw wěn;kw	52
 江文湛	jiāng;dg wén;wx zhàn;du	226
-姜窝子	jiāng;en wō;gn zi;va	159
-江舞子	jiāng;dg wǔ;pa zi;va	112
+姜窝子	jiāng;en wō;gn zǐ;va	159
+江舞子	jiāng;dg wǔ;pa zǐ;va	112
 江西岸	jiāng;dg xī;aa àn;sg	390
 江西村	jiāng;dg xī;aa cūn;lc	259
 江溪村	jiāng;dg xī;dd cūn;lc	127
@@ -22244,14 +22247,14 @@ sort: by_weight
 姜卓君	jiāng;en zhuó;au jūn;yk	201
 蒋卓乐	jiǎng;cc zhuó;au lè;pd	191
 蒋卓庆	jiǎng;cc zhuó;au qìng;gd	252
-江子翠	jiāng;dg zi;va cuì;xu	395
-江子磊	jiāng;dg zi;va lěi;uk	1
-蒋子龙	jiǎng;cc zi;va lóng;ab	292
-江子山	jiāng;dg zi;va shān;aa	145
+江子翠	jiāng;dg zǐ;va cuì;xu	395
+江子磊	jiāng;dg zǐ;va lěi;uk	1
+蒋子龙	jiǎng;cc zǐ;va lóng;ab	292
+江子山	jiāng;dg zǐ;va shān;aa	145
 江梓玮	jiāng;dg zǐ;lu wěi;ww	52
-蒋子文	jiǎng;cc zi;va wén;wx	256
+蒋子文	jiǎng;cc zǐ;va wén;wx	256
 江孜县	jiāng;dg zī;zw xiàn;qv	357
-姜子芽	jiāng;en zi;va yá;cy	1
+姜子芽	jiāng;en zǐ;va yá;cy	1
 江孜镇	jiāng;dg zī;zw zhèn;jb	145
 蒋宗海	jiǎng;cc zōng;gx hǎi;dm	1
 蒋总统	jiǎng;cc zǒng;ex tǒng;se	381
@@ -22423,8 +22426,8 @@ sort: by_weight
 金铲铲	jīn;ra chǎn;ji chǎn;ji	181
 金蟾蜍	jīn;ra chán;ik chú;ix	293
 金蝉氏	jīn;ra chán;id shì;pv	167
-金蝉子	jīn;ra chán;id zi;va	396
-金蟾子	jīn;ra chán;ik zi;va	181
+金蝉子	jīn;ra chán;id zǐ;va	396
+金蟾子	jīn;ra chán;ik zǐ;va	181
 金长城	jīn;ra cháng;pn chéng;tg	305
 金厂村	jīn;ra chǎng;ap cūn;lc	94
 金场村	jīn;ra chǎng;tp cūn;lc	1
@@ -22549,7 +22552,7 @@ sort: by_weight
 金丹丹	jīn;ra dān;pa dān;pa	215
 金丹派	jīn;ra dān;pa pài;dh	210
 金丹期	jīn;ra dān;pa qī;qo	191
-金弹子	jīn;ra dàn;gd zi;va	323
+金弹子	jīn;ra dàn;gd zǐ;va	323
 金刀峡	jīn;ra dāo;vp xiá;sj	326
 金道贤	jīn;ra dào;zm xián;ar	120
 金道英	jīn;ra dào;zm yīng;cy	193
@@ -22578,7 +22581,7 @@ sort: by_weight
 金殿堂	jīn;ra diàn;uy táng;et	139
 金店镇	jīn;ra diàn;gk zhèn;jb	246
 金殿镇	jīn;ra diàn;uy zhèn;jb	145
-金点子	jīn;ra diǎn;ve zǐ;va	458
+金点子	jīn;ra diǎn;ve zi;va	458
 金吊桶	jīn;ra diào;kj tǒng;ly	94
 金蝶云	jīn;ra dié;il yún;ev	325
 金顶村	jīn;ra dǐng;dr cūn;lc	52
@@ -22815,7 +22818,7 @@ sort: by_weight
 金刚指	jīn;ra gāng;gd zhǐ;fo	290
 金刚咒	jīn;ra gāng;gd zhòu;kj	175
 金刚镯	jīn;ra gāng;gd zhuó;ji	237
-金刚子	jīn;ra gāng;gd zi;va	291
+金刚子	jīn;ra gāng;gd zǐ;va	291
 金刚组	jīn;ra gāng;gd zǔ;sq	239
 金刚钻	jīn;ra gāng;gd zuàn;jk	484
 金钢钻	jīn;ra gāng;jx zuān;jk	280
@@ -22845,7 +22848,7 @@ sort: by_weight
 金沟线	jīn;ra gōu;dv xiàn;sg	222
 金沟乡	jīn;ra gōu;dv xiāng;vp	171
 金沟站	jīn;ra gōu;dv zhàn;lk	103
-金沟子	jīn;ra gōu;dv zǐ;va	196
+金沟子	jīn;ra gōu;dv zi;va	196
 金箍棒	jīn;ra gū;vj bàng;lf	534
 金谷仓	jīn;ra gǔ;bk cāng;rv	261
 金谷村	jīn;ra gǔ;bk cūn;lc	185
@@ -22919,7 +22922,7 @@ sort: by_weight
 金果饮	jīn;ra guǒ;an yǐn;ur	213
 金果园	jīn;ra guǒ;an yuán;we	233
 金国振	jīn;ra guó;wy zhèn;fh	94
-金果子	jīn;ra guǒ;an zǐ;va	193
+金果子	jīn;ra guǒ;an zi;va	193
 金哈达	jīn;ra hǎ;kk dá;zd	145
 金海岸	jīn;ra hǎi;dm àn;sg	594
 金海村	jīn;ra hǎi;dm cūn;lc	52
@@ -23099,7 +23102,7 @@ sort: by_weight
 金惠真	jīn;ra huì;ax zhēn;ub	236
 金惠珍	jīn;ra huì;ax zhēn;wp	188
 金慧贞	jīn;ra huì;fx zhēn;ar	163
-金惠子	jīn;ra huì;ax zi;va	281
+金惠子	jīn;ra huì;ax zǐ;va	281
 金火土	jīn;ra huǒ;dr tǔ;ua	255
 金基邦	jīn;ra jī;qt bāng;ae	215
 金棘草	jīn;ra jí;an cǎo;cu	273
@@ -23145,7 +23148,7 @@ sort: by_weight
 金姬贞	jīn;ra jī;na zhēn;ar	167
 金积镇	jīn;ra jī;hb zhèn;jb	120
 金基正	jīn;ra jī;qt zhèng;av	332
-金击子	jīn;ra jī;aa zi;va	201
+金击子	jīn;ra jī;aa zǐ;va	201
 金家坝	jīn;ra jiā;gn bà;tr	215
 金家浜	jīn;ra jiā;gn bāng;db	94
 金佳彬	jīn;ra jiā;rt bīn;lp	94
@@ -23377,7 +23380,7 @@ sort: by_weight
 金莲寺	jīn;ra lián;ci sì;tc	155
 金链子	jīn;ra liàn;ji zǐ;va	503
 金莲子	jīn;ra lián;ci zǐ;va	139
-金练子	jīn;ra liàn;sd zi;va	139
+金练子	jīn;ra liàn;sd zǐ;va	139
 金粮路	jīn;ra liáng;mh lù;zk	112
 金疗法	jīn;ra liáo;bl fǎ;dv	201
 金林村	jīn;ra lín;ll cūn;lc	112
@@ -23908,7 +23911,7 @@ sort: by_weight
 金三塔	jīn;ra sān;ae tǎ;tk	1
 金三亿	jīn;ra sān;ae yì;ry	1
 金三元	jīn;ra sān;ae yuán;ee	112
-金嗓子	jīn;ra sǎng;kl zi;va	427
+金嗓子	jīn;ra sǎng;kl zǐ;va	427
 金扫帚	jīn;ra sào;fa zhǒu;vj	388
 金色版	jīn;ra sè;eb bǎn;py	350
 金色调	jīn;ra sè;eb diào;yk	251
@@ -24017,7 +24020,7 @@ sort: by_weight
 金少山	jīn;ra shǎo;ap shān;aa	306
 金绍先	jīn;ra shào;sk xiān;pe	94
 金少爷	jīn;ra shào;ap yé;be	193
-金勺子	jīn;ra sháo;pd zi;va	175
+金勺子	jīn;ra sháo;pd zǐ;va	175
 金蛇剑	jīn;ra shé;ib jiàn;rd	215
 金社乡	jīn;ra shè;pt xiāng;vp	150
 金神格	jīn;ra shén;pu gé;lk	159
@@ -24379,7 +24382,7 @@ sort: by_weight
 金泰宇	jīn;ra tài;au yǔ;gy	325
 金泰园	jīn;ra tài;au yuán;we	181
 金泰洙	jīn;ra tài;au zhū;dv	120
-金太子	jīn;ra tài;dd zi;va	369
+金太子	jīn;ra tài;dd zǐ;va	369
 金太宗	jīn;ra tài;dd zōng;gx	396
 金太祖	jīn;ra tài;dd zǔ;pq	398
 金滩村	jīn;ra tān;dn cūn;lc	150
@@ -24462,7 +24465,7 @@ sort: by_weight
 金铜色	jīn;ra tóng;jk sè;eb	231
 金童山	jīn;ra tóng;ll shān;aa	145
 金同学	jīn;ra tóng;ak xué;ez	240
-金童子	jīn;ra tóng;ll zi;va	351
+金童子	jīn;ra tóng;ll zǐ;va	351
 金头发	jīn;ra tóu;dd fà;vy	280
 金头盔	jīn;ra tóu;dd kuī;hm	326
 金投赏	jīn;ra tóu;fy shǎng;er	456
@@ -24588,7 +24591,7 @@ sort: by_weight
 金贤重	jīn;ra xián;ar zhòng;pa	450
 金贤珠	jīn;ra xián;ar zhū;wv	340
 金贤洙	jīn;ra xián;ar zhū;dv	167
-金仙子	jīn;ra xiān;rs zi;va	167
+金仙子	jīn;ra xiān;rs zǐ;va	167
 金乡的	jīn;ra xiāng;vp de;bu	226
 金相浩	jīn;ra xiàng;lm hào;dk	243
 金相赫	jīn;ra xiàng;lm hè;ti	82
@@ -24722,7 +24725,7 @@ sort: by_weight
 金燕西	jīn;ra yàn;ce xī;aa	376
 金延宇	jīn;ra yán;zv yǔ;gy	133
 金延智	jīn;ra yán;zv zhì;uo	178
-金燕子	jīn;ra yàn;ce zi;va	327
+金燕子	jīn;ra yàn;ce zǐ;va	327
 金洋村	jīn;ra yáng;dy cūn;lc	159
 金阳村	jīn;ra yáng;eo cūn;lc	1
 金阳光	jīn;ra yáng;eo guāng;ee	366
@@ -24754,7 +24757,7 @@ sort: by_weight
 金叶树	jīn;ra yè;ku shù;lc	159
 金叶榆	jīn;ra yè;ku yú;ld	292
 金野站	jīn;ra yě;ly zhàn;lk	175
-金叶子	jīn;ra yè;ku zi;va	357
+金叶子	jīn;ra yè;ku zǐ;va	357
 金一百	jīn;ra yì;aa bǎi;ab	127
 金义城	jīn;ra yì;dx chéng;tg	163
 金衣橱	jīn;ra yī;wh chú;lc	347
@@ -24841,7 +24844,7 @@ sort: by_weight
 金莹玥	jīn;ra yíng;cy yuè;wo	150
 金英哲	jīn;ra yīng;cy zhé;fk	270
 金应洙	jīn;ra yīng;ga zhū;dv	226
-金樱子	jīn;ra yīng;ln zi;va	419
+金樱子	jīn;ra yīng;ln zǐ;va	419
 金永彬	jīn;ra yǒng;dn bīn;lp	112
 金墉城	jīn;ra yōng;ty chéng;tg	322
 金永光	jīn;ra yǒng;dn guāng;ee	167
@@ -24935,7 +24938,7 @@ sort: by_weight
 金源乡	jīn;ra yuán;dx xiāng;vp	215
 金鸳鸯	jīn;ra yuān;xn yāng;yn	196
 金院长	jīn;ra yuàn;ee zhǎng;pn	243
-金原子	jīn;ra yuán;ix zi;va	270
+金原子	jīn;ra yuán;ix zǐ;va	270
 金悦府	jīn;ra yuè;xe fǔ;gc	221
 金月亮	jīn;ra yuè;pe liàng;wj	221
 金岳霖	jīn;ra yuè;qs lín;yl	462
@@ -25168,41 +25171,41 @@ sort: by_weight
 金庄街	jīn;ra zhuāng;gt jiē;rd	94
 金壮龙	jīn;ra zhuàng;du lóng;ab	264
 金装饰	jīn;ra zhuāng;dh shì;uj	231
-金装子	jīn;ra zhuāng;dh zi;va	1
+金装子	jīn;ra zhuāng;dh zǐ;va	1
 金卓求	jīn;ra zhuó;au qiú;ad	285
 金镯子	jīn;ra zhuó;ji zi;va	336
-金子般	jīn;ra zi;va bān;vy	348
+金子般	jīn;ra zǐ;va bān;vy	348
 金兹堡	jīn;ra zī;es bǎo;rt	315
-金子成	jīn;ra zi;va chéng;vg	1
-金子村	jīn;ra zi;va cūn;lc	178
+金子成	jīn;ra zǐ;va chéng;vg	1
+金子村	jīn;ra zǐ;va cūn;lc	178
 金紫村	jīn;ra zǐ;vx cūn;lc	1
-金子海	jīn;ra zi;va hǎi;dm	228
-金子涵	jīn;ra zi;va hán;dh	215
+金子海	jīn;ra zǐ;va hǎi;dm	228
+金子涵	jīn;ra zǐ;va hán;dh	215
 金字号	jīn;ra zì;gz hào;kv	133
 金紫尖	jīn;ra zǐ;vx jiān;ad	215
 金紫街	jīn;ra zǐ;vx jiē;rd	133
 金紫荆	jīn;ra zǐ;vx jīng;cd	471
 金字经	jīn;ra zì;gz jīng;sg	163
-金子来	jīn;ra zi;va lái;an	236
-金子里	jīn;ra zi;va lǐ;aa	163
-金子岭	jīn;ra zi;va lǐng;sv	181
+金子来	jīn;ra zǐ;va lái;an	236
+金子里	jīn;ra zǐ;va lǐ;aa	163
+金子岭	jīn;ra zǐ;va lǐng;sv	181
 金紫禄	jīn;ra zǐ;vx lù;pu	1
 金紫门	jīn;ra zǐ;vx mén;dv	239
 金字牌	jīn;ra zì;gz pái;pu	256
 金字旁	jīn;ra zì;gz páng;wf	323
-金子山	jīn;ra zi;va shān;aa	313
+金子山	jīn;ra zǐ;va shān;aa	313
 金紫山	jīn;ra zǐ;vx shān;aa	155
 金字山	jīn;ra zì;gz shān;aa	82
-金子升	jīn;ra zi;va shēng;pa	206
+金子升	jīn;ra zǐ;va shēng;pa	206
 金字塔	jīn;ra zì;gz tǎ;tk	719
 金紫薇	jīn;ra zǐ;vx wēi;cw	199
-金子贤	jīn;ra zi;va xián;ar	233
+金子贤	jīn;ra zǐ;va xián;ar	233
 金字形	jīn;ra zì;gz xíng;kp	252
-金子轩	jīn;ra zi;va xuān;ig	112
-金子岩	jīn;ra zi;va yán;sk	103
-金子一	jīn;ra zi;va yī;aa	277
+金子轩	jīn;ra zǐ;va xuān;ig	112
+金子岩	jīn;ra zǐ;va yán;sk	103
+金子一	jīn;ra zǐ;va yī;aa	277
 金自由	jīn;ra zì;pm yóu;aa	69
-金子玉	jīn;ra zi;va yù;wd	52
+金子玉	jīn;ra zǐ;va yù;wd	52
 金棕榈	jīn;ra zōng;lx lǘ;lk	538
 金宗瑞	jīn;ra zōng;gx ruì;we	270
 金棕色	jīn;ra zōng;lx sè;eb	393
@@ -25224,7 +25227,7 @@ sort: by_weight
 孔巢父	kǒng;zv cháo;vg fù;bx	256
 孔承庆	kǒng;zv chéng;vn qìng;gd	127
 孔城镇	kǒng;zv chéng;tg zhèn;jb	167
-孔成子	kǒng;zv chéng;vg zi;va	188
+孔成子	kǒng;zv chéng;vg zǐ;va	188
 孔尺寸	kǒng;zv chǐ;un cùn;ad	201
 孔虫界	kǒng;zv chóng;vd jiè;tj	210
 孔虫门	kǒng;zv chóng;vd mén;dv	261
@@ -25233,7 +25236,7 @@ sort: by_weight
 孔垂楠	kǒng;zv chuí;pa nán;lu	229
 孔垂柱	kǒng;zv chuí;pa zhù;lv	221
 孔从洲	kǒng;zv cóng;rr zhōu;dv	231
-孔丛子	kǒng;zv cóng;ra zi;va	269
+孔丛子	kǒng;zv cóng;ra zǐ;va	269
 孔村镇	kǒng;zv cūn;lc zhèn;jb	188
 孔道辅	kǒng;zv dào;zm fǔ;if	257
 孔德成	kǒng;zv dé;rx chéng;vg	377
@@ -25428,7 +25431,7 @@ sort: by_weight
 孔文卿	kǒng;zv wén;wx qīng;pe	69
 孔温业	kǒng;zv wēn;dm yè;aa	163
 孔文仲	kǒng;zv wén;wx zhòng;rv	133
-孔文子	kǒng;zv wén;wx zi;va	229
+孔文子	kǒng;zv wén;wx zǐ;va	229
 孔武仲	kǒng;zv wǔ;vg zhòng;rv	188
 孔隙度	kǒng;zv xì;ex dù;gy	342
 孔西利	kǒng;zv xī;aa lì;hd	145
@@ -25492,18 +25495,18 @@ sort: by_weight
 孔宙碑	kǒng;zv zhòu;gy bēi;uu	210
 孔主任	kǒng;zv zhǔ;wt rèn;rr	243
 孔庄村	kǒng;zv zhuāng;gt cūn;lc	163
-孔子出	kǒng;zv zi;va chū;va	120
-孔子讲	kǒng;zv zi;va jiǎng;yj	296
-孔子门	kǒng;zv zi;va mén;dv	94
-孔子庙	kǒng;zv zi;va miào;gy	412
-孔子墓	kǒng;zv zi;va mù;ct	261
-孔子下	kǒng;zv zi;va xià;ab	171
-孔子像	kǒng;zv zi;va xiàng;rx	389
-孔子行	kǒng;zv zi;va xíng;rd	201
+孔子出	kǒng;zv zǐ;va chū;va	120
+孔子讲	kǒng;zv zǐ;va jiǎng;yj	296
+孔子门	kǒng;zv zǐ;va mén;dv	94
+孔子庙	kǒng;zv zǐ;va miào;gy	412
+孔子墓	kǒng;zv zǐ;va mù;ct	261
+孔子下	kǒng;zv zǐ;va xià;ab	171
+孔子像	kǒng;zv zǐ;va xiàng;rx	389
+孔子行	kǒng;zv zǐ;va xíng;rd	201
 孔兹岩	kǒng;zv zī;es yán;sk	175
-孔子也	kǒng;zv zi;va yě;vv	354
-孔子曰	kǒng;zv zi;va yuē;wa	478
-孔子云	kǒng;zv zi;va yún;ev	334
+孔子也	kǒng;zv zǐ;va yě;vv	354
+孔子曰	kǒng;zv zǐ;va yuē;wa	478
+孔子云	kǒng;zv zǐ;va yún;ev	334
 孔宗翰	kǒng;zv zōng;gx hàn;ux	159
 孔最穴	kǒng;zv zuì;oy xué;gb	224
 雷阿伦	léi;yt ā;ek lún;rb	502
@@ -26050,7 +26053,7 @@ sort: by_weight
 雷震天	léi;yt zhèn;yh tiān;ad	150
 雷阵雨	léi;yt zhèn;ei yǔ;ad	574
 雷震远	léi;yt zhèn;yh yuǎn;ze	167
-雷震子	léi;yt zhèn;yh zi;va	430
+雷震子	léi;yt zhèn;yh zǐ;va	430
 雷政富	léi;yt zhèng;vw fù;gt	389
 雷志成	léi;yt zhì;ux chéng;vg	237
 雷志刚	léi;yt zhì;ux gāng;gd	210
@@ -26066,7 +26069,7 @@ sort: by_weight
 雷州市	léi;yt zhōu;da shì;wj	413
 雷州湾	léi;yt zhōu;da wān;dg	206
 雷庄村	léi;yt zhuāng;gt cūn;lc	201
-雷子乐	léi;yt zi;va lè;pd	237
+雷子乐	léi;yt zǐ;va lè;pd	237
 雷兹纳	léi;yt zī;es nà;sn	268
 雷兹省	léi;yt zī;es shěng;um	52
 雷祖殿	léi;yt zǔ;pq diàn;uy	201
@@ -26403,7 +26406,7 @@ sort: by_weight
 李辰翔	lǐ;lz chén;ih xiáng;ex	171
 李晨阳	lǐ;lz chén;oh yáng;eo	268
 李沉舟	lǐ;lz chén;dj zhōu;pd	155
-李晨子	lǐ;lz chén;oh zi;va	145
+李晨子	lǐ;lz chén;oh zǐ;va	145
 李程彬	lǐ;lz chéng;hw bīn;lp	287
 李成斌	lǐ;lz chéng;vg bīn;wg	175
 李成兵	lǐ;lz chéng;vg bīng;qb	1
@@ -27924,7 +27927,7 @@ sort: by_weight
 李尽忠	lǐ;lz jìn;id zhōng;vx	300
 李进忠	lǐ;lz jìn;zj zhōng;vx	219
 李金柱	lǐ;lz jīn;ra zhù;lv	226
-李金子	lǐ;lz jīn;ra zi;va	178
+李金子	lǐ;lz jīn;ra zǐ;va	178
 李敬爱	lǐ;lz jìng;cw ài;py	133
 李京波	lǐ;lz jīng;wx bō;dy	163
 李景伯	lǐ;lz jǐng;ox bó;rb	150
@@ -28521,7 +28524,7 @@ sort: by_weight
 李明洙	lǐ;lz míng;oo zhū;dv	159
 李明柱	lǐ;lz míng;oo zhù;lv	159
 李明庄	lǐ;lz míng;oo zhuāng;gt	155
-李明子	lǐ;lz míng;oo zi;va	52
+李明子	lǐ;lz míng;oo zǐ;va	52
 李默庵	lǐ;lz mò;hq ān;gd	319
 李莫愁	lǐ;lz mò;cd chóu;hx	486
 李茉莉	lǐ;lz mò;cm lì;cd	204
@@ -28571,7 +28574,7 @@ sort: by_weight
 李牧率	lǐ;lz mù;nw lǜ;wu	31
 李木生	lǐ;lz mù;un shēng;pa	264
 李木易	lǐ;lz mù;un yì;ow	188
-李木子	lǐ;lz mù;un zi;va	325
+李木子	lǐ;lz mù;un zǐ;va	325
 李纳德	lǐ;lz nà;sn dé;rx	133
 李娜恩	lǐ;lz nà;ne ēn;wx	204
 李娜娜	lǐ;lz nà;ne nà;ne	181
@@ -30547,7 +30550,7 @@ sort: by_weight
 李应章	lǐ;lz yīng;ga zhāng;lu	240
 李应祯	lǐ;lz yīng;ga zhēn;pr	217
 李颖芝	lǐ;lz yǐng;br zhī;cv	311
-李英子	lǐ;lz yīng;cy zi;va	217
+李英子	lǐ;lz yīng;cy zǐ;va	217
 李永安	lǐ;lz yǒng;dn ān;gn	239
 李永波	lǐ;lz yǒng;dn bō;dy	474
 李永昌	lǐ;lz yǒng;dn chāng;oo	191
@@ -32099,17 +32102,17 @@ sort: by_weight
 梁卓长	liáng;dl zhuó;au cháng;pn	94
 梁卓伟	liáng;dl zhuó;au wěi;rw	285
 梁倬轩	liáng;dl zhuō;ru xuān;ig	199
-梁子超	liáng;dl zi;va chāo;tk	150
-梁子成	liáng;dl zi;va chéng;vg	208
-梁子村	liáng;dl zi;va cūn;lc	219
-梁子岛	liáng;dl zi;va dǎo;ps	208
-梁子湖	liáng;dl zi;va hú;do	430
-梁子骏	liáng;dl zi;va jùn;mw	217
-梁子美	liáng;dl zi;va měi;ed	196
-梁子山	liáng;dl zi;va shān;aa	133
-梁子翁	liáng;dl zi;va wēng;bx	249
+梁子超	liáng;dl zǐ;va chāo;tk	150
+梁子成	liáng;dl zǐ;va chéng;vg	208
+梁子村	liáng;dl zǐ;va cūn;lc	219
+梁子岛	liáng;dl zǐ;va dǎo;ps	208
+梁子湖	liáng;dl zǐ;va hú;do	430
+梁子骏	liáng;dl zǐ;va jùn;mw	217
+梁子美	liáng;dl zǐ;va měi;ed	196
+梁子山	liáng;dl zǐ;va shān;aa	133
+梁子翁	liáng;dl zǐ;va wēng;bx	249
 梁梓禧	liáng;dl zǐ;lu xǐ;pk	181
-梁子颖	liáng;dl zi;va yǐng;br	274
+梁子颖	liáng;dl zǐ;va yǐng;br	274
 梁宗岱	liáng;dl zōng;gx dài;rs	341
 梁祖尧	liáng;dl zǔ;pq yáo;ge	343
 梁祖仪	liáng;dl zǔ;pq yí;ry	188
@@ -32186,9 +32189,9 @@ sort: by_weight
 廖志明	liào;gp zhì;ux míng;oo	249
 廖中莱	liào;gp zhōng;aa lái;cl	324
 廖仲谦	liào;gp zhòng;rv qiān;yj	191
-廖子明	liào;gp zi;va míng;oo	221
+廖子明	liào;gp zǐ;va míng;oo	221
 廖兹诺	liào;gp zī;es nuò;yk	263
-廖子妤	liào;gp zi;va yú;ny	262
+廖子妤	liào;gp zǐ;va yú;ny	262
 林柏宏	lín;ll bǎi;lb hóng;gv	369
 林百里	lín;ll bǎi;ab lǐ;aa	311
 林百灵	lín;ll bǎi;ab líng;vh	150
@@ -32406,7 +32409,7 @@ sort: by_weight
 林静宜	lín;ll jìng;qv yí;gq	284
 林晶莹	lín;ll jīng;oo yíng;cy	249
 林惊羽	lín;ll jīng;xx yǔ;xx	363
-林靖子	lín;ll jìng;lo zi;va	271
+林靖子	lín;ll jìng;lo zǐ;va	271
 林觉民	lín;ll jué;ej mín;vv	403
 林俊德	lín;ll jùn;rw dé;rx	290
 林俊宏	lín;ll jùn;rw hóng;gv	236
@@ -32794,26 +32797,26 @@ sort: by_weight
 林志远	lín;ll zhì;ux yuǎn;ze	233
 林芷筠	lín;ll zhǐ;cv yún;vd	340
 林卓廷	lín;ll zhuó;au tíng;zr	401
-林子博	lín;ll zi;va bó;uc	250
-林子超	lín;ll zi;va chāo;tk	236
-林子聪	lín;ll zi;va cōng;ex	425
-林子都	lín;ll zi;va dōu;ue	150
-林子方	lín;ll zi;va fāng;wp	321
-林子峰	lín;ll zi;va fēng;sf	257
-林子涵	lín;ll zi;va hán;dh	155
-林子豪	lín;ll zi;va háo;wn	261
-林子濠	lín;ll zi;va háo;dh	210
-林子闳	lín;ll zi;va hóng;mv	231
-林子杰	lín;ll zi;va jié;le	199
-林子口	lín;ll zi;va kǒu;aa	159
-林子里	lín;ll zi;va lǐ;aa	437
-林子良	lín;ll zi;va liáng;dh	191
+林子博	lín;ll zǐ;va bó;uc	250
+林子超	lín;ll zǐ;va chāo;tk	236
+林子聪	lín;ll zǐ;va cōng;ex	425
+林子都	lín;ll zǐ;va dōu;ue	150
+林子方	lín;ll zǐ;va fāng;wp	321
+林子峰	lín;ll zǐ;va fēng;sf	257
+林子涵	lín;ll zǐ;va hán;dh	155
+林子豪	lín;ll zǐ;va háo;wn	261
+林子濠	lín;ll zǐ;va háo;dh	210
+林子闳	lín;ll zǐ;va hóng;mv	231
+林子杰	lín;ll zǐ;va jié;le	199
+林子口	lín;ll zǐ;va kǒu;aa	159
+林子里	lín;ll zǐ;va lǐ;aa	437
+林子良	lín;ll zǐ;va liáng;dh	191
 林姿妙	lín;ll zī;dn miào;nu	307
-林子平	lín;ll zi;va píng;au	281
-林子萱	lín;ll zi;va xuān;cd	204
-林子扬	lín;ll zi;va yáng;fp	219
-林子渊	lín;ll zi;va yuān;da	188
-林子中	lín;ll zi;va zhōng;aa	237
+林子平	lín;ll zǐ;va píng;au	281
+林子萱	lín;ll zǐ;va xuān;cd	204
+林子扬	lín;ll zǐ;va yáng;fp	219
+林子渊	lín;ll zǐ;va yuān;da	188
+林子中	lín;ll zǐ;va zhōng;aa	237
 林宗辉	lín;ll zōng;gx huī;ei	302
 林宗仁	lín;ll zōng;gx rén;re	206
 林宗素	lín;ll zōng;gx sù;ax	222
@@ -32986,7 +32989,7 @@ sort: by_weight
 鲁米察	lǔ;eo mǐ;dl chá;gx	219
 鲁米那	lǔ;eo mǐ;dl nà;ve	296
 鲁米诺	lǔ;eo mǐ;dl nuò;yk	334
-鲁妙子	lǔ;eo miào;nu zi;va	167
+鲁妙子	lǔ;eo miào;nu zǐ;va	167
 鲁闵公	lǔ;eo mǐn;mx gōng;bv	256
 鲁敏宇	lǔ;eo mǐn;mw yǔ;gy	257
 鲁明善	lǔ;eo míng;oo shàn;ek	171
@@ -32998,7 +33001,7 @@ sort: by_weight
 鲁纳斯	lǔ;eo nà;sn sī;qj	281
 鲁纳维	lǔ;eo nà;sn wéi;sa	171
 鲁南路	lǔ;eo nán;uu lù;zk	188
-鲁男子	lǔ;eo nán;tl zi;va	175
+鲁男子	lǔ;eo nán;tl zǐ;va	175
 鲁能城	lǔ;eo néng;vb chéng;tg	251
 鲁能的	lǔ;eo néng;vb de;bu	508
 鲁能队	lǔ;eo néng;vb duì;er	443
@@ -33159,7 +33162,7 @@ sort: by_weight
 鲁庄村	lǔ;eo zhuāng;gt cūn;lc	139
 鲁庄公	lǔ;eo zhuāng;gt gōng;bv	420
 鲁庄镇	lǔ;eo zhuāng;gt zhèn;jb	82
-鲁子敬	lǔ;eo zi;va jìng;cw	224
+鲁子敬	lǔ;eo zǐ;va jìng;cw	224
 鲁宗道	lǔ;eo zōng;gx dào;zm	191
 鲁佐区	lǔ;eo zuǒ;rg qū;kx	1
 罗安达	luó;sx ān;gn dá;zd	400
@@ -33236,7 +33239,7 @@ sort: by_weight
 罗布桑	luó;sx bù;aj sāng;yl	289
 罗布森	luó;sx bù;aj sēn;ll	419
 罗埠镇	luó;sx bù;tu zhèn;jb	139
-罗布子	luó;sx bù;aj zǐ;va	1
+罗布子	luó;sx bù;aj zi;va	1
 罗彩霞	luó;sx cǎi;pp xiá;yy	304
 罗刹鬼	luó;sx chà;xd guǐ;pv	278
 罗刹国	luó;sx chà;xd guó;wy	297
@@ -34016,7 +34019,7 @@ sort: by_weight
 罗婉娴	luó;sx wǎn;nv xián;nl	1
 罗万藻	luó;sx wàn;ap zǎo;cl	103
 罗王村	luó;sx wáng;at cūn;lc	1
-罗望子	luó;sx wàng;ww zi;va	370
+罗望子	luó;sx wàng;ww zǐ;va	370
 罗王子	luó;sx wáng;at zǐ;va	163
 罗围村	luó;sx wéi;ww cūn;lc	82
 罗维道	luó;sx wéi;sa dào;zm	210
@@ -34271,14 +34274,14 @@ sort: by_weight
 罗卓谦	luó;sx zhuó;au qiān;yj	112
 罗卓瑶	luó;sx zhuó;au yáo;wf	261
 罗卓英	luó;sx zhuó;au yīng;cy	386
-罗子沟	luó;sx zi;va gōu;dv	228
-罗子君	luó;sx zi;va jūn;yk	411
+罗子沟	luó;sx zǐ;va gōu;dv	228
+罗子君	luó;sx zǐ;va jūn;yk	411
 罗兹克	luó;sx zī;es kè;ue	199
 罗紫琳	luó;sx zǐ;vx lín;wl	255
-罗子山	luó;sx zi;va shān;aa	219
+罗子山	luó;sx zǐ;va shān;aa	219
 罗兹省	luó;sx zī;es shěng;um	296
 罗兹索	luó;sx zī;es suǒ;ux	221
-罗子欣	luó;sx zi;va xīn;jr	185
+罗子欣	luó;sx zǐ;va xīn;jr	185
 罗宗洛	luó;sx zōng;gx luò;dk	321
 罗祖瓦	luó;sx zǔ;pq wǎ;ad	269
 罗遵殿	luó;sx zūn;zc diàn;uy	103
@@ -34334,7 +34337,7 @@ sort: by_weight
 吕霏侠	lǚ;kk fēi;yf xiá;rj	31
 吕菲耶	lǚ;kk fēi;cf yé;ee	159
 吕奉先	lǚ;kk fèng;aa xiān;pe	308
-吕凤子	lǚ;kk fèng;jy zi;va	282
+吕凤子	lǚ;kk fèng;jy zǐ;va	282
 吕佛庭	lǚ;kk fú;rf tíng;gr	155
 吕根岛	lǚ;kk gēn;lh dǎo;ps	313
 吕根县	lǚ;kk gēn;lh xiàn;qv	249
@@ -34611,10 +34614,10 @@ sort: by_weight
 吕忠梅	lǚ;kk zhōng;vx méi;lm	221
 吕主任	lǚ;kk zhǔ;wt rèn;rr	247
 吕庄村	lǚ;kk zhuāng;gt cūn;lc	193
-吕子昌	lǚ;kk zi;va chāng;oo	231
+吕子昌	lǚ;kk zǐ;va chāng;oo	231
 吕紫剑	lǚ;kk zǐ;vx jiàn;rd	325
-吕子明	lǚ;kk zi;va míng;oo	215
-吕子乔	lǚ;kk zi;va qiáo;ya	383
+吕子明	lǚ;kk zǐ;va míng;oo	215
+吕子乔	lǚ;kk zǐ;va qiáo;ya	383
 吕宗霖	lǚ;kk zōng;gx lín;yl	150
 吕祖殿	lǚ;kk zǔ;pq diàn;uy	272
 吕祖阁	lǚ;kk zǔ;pq gé;mk	188
@@ -34660,7 +34663,7 @@ sort: by_weight
 马鞍型	mǎ;va ān;cn xíng;kt	191
 马安镇	mǎ;va ān;gn zhèn;jb	292
 马鞍镇	mǎ;va ān;cn zhèn;jb	275
-马鞍子	mǎ;va ān;cn zǐ;va	224
+马鞍子	mǎ;va ān;cn zi;va	224
 马岙村	mǎ;va ào;ys cūn;lc	159
 马坳村	mǎ;va ào;tl cūn;lc	103
 马奥尼	mǎ;va ào;pd ní;ub	330
@@ -35025,7 +35028,7 @@ sort: by_weight
 马发祥	mǎ;va fā;vy xiáng;py	215
 马畈村	mǎ;va fàn;ty cūn;lc	133
 马凡舒	mǎ;va fán;jd shū;ry	257
-马贩子	mǎ;va fàn;by zǐ;va	246
+马贩子	mǎ;va fàn;by zi;va	246
 马坊村	mǎ;va fāng;tf cūn;lc	304
 马房村	mǎ;va fáng;hf cūn;lc	171
 马芳芳	mǎ;va fāng;cf fāng;cf	167
@@ -35069,7 +35072,7 @@ sort: by_weight
 马福益	mǎ;va fú;pt yì;em	222
 马夫鱼	mǎ;va fū;an yú;ea	155
 马福元	mǎ;va fú;pt yuán;ee	213
-马服子	mǎ;va fú;oy zi;va	208
+马服子	mǎ;va fú;oy zǐ;va	208
 马伽术	mǎ;va gā;rk shù;ld	331
 马盖蒂	mǎ;va gài;em dì;cj	252
 马盖图	mǎ;va gài;em tú;wd	94
@@ -35465,7 +35468,7 @@ sort: by_weight
 马圈村	mǎ;va juàn;wv cūn;lc	185
 马圈沟	mǎ;va juàn;wv gōu;dv	150
 马圈湾	mǎ;va juàn;wv wān;dg	145
-马圈子	mǎ;va juàn;wv zi;va	236
+马圈子	mǎ;va juàn;wv zǐ;va	236
 马郡村	mǎ;va jùn;ye cūn;lc	94
 马军村	mǎ;va jūn;gi cūn;lc	1
 马俊华	mǎ;va jùn;rw huá;ru	150
@@ -35656,7 +35659,7 @@ sort: by_weight
 马兰峪	mǎ;va lán;es yù;sk	308
 马兰镇	mǎ;va lán;es zhèn;jb	267
 马栏镇	mǎ;va lán;ls zhèn;jb	237
-马栏子	mǎ;va lán;ls zi;va	236
+马栏子	mǎ;va lán;ls zǐ;va	236
 马郎村	mǎ;va láng;de cūn;lc	94
 马郎妇	mǎ;va láng;de fù;na	191
 马朗帕	mǎ;va lǎng;do pà;jb	1
@@ -35967,7 +35970,7 @@ sort: by_weight
 马奶酒	mǎ;va nǎi;nn jiǔ;dy	389
 马乃司	mǎ;va nǎi;vp sī;vk	159
 马耐园	mǎ;va nài;ec yuán;we	1
-马奶子	mǎ;va nǎi;nn zi;va	249
+马奶子	mǎ;va nǎi;nn zǐ;va	249
 马南邨	mǎ;va nán;uu cūn;te	120
 马南村	mǎ;va nán;uu cūn;lc	82
 马南马	mǎ;va nán;uu mǎ;va	69
@@ -36064,7 +36067,7 @@ sort: by_weight
 马倩倩	mǎ;va qiàn;ro qiàn;ro	167
 马千乘	mǎ;va qiān;pu shèng;qn	251
 马钱属	mǎ;va qián;jg shǔ;uy	181
-马钱子	mǎ;va qián;jg zi;va	381
+马钱子	mǎ;va qián;jg zǐ;va	381
 马前卒	mǎ;va qián;ed zú;wu	533
 马桥村	mǎ;va qiáo;lq cūn;lc	199
 马桥河	mǎ;va qiáo;lq hé;dk	193
@@ -36281,7 +36284,7 @@ sort: by_weight
 马绍信	mǎ;va shào;sk xìn;rk	155
 马绍语	mǎ;va shào;sk yǔ;yk	1
 马舍德	mǎ;va shě;rk dé;rx	1
-马蛇子	mǎ;va shé;ib zi;va	155
+马蛇子	mǎ;va shé;ib zǐ;va	155
 马什么	mǎ;va shén;ru me;pv	295
 马神庙	mǎ;va shén;pu miào;gy	302
 马伸桥	mǎ;va shēn;ru qiáo;lq	234
@@ -36493,7 +36496,7 @@ sort: by_weight
 马蹄印	mǎ;va tí;zj yìn;pe	257
 马蹄镇	mǎ;va tí;zj zhèn;jb	155
 马蹄状	mǎ;va tí;zj zhuàng;dq	294
-马蹄子	mǎ;va tí;zj zi;va	284
+马蹄子	mǎ;va tí;zj zǐ;va	284
 马蹄足	mǎ;va tí;zj zú;kr	270
 马田艾	mǎ;va tián;wu ài;cx	82
 马田臣	mǎ;va tián;wu chén;ka	1
@@ -36927,7 +36930,7 @@ sort: by_weight
 马英行	mǎ;va yīng;cy xíng;rd	1
 马英尧	mǎ;va yīng;cy yáo;ge	193
 马营镇	mǎ;va yíng;ck zhèn;jb	280
-马营子	mǎ;va yíng;ck zi;va	167
+马营子	mǎ;va yíng;ck zǐ;va	167
 马永安	mǎ;va yǒng;dn ān;gn	163
 马永成	mǎ;va yǒng;dn chéng;vg	307
 马永华	mǎ;va yǒng;dn huá;ru	277
@@ -37045,7 +37048,7 @@ sort: by_weight
 马扎里	mǎ;va zhá;fv lǐ;aa	379
 马扎罗	mǎ;va zhá;fv luó;sx	496
 马札罗	mǎ;va zhá;lv luó;sx	277
-马扎子	mǎ;va zhá;fv zi;va	246
+马扎子	mǎ;va zhá;fv zǐ;va	246
 马寨村	mǎ;va zhài;gx cūn;lc	226
 马宅村	mǎ;va zhái;gq cūn;lc	52
 马寨乡	mǎ;va zhài;gx xiāng;vp	127
@@ -37238,11 +37241,11 @@ sort: by_weight
 彭志铭	péng;up zhì;ux míng;jk	226
 彭志强	péng;up zhì;ux qiáng;gi	346
 彭志勇	péng;up zhì;ux yǒng;vl	276
-彭子冈	péng;up zi;va gāng;ax	127
+彭子冈	péng;up zǐ;va gāng;ax	127
 彭梓亨	péng;up zǐ;lu hēng;wl	191
 彭梓键	péng;up zǐ;lu jiàn;jj	175
-彭子洋	péng;up zi;va yáng;dy	350
-彭子益	péng;up zi;va yì;em	270
+彭子洋	péng;up zǐ;va yáng;dy	350
+彭子益	péng;up zǐ;va yì;em	270
 彭祖山	péng;up zǔ;pq shān;aa	193
 彭祖寿	péng;up zǔ;pq shòu;ac	150
 彭祖园	péng;up zǔ;pq yuán;we	258
@@ -37291,7 +37294,7 @@ sort: by_weight
 钱澄海	qián;jg chéng;dd hǎi;dm	213
 钱崇澍	qián;jg chóng;sx shù;dc	247
 钱崇威	qián;jg chóng;sx wēi;ng	103
-钱串子	qián;jg chuàn;aa zǐ;va	325
+钱串子	qián;jg chuàn;aa zi;va	325
 钱春弦	qián;jg chūn;ao xián;gs	371
 钱存进	qián;jg cún;az jìn;zj	363
 钱大成	qián;jg dà;an chéng;vg	1
@@ -37669,7 +37672,7 @@ sort: by_weight
 秦二世	qín;ah èr;aa shì;av	477
 秦二爷	qín;ah èr;aa yé;be	236
 秦凡淇	qín;ah fán;jd qí;db	228
-秦非子	qín;ah fēi;aa zi;va	201
+秦非子	qín;ah fēi;aa zǐ;va	201
 秦凤路	qín;ah fèng;jy lù;zk	297
 秦夫人	qín;ah fū;an rén;pn	206
 秦妇吟	qín;ah fù;na yín;kj	274
@@ -37909,7 +37912,7 @@ sort: by_weight
 秦羽墨	qín;ah yǔ;xx mò;ht	181
 秦郁彦	qín;ah yù;ye yàn;wp	410
 秦屿镇	qín;ah yǔ;sy zhèn;jb	208
-秦宇子	qín;ah yǔ;gy zi;va	145
+秦宇子	qín;ah yǔ;gy zǐ;va	145
 秦园路	qín;ah yuán;we lù;zk	285
 秦媛媛	qín;ah yuàn;ny yuàn;ny	281
 秦玥飞	qín;ah yuè;wo fēi;vd	388
@@ -37921,7 +37924,7 @@ sort: by_weight
 秦昭王	qín;ah zhāo;ok wáng;at	436
 秦赵燕	qín;ah zhào;tx yàn;ce	210
 秦兆阳	qín;ah zhào;ed yáng;eo	196
-秦昭子	qín;ah zhāo;ok zi;va	150
+秦昭子	qín;ah zhāo;ok zǐ;va	150
 秦直道	qín;ah zhí;ua dào;zm	367
 秦志鸿	qín;ah zhì;ux hóng;dn	31
 秦志戬	qín;ah zhì;ux jiǎn;yg	307
@@ -37936,12 +37939,12 @@ sort: by_weight
 秦庄村	qín;ah zhuāng;gt cūn;lc	163
 秦庄公	qín;ah zhuāng;gt gōng;bv	258
 秦庄王	qín;ah zhuāng;gt wáng;at	127
-秦子墨	qín;ah zi;va mò;ht	69
+秦子墨	qín;ah zǐ;va mò;ht	69
 秦紫翼	qín;ah zǐ;vx yì;xb	159
-秦子婴	qín;ah zi;va yīng;bn	155
+秦子婴	qín;ah zǐ;va yīng;bn	155
 秦宗权	qín;ah zōng;gx quán;ly	372
 秦祖永	qín;ah zǔ;pq yǒng;dn	185
-秦佐子	qín;ah zuǒ;rg zi;va	1
+秦佐子	qín;ah zuǒ;rg zǐ;va	1
 沈爱琳	shěn;dv ài;py lín;wl	159
 沈岸登	shěn;dv àn;sg dēng;vd	139
 沈傲君	shěn;dv ào;rw jūn;yk	373
@@ -38134,7 +38137,7 @@ sort: by_weight
 沈联芳	shěn;dv lián;ed fāng;cf	1
 沈辽路	shěn;dv liáo;zl lù;zk	349
 沈琳宸	shěn;dv lín;wl chén;gh	188
-沈林子	shěn;dv lín;ll zi;va	298
+沈林子	shěn;dv lín;ll zǐ;va	298
 沈玲玲	shěn;dv líng;wv líng;wv	243
 沈凌云	shěn;dv líng;dw yún;ev	52
 沈龙元	shěn;dv lóng;ab yuán;ee	242
@@ -38227,7 +38230,7 @@ sort: by_weight
 沈腾演	shěn;dv téng;om yǎn;db	52
 沈天保	shěn;dv tiān;ad bǎo;rl	1
 沈田莘	shěn;dv tián;wu shēn;cu	1
-沈田子	shěn;dv tián;wu zi;va	323
+沈田子	shěn;dv tián;wu zǐ;va	323
 沈铁路	shěn;dv tiě;ju lù;zk	231
 沈铁梅	shěn;dv tiě;ju méi;lm	311
 沈廷芳	shěn;dv tíng;zr fāng;cf	163
@@ -38743,7 +38746,7 @@ sort: by_weight
 宋仁宗	sòng;gl rén;re zōng;gx	520
 宋日昌	sòng;gl rì;wa chāng;oo	219
 宋容慧	sòng;gl róng;gk huì;fx	371
-宋荣子	sòng;gl róng;cl zi;va	213
+宋荣子	sòng;gl róng;cl zǐ;va	213
 宋如海	sòng;gl rú;nk hǎi;dm	112
 宋瑞辉	sòng;gl ruì;we huī;ei	94
 宋瑞楼	sòng;gl ruì;we lóu;ln	237
@@ -38833,7 +38836,7 @@ sort: by_weight
 宋维强	sòng;gl wéi;sa qiáng;gi	334
 宋维栻	sòng;gl wéi;sa shì;lg	175
 宋微仲	sòng;gl wēi;rw zhòng;rv	31
-宋微子	sòng;gl wēi;rw zi;va	239
+宋微子	sòng;gl wēi;rw zǐ;va	239
 宋文彬	sòng;gl wén;wx bīn;lp	155
 宋文骢	sòng;gl wén;wx cōng;mx	321
 宋文帝	sòng;gl wén;wx dì;wj	473
@@ -39010,16 +39013,16 @@ sort: by_weight
 宋庄公	sòng;gl zhuāng;gt gōng;bv	254
 宋庄路	sòng;gl zhuāng;gt lù;zk	175
 宋庄镇	sòng;gl zhuāng;gt zhèn;jb	349
-宋子安	sòng;gl zi;va ān;gn	262
-宋子豪	sòng;gl zi;va háo;wn	281
-宋子杰	sòng;gl zi;va jié;le	271
+宋子安	sòng;gl zǐ;va ān;gn	262
+宋子豪	sòng;gl zǐ;va háo;wn	281
+宋子杰	sòng;gl zǐ;va jié;le	271
 宋滋兰	sòng;gl zī;ds lán;es	1
-宋子良	sòng;gl zi;va liáng;dh	282
-宋子千	sòng;gl zi;va qiān;pu	150
-宋子仙	sòng;gl zi;va xiān;rs	266
-宋子贤	sòng;gl zi;va xián;ar	112
+宋子良	sòng;gl zǐ;va liáng;dh	282
+宋子千	sòng;gl zǐ;va qiān;pu	150
+宋子仙	sòng;gl zǐ;va xiān;rs	266
+宋子贤	sòng;gl zǐ;va xián;ar	112
 宋自新	sòng;gl zì;pm xīn;lj	1
-宋子玉	sòng;gl zi;va yù;wd	171
+宋子玉	sòng;gl zǐ;va yù;wd	171
 宋宗元	sòng;gl zōng;gx yuán;ee	206
 宋祖德	sòng;gl zǔ;pq dé;rx	404
 宋祖儿	sòng;gl zǔ;pq ér;pv	386
@@ -39948,7 +39951,7 @@ sort: by_weight
 孙慧玲	sūn;zx huì;fx líng;wv	112
 孙慧敏	sūn;zx huì;fx mǐn;mw	52
 孙慧雪	sūn;zx huì;fx xuě;ya	267
-孙惠子	sūn;zx huì;ax zi;va	112
+孙惠子	sūn;zx huì;ax zǐ;va	112
 孙集村	sūn;zx jí;rl cūn;lc	94
 孙继皋	sūn;zx jì;sm gāo;bu	193
 孙继皐	sūn;zx jì;sm gāo;	52
@@ -40311,7 +40314,7 @@ sort: by_weight
 孙文轩	sūn;zx wén;wx xuān;ig	159
 孙文学	sūn;zx wén;wx xué;ez	268
 孙文雁	sūn;zx wén;wx yàn;ia	297
-孙文子	sūn;zx wén;wx zi;va	199
+孙文子	sūn;zx wén;wx zǐ;va	199
 孙武祠	sūn;zx wǔ;vg cí;pk	233
 孙悟饭	sūn;zx wù;xk fàn;uy	433
 孙悟湖	sūn;zx wù;xk hú;do	219
@@ -40321,7 +40324,7 @@ sort: by_weight
 孙悟天	sūn;zx wù;xk tiān;ad	322
 孙吴县	sūn;zx wú;kt xiàn;qv	307
 孙武镇	sūn;zx wǔ;vg zhèn;jb	112
-孙武子	sūn;zx wǔ;vg zi;va	286
+孙武子	sūn;zx wǔ;vg zǐ;va	286
 孙媳妇	sūn;zx xí;nx fù;na	372
 孙锡久	sūn;zx xī;jw jiǔ;pn	201
 孙喜双	sūn;zx xǐ;uk shuāng;yy	228
@@ -40509,7 +40512,7 @@ sort: by_weight
 孙长老	sūn;zx zhǎng;pn lǎo;ub	245
 孙长卿	sūn;zx zhǎng;pn qīng;pe	155
 孙照明	sūn;zx zhào;oe míng;oo	1
-孙昭子	sūn;zx zhāo;ok zi;va	215
+孙昭子	sūn;zx zhāo;ok zǐ;va	215
 孙振华	sūn;zx zhèn;fh huá;ru	221
 孙珍妮	sūn;zx zhēn;wp nī;nb	286
 孙真人	sūn;zx zhēn;ub rén;pn	265
@@ -40562,7 +40565,7 @@ sort: by_weight
 孙庄乡	sūn;zx zhuāng;gt xiāng;vp	159
 孙庄站	sūn;zx zhuāng;gt zhàn;lk	191
 孙庄镇	sūn;zx zhuāng;gt zhèn;jb	52
-孙庄子	sūn;zx zhuāng;gt zi;va	228
+孙庄子	sūn;zx zhuāng;gt zǐ;va	228
 孙准浩	sūn;zx zhǔn;da hào;dk	217
 孙子抱	sūn;zx zi;va bào;fv	239
 孙子辈	sūn;zx zi;va bèi;fi	406
@@ -40854,7 +40857,7 @@ sort: by_weight
 陶朱公	táo;ef zhū;pw gōng;bv	401
 陶庄村	táo;ef zhuāng;gt cūn;lc	155
 陶庄镇	táo;ef zhuāng;gt zhèn;jb	240
-陶子安	táo;ef zi;va ān;gn	127
+陶子安	táo;ef zǐ;va ān;gn	127
 陶宗旺	táo;ef zōng;gx wàng;ow	242
 陶宗仪	táo;ef zōng;gx yí;ry	357
 陶醉感	táo;ef zuì;yu gǎn;kx	217
@@ -41317,7 +41320,7 @@ sort: by_weight
 王道真	wáng;at dào;zm zhēn;ub	1
 王道之	wáng;at dào;zm zhī;dn	199
 王道中	wáng;at dào;zm zhōng;aa	201
-王道子	wáng;at dào;zm zi;va	1
+王道子	wáng;at dào;zm zǐ;va	1
 王德安	wáng;at dé;rx ān;gn	259
 王德榜	wáng;at dé;rx bǎng;lf	191
 王德宝	wáng;at dé;rx bǎo;gy	385
@@ -41609,7 +41612,7 @@ sort: by_weight
 王公屿	wáng;at gōng;bv yǔ;sy	31
 王公元	wáng;at gōng;bv yuán;ee	103
 王宫中	wáng;at gōng;gk zhōng;aa	328
-王公子	wáng;at gōng;bv zi;va	355
+王公子	wáng;at gōng;bv zǐ;va	355
 王沟村	wáng;at gōu;dv cūn;lc	208
 王沟镇	wáng;at gōu;dv zhèn;jb	181
 王姑娘	wáng;at gū;nk niáng;nh	339
@@ -41946,7 +41949,7 @@ sort: by_weight
 王虎峰	wáng;at hǔ;aj fēng;sf	191
 王沪宁	wáng;at hù;dh níng;gd	450
 王虎剩	wáng;at hǔ;aj shèng;qd	213
-王胡子	wáng;at hú;uo zi;va	246
+王胡子	wáng;at hú;uo zǐ;va	246
 王化成	wáng;at huà;rb chéng;vg	249
 王化澄	wáng;at huà;rb chéng;dd	181
 王化村	wáng;at huà;rb cūn;lc	94
@@ -42788,7 +42791,7 @@ sort: by_weight
 王刘休	wáng;at liú;wd xiū;rl	336
 王柳懿	wáng;at liǔ;le yì;ux	94
 王刘友	wáng;at liú;wd yǒu;ay	231
-王刘子	wáng;at liú;wd zi;va	298
+王刘子	wáng;at liú;wd zǐ;va	298
 王龙村	wáng;at lóng;ab cūn;lc	127
 王陇德	wáng;at lǒng;eb dé;rx	321
 王龙飞	wáng;at lóng;ab fēi;vd	52
@@ -42825,7 +42828,7 @@ sort: by_weight
 王律师	wáng;at lǜ;ra shī;aj	357
 王马村	wáng;at mǎ;va cūn;lc	120
 王妈妈	wáng;at mā;nm ma;nm	340
-王麻子	wáng;at má;gl zi;va	383
+王麻子	wáng;at má;gl zǐ;va	383
 王买德	wáng;at mǎi;vd dé;rx	163
 王漫妮	wáng;at màn;dy nī;nb	178
 王满银	wáng;at mǎn;dl yín;jh	309
@@ -42849,7 +42852,7 @@ sort: by_weight
 王茂章	wáng;at mào;cg zhāng;lu	281
 王茅镇	wáng;at máo;cm zhèn;jb	52
 王毛仲	wáng;at máo;pv zhòng;rv	226
-王毛子	wáng;at máo;pv zi;va	159
+王毛子	wáng;at máo;pv zǐ;va	159
 王美芳	wáng;at měi;ed fāng;cf	208
 王美华	wáng;at měi;ed huá;ru	291
 王美花	wáng;at měi;ed huā;cb	286
@@ -43054,10 +43057,10 @@ sort: by_weight
 王平水	wáng;at píng;au shuǐ;vn	181
 王平章	wáng;at píng;au zhāng;lu	201
 王平镇	wáng;at píng;au zhèn;jb	224
-王平子	wáng;at píng;au zi;va	120
+王平子	wáng;at píng;au zǐ;va	120
 王坡村	wáng;at pō;ty cūn;lc	127
 王婆婆	wáng;at pó;dn pó;dn	391
-王婆子	wáng;at pó;dn zi;va	178
+王婆子	wáng;at pó;dn zǐ;va	178
 王铺村	wáng;at pù;jf cūn;lc	69
 王菩萨	wáng;at pú;ck sà;ci	344
 王麒诚	wáng;at qí;gb chéng;yg	377
@@ -43244,7 +43247,7 @@ sort: by_weight
 王瑞雪	wáng;at ruì;we xuě;ya	215
 王瑞瑜	wáng;at ruì;we yú;wd	185
 王睿卓	wáng;at ruì;am zhuó;au	1
-王瑞子	wáng;at ruì;we zi;va	112
+王瑞子	wáng;at ruì;we zǐ;va	112
 王润和	wáng;at rùn;dw hé;hk	1
 王润华	wáng;at rùn;dw huá;ru	240
 王润兰	wáng;at rùn;dw lán;es	163
@@ -43276,9 +43279,6 @@ sort: by_weight
 王僧辩	wáng;at sēng;ro biàn;lu	392
 王僧绰	wáng;at sēng;ro chuò;su	255
 王僧达	wáng;at sēng;ro dá;zd	290
-戴胜科	dài;bg shèng;ou kē;hu	197
-戴胜鸟	dài;bg shèng;ou niǎo;pa	254
-戴胜益	dài;bg shèng;ou yì;em	222
 王僧虔	wáng;at sēng;ro qián;ax	315
 王僧孺	wáng;at sēng;ro rú;ze	201
 王僧智	wáng;at sēng;ro zhì;uo	155
@@ -43488,10 +43488,10 @@ sort: by_weight
 王室之	wáng;at shì;gt zhī;dn	233
 王室中	wáng;at shì;gt zhōng;aa	286
 王世洲	wáng;at shì;av zhōu;dv	313
-王世子	wáng;at shì;av zi;va	462
-王氏子	wáng;at shì;pv zi;va	139
-王十子	wáng;at shí;aa zi;va	112
-王师子	wáng;at shī;aj zi;va	1
+王世子	wáng;at shì;av zǐ;va	462
+王氏子	wáng;at shì;pv zǐ;va	139
+王十子	wáng;at shí;aa zǐ;va	112
+王师子	wáng;at shī;aj zǐ;va	1
 王守常	wáng;at shǒu;gc cháng;ej	150
 王守臣	wáng;at shǒu;gc chén;ka	178
 王守澄	wáng;at shǒu;gc chéng;dd	336
@@ -43663,7 +43663,7 @@ sort: by_weight
 王随生	wáng;at suí;eo shēng;pa	267
 王孙贾	wáng;at sūn;zx jiǎ;xr	236
 王孙满	wáng;at sūn;zx mǎn;dl	265
-王孙子	wáng;at sūn;zx zi;va	1
+王孙子	wáng;at sūn;zx zǐ;va	1
 王所长	wáng;at suǒ;pj cháng;pn	251
 王他们	wáng;at tā;ry men;rm	249
 王台村	wáng;at tái;vk cūn;lc	196
@@ -43684,8 +43684,8 @@ sort: by_weight
 王太元	wáng;at tài;dd yuán;ee	103
 王太岳	wáng;at tài;dd yuè;qs	120
 王台镇	wáng;at tái;vk zhèn;jb	276
-王太子	wáng;at tài;dd zi;va	423
-王台子	wáng;at tái;vk zi;va	69
+王太子	wáng;at tài;dd zǐ;va	423
+王台子	wáng;at tái;vk zǐ;va	69
 王太祖	wáng;at tài;dd zǔ;pq	94
 王滩村	wáng;at tān;dn cūn;lc	69
 王昙首	wáng;at tán;ov shǒu;em	256
@@ -43737,7 +43737,7 @@ sort: by_weight
 王天志	wáng;at tiān;ad zhì;ux	204
 王田制	wáng;at tián;wu zhì;pd	175
 王田庄	wáng;at tián;wu zhuāng;gt	127
-王天子	wáng;at tiān;ad zi;va	234
+王天子	wáng;at tiān;ad zǐ;va	234
 王铁成	wáng;at tiě;ju chéng;vg	300
 王铁锤	wáng;at tiě;ju chuí;ji	175
 王铁刚	wáng;at tiě;ju gāng;gd	228
@@ -44009,7 +44009,7 @@ sort: by_weight
 王屋山	wáng;at wū;ut shān;aa	403
 王屋镇	wáng;at wū;ut zhèn;jb	163
 王武庄	wáng;at wǔ;vg zhuāng;gt	210
-王武子	wáng;at wǔ;vg zi;va	155
+王武子	wáng;at wǔ;vg zǐ;va	155
 王西安	wáng;at xī;aa ān;gn	229
 王希安	wáng;at xī;xj ān;gn	155
 王锡阐	wáng;at xī;jw chǎn;md	224
@@ -44295,7 +44295,7 @@ sort: by_weight
 王晓云	wáng;at xiǎo;oe yún;ev	278
 王校长	wáng;at xiào;lx zhǎng;pn	456
 王孝忠	wáng;at xiào;uz zhōng;vx	210
-王萧子	wáng;at xiāo;cs zi;va	256
+王萧子	wáng;at xiāo;cs zǐ;va	256
 王谢家	wáng;at xiè;yc jiā;gn	145
 王新波	wáng;at xīn;lj bō;dy	191
 王新潮	wáng;at xīn;lj cháo;do	181
@@ -44993,7 +44993,7 @@ sort: by_weight
 王玉珍	wáng;at yù;wd zhēn;wp	300
 王宇直	wáng;at yǔ;gy zhí;ua	288
 王玉柱	wáng;at yù;wd zhù;lv	185
-王裕子	wáng;at yù;pk zi;va	112
+王裕子	wáng;at yù;pk zǐ;va	112
 王宇佐	wáng;at yǔ;gy zuǒ;rg	199
 王元霸	wáng;at yuán;ee bà;yo	163
 王元宝	wáng;at yuán;ee bǎo;gy	221
@@ -45138,7 +45138,7 @@ sort: by_weight
 王占元	wáng;at zhàn;ak yuán;ee	357
 王站长	wáng;at zhàn;lk zhǎng;pn	245
 王掌柜	wáng;at zhǎng;eu guì;lj	282
-王杖子	wáng;at zhàng;lv zi;va	188
+王杖子	wáng;at zhàng;lv zǐ;va	188
 王赵村	wáng;at zhào;tx cūn;lc	94
 王召村	wáng;at zhào;dk cūn;lc	52
 王兆国	wáng;at zhào;ed guó;wy	346
@@ -45395,7 +45395,7 @@ sort: by_weight
 王治郅	wáng;at zhì;dk zhì;ve	486
 王志忠	wáng;at zhì;ux zhōng;vx	231
 王志中	wáng;at zhì;ux zhōng;aa	199
-王之子	wáng;at zhī;dn zi;va	365
+王之子	wáng;at zhī;dn zǐ;va	365
 王忠诚	wáng;at zhōng;vx chéng;yg	324
 王忠德	wáng;at zhōng;vx dé;rx	171
 王忠殿	wáng;at zhōng;vx diàn;uy	185
@@ -45468,7 +45468,7 @@ sort: by_weight
 王庄乡	wáng;at zhuāng;gt xiāng;vp	300
 王庄站	wáng;at zhuāng;gt zhàn;lk	171
 王庄镇	wáng;at zhuāng;gt zhèn;jb	348
-王庄子	wáng;at zhuāng;gt zi;va	185
+王庄子	wáng;at zhuāng;gt zǐ;va	185
 王卓钧	wáng;at zhuó;au jūn;jd	296
 王卓淇	wáng;at zhuó;au qí;db	259
 王子爱	wáng;at zǐ;va ài;py	222
@@ -45595,7 +45595,7 @@ sort: by_weight
 王子真	wáng;at zǐ;va zhēn;ub	103
 王子中	wáng;at zǐ;va zhōng;aa	378
 王子庄	wáng;at zǐ;va zhuāng;gt	133
-王子子	wáng;at zǐ;va zi;va	167
+王子子	wáng;at zǐ;va zǐ;va	167
 王总兵	wáng;at zǒng;ex bīng;qb	133
 王宗诚	wáng;at zōng;gx chéng;yg	103
 王宗鼎	wáng;at zōng;gx dǐng;mv	159
@@ -45734,7 +45734,7 @@ sort: by_weight
 魏公公	wèi;hv gōng;bv gōng;bv	301
 卫宫家	wèi;ea gōng;gk jiā;gn	310
 卫工街	wèi;ea gōng;aa jiē;rd	281
-魏公子	wèi;hv gōng;bv zi;va	327
+魏公子	wèi;hv gōng;bv zǐ;va	327
 卫公子	wèi;ea gōng;bv zǐ;va	217
 魏沟村	wèi;hv gōu;dv cūn;lc	69
 卫官籍	wèi;ea guān;ga jí;vo	372
@@ -45774,7 +45774,7 @@ sort: by_weight
 卫怀公	wèi;ea huái;xb gōng;bv	52
 卫怀君	wèi;ea huái;xb jūn;yk	120
 卫桓公	wèi;ea huán;ld gōng;bv	252
-魏桓子	wèi;hv huán;ld zi;va	308
+魏桓子	wèi;hv huán;ld zǐ;va	308
 卫皇后	wèi;ea huáng;bw hòu;pk	289
 魏皇后	wèi;hv huáng;bw hòu;pk	69
 魏惠娥	wèi;hv huì;ax é;ng	382
@@ -45874,7 +45874,7 @@ sort: by_weight
 魏良辅	wèi;hv liáng;dh fǔ;if	255
 魏两国	wèi;hv liǎng;ad guó;wy	316
 魏良卿	wèi;hv liáng;dh qīng;pe	191
-魏凉子	wèi;hv liáng;dx zi;va	167
+魏凉子	wèi;hv liáng;dx zǐ;va	167
 卫琳琅	wèi;ea lín;wl láng;wh	188
 卫灵公	wèi;ea líng;vh gōng;bv	429
 魏岭乡	wèi;hv lǐng;sv xiāng;vp	159
@@ -46029,7 +46029,7 @@ sort: by_weight
 卫台揆	wèi;ea tái;vk kuí;ft	112
 魏太太	wèi;hv tài;dd tài;dd	127
 魏太武	wèi;hv tài;dd wǔ;vg	420
-卫太子	wèi;ea tài;dd zi;va	360
+卫太子	wèi;ea tài;dd zǐ;va	360
 魏太祖	wèi;hv tài;dd zǔ;pq	234
 魏塘镇	wèi;hv táng;tk zhèn;jb	215
 魏特琳	wèi;hv tè;nc lín;wl	279
@@ -46083,7 +46083,7 @@ sort: by_weight
 卫西蒙	wèi;ea xī;aa méng;cn	1
 卫献公	wèi;ea xiàn;uq gōng;bv	339
 魏咸熙	wèi;hv xián;kg xī;ke	199
-魏献子	wèi;hv xiàn;uq zi;va	234
+魏献子	wèi;hv xiàn;uq zǐ;va	234
 卫襄公	wèi;ea xiāng;wh gōng;bv	234
 魏象枢	wèi;hv xiàng;en shū;lx	204
 魏襄王	wèi;hv xiāng;wh wáng;at	310
@@ -46217,11 +46217,11 @@ sort: by_weight
 魏庄乡	wèi;hv zhuāng;gt xiāng;vp	139
 魏庄镇	wèi;hv zhuāng;gt zhèn;jb	145
 卫庄镇	wèi;ea zhuāng;gt zhèn;jb	127
-卫子夫	wèi;ea zi;va fū;an	482
-魏子建	wèi;hv zi;va jiàn;za	210
-魏子乐	wèi;hv zi;va lè;pd	1
+卫子夫	wèi;ea zǐ;va fū;an	482
+魏子建	wèi;hv zǐ;va jiàn;za	210
+魏子乐	wèi;hv zǐ;va lè;pd	1
 魏紫熙	wèi;hv zǐ;vx xī;ke	215
-魏子翔	wèi;hv zi;va xiáng;ex	112
+魏子翔	wèi;hv zǐ;va xiáng;ex	112
 魏宗万	wèi;hv zōng;gx wàn;ap	321
 吴阿仑	wú;kt ā;ek lún;rb	94
 吴阿顺	wú;kt ā;ek shùn;ir	392
@@ -46640,7 +46640,7 @@ sort: by_weight
 吴季璇	wú;kt jì;hz xuán;wr	120
 吴季颖	wú;kt jì;hz yǐng;br	215
 吴集镇	wú;kt jí;rl zhèn;jb	236
-吴季子	wú;kt jì;hz zi;va	133
+吴季子	wú;kt jì;hz zǐ;va	133
 吴家邦	wú;kt jiā;gn bāng;ae	1
 吴家堡	wú;kt jiā;gn bǎo;rt	331
 吴嘉宾	wú;kt jiā;uk bīn;gb	103
@@ -47880,24 +47880,24 @@ sort: by_weight
 吴浊流	wú;kt zhuó;di liú;dv	398
 吴卓羲	wú;kt zhuó;au xī;eg	455
 吴卓源	wú;kt zhuó;au yuán;dx	271
-吴子安	wú;kt zi;va ān;gn	204
-吴子彬	wú;kt zi;va bīn;lp	1
-吴子涵	wú;kt zi;va hán;dh	178
-吴子嘉	wú;kt zi;va jiā;uk	314
-吴子杰	wú;kt zi;va jié;le	139
-吴子兰	wú;kt zi;va lán;es	204
-吴子良	wú;kt zi;va liáng;dh	236
-吴子龙	wú;kt zi;va lóng;ab	222
-吴子明	wú;kt zi;va míng;oo	167
+吴子安	wú;kt zǐ;va ān;gn	204
+吴子彬	wú;kt zǐ;va bīn;lp	1
+吴子涵	wú;kt zǐ;va hán;dh	178
+吴子嘉	wú;kt zǐ;va jiā;uk	314
+吴子杰	wú;kt zǐ;va jié;le	139
+吴子兰	wú;kt zǐ;va lán;es	204
+吴子良	wú;kt zǐ;va liáng;dh	236
+吴子龙	wú;kt zǐ;va lóng;ab	222
+吴子明	wú;kt zǐ;va míng;oo	167
 吴自牧	wú;kt zì;pm mù;nw	339
-吴子牛	wú;kt zi;va niú;pa	291
-吴子深	wú;kt zi;va shēn;dl	133
+吴子牛	wú;kt zǐ;va niú;pa	291
+吴子深	wú;kt zǐ;va shēn;dl	133
 吴梓天	wú;kt zǐ;lu tiān;ad	82
-吴子文	wú;kt zi;va wén;wx	155
-吴子孝	wú;kt zi;va xiào;uz	31
+吴子文	wú;kt zǐ;va wén;wx	155
+吴子孝	wú;kt zǐ;va xiào;uz	31
 吴姿莹	wú;kt zī;dn yíng;cy	139
-吴子瑜	wú;kt zi;va yú;wd	261
-吴子玉	wú;kt zi;va yù;wd	145
+吴子瑜	wú;kt zǐ;va yú;wd	261
+吴子玉	wú;kt zǐ;va yù;wd	145
 吴紫韵	wú;kt zǐ;vx yùn;ld	163
 吴宗达	wú;kt zōng;gx dá;zd	213
 吴宗国	wú;kt zōng;gx guó;wy	159
@@ -48422,7 +48422,7 @@ sort: by_weight
 夏姿陈	xià;aw zī;dn chén;ed	292
 夏梓桐	xià;aw zǐ;lu tóng;lk	242
 夏紫薇	xià;aw zǐ;vx wēi;cw	275
-夏子阳	xià;aw zi;va yáng;eo	201
+夏子阳	xià;aw zǐ;va yáng;eo	201
 夏总兵	xià;aw zǒng;ex bīng;qb	291
 许爱国	xǔ;yu ài;py guó;wy	52
 徐爱华	xú;rx ài;py huá;ru	181
@@ -48475,7 +48475,7 @@ sort: by_weight
 徐步云	xú;rx bù;vp yún;ev	150
 徐才厚	xú;rx cái;ap hòu;iz	509
 徐粲金	xú;rx càn;am jīn;ra	317
-徐岑子	xú;rx cén;sj zi;va	175
+徐岑子	xú;rx cén;sj zǐ;va	175
 许昌城	xǔ;yu chāng;oo chéng;tg	159
 许常德	xǔ;yu cháng;ej dé;rx	368
 许昌东	xǔ;yu chāng;oo dōng;ad	215
@@ -49329,7 +49329,7 @@ sort: by_weight
 徐如林	xú;rx rú;nk lín;ll	326
 许如清	xǔ;yu rú;nk qīng;do	213
 许茹芸	xǔ;yu rú;ck yún;cv	450
-徐孺子	xú;rx rú;ze zi;va	215
+徐孺子	xú;rx rú;ze zǐ;va	215
 许锐锋	xǔ;yu ruì;je fēng;jf	265
 许瑞峰	xǔ;yu ruì;we fēng;sf	178
 许瑞平	xǔ;yu ruì;we píng;au	1
@@ -49456,7 +49456,7 @@ sort: by_weight
 徐松林	xú;rx sōng;lv lín;ll	175
 徐松南	xú;rx sōng;lv nán;uu	181
 许松年	xǔ;yu sōng;lv nián;pa	145
-徐松子	xú;rx sōng;lv zi;va	213
+徐松子	xú;rx sōng;lv zǐ;va	213
 许素惠	xǔ;yu sù;ax huì;ax	1
 许素莹	xǔ;yu sù;ax yíng;cy	191
 徐穗珍	xú;rx suì;hx zhēn;wp	208
@@ -49804,7 +49804,7 @@ sort: by_weight
 徐盈盈	xú;rx yíng;nm yíng;nm	213
 许应元	xǔ;yu yīng;ga yuán;ee	127
 徐应元	xú;rx yīng;ga yuán;ee	103
-徐英子	xú;rx yīng;cy zi;va	127
+徐英子	xú;rx yīng;cy zǐ;va	127
 徐永昌	xú;rx yǒng;dn chāng;oo	394
 徐永恩	xú;rx yǒng;dn ēn;wx	171
 徐永革	xú;rx yǒng;dn gé;ca	150
@@ -50058,27 +50058,27 @@ sort: by_weight
 许庄村	xǔ;yu zhuāng;gt cūn;lc	178
 许庄公	xǔ;yu zhuāng;gt gōng;bv	199
 徐庄镇	xú;rx zhuāng;gt zhèn;jb	240
-徐庄子	xú;rx zhuāng;gt zi;va	231
+徐庄子	xú;rx zhuāng;gt zǐ;va	231
 徐卓呆	xú;rx zhuó;au dāi;kl	112
 许倬勋	xǔ;yu zhuō;ru xūn;kl	1
 许倬云	xǔ;yu zhuō;ru yún;ev	408
-许子东	xǔ;yu zi;va dōng;ad	340
-徐子涵	xú;rx zi;va hán;dh	191
-许子将	xǔ;yu zi;va jiāng;dc	228
-徐子力	xú;rx zi;va lì;vp	196
-徐子陵	xú;rx zi;va líng;ew	346
-徐子苓	xú;rx zi;va líng;cv	127
-徐子平	xú;rx zi;va píng;au	259
-徐子淇	xú;rx zi;va qí;db	471
-徐子奇	xú;rx zi;va qí;dk	171
+许子东	xǔ;yu zǐ;va dōng;ad	340
+徐子涵	xú;rx zǐ;va hán;dh	191
+许子将	xǔ;yu zǐ;va jiāng;dc	228
+徐子力	xú;rx zǐ;va lì;vp	196
+徐子陵	xú;rx zǐ;va líng;ew	346
+徐子苓	xú;rx zǐ;va líng;cv	127
+徐子平	xú;rx zǐ;va píng;au	259
+徐子淇	xú;rx zǐ;va qí;db	471
+徐子奇	xú;rx zǐ;va qí;dk	171
 许自强	xǔ;yu zì;pm qiáng;gi	171
-徐子珊	xú;rx zi;va shān;wc	422
-徐子崴	xú;rx zi;va wǎi;sg	300
-徐子文	xú;rx zi;va wén;wx	94
-徐子轩	xú;rx zi;va xuān;ig	330
+徐子珊	xú;rx zǐ;va shān;wc	422
+徐子崴	xú;rx zǐ;va wǎi;sg	300
+徐子文	xú;rx zǐ;va wén;wx	94
+徐子轩	xú;rx zǐ;va xuān;ig	330
 徐梓耀	xú;rx zǐ;lu yào;ea	159
 徐紫茵	xú;rx zǐ;vx yīn;cd	139
-许子远	xǔ;yu zi;va yuǎn;ze	167
+许子远	xǔ;yu zǐ;va yuǎn;ze	167
 徐宗干	xú;rx zōng;gx gàn;au	265
 徐宗汉	xú;rx zōng;gx hàn;dy	287
 许宗衡	xǔ;yu zōng;gx héng;rd	302
@@ -50251,7 +50251,7 @@ sort: by_weight
 严信民	yán;ai xìn;rk mín;vv	178
 严宣申	yán;ai xuān;gd shēn;aa	112
 严延年	yán;ai yán;zv nián;pa	286
-严彦子	yán;ai yàn;wp zi;va	112
+严彦子	yán;ai yàn;wp zǐ;va	112
 严要求	yán;ai yāo;xn qiú;ad	470
 严艺丹	yán;ai yì;cy dān;pa	322
 严一点	yán;ai yì;aa diǎn;ve	293
@@ -50287,11 +50287,11 @@ sort: by_weight
 严重么	yán;ai zhòng;pa me;pv	379
 严重心	yán;ai zhòng;pa xīn;dd	213
 严重者	yán;ai zhòng;pa zhě;uo	635
-严仲子	yán;ai zhòng;rv zi;va	264
+严仲子	yán;ai zhòng;rv zǐ;va	264
 严州府	yán;ai zhōu;da fǔ;gc	368
 严庄村	yán;ai zhuāng;gt cūn;lc	1
 严倬云	yán;ai zhuō;ru yún;ev	278
-严子陵	yán;ai zi;va líng;ew	346
+严子陵	yán;ai zǐ;va líng;ew	346
 杨阿如	yáng;lp ā;ek rú;nk	288
 杨爱斌	yáng;lp ài;py bīn;wg	275
 杨爱国	yáng;lp ài;py guó;wy	210
@@ -50339,7 +50339,7 @@ sort: by_weight
 杨宝玉	yáng;lp bǎo;gy yù;wd	213
 杨宝璋	yáng;lp bǎo;gy zhāng;wu	163
 杨宝桢	yáng;lp bǎo;gy zhēn;lr	217
-杨包子	yáng;lp bāo;pv zi;va	31
+杨包子	yáng;lp bāo;pv zǐ;va	31
 杨保宗	yáng;lp bǎo;rl zōng;gx	185
 杨贝贝	yáng;lp bèi;ar bèi;ar	257
 杨北村	yáng;lp běi;ab cūn;lc	31
@@ -51109,7 +51109,7 @@ sort: by_weight
 杨令侠	yáng;lp lìng;rv xiá;rj	159
 杨陵镇	yáng;lp líng;ew zhèn;jb	213
 杨岭镇	yáng;lp lǐng;sv zhèn;jb	204
-杨绫子	yáng;lp líng;sw zǐ;va	191
+杨绫子	yáng;lp líng;sw zi;va	191
 杨柳岸	yáng;lp liǔ;le àn;sg	384
 杨柳村	yáng;lp liǔ;le cūn;lc	340
 杨刘村	yáng;lp liú;wd cūn;lc	1
@@ -51196,8 +51196,8 @@ sort: by_weight
 杨梅中	yáng;lp méi;lm zhōng;aa	163
 杨梅洲	yáng;lp méi;lm zhōu;dv	219
 杨梅庄	yáng;lp méi;lm zhuāng;gt	243
-杨妹子	yáng;lp mèi;nw zǐ;va	150
-杨梅子	yáng;lp méi;lm zi;va	120
+杨妹子	yáng;lp mèi;nw zi;va	150
+杨梅子	yáng;lp méi;lm zǐ;va	120
 杨门村	yáng;lp mén;dv cūn;lc	139
 杨蒙恩	yáng;lp méng;cn ēn;wx	1
 杨孟霖	yáng;lp mèng;zm lín;yl	167
@@ -51541,7 +51541,7 @@ sort: by_weight
 杨树云	yáng;lp shù;lc yún;ev	215
 杨树镇	yáng;lp shù;lc zhèn;jb	193
 杨树庄	yáng;lp shù;lc zhuāng;gt	333
-杨叔子	yáng;lp shū;uy zi;va	264
+杨叔子	yáng;lp shū;uy zǐ;va	264
 杨水军	yáng;lp shuǐ;vn jūn;gi	150
 杨思标	yáng;lp sī;tx biāo;lx	219
 杨嗣昌	yáng;lp sì;kk chāng;oo	372
@@ -51618,7 +51618,7 @@ sort: by_weight
 杨天宇	yáng;lp tiān;ad yǔ;gy	210
 杨天真	yáng;lp tiān;ad zhēn;ub	326
 杨田镇	yáng;lp tián;wu zhèn;jb	112
-杨甜子	yáng;lp tián;qg zi;va	294
+杨甜子	yáng;lp tián;qg zǐ;va	294
 杨调元	yáng;lp tiáo;yk yuán;ee	120
 杨铁军	yáng;lp tiě;ju jūn;gi	159
 杨铁梁	yáng;lp tiě;ju liáng;dl	320
@@ -51760,7 +51760,7 @@ sort: by_weight
 杨溪水	yáng;lp xī;dd shuǐ;vn	1
 杨溪乡	yáng;lp xī;dd xiāng;vp	120
 杨希雨	yáng;lp xī;xj yǔ;ad	278
-杨肸子	yáng;lp xī;ou zi;va	133
+杨肸子	yáng;lp xī;ou zǐ;va	133
 杨霞清	yáng;lp xiá;yy qīng;do	94
 杨显东	yáng;lp xiǎn;oy dōng;ad	145
 杨贤妃	yáng;lp xián;ar fēi;nj	270
@@ -52155,7 +52155,7 @@ sort: by_weight
 杨宅村	yáng;lp zhái;gq cūn;lc	120
 杨宅路	yáng;lp zhái;gq lù;zk	231
 杨寨镇	yáng;lp zhài;gx zhèn;jb	185
-杨杖子	yáng;lp zhàng;lv zi;va	178
+杨杖子	yáng;lp zhàng;lv zǐ;va	178
 杨赵村	yáng;lp zhào;tx cūn;lc	69
 杨召村	yáng;lp zhào;dk cūn;lc	1
 杨兆华	yáng;lp zhào;ed huá;ru	171
@@ -52279,7 +52279,7 @@ sort: by_weight
 杨重勋	yáng;lp zhòng;pa xūn;kl	133
 杨中义	yáng;lp zhōng;aa yì;dx	159
 杨忠义	yáng;lp zhōng;vx yì;dx	155
-杨仲子	yáng;lp zhòng;rv zi;va	167
+杨仲子	yáng;lp zhòng;rv zǐ;va	167
 杨州牧	yáng;lp zhōu;da mù;nw	120
 杨州市	yáng;lp zhōu;da shì;wj	328
 杨主任	yáng;lp zhǔ;wt rèn;rr	399
@@ -52290,46 +52290,46 @@ sort: by_weight
 杨庄乡	yáng;lp zhuāng;gt xiāng;vp	306
 杨庄站	yáng;lp zhuāng;gt zhàn;lk	249
 杨庄镇	yáng;lp zhuāng;gt zhèn;jb	243
-杨庄子	yáng;lp zhuāng;gt zi;va	178
+杨庄子	yáng;lp zhuāng;gt zǐ;va	178
 杨卓成	yáng;lp zhuó;au chéng;vg	231
 杨卓娜	yáng;lp zhuó;au nà;ne	257
 杨卓舒	yáng;lp zhuó;au shū;ry	279
-杨子安	yáng;lp zi;va ān;gn	139
-杨子超	yáng;lp zi;va chāo;tk	133
+杨子安	yáng;lp zǐ;va ān;gn	139
+杨子超	yáng;lp zǐ;va chāo;tk	133
 杨紫大	yáng;lp zǐ;vx dà;an	1
-杨子和	yáng;lp zi;va hé;hk	251
-杨子恒	yáng;lp zi;va héng;xd	199
-杨子华	yáng;lp zi;va huá;ru	178
-杨子骅	yáng;lp zi;va huá;mu	145
-杨子江	yáng;lp zi;va jiāng;dg	330
+杨子和	yáng;lp zǐ;va hé;hk	251
+杨子恒	yáng;lp zǐ;va héng;xd	199
+杨子华	yáng;lp zǐ;va huá;ru	178
+杨子骅	yáng;lp zǐ;va huá;mu	145
+杨子江	yáng;lp zǐ;va jiāng;dg	330
 杨紫茳	yáng;lp zǐ;vx jiāng;cg	286
 杨紫近	yáng;lp zǐ;vx jìn;zj	1
 杨梓菁	yáng;lp zǐ;lu jīng;co	127
-杨子君	yáng;lp zi;va jūn;yk	52
-杨子明	yáng;lp zi;va míng;oo	208
+杨子君	yáng;lp zǐ;va jūn;yk	52
+杨子明	yáng;lp zǐ;va míng;oo	208
 杨梓墨	yáng;lp zǐ;lu mò;ht	103
 杨紫拍	yáng;lp zǐ;vx pāi;fb	120
-杨子平	yáng;lp zi;va píng;au	145
-杨子朴	yáng;lp zi;va pǔ;lb	181
-杨子器	yáng;lp zi;va qì;kk	120
-杨子晴	yáng;lp zi;va qíng;oo	298
-杨子荣	yáng;lp zi;va róng;cl	431
-杨子姗	yáng;lp zi;va shān;nc	470
-杨子珊	yáng;lp zi;va shān;wc	357
+杨子平	yáng;lp zǐ;va píng;au	145
+杨子朴	yáng;lp zǐ;va pǔ;lb	181
+杨子器	yáng;lp zǐ;va qì;kk	120
+杨子晴	yáng;lp zǐ;va qíng;oo	298
+杨子荣	yáng;lp zǐ;va róng;cl	431
+杨子姗	yáng;lp zǐ;va shān;nc	470
+杨子珊	yáng;lp zǐ;va shān;wc	357
 杨紫婷	yáng;lp zǐ;vx tíng;nd	127
 杨紫彤	yáng;lp zǐ;vx tóng;dp	171
 杨紫曦	yáng;lp zǐ;vx xī;og	215
-杨子熙	yáng;lp zi;va xī;ke	163
+杨子熙	yáng;lp zǐ;va xī;ke	163
 杨梓鑫	yáng;lp zǐ;lu xīn;rj	229
-杨子兴	yáng;lp zi;va xīng;eb	250
-杨子轩	yáng;lp zi;va xuān;ig	145
+杨子兴	yáng;lp zǐ;va xīng;eb	250
+杨子轩	yáng;lp zǐ;va xuān;ig	145
 杨紫嫣	yáng;lp zǐ;vx yān;ne	206
 杨梓瑶	yáng;lp zǐ;lu yáo;wf	196
 杨紫烨	yáng;lp zǐ;vx yè;hu	242
-杨子仪	yáng;lp zi;va yí;ry	257
-杨子一	yáng;lp zi;va yī;aa	167
+杨子仪	yáng;lp zǐ;va yí;ry	257
+杨子一	yáng;lp zǐ;va yī;aa	167
 杨紫一	yáng;lp zǐ;vx yī;aa	94
-杨子云	yáng;lp zi;va yún;ev	155
+杨子云	yáng;lp zǐ;va yún;ev	155
 杨紫在	yáng;lp zǐ;vx zài;at	350
 杨宗保	yáng;lp zōng;gx bǎo;rl	368
 杨宗翰	yáng;lp zōng;gx hàn;ux	243
@@ -53074,7 +53074,7 @@ sort: by_weight
 张丹三	zhāng;gi dān;pa sān;ae	308
 张丹羊	zhāng;gi dān;pa yáng;ea	287
 张丹阳	zhāng;gi dān;pa yáng;eo	208
-张单子	zhāng;gi dān;ea zi;va	382
+张单子	zhāng;gi dān;ea zǐ;va	382
 张道诚	zhāng;gi dào;zm chéng;yg	163
 张道藩	zhāng;gi dào;zm fān;ct	356
 张道陵	zhāng;gi dào;zm líng;ew	392
@@ -53761,7 +53761,7 @@ sort: by_weight
 张湖村	zhāng;gi hú;do cūn;lc	155
 张胡村	zhāng;gi hú;uo cūn;lc	103
 张护士	zhāng;gi hù;fh shì;ua	204
-张胡子	zhāng;gi hú;uo zi;va	133
+张胡子	zhāng;gi hú;uo zǐ;va	133
 张华浜	zhāng;gi huá;ru bāng;db	270
 张华标	zhāng;gi huá;ru biāo;lx	229
 张华村	zhāng;gi huá;ru cūn;lc	139
@@ -54644,7 +54644,7 @@ sort: by_weight
 张令仪	zhāng;gi lìng;rv yí;ry	82
 张灵玉	zhāng;gi líng;vh yù;wd	249
 张凌云	zhāng;gi líng;dw yún;ev	268
-张玲子	zhāng;gi líng;wv zi;va	199
+张玲子	zhāng;gi líng;wv zǐ;va	199
 张刘陈	zhāng;gi liú;wd chén;ed	355
 张刘村	zhāng;gi liú;wd cūn;lc	133
 张留孙	zhāng;gi liú;pt sūn;zx	222
@@ -54687,7 +54687,7 @@ sort: by_weight
 张马村	zhāng;gi mǎ;va cūn;lc	188
 张玛莉	zhāng;gi mǎ;wm lì;cd	271
 张马屯	zhāng;gi mǎ;va tún;av	215
-张麻子	zhāng;gi má;gl zi;va	508
+张麻子	zhāng;gi má;gl zǐ;va	508
 张麦屯	zhāng;gi mài;aw tún;av	224
 张曼成	zhāng;gi màn;oy chéng;vg	245
 张曼迪	zhāng;gi màn;oy dí;zy	133
@@ -54698,7 +54698,7 @@ sort: by_weight
 张曼涛	zhāng;gi màn;oy tāo;dc	31
 张满意	zhāng;gi mǎn;dl yì;lx	82
 张曼筠	zhāng;gi màn;oy yún;vd	139
-张漫子	zhāng;gi màn;dy zi;va	251
+张漫子	zhāng;gi màn;dy zǐ;va	251
 张蔓姿	zhāng;gi màn;cy zī;dn	242
 张懋诚	zhāng;gi mào;lx chéng;yg	185
 张懋澄	zhāng;gi mào;lx chéng;dd	31
@@ -54967,7 +54967,7 @@ sort: by_weight
 张平年	zhāng;gi píng;au nián;pa	171
 张萍萍	zhāng;gi píng;cu píng;cu	204
 张平平	zhāng;gi píng;au píng;au	52
-张平子	zhāng;gi píng;au zi;va	145
+张平子	zhāng;gi píng;au zǐ;va	145
 张坡村	zhāng;gi pō;ty cūn;lc	69
 张婆婆	zhāng;gi pó;dn pó;dn	373
 张铺村	zhāng;gi pù;jf cūn;lc	1
@@ -55212,7 +55212,7 @@ sort: by_weight
 张山乡	zhāng;gi shān;aa xiāng;vp	175
 张山营	zhāng;gi shān;aa yíng;ck	313
 张善政	zhāng;gi shàn;ek zhèng;vw	389
-张善子	zhāng;gi shàn;ek zi;va	267
+张善子	zhāng;gi shàn;ek zǐ;va	267
 张上海	zhāng;gi shàng;aa hǎi;dm	251
 张尚书	zhāng;gi shàng;ek shū;vd	150
 张尚武	zhāng;gi shàng;ek wǔ;vg	339
@@ -55363,7 +55363,7 @@ sort: by_weight
 张释之	zhāng;gi shì;pa zhī;dn	308
 张世忠	zhāng;gi shì;av zhōng;vx	226
 张世中	zhāng;gi shì;av zhōng;aa	206
-张氏子	zhāng;gi shì;pv zi;va	127
+张氏子	zhāng;gi shì;pv zǐ;va	127
 张寿臣	zhāng;gi shòu;ac chén;ka	339
 张首晟	zhāng;gi shǒu;em chéng;og	363
 张首芳	zhāng;gi shǒu;em fāng;cf	139
@@ -56492,7 +56492,7 @@ sort: by_weight
 张亚中	zhāng;gi yà;ay zhōng;aa	343
 张雅筑	zhāng;gi yǎ;ya zhù;vf	103
 张雅卓	zhāng;gi yǎ;ya zhuó;au	94
-张亚子	zhāng;gi yà;ay zi;va	228
+张亚子	zhāng;gi yà;ay zǐ;va	228
 张彦博	zhāng;gi yàn;wp bó;uc	280
 张延波	zhāng;gi yán;zv bō;dy	185
 张燕昌	zhāng;gi yàn;ce chāng;oo	133
@@ -56576,7 +56576,7 @@ sort: by_weight
 张杨杨	zhāng;gi yáng;lp yáng;lp	139
 张杨园	zhāng;gi yáng;lp yuán;we	69
 张扬着	zhāng;gi yáng;fp zhe;em	356
-张洋子	zhāng;gi yáng;dy zi;va	1
+张洋子	zhāng;gi yáng;dy zǐ;va	1
 张耀编	zhāng;gi yào;ea biān;sc	1
 张耀曾	zhāng;gi yào;ea céng;eo	258
 张耀祠	zhāng;gi yào;ea cí;pk	328
@@ -56622,7 +56622,7 @@ sort: by_weight
 张业遂	zhāng;gi yè;aa suì;zd	362
 张掖县	zhāng;gi yè;fy xiàn;qv	270
 张掖站	zhāng;gi yē;fy zhàn;lk	208
-张晔子	zhāng;gi yè;ou zi;va	261
+张晔子	zhāng;gi yè;ou zǐ;va	261
 张一白	zhāng;gi yī;aa bái;po	461
 张义堡	zhāng;gi yì;dx bǎo;rt	145
 张一兵	zhāng;gi yī;aa bīng;qb	325
@@ -57454,72 +57454,72 @@ sort: by_weight
 张卓行	zhāng;gi zhuó;au xíng;rd	1
 张卓娅	zhāng;gi zhuó;au yà;ny	226
 张桌子	zhāng;gi zhuō;al zi;va	583
-张子昂	zhāng;gi zi;va áng;oe	208
-张子布	zhāng;gi zi;va bù;aj	139
-张子春	zhāng;gi zi;va chūn;ao	31
-张子栋	zhāng;gi zi;va dòng;ld	301
-张子凡	zhāng;gi zi;va fán;jd	304
-张子房	zhāng;gi zi;va fáng;hf	284
-张子枫	zhāng;gi zi;va fēng;lx	448
-张子丰	zhāng;gi zi;va fēng;aa	275
+张子昂	zhāng;gi zǐ;va áng;oe	208
+张子布	zhāng;gi zǐ;va bù;aj	139
+张子春	zhāng;gi zǐ;va chūn;ao	31
+张子栋	zhāng;gi zǐ;va dòng;ld	301
+张子凡	zhāng;gi zǐ;va fán;jd	304
+张子房	zhāng;gi zǐ;va fáng;hf	284
+张子枫	zhāng;gi zǐ;va fēng;lx	448
+张子丰	zhāng;gi zǐ;va fēng;aa	275
 张紫葛	zhāng;gi zǐ;vx gé;cv	155
-张子涵	zhāng;gi zi;va hán;dh	322
+张子涵	zhāng;gi zǐ;va hán;dh	322
 张紫豪	zhāng;gi zǐ;vx háo;wn	208
-张子豪	zhāng;gi zi;va háo;wn	159
-张子和	zhāng;gi zi;va hé;hk	236
-张子恒	zhāng;gi zi;va héng;xd	196
-张子华	zhāng;gi zi;va huá;ru	239
+张子豪	zhāng;gi zǐ;va háo;wn	159
+张子和	zhāng;gi zǐ;va hé;hk	236
+张子恒	zhāng;gi zǐ;va héng;xd	196
+张子华	zhāng;gi zǐ;va huá;ru	239
 张自己	zhāng;gi zì;pm jǐ;vv	345
-张子健	zhāng;gi zi;va jiàn;rj	360
-张子建	zhāng;gi zi;va jiàn;za	150
-张子坚	zhāng;gi zi;va jiān;at	120
-张子键	zhāng;gi zi;va jiàn;jj	69
-张子静	zhāng;gi zi;va jìng;qv	273
-张子君	zhāng;gi zi;va jūn;yk	204
+张子健	zhāng;gi zǐ;va jiàn;rj	360
+张子建	zhāng;gi zǐ;va jiàn;za	150
+张子坚	zhāng;gi zǐ;va jiān;at	120
+张子键	zhāng;gi zǐ;va jiàn;jj	69
+张子静	zhāng;gi zǐ;va jìng;qv	273
+张子君	zhāng;gi zǐ;va jūn;yk	204
 张兹闿	zhāng;gi zī;es kǎi;mj	120
-张子康	zhāng;gi zi;va kāng;gl	257
+张子康	zhāng;gi zǐ;va kāng;gl	257
 张自力	zhāng;gi zì;pm lì;vp	346
 张自立	zhāng;gi zì;pm lì;wa	199
-张子良	zhāng;gi zi;va liáng;dh	254
+张子良	zhāng;gi zǐ;va liáng;dh	254
 张梓琳	zhāng;gi zǐ;lu lín;wl	491
-张子林	zhāng;gi zi;va lín;ll	150
-张子麟	zhāng;gi zi;va lín;ga	69
-张子龙	zhāng;gi zi;va lóng;ab	243
-张子明	zhāng;gi zi;va míng;oo	234
+张子林	zhāng;gi zǐ;va lín;ll	150
+张子麟	zhāng;gi zǐ;va lín;ga	69
+张子龙	zhāng;gi zǐ;va lóng;ab	243
+张子明	zhāng;gi zǐ;va míng;oo	234
 张籽沐	zhāng;gi zǐ;mz mù;dl	372
-张子奇	zhāng;gi zi;va qí;dk	69
-张子强	zhāng;gi zi;va qiáng;gi	460
+张子奇	zhāng;gi zǐ;va qí;dk	69
+张子强	zhāng;gi zǐ;va qiáng;gi	460
 张自强	zhāng;gi zì;pm qiáng;gi	236
-张子清	zhāng;gi zi;va qīng;do	231
+张子清	zhāng;gi zǐ;va qīng;do	231
 张自然	zhāng;gi zì;pm rán;pe	249
-张子仁	zhāng;gi zi;va rén;re	150
-张子容	zhāng;gi zi;va róng;gk	159
-张子荣	zhāng;gi zi;va róng;cl	112
-张子善	zhāng;gi zi;va shàn;ek	343
+张子仁	zhāng;gi zǐ;va rén;re	150
+张子容	zhāng;gi zǐ;va róng;gk	159
+张子荣	zhāng;gi zǐ;va róng;cl	112
+张子善	zhāng;gi zǐ;va shàn;ek	343
 张子石	zhāng;gi zǐ;va shí;ak	150
-张子文	zhāng;gi zi;va wén;wx	287
-张子贤	zhāng;gi zi;va xián;ar	264
-张子祥	zhāng;gi zi;va xiáng;py	191
-张子翔	zhāng;gi zi;va xiáng;ex	150
-张子欣	zhāng;gi zi;va xīn;jr	188
-张子信	zhāng;gi zi;va xìn;rk	175
-张子轩	zhāng;gi zi;va xuān;ig	257
+张子文	zhāng;gi zǐ;va wén;wx	287
+张子贤	zhāng;gi zǐ;va xián;ar	264
+张子祥	zhāng;gi zǐ;va xiáng;py	191
+张子翔	zhāng;gi zǐ;va xiáng;ex	150
+张子欣	zhāng;gi zǐ;va xīn;jr	188
+张子信	zhāng;gi zǐ;va xìn;rk	175
+张子轩	zhāng;gi zǐ;va xuān;ig	257
 张梓轩	zhāng;gi zǐ;lu xuān;ig	167
-张子璇	zhāng;gi zi;va xuán;wr	145
+张子璇	zhāng;gi zǐ;va xuán;wr	145
 张紫妍	zhāng;gi zǐ;vx yán;nk	337
-张子言	zhāng;gi zi;va yán;wk	31
-张子扬	zhāng;gi zi;va yáng;fp	330
+张子言	zhāng;gi zǐ;va yán;wk	31
+张子扬	zhāng;gi zǐ;va yáng;fp	330
 张紫阳	zhāng;gi zǐ;vx yáng;eo	185
-张子意	zhāng;gi zi;va yì;lx	271
-张子怡	zhāng;gi zi;va yí;xk	208
-张子仪	zhāng;gi zi;va yí;ry	159
-张子雨	zhāng;gi zi;va yǔ;ad	171
-张子宇	zhāng;gi zi;va yǔ;gy	139
-张子源	zhāng;gi zi;va yuán;dx	304
-张子元	zhāng;gi zi;va yuán;ee	82
-张子珍	zhāng;gi zi;va zhēn;wp	69
+张子意	zhāng;gi zǐ;va yì;lx	271
+张子怡	zhāng;gi zǐ;va yí;xk	208
+张子仪	zhāng;gi zǐ;va yí;ry	159
+张子雨	zhāng;gi zǐ;va yǔ;ad	171
+张子宇	zhāng;gi zǐ;va yǔ;gy	139
+张子源	zhāng;gi zǐ;va yuán;dx	304
+张子元	zhāng;gi zǐ;va yuán;ee	82
+张子珍	zhāng;gi zǐ;va zhēn;wp	69
 张自忠	zhāng;gi zì;pm zhōng;vx	507
-张子柱	zhāng;gi zi;va zhù;lv	94
+张子柱	zhāng;gi zǐ;va zhù;lv	94
 张宗苍	zhāng;gi zōng;gx cāng;cv	167
 张宗昌	zhāng;gi zōng;gx chāng;oo	478
 张宗海	zhāng;gi zōng;gx hǎi;dm	188
@@ -57570,7 +57570,7 @@ sort: by_weight
 赵葆秀	zhào;tx bǎo;cl xiù;hn	193
 赵保原	zhào;tx bǎo;rl yuán;ix	255
 赵堡镇	zhào;tx bǎo;rt zhèn;jb	332
-赵包子	zhào;tx bāo;pv zi;va	257
+赵包子	zhào;tx bāo;pv zǐ;va	257
 赵北村	zhào;tx běi;ab cūn;lc	52
 赵北峰	zhào;tx běi;ab fēng;sf	120
 赵北源	zhào;tx běi;ab yuán;dx	133
@@ -57875,7 +57875,7 @@ sort: by_weight
 赵怀玉	zhào;tx huái;xb yù;wd	204
 赵焕焱	zhào;tx huàn;hd yàn;hh	333
 赵焕章	zhào;tx huàn;hd zhāng;lu	127
-赵桓子	zhào;tx huán;ld zi;va	219
+赵桓子	zhào;tx huán;ld zǐ;va	219
 赵皇帝	zhào;tx huáng;bw dì;wj	275
 赵皇后	zhào;tx huáng;bw hòu;pk	196
 赵惠段	zhào;tx huì;ax duàn;py	1
@@ -58433,13 +58433,13 @@ sort: by_weight
 赵贤荣	zhào;tx xián;ar róng;cl	219
 赵贤雅	zhào;tx xián;ar yǎ;ya	139
 赵显宰	zhào;tx xiǎn;oy zǎi;gu	246
-赵献子	zhào;tx xiàn;uq zi;va	181
+赵献子	zhào;tx xiàn;uq zǐ;va	181
 赵祥诚	zhào;tx xiáng;py chéng;yg	196
 赵巷村	zhào;tx xiàng;cv cūn;lc	69
 赵向东	zhào;tx xiàng;pk dōng;ad	163
 赵向阳	zhào;tx xiàng;pk yáng;eo	204
 赵巷镇	zhào;tx xiàng;cv zhèn;jb	272
-赵襄子	zhào;tx xiāng;wh zi;va	422
+赵襄子	zhào;tx xiāng;wh zǐ;va	422
 赵孝庵	zhào;tx xiào;uz ān;gd	150
 赵小兵	zhào;tx xiǎo;vd bīng;qb	229
 赵小臭	zhào;tx xiǎo;vd chòu;zq	167
@@ -58529,7 +58529,7 @@ sort: by_weight
 赵旭日	zhào;tx xù;jo rì;wa	445
 赵玄默	zhào;tx xuán;ws mò;hq	175
 赵玄坛	zhào;tx xuán;ws tán;tv	243
-赵宣子	zhào;tx xuān;gd zi;va	222
+赵宣子	zhào;tx xuān;gd zǐ;va	222
 赵学斌	zhào;tx xué;ez bīn;wg	167
 赵学而	zhào;tx xué;ez ér;aa	403
 赵雪峰	zhào;tx xuě;ya fēng;sf	250
@@ -58613,7 +58613,7 @@ sort: by_weight
 赵莹莹	zhào;tx yíng;cy yíng;cy	269
 赵应元	zhào;tx yīng;ga yuán;ee	175
 赵英镇	zhào;tx yīng;cy zhèn;jb	94
-赵樱子	zhào;tx yīng;ln zi;va	310
+赵樱子	zhào;tx yīng;ln zǐ;va	310
 赵永琛	zhào;tx yǒng;dn chēn;wl	94
 赵永夫	zhào;tx yǒng;dn fū;an	204
 赵永刚	zhào;tx yǒng;dn gāng;gd	217
@@ -58718,7 +58718,7 @@ sort: by_weight
 赵泽琦	zhào;tx zé;da qí;wk	217
 赵增熹	zhào;tx zēng;to xī;ue	352
 赵寨村	zhào;tx zhài;gx cūn;lc	204
-赵寨子	zhào;tx zhài;gx zi;va	155
+赵寨子	zhào;tx zhài;gx zǐ;va	155
 赵占东	zhào;tx zhàn;ak dōng;ad	145
 赵展慧	zhào;tx zhǎn;uh huì;fx	178
 赵占魁	zhào;tx zhàn;ak kuí;gu	171
@@ -58803,31 +58803,31 @@ sort: by_weight
 赵庄村	zhào;tx zhuāng;gt cūn;lc	345
 赵庄乡	zhào;tx zhuāng;gt xiāng;vp	210
 赵庄镇	zhào;tx zhuāng;gt zhèn;jb	274
-赵庄子	zhào;tx zhuāng;gt zi;va	163
+赵庄子	zhào;tx zhuāng;gt zǐ;va	163
 赵卓娜	zhào;tx zhuó;au nà;ne	268
-赵子昂	zhào;tx zi;va áng;oe	257
+赵子昂	zhào;tx zǐ;va áng;oe	257
 赵紫宸	zhào;tx zǐ;vx chén;gh	237
-赵子偁	zhào;tx zi;va chēng;rr	175
-赵子豪	zhào;tx zi;va háo;wn	240
+赵子偁	zhào;tx zǐ;va chēng;rr	175
+赵子豪	zhào;tx zǐ;va háo;wn	240
 赵紫骅	zhào;tx zǐ;vx huá;mu	150
-赵子惠	zhào;tx zi;va huì;ax	159
-赵子健	zhào;tx zi;va jiàn;rj	219
-赵子立	zhào;tx zi;va lì;wa	250
-赵子龙	zhào;tx zi;va lóng;ab	506
-赵子明	zhào;tx zi;va míng;oo	252
-赵子墨	zhào;tx zi;va mò;ht	127
+赵子惠	zhào;tx zǐ;va huì;ax	159
+赵子健	zhào;tx zǐ;va jiàn;rj	219
+赵子立	zhào;tx zǐ;va lì;wa	250
+赵子龙	zhào;tx zǐ;va lóng;ab	506
+赵子明	zhào;tx zǐ;va míng;oo	252
+赵子墨	zhào;tx zǐ;va mò;ht	127
 赵紫诺	zhào;tx zǐ;vx nuò;yk	193
-赵子平	zhào;tx zi;va píng;au	1
-赵子琪	zhào;tx zi;va qí;wb	414
+赵子平	zhào;tx zǐ;va píng;au	1
+赵子琪	zhào;tx zǐ;va qí;wb	414
 赵自强	zhào;tx zì;pm qiáng;gi	279
-赵子强	zhào;tx zi;va qiáng;gi	259
-赵子禠	zhào;tx zi;va sī;	112
-赵子文	zhào;tx zi;va wén;wx	139
-赵子玉	zhào;tx zi;va yù;wd	412
-赵子曰	zhào;tx zi;va yuē;wa	222
-赵子岳	zhào;tx zi;va yuè;qs	155
-赵子云	zhào;tx zi;va yún;ev	159
-赵子忠	zhào;tx zi;va zhōng;vx	150
+赵子强	zhào;tx zǐ;va qiáng;gi	259
+赵子禠	zhào;tx zǐ;va sī;	112
+赵子文	zhào;tx zǐ;va wén;wx	139
+赵子玉	zhào;tx zǐ;va yù;wd	412
+赵子曰	zhào;tx zǐ;va yuē;wa	222
+赵子岳	zhào;tx zǐ;va yuè;qs	155
+赵子云	zhào;tx zǐ;va yún;ev	159
+赵子忠	zhào;tx zǐ;va zhōng;vx	150
 赵宗晟	zhào;tx zōng;gx chéng;og	155
 赵宗旦	zhào;tx zōng;gx dàn;oa	171
 赵宗复	zhào;tx zōng;gx fù;pw	239
@@ -59763,14 +59763,14 @@ sort: by_weight
 郑庄公	zhèng;ee zhuāng;gt gōng;bv	448
 郑庄寨	zhèng;ee zhuāng;gt zhài;gx	52
 郑庄镇	zhèng;ee zhuāng;gt zhèn;jb	181
-郑庄子	zhèng;ee zhuāng;gt zi;va	191
-郑子诚	zhèng;ee zi;va chéng;yg	332
-郑子敦	zhèng;ee zi;va dūn;ww	250
+郑庄子	zhèng;ee zhuāng;gt zǐ;va	191
+郑子诚	zhèng;ee zǐ;va chéng;yg	332
+郑子敦	zhèng;ee zǐ;va dūn;ww	250
 郑梓浩	zhèng;ee zǐ;lu hào;dk	229
-郑子豪	zhèng;ee zi;va háo;wn	196
-郑子龄	zhèng;ee zi;va líng;vv	31
-郑子亹	zhèng;ee zi;va wěi;wq	112
-郑子婴	zhèng;ee zi;va yīng;bn	120
+郑子豪	zhèng;ee zǐ;va háo;wn	196
+郑子龄	zhèng;ee zǐ;va líng;vv	31
+郑子亹	zhèng;ee zǐ;va wěi;wq	112
+郑子婴	zhèng;ee zǐ;va yīng;bn	120
 郑祖琛	zhèng;ee zǔ;pq chēn;wl	120
 郑祖康	zhèng;ee zǔ;pq kāng;gl	133
 郑祖年	zhèng;ee zǔ;pq nián;pa	185
@@ -60684,7 +60684,7 @@ sort: by_weight
 周书周	zhōu;pk shū;vd zhōu;pk	103
 周双双	zhōu;pk shuāng;yy shuāng;yy	112
 周水前	zhōu;pk shuǐ;vn qián;ed	171
-周水子	zhōu;pk shuǐ;vn zi;va	400
+周水子	zhōu;pk shuǐ;vn zǐ;va	400
 周舜卿	zhōu;pk shùn;pa qīng;pe	167
 周思成	zhōu;pk sī;tx chéng;vg	397
 周思聪	zhōu;pk sī;tx cōng;ex	281
@@ -60742,7 +60742,7 @@ sort: by_weight
 周天游	zhōu;pk tiān;ad yóu;dz	261
 周天宇	zhōu;pk tiān;ad yǔ;gy	206
 周田镇	zhōu;pk tián;wu zhèn;jb	305
-周天子	zhōu;pk tiān;ad zi;va	501
+周天子	zhōu;pk tiān;ad zǐ;va	501
 周挑战	zhōu;pk tiǎo;fv zhàn;vg	163
 周铁根	zhōu;pk tiě;ju gēn;lh	298
 周铁虎	zhōu;pk tiě;ju hǔ;aj	155
@@ -61302,29 +61302,29 @@ sort: by_weight
 周庄镇	zhōu;pk zhuāng;gt zhèn;jb	392
 周濯街	zhōu;pk zhuó;da jiē;rd	167
 周卓盈	zhōu;pk zhuó;au yíng;nm	196
-周子涵	zhōu;pk zi;va hán;dh	266
-周子寒	zhōu;pk zi;va hán;gd	155
-周子豪	zhōu;pk zi;va háo;wn	1
-周子驹	zhōu;pk zi;va jū;mk	185
-周子昆	zhōu;pk zi;va kūn;ob	307
+周子涵	zhōu;pk zǐ;va hán;dh	266
+周子寒	zhōu;pk zǐ;va hán;gd	155
+周子豪	zhōu;pk zǐ;va háo;wn	1
+周子驹	zhōu;pk zǐ;va jū;mk	185
+周子昆	zhōu;pk zǐ;va kūn;ob	307
 周梓乐	zhōu;pk zǐ;lu lè;pd	363
-周子雷	zhōu;pk zi;va léi;yt	283
-周子平	zhōu;pk zi;va píng;au	139
+周子雷	zhōu;pk zǐ;va léi;yt	283
+周子平	zhōu;pk zǐ;va píng;au	139
 周自齐	zhōu;pk zì;pm qí;wa	307
 周梓淇	zhōu;pk zǐ;lu qí;db	127
 周自强	zhōu;pk zì;pm qiáng;gi	240
-周子舒	zhōu;pk zi;va shū;ry	330
-周子旺	zhōu;pk zi;va wàng;ow	229
-周子雯	zhōu;pk zi;va wén;yx	199
-周子轩	zhōu;pk zi;va xuān;ig	247
-周子学	zhōu;pk zi;va xué;ez	250
-周子琰	zhōu;pk zi;va yǎn;wh	305
-周子扬	zhōu;pk zi;va yáng;fp	262
-周子仪	zhōu;pk zi;va yí;ry	1
+周子舒	zhōu;pk zǐ;va shū;ry	330
+周子旺	zhōu;pk zǐ;va wàng;ow	229
+周子雯	zhōu;pk zǐ;va wén;yx	199
+周子轩	zhōu;pk zǐ;va xuān;ig	247
+周子学	zhōu;pk zǐ;va xué;ez	250
+周子琰	zhōu;pk zǐ;va yǎn;wh	305
+周子扬	zhōu;pk zǐ;va yáng;fp	262
+周子仪	zhōu;pk zǐ;va yí;ry	1
 周梓盈	zhōu;pk zǐ;lu yíng;nm	171
-周子瑜	zhōu;pk zi;va yú;wd	511
-周子玉	zhōu;pk zi;va yù;wd	215
-周子祯	zhōu;pk zi;va zhēn;pr	163
+周子瑜	zhōu;pk zǐ;va yú;wd	511
+周子玉	zhōu;pk zǐ;va yù;wd	215
+周子祯	zhōu;pk zǐ;va zhēn;pr	163
 周紫芝	zhōu;pk zǐ;vx zhī;cv	221
 周宗建	zhōu;pk zōng;gx jiàn;za	210
 周总结	zhōu;pk zǒng;ex jié;sk	261
@@ -61505,7 +61505,7 @@ sort: by_weight
 朱共山	zhū;pw gòng;cb shān;aa	298
 朱公镗	zhū;pw gōng;bv tāng;jt	133
 朱公乡	zhū;pw gōng;bv xiāng;vp	171
-朱公子	zhū;pw gōng;bv zi;va	231
+朱公子	zhū;pw gōng;bv zǐ;va	231
 朱沟村	zhū;pw gōu;dv cūn;lc	31
 朱古达	zhū;pw gǔ;uk dá;zd	292
 朱古力	zhū;pw gǔ;uk lì;vp	585
@@ -61827,7 +61827,7 @@ sort: by_weight
 朱楼村	zhū;pw lóu;ln cūn;lc	171
 朱陆豪	zhū;pw lù;ej háo;wn	233
 朱芦镇	zhū;pw lú;ch zhèn;jb	193
-朱鹭子	zhū;pw lù;zn zi;va	226
+朱鹭子	zhū;pw lù;zn zǐ;va	226
 朱伦年	zhū;pw lún;rb nián;pa	1
 朱律师	zhū;pw lǜ;ra shī;aj	250
 朱马利	zhū;pw mǎ;va lì;hd	256
@@ -61836,7 +61836,7 @@ sort: by_weight
 朱马穆	zhū;pw mǎ;va mù;hp	31
 朱买臣	zhū;pw mǎi;vd chén;ka	356
 朱曼娘	zhū;pw màn;oy niáng;nh	1
-朱曼子	zhū;pw màn;oy zi;va	188
+朱曼子	zhū;pw màn;oy zǐ;va	188
 朱梅馥	zhū;pw méi;lm fù;hw	271
 朱美拉	zhū;pw měi;ed lā;fl	361
 朱美丽	zhū;pw měi;ed lì;ad	1
@@ -62464,7 +62464,7 @@ sort: by_weight
 村上纪香	cūn;lc shàng;aa jì;sj xiāng;ho	254
 村上丽奈	cūn;lc shàng;aa lì;ad nài;dx	181
 村上里沙	cūn;lc shàng;aa lǐ;aa shā;du	240
-村上凉子	cūn;lc shàng;aa liáng;dx zi;va	294
+村上凉子	cūn;lc shàng;aa liáng;dx zǐ;va	294
 村上水军	cūn;lc shàng;aa shuǐ;vn jūn;gi	265
 村上文香	cūn;lc shàng;aa wén;wx xiāng;ho	231
 村上武吉	cūn;lc shàng;aa wǔ;vg jí;uk	201
@@ -62485,7 +62485,7 @@ sort: by_weight
 村田太志	cūn;lc tián;wu tài;dd zhì;ux	291
 村田雄浩	cūn;lc tián;wu xióng;aa hào;dk	224
 村田雄介	cūn;lc tián;wu xióng;aa jiè;ra	309
-村田洋子	cūn;lc tián;wu yáng;dy zi;va	1
+村田洋子	cūn;lc tián;wu yáng;dy zǐ;va	1
 村田英雄	cūn;lc tián;wu yīng;cy xióng;aa	213
 村田知沙	cūn;lc tián;wu zhī;uk shā;du	133
 村田珠光	cūn;lc tián;wu zhū;wv guāng;ee	215
@@ -62499,7 +62499,7 @@ sort: by_weight
 浅井亮政	qiǎn;dg jǐng;aa liàng;wj zhèng;vw	225
 浅井清己	qiǎn;dg jǐng;aa qīng;do jǐ;vv	257
 浅井晴美	qiǎn;dg jǐng;aa qíng;oo měi;ed	125
-浅井淑子	qiǎn;dg jǐng;aa shū;dy zi;va	116
+浅井淑子	qiǎn;dg jǐng;aa shū;dy zǐ;va	116
 浅井头村	qiǎn;dg jǐng;aa tóu;dd cūn;lc	1
 浅井舞香	qiǎn;dg jǐng;aa wǔ;pa xiāng;ho	195
 浅井裕华	qiǎn;dg jǐng;aa yù;pk huá;ru	207
@@ -62511,13 +62511,13 @@ sort: by_weight
 前田安胜	qián;ed tián;wu ān;gn shèng;ou	134
 前田邦宏	qián;ed tián;wu bāng;ae hóng;gv	116
 前田昌明	qián;ed tián;wu chāng;oo míng;oo	92
-浅田朝子	qiǎn;dg tián;wu cháo;uo zi;va	1
+浅田朝子	qiǎn;dg tián;wu cháo;uo zǐ;va	1
 浅田澄香	qiǎn;dg tián;wu chéng;dd xiāng;ho	1
 前田重熙	qián;ed tián;wu chóng;pa xī;ke	92
 浅田春岁	qiǎn;dg tián;wu chūn;ao suì;sx	92
 前田大然	qián;ed tián;wu dà;an rán;pe	253
 浅田德则	qiǎn;dg tián;wu dé;rx zé;bd	35
-前田敦子	qián;ed tián;wu dūn;ww zi;va	521
+前田敦子	qián;ed tián;wu dūn;ww zǐ;va	521
 前田纲纪	qián;ed tián;wu gāng;sx jì;sj	230
 前田亘辉	qián;ed tián;wu gèn;ad huī;ei	325
 前田公辉	qián;ed tián;wu gōng;bv huī;ei	286
@@ -62530,7 +62530,7 @@ sort: by_weight
 前田吉德	qián;ed tián;wu jí;uk dé;rx	183
 千田嘉博	qiān;pu tián;wu jiā;uk bó;uc	1
 浅田结梨	qiǎn;dg tián;wu jié;sk lí;hl	240
-浅田京子	qiǎn;dg tián;wu jīng;wx zi;va	35
+浅田京子	qiǎn;dg tián;wu jīng;wx zǐ;va	35
 前畑俊穗	qián;ed tián;ht jùn;rw suì;hx	1
 前田利长	qián;ed tián;wu lì;hd cháng;pn	344
 前田利常	qián;ed tián;wu lì;hd cháng;ej	307
@@ -62553,7 +62553,7 @@ sort: by_weight
 浅田美礼	qiǎn;dg tián;wu měi;ed lǐ;pv	58
 前田美顺	qián;ed tián;wu měi;ed shùn;ir	308
 前田美月	qián;ed tián;wu měi;ed yuè;pe	230
-前田敏子	qián;ed tián;wu mǐn;mw zi;va	92
+前田敏子	qián;ed tián;wu mǐn;mw zǐ;va	92
 千田奈留	qiān;pu tián;wu nài;dx liú;pt	1
 千田谦藏	qiān;pu tián;wu qiān;yj cáng;cg	35
 前田千世	qián;ed tián;wu qiān;pu shì;av	1
@@ -62563,7 +62563,7 @@ sort: by_weight
 前田希美	qián;ed tián;wu xī;xj měi;ed	187
 前田信弘	qián;ed tián;wu xìn;rk hóng;gv	1
 前田秀继	qián;ed tián;wu xiù;hn jì;sm	92
-前畑秀子	qián;ed tián;ht xiù;hn zi;va	173
+前畑秀子	qián;ed tián;ht xiù;hn zǐ;va	173
 千田玄树	qiān;pu tián;wu xuán;ws shù;lc	1
 前田玄以	qián;ed tián;wu xuán;ws yǐ;vr	260
 前田亚季	qián;ed tián;wu yà;ay jì;hz	285
@@ -62589,9 +62589,9 @@ sort: by_weight
 前田知惠	qián;ed tián;wu zhī;uk huì;ax	116
 前田重教	qián;ed tián;wu zhòng;pa jiào;uw	1
 前田庄村	qián;ed tián;wu zhuāng;gt cūn;lc	1
-前畑滋子	qián;ed tián;ht zī;ds zi;va	92
-浅野爱子	qiǎn;dg yě;ly ài;py zi;va	35
-浅野爱子	qiǎn;dg yě;ly ài;py zi;va	35
+前畑滋子	qián;ed tián;ht zī;ds zǐ;va	92
+浅野爱子	qiǎn;dg yě;ly ài;py zǐ;va	35
+浅野爱子	qiǎn;dg yě;ly ài;py zǐ;va	35
 千野草场	qiān;pu yě;ly cǎo;cu chǎng;tp	319
 千叶禅师	qiān;pu yè;ku chán;pd shī;aj	219
 浅野长晟	qiǎn;dg yě;ly cháng;pn chéng;og	238
@@ -62607,8 +62607,8 @@ sort: by_weight
 浅野长重	qiǎn;dg yě;ly cháng;pn zhòng;pa	142
 浅野长重	qiǎn;dg yě;ly cháng;pn zhòng;pa	142
 千叶彻弥	qiān;pu yè;ku chè;rd mí;gx	340
-浅野典子	qiǎn;dg yě;ly diǎn;ab zi;va	1
-浅野典子	qiǎn;dg yě;ly diǎn;ab zi;va	1
+浅野典子	qiǎn;dg yě;ly diǎn;ab zǐ;va	1
+浅野典子	qiǎn;dg yě;ly diǎn;ab zǐ;va	1
 千叶豆腐	qiān;pu yè;ku dòu;aa fǔ;gr	1
 前野光保	qián;ed yě;ly guāng;ee bǎo;rl	92
 浅野和之	qiǎn;dg yě;ly hé;hk zhī;dn	291
@@ -62616,22 +62616,22 @@ sort: by_weight
 浅野克己	qiǎn;dg yě;ly kè;ue jǐ;vv	92
 浅野克己	qiǎn;dg yě;ly kè;ue jǐ;vv	92
 千叶克彦	qiān;pu yè;ku kè;ue yàn;wp	173
-千叶丽子	qiān;pu yè;ku lì;ad zi;va	207
+千叶丽子	qiān;pu yè;ku lì;ad zǐ;va	207
 浅野琉璃	qiǎn;dg yě;ly liú;wv lí;wl	162
 浅野琉璃	qiǎn;dg yě;ly liú;wv lí;wl	162
 前野蛮人	qián;ed yě;ly mán;wi rén;pn	1
 千叶美加	qiān;pu yè;ku měi;ed jiā;lk	162
-浅野妙子	qiǎn;dg yě;ly miào;nu zi;va	264
-浅野妙子	qiǎn;dg yě;ly miào;nu zi;va	264
+浅野妙子	qiǎn;dg yě;ly miào;nu zǐ;va	264
+浅野妙子	qiǎn;dg yě;ly miào;nu zǐ;va	264
 前野朋哉	qián;ed yě;ly péng;oo zāi;kg	255
 浅野启吾	qiǎn;dg yě;ly qǐ;hk wú;wk	199
 浅野启吾	qiǎn;dg yě;ly qǐ;hk wú;wk	199
-千叶纱子	qiān;pu yè;ku shā;su zi;va	356
+千叶纱子	qiān;pu yè;ku shā;su zǐ;va	356
 千叶顺二	qiān;pu yè;ku shùn;ir èr;aa	105
 浅野拓磨	qiǎn;dg yě;ly tuò;fk mó;gk	319
 浅野拓磨	qiǎn;dg yě;ly tuò;fk mó;gk	319
-浅野温子	qiǎn;dg yě;ly wēn;dm zi;va	321
-浅野温子	qiǎn;dg yě;ly wēn;dm zi;va	321
+浅野温子	qiǎn;dg yě;ly wēn;dm zǐ;va	321
+浅野温子	qiǎn;dg yě;ly wēn;dm zǐ;va	321
 千叶翔也	qiān;pu yè;ku xiáng;ex yě;vv	317
 浅野幸长	qiǎn;dg yě;ly xìng;tu cháng;pn	272
 浅野幸长	qiǎn;dg yě;ly xìng;tu cháng;pn	272
@@ -62643,10 +62643,10 @@ sort: by_weight
 浅野要二	qiǎn;dg yě;ly yào;xn èr;aa	116
 浅野要二	qiǎn;dg yě;ly yào;xn èr;aa	116
 千叶一伸	qiān;pu yè;ku yī;aa shēn;ru	346
-浅野优子	qiǎn;dg yě;ly yōu;ry zi;va	238
-浅野优子	qiǎn;dg yě;ly yōu;ry zi;va	238
-浅野裕子	qiǎn;dg yě;ly yù;pk zi;va	178
-浅野裕子	qiǎn;dg yě;ly yù;pk zi;va	178
+浅野优子	qiǎn;dg yě;ly yōu;ry zǐ;va	238
+浅野优子	qiǎn;dg yě;ly yōu;ry zǐ;va	238
+浅野裕子	qiǎn;dg yě;ly yù;pk zǐ;va	178
+浅野裕子	qiǎn;dg yě;ly yù;pk zǐ;va	178
 前野悦辉	qián;ed yě;ly yuè;xe huī;ei	77
 浅野真澄	qiǎn;dg yě;ly zhēn;ub chéng;dd	395
 浅野真澄	qiǎn;dg yě;ly zhēn;ub chéng;dd	395
@@ -62663,7 +62663,7 @@ sort: by_weight
 藤本美贵	téng;cu běn;aa měi;ed guì;vr	297
 藤本一彦	téng;cu běn;aa yī;aa yàn;wp	139
 藤本壮介	téng;cu běn;aa zhuàng;du jiè;ra	332
-藤波京子	téng;cu bō;dy jīng;wx zi;va	1
+藤波京子	téng;cu bō;dy jīng;wx zǐ;va	1
 藤城雪音	téng;cu chéng;tg xuě;ya yīn;lo	1
 藤城裕士	téng;cu chéng;tg yù;pk shì;ua	103
 腾冲慈姑	téng;om chōng;dv cí;ex gū;nk	1
@@ -62671,7 +62671,7 @@ sort: by_weight
 腾冲箭竹	téng;om chōng;dv jiàn;vd zhú;pd	31
 腾冲木蓝	téng;om chōng;dv mù;un lán;cm	31
 腾冲南星	téng;om chōng;dv nán;uu xīng;ou	1
-藤川京子	téng;cu chuān;pa jīng;wx zi;va	1
+藤川京子	téng;cu chuān;pa jīng;wx zǐ;va	1
 藤川球儿	téng;cu chuān;pa qiú;wq ér;pv	178
 藤川优里	téng;cu chuān;pa yōu;ry lǐ;aa	82
 藤村菜月	téng;cu cūn;lc cài;cl yuè;pe	112
@@ -62683,14 +62683,14 @@ sort: by_weight
 藤村真澄	téng;cu cūn;lc zhēn;ub chéng;dd	1
 藤村志保	téng;cu cūn;lc zhì;ux bǎo;rl	201
 藤代孝治	téng;cu dài;rg xiào;uz zhì;dk	94
-藤岛景子	téng;cu dǎo;ps jǐng;ox zi;va	127
+藤岛景子	téng;cu dǎo;ps jǐng;ox zǐ;va	127
 藤岛康介	téng;cu dǎo;ps kāng;gl jiè;ra	308
 藤岛武二	téng;cu dǎo;ps wǔ;vg èr;aa	188
 藤宫红叶	téng;cu gōng;gk hóng;sg yè;ku	127
 藤公山村	téng;cu gōng;bv shān;aa cūn;lc	1
 藤谷美纪	téng;cu gǔ;bk měi;ed jì;sj	175
 藤谷太辅	téng;cu gǔ;bk tài;dd fǔ;if	291
-藤谷文子	téng;cu gǔ;bk wén;wx zi;va	159
+藤谷文子	téng;cu gǔ;bk wén;wx zǐ;va	159
 藤吉圭介	téng;cu jí;uk guī;tt jiè;ra	31
 藤吉晴美	téng;cu jí;uk qíng;oo měi;ed	139
 藤江惠辅	téng;cu jiāng;dg huì;ax fǔ;if	94
@@ -62699,8 +62699,8 @@ sort: by_weight
 藤井健雄	téng;cu jǐng;aa jiàn;rj xióng;aa	1
 藤井结夏	téng;cu jǐng;aa jié;sk xià;aw	52
 藤井静香	téng;cu jǐng;aa jìng;qv xiāng;ho	1
-藤井京子	téng;cu jǐng;aa jīng;wx zi;va	52
-藤井宽子	téng;cu jǐng;aa kuān;gj zi;va	120
+藤井京子	téng;cu jǐng;aa jīng;wx zǐ;va	52
+藤井宽子	téng;cu jǐng;aa kuān;gj zǐ;va	120
 藤井莉娜	téng;cu jǐng;aa lì;cd nà;ne	274
 藤井麻衣	téng;cu jǐng;aa má;gl yī;wh	1
 藤井美菜	téng;cu jǐng;aa měi;ed cài;cl	228
@@ -62711,7 +62711,7 @@ sort: by_weight
 藤井有彩	téng;cu jǐng;aa yǒu;ao cǎi;pp	127
 藤井郁弥	téng;cu jǐng;aa yù;ye mí;gx	210
 藤井重郎	téng;cu jǐng;aa zhòng;pa láng;de	94
-藤木凉子	téng;cu mù;un liáng;dx zi;va	1
+藤木凉子	téng;cu mù;un liáng;dx zǐ;va	1
 藤木圣子	téng;cu mù;un shèng;yt zǐ;va	1
 藤木直人	téng;cu mù;un zhí;ua rén;pn	357
 藤乃静留	téng;cu nǎi;vp jìng;qv liú;pt	185
@@ -62720,52 +62720,52 @@ sort: by_weight
 腾骐骏安	téng;om qí;mb jùn;mw ān;gn	1
 藤崎怜里	téng;cu qí;sk lián;xv lǐ;aa	1
 藤崎仁美	téng;cu qí;sk rén;re měi;ed	1
-藤森绫子	téng;cu sēn;ll líng;sw zǐ;va	82
-藤森夕子	téng;cu sēn;ll xī;pd zi;va	1
+藤森绫子	téng;cu sēn;ll líng;sw zi;va	82
+藤森夕子	téng;cu sēn;ll xī;pd zǐ;va	1
 藤森香织	téng;cu sēn;ll xiāng;ho zhī;sb	1
 藤生圣子	téng;cu shēng;pa shèng;yt zǐ;va	31
 藤堂高次	téng;cu táng;et gāo;wk cì;dr	69
 藤堂高虎	téng;cu táng;et gāo;wk hǔ;aj	347
 藤堂高英	téng;cu táng;et gāo;wk yīng;cy	69
-藤堂麻子	téng;cu táng;et má;gl zi;va	1
+藤堂麻子	téng;cu táng;et má;gl zǐ;va	1
 藤堂美沙	téng;cu táng;et měi;ed shā;du	139
 藤堂平助	téng;cu táng;et píng;au zhù;ql	300
 藤堂夏央	téng;cu táng;et xià;aw yāng;an	1
 藤堂香澄	téng;cu táng;et xiāng;ho chéng;dd	103
-藤堂阳子	téng;cu táng;et yáng;eo zi;va	1
+藤堂阳子	téng;cu táng;et yáng;eo zǐ;va	1
 藤堂真衣	téng;cu táng;et zhēn;ub yī;wh	163
 藤田昌代	téng;cu tián;wu chāng;oo dài;rg	52
-藤田芳子	téng;cu tián;wu fāng;cf zi;va	1
+藤田芳子	téng;cu tián;wu fāng;cf zǐ;va	1
 藤田贵美	téng;cu tián;wu guì;vr měi;ed	1
 藤田圭宣	téng;cu tián;wu guī;tt xuān;gd	208
-藤田和子	téng;cu tián;wu hé;hk zi;va	145
-藤田记子	téng;cu tián;wu jì;yj zi;va	1
-藤田靖子	téng;cu tián;wu jìng;lo zi;va	52
+藤田和子	téng;cu tián;wu hé;hk zǐ;va	145
+藤田记子	téng;cu tián;wu jì;yj zǐ;va	1
+藤田靖子	téng;cu tián;wu jìng;lo zǐ;va	52
 藤田俊哉	téng;cu tián;wu jùn;rw zāi;kg	188
 藤田麻贵	téng;cu tián;wu má;gl guì;vr	1
 藤田麻衣	téng;cu tián;wu má;gl yī;wh	52
 藤田奈那	téng;cu tián;wu nài;dx nà;ve	265
-藤田朋子	téng;cu tián;wu péng;oo zi;va	150
+藤田朋子	téng;cu tián;wu péng;oo zǐ;va	150
 藤田晴美	téng;cu tián;wu qíng;oo měi;ed	69
 藤田瑞希	téng;cu tián;wu ruì;we xī;xj	1
 藤田尚德	téng;cu tián;wu shàng;ek dé;rx	94
 藤田时尾	téng;cu tián;wu shí;oc wěi;um	1
-藤田淑子	téng;cu tián;wu shū;dy zi;va	281
+藤田淑子	téng;cu tián;wu shū;dy zǐ;va	281
 藤田夏海	téng;cu tián;wu xià;aw hǎi;dm	1
 藤田祥史	téng;cu tián;wu xiáng;py shǐ;an	1
 藤田信吉	téng;cu tián;wu xìn;rk jí;uk	178
 藤田医院	téng;cu tián;wu yī;kd yuàn;ee	1
 藤田知美	téng;cu tián;wu zhī;uk měi;ed	69
 藤丸立香	téng;cu wán;pd lì;wa xiāng;ho	320
-藤屋裕子	téng;cu wū;ut yù;pk zi;va	1
+藤屋裕子	téng;cu wū;ut yù;pk zǐ;va	1
 藤野节子	téng;cu yě;ly jiē;ce zǐ;va	1
-藤野凉子	téng;cu yě;ly liáng;dx zi;va	201
-藤野泰子	téng;cu yě;ly tài;au zi;va	1
+藤野凉子	téng;cu yě;ly liáng;dx zǐ;va	201
+藤野泰子	téng;cu yě;ly tài;au zǐ;va	1
 藤野玄洋	téng;cu yě;ly xuán;ws yáng;dy	52
 藤邑铃香	téng;cu yì;kb líng;jv xiāng;ho	1
 藤原邦纲	téng;cu yuán;ix bāng;ae gāng;sx	69
 藤原朝忠	téng;cu yuán;ix cháo;uo zhōng;vx	94
-藤原竴子	téng;cu yuán;ix cūn; zi;va	1
+藤原竴子	téng;cu yuán;ix cūn; zǐ;va	1
 藤原道赖	téng;cu yuán;ix dào;zm lài;ur	1
 藤原道山	téng;cu yuán;ix dào;zm shān;aa	139
 藤原道长	téng;cu yuán;ix dào;zm zhǎng;pn	379
@@ -62779,7 +62779,7 @@ sort: by_weight
 藤原基经	téng;cu yuán;ix jī;qt jīng;sg	294
 藤原纪香	téng;cu yuán;ix jì;sj xiāng;ho	391
 藤原家隆	téng;cu yuán;ix jiā;gn lóng;eu	193
-藤原佳子	téng;cu yuán;ix jiā;rt zi;va	1
+藤原佳子	téng;cu yuán;ix jiā;rt zǐ;va	1
 藤原经邦	téng;cu yuán;ix jīng;sg bāng;ae	103
 藤原久美	téng;cu yuán;ix jiǔ;pn měi;ed	1
 藤原鞠菜	téng;cu yuán;ix jū;cm cài;cl	69
@@ -62789,7 +62789,7 @@ sort: by_weight
 藤原理加	téng;cu yuán;ix lǐ;wl jiā;lk	31
 藤原利仙	téng;cu yuán;ix lì;hd xiān;rs	31
 藤原良房	téng;cu yuán;ix liáng;dh fáng;hf	272
-藤原辽子	téng;cu yuán;ix liáo;zl zi;va	103
+藤原辽子	téng;cu yuán;ix liáo;zl zǐ;va	103
 藤原隆信	téng;cu yuán;ix lóng;eu xìn;rk	133
 藤原龙也	téng;cu yuán;ix lóng;ab yě;vv	348
 藤原麻吕	téng;cu yuán;ix má;gl lǚ;kk	167
@@ -62805,13 +62805,13 @@ sort: by_weight
 藤原师通	téng;cu yuán;ix shī;aj tōng;zy	133
 藤原氏宗	téng;cu yuán;ix shì;pv zōng;gx	69
 藤原书记	téng;cu yuán;ix shū;vd jì;yj	1
-藤原塔子	téng;cu yuán;ix tǎ;tk zi;va	133
+藤原塔子	téng;cu yuán;ix tǎ;tk zǐ;va	133
 藤原泰浩	téng;cu yuán;ix tài;au hào;dk	94
 藤原文太	téng;cu yuán;ix wén;wx tài;dd	265
-藤原温子	téng;cu yuán;ix wēn;dm zi;va	171
+藤原温子	téng;cu yuán;ix wēn;dm zǐ;va	171
 藤原喜明	téng;cu yuán;ix xǐ;uk míng;oo	159
-藤原香子	téng;cu yuán;ix xiāng;ho zi;va	103
-藤原忻子	téng;cu yuán;ix xīn;xj zi;va	120
+藤原香子	téng;cu yuán;ix xiāng;ho zǐ;va	103
+藤原忻子	téng;cu yuán;ix xīn;xj zǐ;va	120
 藤原行成	téng;cu yuán;ix xíng;rd chéng;vg	257
 藤原兴风	téng;cu yuán;ix xīng;eb fēng;jx	82
 藤原惺窝	téng;cu yuán;ix xīng;xu wō;gn	196
@@ -62846,16 +62846,16 @@ sort: by_weight
 岩田刚典	yán;sk tián;wu gāng;gd diǎn;ab	323
 岩田光央	yán;sk tián;wu guāng;ee yāng;an	383
 岩田和行	yán;sk tián;wu hé;hk xíng;rd	187
-岩田良子	yán;sk tián;wu liáng;dh zi;va	1
+岩田良子	yán;sk tián;wu liáng;dh zǐ;va	1
 岩田喷枪	yán;sk tián;wu pēn;kr qiāng;lv	1
 岩田三秋	yán;sk tián;wu sān;ae qiū;hh	168
 岩田由贵	yán;sk tián;wu yóu;aa guì;vr	134
 岩田宙造	yán;sk tián;wu zhòu;gy zào;zk	1
 佐山策元	zuǒ;rg shān;aa cè;vn yuán;ee	69
-佐山明子	zuǒ;rg shān;aa míng;oo zi;va	1
+佐山明子	zuǒ;rg shān;aa míng;oo zǐ;va	1
 佐山圣子	zuǒ;rg shān;aa shèng;yt zǐ;va	159
 佐山阳规	zuǒ;rg shān;aa yáng;eo guī;fj	94
-佐藤爱子	zuǒ;rg téng;cu ài;py zi;va	159
+佐藤爱子	zuǒ;rg téng;cu ài;py zǐ;va	159
 佐藤霸川	zuǒ;rg téng;cu bà;yo chuān;pa	1
 佐藤春夫	zuǒ;rg téng;cu chūn;ao fū;an	297
 佐藤聪美	zuǒ;rg téng;cu cōng;ex měi;ed	365
@@ -62867,7 +62867,7 @@ sort: by_weight
 佐藤二朗	zuǒ;rg téng;cu èr;aa lǎng;do	308
 佐藤芳洋	zuǒ;rg téng;cu fāng;cf yáng;dy	1
 佐藤妃星	zuǒ;rg téng;cu fēi;nj xīng;ou	215
-佐藤富子	zuǒ;rg téng;cu fù;gt zi;va	264
+佐藤富子	zuǒ;rg téng;cu fù;gt zǐ;va	264
 佐藤广太	zuǒ;rg téng;cu guǎng;wp tài;dd	1
 佐藤光一	zuǒ;rg téng;cu guāng;ee yī;aa	52
 佐藤浩市	zuǒ;rg téng;cu hào;dk shì;wj	333
@@ -62877,16 +62877,16 @@ sort: by_weight
 佐藤绘美	zuǒ;rg téng;cu huì;sv měi;ed	1
 佐藤继信	zuǒ;rg téng;cu jì;sm xìn;rk	145
 佐藤嘉恭	zuǒ;rg téng;cu jiā;uk gōng;cd	94
-佐藤佳子	zuǒ;rg téng;cu jiā;rt zi;va	1
+佐藤佳子	zuǒ;rg téng;cu jiā;rt zǐ;va	1
 佐藤健辅	zuǒ;rg téng;cu jiàn;rj fǔ;if	242
 佐藤健吾	zuǒ;rg téng;cu jiàn;rj wú;wk	1
 佐藤健悦	zuǒ;rg téng;cu jiàn;rj yuè;xe	155
 佐藤警官	zuǒ;rg téng;cu jǐng;ck guān;ga	224
 佐藤久佳	zuǒ;rg téng;cu jiǔ;pn jiā;rt	31
-佐藤俊子	zuǒ;rg téng;cu jùn;rw zi;va	1
+佐藤俊子	zuǒ;rg téng;cu jùn;rw zǐ;va	1
 佐藤宽太	zuǒ;rg téng;cu kuān;gj tài;dd	191
-佐藤宽子	zuǒ;rg téng;cu kuān;gj zi;va	228
-佐藤蓝子	zuǒ;rg téng;cu lán;cm zi;va	224
+佐藤宽子	zuǒ;rg téng;cu kuān;gj zǐ;va	228
+佐藤蓝子	zuǒ;rg téng;cu lán;cm zǐ;va	224
 佐藤利奈	zuǒ;rg téng;cu lì;hd nài;dx	383
 佐藤梨香	zuǒ;rg téng;cu lí;hl xiāng;ho	1
 佐藤辽佳	zuǒ;rg téng;cu liáo;zl jiā;rt	1
@@ -62894,7 +62894,7 @@ sort: by_weight
 佐藤隆太	zuǒ;rg téng;cu lóng;eu tài;dd	294
 佐藤隆彦	zuǒ;rg téng;cu lóng;eu yàn;wp	1
 佐藤麻衣	zuǒ;rg téng;cu má;gl yī;wh	255
-佐藤麻子	zuǒ;rg téng;cu má;gl zi;va	69
+佐藤麻子	zuǒ;rg téng;cu má;gl zǐ;va	69
 佐藤美保	zuǒ;rg téng;cu měi;ed bǎo;rl	52
 佐藤美菜	zuǒ;rg téng;cu měi;ed cài;cl	1
 佐藤美贵	zuǒ;rg téng;cu měi;ed guì;vr	120
@@ -62915,7 +62915,7 @@ sort: by_weight
 佐藤夏希	zuǒ;rg téng;cu xià;aw xī;xj	310
 佐藤贤了	zuǒ;rg téng;cu xián;ar le;vv	204
 佐藤香织	zuǒ;rg téng;cu xiāng;ho zhī;sb	103
-佐藤翔子	zuǒ;rg téng;cu xiáng;ex zi;va	1
+佐藤翔子	zuǒ;rg téng;cu xiáng;ex zǐ;va	1
 佐藤霄吉	zuǒ;rg téng;cu xiāo;yo jí;uk	1
 佐藤信介	zuǒ;rg téng;cu xìn;rk jiè;ra	259
 佐藤幸德	zuǒ;rg téng;cu xìng;tu dé;rx	145
@@ -62932,10 +62932,10 @@ sort: by_weight
 佐藤有世	zuǒ;rg téng;cu yǒu;ao shì;av	112
 佐藤优树	zuǒ;rg téng;cu yōu;ry shù;lc	289
 佐藤优香	zuǒ;rg téng;cu yōu;ry xiāng;ho	52
-佐藤佑子	zuǒ;rg téng;cu yòu;rk zi;va	206
+佐藤佑子	zuǒ;rg téng;cu yòu;rk zǐ;va	206
 佐藤裕美	zuǒ;rg téng;cu yù;pk měi;ed	270
 佐藤源太	zuǒ;rg téng;cu yuán;dx tài;dd	139
-佐藤悦子	zuǒ;rg téng;cu yuè;xe zi;va	31
+佐藤悦子	zuǒ;rg téng;cu yuè;xe zǐ;va	31
 佐藤丈树	zuǒ;rg téng;cu zhàng;an shù;lc	1
 佐藤政道	zuǒ;rg téng;cu zhèng;vw dào;zm	120
 佐藤正基	zuǒ;rg téng;cu zhèng;av jī;qt	1
@@ -62952,15 +62952,15 @@ sort: by_weight
 佐藤竹善	zuǒ;rg téng;cu zhú;pd shàn;ek	112
 佐藤珠绪	zuǒ;rg téng;cu zhū;wv xù;so	193
 佐藤奏美	zuǒ;rg téng;cu zòu;at měi;ed	199
-佐野雏子	zuǒ;rg yě;ly chú;ea zi;va	112
+佐野雏子	zuǒ;rg yě;ly chú;ea zǐ;va	112
 佐野房纲	zuǒ;rg yě;ly fáng;hf gāng;sx	69
 佐野浩敏	zuǒ;rg yě;ly hào;dk mǐn;mw	127
 佐野和真	zuǒ;rg yě;ly hé;hk zhēn;ub	196
-佐野惠子	zuǒ;rg yě;ly huì;ax zi;va	1
+佐野惠子	zuǒ;rg yě;ly huì;ax zǐ;va	1
 佐野量子	zuǒ;rg yě;ly liàng;dl zǐ;va	103
 佐野史郎	zuǒ;rg yě;ly shǐ;an láng;de	310
 佐野勇斗	zuǒ;rg yě;ly yǒng;vl dòu;du	242
-佐野优子	zuǒ;rg yě;ly yōu;ry zi;va	139
+佐野优子	zuǒ;rg yě;ly yōu;ry zǐ;va	139
 佐野元春	zuǒ;rg yě;ly yuán;ee chūn;ao	199
 佐野忠义	zuǒ;rg yě;ly zhōng;vx yì;dx	171
 佐治武士	zuǒ;rg zhì;dk wǔ;vg shì;ua	58
@@ -63005,7 +63005,8 @@ sort: by_weight
 佐竹佐竹	zuǒ;rg zhú;pd zuǒ;rg zhú;pd	1
 佐祖尔亚	zuǒ;rg zǔ;pq ěr;ex yà;ay	35
 佐祖利亚	zuǒ;rg zǔ;pq lì;hd yà;ay	168
-佐祖林齐	zuǒ;rg zǔ;pq lín;ll qí;wa	35佐佐保雄	zuǒ zuǒ bǎo xióng
+佐祖林齐	zuǒ;rg zǔ;pq lín;ll qí;wa	35
+佐佐保雄	zuǒ;rg zuǒ;rg bǎo;rl xióng;aa	1
 佐佐本夕	zuǒ;rg zuǒ;rg běn;aa xī;pd	77
 佐佐波绫	zuǒ;rg zuǒ;rg bō;dy líng;sw	1
 佐佐成政	zuǒ;rg zuǒ;rg chéng;vg zhèng;vw	362
