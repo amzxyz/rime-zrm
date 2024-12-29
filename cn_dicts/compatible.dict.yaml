@@ -8,77 +8,48 @@ version: "2025-01-01"
 sort: by_weight
 ...
 干不干	gàn;au bú;ad gàn;au	380
-干不干	gān;au bù;ad gān;au	80
 美的	měi;ed dì;bu	467
 随行	suí;eo háng;rd	552
-随行	suí;eo xíng;rd	781
 相称	xiāng;lm chèn;hx	404
-相称	xiāng;lm chēng;hx	504
 重活	zhòng;pa huó;dk	391
-重活	chóng;pa huó;dk	120
 罢了	bà;sv le;vv	888
-罢了	bà;sv liǎo;vv	647
 累累	lěi;tx lěi;tx	511
-累累	léi;tx léi;tx	577
 调配	diào;yk pèi;yj	688
-调配	tiáo;yk pèi;yj	622
 数次	shù;mw cì;dr	768
-数次	shuò;mw cì;dr	523
 我为	wǒ;pg wéi;dd	467
-我为	wǒ;pg wèi;dd	663
 更为	gèng;an wéi;dd	915
-更为	gèng;an wèi;dd	965
 长的	cháng;pn de;bu	802
-长的	zhǎng;pn de;bu	919
 落下	là;ck xià;ab	764
-落下	luò;ck xià;ab	818
 穿着	chuān;gy zhe;em	1000
-穿着	chuān;gy zhuó;em	644
 一通	yí;aa tòng;zy	710
-一通	yì;aa tōng;zy	608
 总长	zǒng;ex cháng;pn	705
-总长	zǒng;ex zhǎng;pn	436
 不长	bǔ;ad cháng;pn	570
-不长	bù;ad zhǎng;pn	329
 掠夺	lüè;fx duó;dc	686
-掠夺	lüě;fx duó;dc	300
 略长	lüè;tk zhǎng;pn	184
-略长	lüè;tk cháng;pn	447
 略长一些	lüè;tk cháng;pn yì;aa xiē;ve	42
 略长几岁	lüè;tk zhǎng;pn jǐ;pv suì;sx	1
 见长	jiàn;av zhǎng;pn	621
-见长	jiàn;av cháng;pn	472
 所长	suǒ;pj cháng;pn	611
-所长	suǒ;pj zhǎng;pn	786
 便宜	biàn;rg yí;gq	201
-便宜	pián;rg yi;gq	520
 便不便宜	biàn;rg bú;ad biàn;rg yí;gq	376
 便宜行事	biàn;rg yí;gq xíng;rd shì;av	281
 便宜之内	biàn;rg yí;gq zhī;dn nèi;ad	110
 越长	yuè;tg cháng;pn	271
-越长	yuè;tg zhǎng;pn	347
 越长大	yuè;tg zhǎng;pn dà;an	321
 越长越快	yuè;tg zhǎng;pn yuè;tg kuài;xn	204
 越长越好	yuè;tg cháng;pn yuè;tg hǎo;nz	230
 越长越	yuè;tg cháng;pn yuè;tg	315
-越长越	yuè;tg zhǎng;pn yuè;tg	265
 行长	háng;rd zhǎng;pn	466
 年长	nián;pa zhǎng;pn	246
-年长	nián;pa cháng;pn	207
 长牙	zhǎng;pn yá;ap	283
-长牙	cháng;pn yá;ap	84
 长相	zhǎng;pn xiàng;lm	429
 白庙	bái;po miào;gy	1
 不为	bú;ad wèi;dd	609
-不为	bù;ad wéi;dd	600
-年长	nián;pa cháng;pn	447
-年长	nián;pa zhǎng;pn	522
 十四	shí;aa sì;we	1
 四十	sì;we shí;aa	1
 五行	wǔ;aa háng;rd	558
-五行	wǔ;aa xíng;rd	607
 一行	yì;aa háng;rd	620
-一行	yì;aa xíng;rd	530
+重天	zhòng;pa tiān;ad	497
 捉兔	zhuō;fr tù;ed	1
 白石塔	bái;po shí;ak tǎ;tk	1
 板凳宽	bǎn;ly dèng;dj kuān;gj	1
@@ -98,12 +69,11 @@ sort: by_weight
 哥哥说	gē;ak ge;ak shuō;ye	1
 搁下醋	gē;fk xià;ab cù;yo	1
 红凤凰	hóng;sg fèng;jy huáng;jw	1
-红凤凰	hóng;sg fèng;jy huáng;jw	1
 花凤凰	huā;cb fèng;jy huáng;jw	1
 花鸟叫	huā;cb niǎo;pa jiào;ka	1
 黄凤凰	huáng;cb fèng;jy huáng;jw	1
 接住豆	jiē;fn zhù;rv dòu;aa	1
-九重天	jiǔ;pv chóng;pa tiān;ad	560
+九重天	jiǔ;pv zhòng;pa tiān;ad	560
 两个八	liǎng;ad gè;ra bā;pn	644
 两个白	liǎng;ad gè;ra bái;po	1
 两个百	liǎng;ad gè;ra bǎi;ab	1
@@ -116,8 +86,6 @@ sort: by_weight
 两个昌	liǎng;ad gè;ra chāng;oo	1
 两个巢	liǎng;ad gè;ra cháo;vg	1
 两个屮	liǎng;ad gè;ra chè;	1
-两个屮	liǎng;ad gè;ra chè;	1
-两个車	liǎng;ad gè;ra chē;	1
 两个車	liǎng;ad gè;ra chē;	1
 两个臣	liǎng;ad gè;ra chén;ka	1
 两个齒	liǎng;ad gè;ra chǐ;	1
@@ -217,7 +185,6 @@ sort: by_weight
 两个束	liǎng;ad gè;ra shù;an	1
 两个水	liǎng;ad gè;ra shuǐ;vn	1
 两个厶	liǎng;ad gè;ra sī;	1
-两个厶	liǎng;ad gè;ra sī;	1
 两个田	liǎng;ad gè;ra tián;wu	1
 两个天	liǎng;ad gè;ra tiān;ad	1
 两个土	liǎng;ad gè;ra tǔ;ua	1
@@ -281,7 +248,6 @@ sort: by_weight
 三个百	sān;ae gè;ra bǎi;ab	1
 三个宝	sān;ae gè;ra bǎo;gy	1
 三个贝	sān;ae gè;ra bèi;ar	1
-三个屮	sān;ae gè;ra chè;	1
 三个屮	sān;ae gè;ra chè;	1
 三个車	sān;ae gè;ra chē;	1
 三个虫	sān;ae gè;ra chóng;vd	1
@@ -367,11 +333,9 @@ sort: by_weight
 三个水	sān;ae gè;ra shuǐ;vn	1
 三个朔	sān;ae gè;ra shuò;eo	1
 三个厶	sān;ae gè;ra sī;	1
-三个厶	sān;ae gè;ra sī;	1
 三个太	sān;ae gè;ra tài;dd	1
 三个田	sān;ae gè;ra tián;wu	1
 三个天	sān;ae gè;ra tiān;ad	1
-三个𠧪	sān;ae gè;ra tiáo;	1
 三个𠧪	sān;ae gè;ra tiáo;	1
 三个土	sān;ae gè;ra tǔ;ua	1
 三个兔	sān;ae gè;ra tù;ed	1
@@ -404,21 +368,17 @@ sort: by_weight
 三个直	sān;ae gè;ra zhí;ua	1
 三个至	sān;ae gè;ra zhì;at	1
 三个丶	sān;ae gè;ra zhǔ;	1
-三个丶	sān;ae gè;ra zhǔ;	1
 三个竹	sān;ae gè;ra zhú;pd	1
 三个隹	sān;ae gè;ra zhuī;ra	1
 三个子	sān;ae gè;ra zi;va	1
 三个足	sān;ae gè;ra zú;kr	1
-盛鱼翅	chéng;im yú;ea chì;ux	1
+盛鱼翅	shèng;im yú;ea chì;ux	1
 十和四	shí;aa hé;hk sì;we	1
 十是十	shí;aa shì;or shí;aa	1
 史肖石	shǐ;an xiào;eo shí;ak	1
-史肖石	shǐ;an xiào;eo shí;ak	1
-石小四	shí;ak xiǎo;vd sì;we	1
 石小四	shí;ak xiǎo;vd sì;we	1
 手指头	shǒu;pv zhǐ;fo tou;dd	1
 四个匕	sì;we gè;ra bǐ;pv	1
-四个屮	sì;we gè;ra chè;	1
 四个屮	sì;we gè;ra chè;	1
 四个車	sì;we gè;ra chē;	1
 四个春	sì;we gè;ra chūn;ao	1
@@ -445,7 +405,6 @@ sort: by_weight
 四个石	sì;we gè;ra shí;ak	1
 四个水	sì;we gè;ra shuǐ;vn	1
 四个厶	sì;we gè;ra sī;	1
-四个厶	sì;we gè;ra sī;	1
 四个天	sì;we gè;ra tiān;ad	1
 四个田	sì;we gè;ra tián;wu	1
 四个土	sì;we gè;ra tǔ;ua	1
@@ -465,7 +424,6 @@ sort: by_weight
 听物理	tīng;kj wù;nw lǐ;wl	1
 腿说嘴	tuǐ;oh shuō;ye zuǐ;ky	1
 为一名	wéi;dd yì;aa míng;xk	584
-为一名	wéi;dd yì;aa míng;xk	547
 星映灯	xīng;ou yìng;oy dēng;hd	1
 杨家羊	yáng;lp jiā;gn yáng;ea	1
 硬石头	yìng;ug shí;ak tou;dd	1
@@ -480,14 +438,11 @@ sort: by_weight
 不吃桔子	bù;ad chī;ky jú;lk zi;va	1
 不是字纸	bú;ad shì;or zì;gz zhǐ;su	1
 鹅要过河	é;wn yào;xn guò;zc hé;dk	1
-鹅要过河	é;wn yào;xn guò;zc hé;dk	1
 肥肥的鹅	féi;ob féi;ob de;bu é;wn	1
 粉红凤凰	fěn;md hóng;sg fèng;jy huáng;jw	1
 河要渡鹅	hé;dk yào;xn dù;dy é;wn	1
 红粉凤凰	hóng;sg fěn;md fèng;jy huáng;jw	1
-红粉凤凰	hóng;sg fěn;md fèng;jy huáng;jw	1
 蒋家的墙	jiǎng;cc jiā;gn de;bu qiáng;tk	1
-宽宽的河	kuān;gj kuān;gj de;bu hé;dk	1
 宽宽的河	kuān;gj kuān;gj de;bu hé;dk	1
 啪啪砰砰	pā;kb pā;kb pēng;uu pēng;uu	1
 砰砰啪啪	pēng;uu pēng;uu pā;kb pā;kb	1
@@ -520,7 +475,6 @@ sort: by_weight
 带着腊梅花	dài;aj zhe;em là;oo méi;lm huā;cb	1
 地上满山灯	dì;ty shàng;aa mǎn;dl shān;aa dēng;hd	1
 地上七块冰	dì;ty shàng;aa qī;av kuài;tn bīng;du	1
-地上七块冰	dì;ty shàng;aa qī;av kuài;tn bīng;du	1
 地上一只猫	dì;ty shàng;aa yì;aa zhī;kb māo;qt	1
 地上有只猫	dì;ty shàng;aa yǒu;ao zhǐ;kb māo;qt	1
 地下有石头	dì;ty xià;ab yǒu;ao shí;ak tou;dd	1
@@ -532,7 +486,6 @@ sort: by_weight
 还是布补虎	hái;zb shì;or bù;aj bǔ;pb hǔ;aj	1
 还是狗怕猴	hái;zb shì;or gǒu;qk pà;xb hóu;qd	1
 还是狗咬猴	hái;zb shì;or gǒu;qk yǎo;kx hóu;qd	1
-还是河渡鹅	hái;zb shì;or hé;dk dù;dy é;wn	1
 还是河渡鹅	hái;zb shì;or hé;dk dù;dy é;wn	1
 还是盆碰瓶	hái;zb shì;or pén;bm pèng;uy píng;ew	1
 还是热日头	hái;zb shì;or rè;fe rì;wa tou;dd	1
@@ -563,7 +516,6 @@ sort: by_weight
 婆婆和嬷嬷	pó;dn pó;dn hé;hk mó;nm mó;nm	1
 枪落进了糠	qiāng;lv luò;ck jìn;zj le;vv kāng;ml	1
 墙上七枚钉	qiáng;tk shàng;aa qī;av méi;lw dīng;jd	1
-墙上七枚钉	qiáng;tk shàng;aa qī;av méi;lw dīng;jd	1
 墙要枪上窗	qiáng;tk yào;xn qiāng;lv shàng;aa chuāng;gw	1
 撒了羊骨头	sā;fw le;vv yáng;ea gǔ;ao tou;dd	1
 山里有个寺	shān;aa lǐ;aa yǒu;ao gè;ra sì;tc	1
@@ -574,12 +526,10 @@ sort: by_weight
 十四是十四	shí;aa sì;we shì;or shí;aa sì;we	1
 石头砸猪头	shí;ak tou;dd zá;uj zhū;qo tóu;dd	1
 树上七只莺	shù;lc shàng;aa qī;av zhǐ;kb yīng;cn	1
-树上七只莺	shù;lc shàng;aa qī;av zhǐ;kb yīng;cn	1
 树下蹲条狗	shù;lc xià;ab dūn;zc tiáo;wx gǒu;qk	1
 都说要小个	dōu;ue shuō;ye yào;xn xiǎo;vd gè;ra	1
 四十和十四	sì;we shí;aa hé;hk shí;aa sì;we	1
 四十是四十	sì;we shí;aa shì;or sì;we shí;aa	1
-台上七盏灯	tái;vk shàng;aa qī;av zhǎn;gm dēng;hd	1
 台上七盏灯	tái;vk shàng;aa qī;av zhǎn;gm dēng;hd	1
 天上七颗星	tiān;ad shàng;aa qī;av kē;gr xīng;ou	1
 驼子打胡子	tuó;mb zi;va dǎ;fd hú;uo zi;va	1
@@ -604,7 +554,6 @@ sort: by_weight
 绊倒了秃丫头	bàn;sb dǎo;rd le;vv tū;hj yā;ea tou;dd	1
 板凳比扁担宽	bǎn;ly dèng;dj bǐ;bb biǎn;hc dàn;fd kuān;gj	1
 扁担比板凳长	biǎn;hc dàn;fd bǐ;bb bǎn;ly dèng;dj cháng;pn	1
-别喇叭的哑巴	bié;kd lǎ;kd bā;kb de;bu yǎ;ky bā;vv	1
 别喇叭的哑巴	bié;kd lǎ;kd bā;kb de;bu yǎ;ky bā;vv	1
 不知是鹅过河	bù;ad zhī;uk shì;or é;wn guò;zc hé;dk	1
 不知是猴咬狗	bù;ad zhī;uk shì;or hóu;qd yǎo;kx gǒu;qk	1
@@ -633,8 +582,6 @@ sort: by_weight
 妈妈用布来补	mā;nm ma;nm yòng;pa bù;aj lái;an bǔ;pb	1
 牛牛要顶妞妞	niú;pa niú;pa yào;xn dǐng;dr niū;ni niū;ni	1
 史肖石年四十	shǐ;an xiào;eo shí;ak nián;pa sì;we shí;aa	1
-史肖石年四十	shǐ;an xiào;eo shí;ak nián;pa sì;we shí;aa	1
-石小四年十四	shí;ak xiǎo;vd sì;we nián;pa shí;aa sì;we	1
 石小四年十四	shí;ak xiǎo;vd sì;we nián;pa shí;aa sì;we	1
 手上的手指头	shǒu;pv shàng;aa de;bu shǒu;pv zhǐ;fo tou;dd	1
 四和十四和十	sì;we hé;hk shí;aa sì;we hé;hk shí;aa	1
@@ -718,10 +665,8 @@ sort: by_weight
 妞妞护柳牛扭头	niū;ni niū;ni hù;fh liǔ;le niú;pa niǔ;fi tóu;dd	1
 妞妞护柳要赶牛	niū;ni niū;ni hù;fh liǔ;le yào;xn gǎn;tg niú;pa	1
 妞妞捡起小石头	niū;ni niū;ni jiǎn;fa qǐ;tj xiǎo;vd shí;ak tóu;dd	1
-妞妞捡起小石头	niū;ni niū;ni jiǎn;fa qǐ;tj xiǎo;vd shí;ak tóu;dd	1
 妞妞扭牛牛更拗	niū;ni niū;ni niǔ;fi niú;pa niú;pa gèng;an ǎo;fl	1
 妞妞扭牛牛更牛	niū;ni niū;ni niǔ;fi niú;pa niú;pa gèng;an niú;pa	1
-牛牛扭头瞅妞妞	niú;pa niú;pa niǔ;fi tóu;dd chǒu;mh niū;ni niū;ni	1
 牛牛扭头瞅妞妞	niú;pa niú;pa niǔ;fi tóu;dd chǒu;mh niū;ni niū;ni	1
 牛牛要吃河边柳	niú;pa niú;pa yào;xn chī;ky hé;dk biān;zl liǔ;le	1
 牛牛要顶小妞妞	niú;pa niú;pa yào;xn dǐng;dr xiǎo;vd niū;ni niū;ni	1
@@ -743,7 +688,6 @@ sort: by_weight
 上街打醋又买布	shàng;aa jiē;rd dǎ;fd cù;yo yòu;vn mǎi;vd bù;aj	1
 上前去追鹰和兔	shàng;aa qián;ed qù;tv zhuī;za yīng;gn hé;hk tù;ed	1
 拾了四十小石子	shí;fk le;vv sì;we shí;aa xiǎo;vd shí;ak zi;va	1
-石小四和史肖石	shí;ak xiǎo;vd sì;we hé;hk shǐ;an xiào;eo shí;ak	1
 石小四和史肖石	shí;ak xiǎo;vd sì;we hé;hk shǐ;an xiào;eo shí;ak	1
 树上结了白果果	shù;lc shàng;aa jié;sk le;vv bái;po guǒ;an guǒ;an	1
 谁都不来买鸡卵	shuí;ya dōu;ue bù;ad lái;an mǎi;vd jī;yn luǎn;pd	1
@@ -781,7 +725,6 @@ sort: by_weight
 一次撕下横字纸	yí;aa cì;dr sī;fj xià;ab héng;lb zì;gz zhǐ;su	1
 一次撕下竖字纸	yí;aa cì;dr sī;fj xià;ab shù;al zì;gz zhǐ;su	1
 一口鱼翅刚到嘴	yì;aa kǒu;aa yú;ea chì;ux gāng;gd dào;vd zuǐ;ky	1
-一同来到阅览室	yì;aa tóng;ak lái;an dào;vd yuè;me lǎn;aj shì;gt	1
 一同来到阅览室	yì;aa tóng;ak lái;an dào;vd yuè;me lǎn;aj shì;gt	1
 一位爷爷他姓顾	yí;aa wèi;rl yé;be ye;be tā;ry xìng;nu gù;ir	1
 有个懒汉本姓阮	yǒu;ao gè;ra lǎn;xr hàn;dy běn;aa xìng;nu ruǎn;ee	1
@@ -855,7 +798,6 @@ sort: by_weight
 黄贺帮助王克写诗歌	huáng;cb hè;lr bāng;bj zhù;ql wáng;at kè;ue xiě;gy shī;yc gē;gr	1
 借给六斗六升绿绿豆	jiè;ro gěi;sk liù;wb dòu;du liù;wb shēng;pa lǜ;su lǜ;su dòu;aa	1
 吭唷吭唷拔脱七枚钉	kēng;kj yō;ko kēng;kj yō;ko bá;fy tuō;oe qī;av méi;lw dīng;jd	1
-吭唷吭唷拔脱七枚钉	kēng;kj yō;ko kēng;kj yō;ko bá;fy tuō;oe qī;av méi;lw dīng;jd	1
 来教东门童家种冬瓜	lái;an jiào;uw dōng;ad mén;dv tóng;ll jiā;gn zhòng;hv dōng;wd guā;pn	1
 门上挂着蓝布棉门帘	mén;dv shàng;aa guà;ft zhe;em lán;cm bù;aj mián;lj mén;dv lián;gj	1
 嬷嬷带了一个薄笸箩	mó;nm mó;nm dài;aj le;vv yí;aa gè;ra báo;cc pǒ;vk luó;vx	1
@@ -863,8 +805,6 @@ sort: by_weight
 你猜老刘让小牛还油	nǐ;rx cāi;qo lǎo;ub liú;wd ràng;yu xiǎo;vd niú;pa hái;zb yóu;dy	1
 你就隔着窗户撕字纸	nǐ;rx jiù;wy gé;ea zhe;em chuāng;gw hù;du sī;fj zì;gz zhǐ;su	1
 喔嘘喔嘘赶走七只莺	ō;kt xū;ky ō;kt xū;ky gǎn;tg zǒu;tr qī;av zhǐ;kb yīng;cn	1
-喔嘘喔嘘赶走七只莺	ō;kt xū;ky ō;kt xū;ky gǎn;tg zǒu;tr qī;av zhǐ;kb yīng;cn	1
-乒乒乓乓踏坏七块冰	pīng;qp pīng;qp pāng;qd pāng;qd tà;zo huài;tb qī;av kuài;tn bīng;du	1
 乒乒乓乓踏坏七块冰	pīng;qp pīng;qp pāng;qd pāng;qd tà;zo huài;tb qī;av kuài;tn bīng;du	1
 瓶中是塞头不是舌头	píng;ew zhōng;aa shì;or sāi;gt tóu;dd bú;ad shì;or shé;qk tou;dd	1
 婆婆采了蘑菇换饽饽	pó;dn pó;dn cǎi;pl le;vv mó;ck gū;ck huàn;fd bō;uz bō;uz	1
@@ -883,8 +823,6 @@ sort: by_weight
 小花猫小花猫爱画画	xiǎo;vd huā;cb māo;qt xiǎo;vd huā;cb māo;qt ài;py huà;aa huà;aa	1
 小渠养小鱼不养大鱼	xiǎo;vd qú;dl yǎng;ea xiǎo;vd yú;ea bù;ad yǎng;ea dà;an yú;ea	1
 一片乌云遮掉七颗星	yí;aa piàn;pv wū;pa yún;ev zhē;ze diào;fu qī;av kē;gr xīng;ou	1
-一片乌云遮掉七颗星	yí;aa piàn;pv wū;pa yún;ev zhē;ze diào;fu qī;av kē;gr xīng;ou	1
-一阵风来吹来七盏灯	yí;aa zhèn;ei fēng;jx lái;an chuī;kr lái;an qī;av zhǎn;gm dēng;hd	1
 一阵风来吹来七盏灯	yí;aa zhèn;ei fēng;jx lái;an chuī;kr lái;an qī;av zhǎn;gm dēng;hd	1
 嘴里是舌头不是塞头	zuǐ;ky lǐ;aa shì;or shé;qk tou;dd bú;ad shì;or sāi;gt tóu;dd	1
 白果果我走白家门前过	bái;po guǒ;an guǒ;an wǒ;pg zǒu;tr bái;po jiā;gn mén;dv qián;ed guò;zc	1
@@ -912,8 +850,6 @@ sort: by_weight
 丽丽和弟弟拿不定主意	lì;ad lì;ad hé;hk dì;ep di;ep ná;ru bú;ad dìng;gr zhǔ;wt yì;lx	1
 吕教练在男篮训练蓝南	lǚ;kk jiào;uw liàn;sd zài;at nán;tl lán;vm xùn;yi liàn;sd lán;cm nán;uu	1
 忙递给年十四的石小四	máng;xw dì;zd gěi;sk nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we	1
-忙递给年十四的石小四	máng;xw dì;zd gěi;sk nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we	1
-忙递给年四十的史肖石	máng;xw dì;zd gěi;sk nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak	1
 忙递给年四十的史肖石	máng;xw dì;zd gěi;sk nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak	1
 每排是十四只大石狮子	měi;pm pái;ff shì;or shí;aa sì;we zhǐ;kb dà;an shí;ak shī;qj zi;va	1
 嬷嬷拔了一笸箩大萝卜	mó;nm mó;nm bá;fy le;vv yī;aa pǒ;vk luó;vx dà;an luó;cx bo;ad	1
@@ -937,8 +873,6 @@ sort: by_weight
 黑猪说乌鸦比黑猪还要黑	hēi;ae zhū;qo shuō;ye wū;pa yā;yn bǐ;bb hēi;ae zhū;qo hái;zb yào;xn hēi;ae	1
 你就不要胡乱地撕一地纸	nǐ;rx jiù;wy bú;ad yào;xn hú;uo luàn;qv dì;ty sī;fj yí;aa dì;ty zhǐ;su	1
 年十四的石小四爱看诗词	nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we ài;py kàn;pm shī;yc cí;yk	1
-年十四的石小四爱看诗词	nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we ài;py kàn;pm shī;yc cí;yk	1
-年四十的史肖石爱看报纸	nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak ài;py kàn;pm bào;fy zhǐ;su	1
 年四十的史肖石爱看报纸	nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak ài;py kàn;pm bào;fy zhǐ;su	1
 秃丫头从南来了个秃丫头	tū;hj yā;ea tou;dd cóng;rr nán;uu lái;an le;vv gè;ra tū;hj yā;ea tou;dd	1
 我就拣了百十百块白石头	wǒ;pg jiù;wy jiǎn;fd le;vv bǎi;ab shí;aa bǎi;ab kuài;tn bái;po shí;ak tóu;dd	1
@@ -954,7 +888,6 @@ sort: by_weight
 荷花和蛤蟆一朵粉红大荷花	hé;ck huā;cb hé;hk há;ik má;id yì;aa duǒ;jl fěn;md hóng;sg dà;an hé;ck huā;cb	1
 六叔和六舅好六叔和好六舅	liù;wb shū;uy hé;hk liù;wb jiù;jl hǎo;nz liù;wb shū;uy hé;hk hǎo;nz liù;wb jiù;jl	1
 年十四的石小四见了好报纸	nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we jiàn;av le;vv hǎo;nz bào;fy zhǐ;su	1
-年十四的石小四见了好报纸	nián;pa shí;aa sì;we de;bu shí;ak xiǎo;vd sì;we jiàn;av le;vv hǎo;nz bào;fy zhǐ;su	1
 妞妞和牛牛牛牛要吃河边柳	niū;ni niū;ni hé;hk niú;pa niú;pa niú;pa niú;pa yào;xn chī;ky hé;dk biān;zl liǔ;le	1
 三娘翻过山梁去找三只山羊	sān;ae niáng;nh fān;fx guò;zc shān;aa liáng;dl qù;tv zhǎo;fg sān;ae zhǐ;kb shān;aa yáng;ea	1
 三十三的弟子在寺里练写字	sān;ae shí;aa sān;ae de;bu dì;ep zǐ;va zài;at sì;tc lǐ;aa liàn;sd xiě;gy zì;gz	1
@@ -967,7 +900,6 @@ sort: by_weight
 看见伯爹伯妈门前种着白果树	kàn;pm jiàn;av bó;rb diē;bx bó;rb mā;nm mén;dv qián;ed zhǒng;hv zhe;em bái;po guǒ;an shù;lc	1
 丽丽和弟弟丽丽家来了小弟弟	lì;ad lì;ad hé;hk dì;ep di;ep lì;ad lì;ad jiā;gn lái;an le;vv xiǎo;vd dì;ep dì;ep	1
 那个扁担偏要绑在那个板凳上	nà;ve gè;ra biǎn;hc dàn;fd piān;rc yào;xn bǎng;se zài;at nà;ve gè;ra bǎn;ly dèng;dj shàng;aa	1
-年四十的史肖石发现了好诗词	nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak fā;vy xiàn;wj le;vv hǎo;nz shī;yc cí;yk	1
 年四十的史肖石发现了好诗词	nián;pa sì;we shí;aa de;bu shǐ;an xiào;eo shí;ak fā;vy xiàn;wj le;vv hǎo;nz shī;yc cí;yk	1
 三十三的弟子用了四十四小时	sān;ae shí;aa sān;ae de;bu dì;ep zǐ;va yòng;pa le;vv sì;we shí;aa sì;we xiǎo;vd shí;oc	1
 寺前树上结了四十四个涩柿子	sì;tc qián;ed shù;lc shàng;aa jié;sk le;vv sì;we shí;aa sì;we gè;ra sè;dv shì;lj zi;va	1
