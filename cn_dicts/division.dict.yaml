@@ -122,7 +122,6 @@ sort: by_weight
 北塔	běi;ab tǎ;tk	467
 北投	běi;ab tóu;fy	565
 北屯	běi;ab tún;av	512
-北屯	běi;ab tún;av	512
 北镇	běi;ab zhèn;jb	514
 本溪	běn;aa xī;dd	599
 蚌埠	bèng;if bù;tu	624
@@ -177,7 +176,6 @@ sort: by_weight
 察隅	chá;gx yú;ed	431
 柴桑	chái;vl sāng;yl	390
 禅城	chán;pd chéng;tg	599
-瀍河	chán;dt hé;dk	1
 瀍河	chán;dt hé;dk	1
 长安	cháng;pn ān;gn	789
 长白	cháng;pn bái;po	658
@@ -285,7 +283,6 @@ sort: by_weight
 措美	cuò;fo měi;ed	279
 错那	cuò;jo nà;ve	1
 措勤	cuò;fo qín;cl	305
-大安	dà;an ān;gn	601
 大安	dà;an ān;gn	601
 大埔	dà;an bù;tf	647
 大厂	dà;an chǎng;ap	685
@@ -2458,7 +2455,6 @@ sort: by_weight
 西和	xī;aa hé;hk	1
 西湖	xī;aa hú;do	760
 溪湖	xī;dd hú;do	544
-溪湖	xī;dd hú;do	544
 西华	xī;aa huá;ru	569
 西吉	xī;aa jí;uk	517
 溪口	xī;dd kǒu;aa	542
@@ -3108,7 +3104,6 @@ sort: by_weight
 阿克苏	ā;ek kè;ue sū;cb	571
 阿克陶	ā;ek kè;ue táo;ef	378
 阿拉尔	ā;ek lā;fl ěr;ex	450
-阿拉尔	ā;ek lā;fl ěr;ex	450
 阿拉善	ā;ek lā;fl shàn;ek	571
 阿勒泰	ā;ek lè;cl tài;au	573
 阿里山	ā;ek lǐ;aa shān;aa	567
@@ -3395,7 +3390,6 @@ sort: by_weight
 措美县	cuò;fo měi;ed xiàn;qv	237
 错那市	cuò;jo nà;ve shì;wj	1
 措勤县	cuò;fo qín;cl xiàn;qv	248
-大安区	dà;an ān;gn qū;kx	496
 大安区	dà;an ān;gn qū;kx	496
 大安市	dà;an ān;gn shì;wj	322
 达坂城	dá;zd bǎn;ty chéng;tg	432
@@ -3979,7 +3973,6 @@ sort: by_weight
 虎尾镇	hǔ;aj wěi;um zhèn;jb	1
 湖西乡	hú;do xī;aa xiāng;vp	1
 胡杨河	hú;uo yáng;lp hé;dk	1
-胡杨河	hú;uo yáng;lp hé;dk	1
 鄠邑区	hù;ye yì;kb qū;kx	1
 湖州市	hú;do zhōu;da shì;wj	531
 华安县	huá;ru ān;gn xiàn;qv	391
@@ -4321,7 +4314,6 @@ sort: by_weight
 昆明市	kūn;ob míng;oo shì;wj	674
 昆山市	kūn;ob shān;aa shì;wj	512
 昆玉市	kūn;ob yù;wd shì;wj	260
-昆玉市	kūn;ob yù;wd shì;wj	1
 拉萨市	lā;fl sà;ci shì;wj	557
 拉孜县	lā;fl zī;zw xiàn;qv	311
 来安县	lái;an ān;gn xiàn;qv	402
@@ -5210,7 +5202,6 @@ sort: by_weight
 石鼓区	shí;ak gǔ;uy qū;kx	332
 石拐区	shí;ak guǎi;fl qū;kx	1
 浉河区	shī;dj hé;dk qū;kx	1
-石河子	shí;ak hé;dk zǐ;va	532
 石河子	shí;ak hé;dk zǐ;va	532
 石家庄	shí;ak jiā;gn zhuāng;gt	753
 石景山	shí;ak jǐng;ox shān;aa	604
@@ -6364,7 +6355,6 @@ sort: by_weight
 呼伦贝尔	hū;kh lún;rb bèi;ar ěr;ex	580
 呼图壁县	hū;kh tú;wd bì;ut xiàn;qv	365
 胡杨河市	hú;uo yáng;lp hé;dk shì;wj	1
-胡杨河市	hú;uo yáng;lp hé;dk shì;wj	1
 黄石港区	huáng;cb shí;ak gǎng;dv qū;kx	297
 霍尔果斯	huò;ya ěr;ex guǒ;an sī;qj	474
 霍林郭勒	huò;ya lín;ll guō;we lè;cl	354
@@ -6384,7 +6374,6 @@ sort: by_weight
 喀什地区	kā;kk shí;ru dì;ty qū;kx	473
 康巴什区	kāng;gl bā;vv shén;ru qū;kx	220
 科尔沁区	kē;hu ěr;ex qìn;dx qū;kx	367
-可克达拉	kě;av kè;ue dá;zd lā;fl	382
 可克达拉	kě;av kè;ue dá;zd lā;fl	382
 克拉玛依	kè;ue lā;fl mǎ;wm yī;rh	531
 克孜勒苏	kè;ue zī;zw lè;cl sū;cb	305
@@ -6449,7 +6438,6 @@ sort: by_weight
 沙坡头区	shā;du pō;ty tóu;dd qū;kx	331
 山海关区	shān;aa hǎi;dm guān;et qū;kx	393
 沈北新区	shěn;dv běi;ab xīn;lj qū;kx	448
-石河子市	shí;ak hé;dk zǐ;va shì;wj	424
 石河子市	shí;ak hé;dk zǐ;va shì;wj	424
 石家庄市	shí;ak jiā;gn zhuāng;gt shì;wj	627
 石景山区	shí;ak jǐng;ox shān;aa qū;kx	532
