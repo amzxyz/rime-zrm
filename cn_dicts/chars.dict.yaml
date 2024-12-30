@@ -495,7 +495,7 @@ sort: by_weight
 𪃨	āo;	1
 𪓴	áo;	1
 𪓾	áo;	1
-吧	ba;kb	790
+吧	bā;kb	999
 把	bǎ;fb	780
 巴	bā;vv	757
 八	bā;pn	732
@@ -503,7 +503,6 @@ sort: by_weight
 拔	bá;fy	664
 霸	bà;yo	654
 罢	bà;sv	619
-吧	bā;kb	599
 坝	bà;tr	580
 扒	bā;fb	580
 芭	bā;cb	567
@@ -36534,10 +36533,9 @@ sort: by_weight
 𪀭	tóng;	1
 𪌢	tǒng;	1
 𪟍	tǒng;	1
+头	tóu;dd	999
 投	tóu;fy	799
-头	tóu;dd	791
 透	tòu;zn	710
-头	tou;dd	686
 偷	tōu;rd	678
 頭	tóu;	480
 骰	tóu;gy	456
@@ -42028,11 +42026,11 @@ sort: by_weight
 𪪹	xūn;	1
 𪰅	xūn;	1
 𫞅	xún;	1
+呀	yā;ky	988
 亚	yà;ay	773
 压	yā;id	749
 牙	yá;ap	711
 雅	yǎ;ya	699
-呀	ya;ky	676
 鸭	yā;jn	666
 涯	yá;dt	629
 押	yā;fj	622
@@ -42043,7 +42041,6 @@ sort: by_weight
 鸦	yā;yn	565
 讶	yà;yy	558
 娅	yà;ny	546
-呀	yā;ky	544
 吖	yā;ky	493
 琊	yá;we	484
 衙	yá;rd	484
