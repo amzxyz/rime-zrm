@@ -1213,14 +1213,14 @@ sort: by_weight
 老边	lǎo;ub biān;zl	457
 老城	lǎo;ub chéng;tg	678
 崂山	láo;sl shān;aa	632
+乐亭	lào;pd tíng;wd	489
 乐安	lè;pd ān;gn	514
 乐昌	lè;pd chāng;oo	458
 乐东	lè;pd dōng;ad	470
-乐都	lè;pd dōu;ue	502
+乐都	lè;pd dū;ue	502
 乐陵	lè;pd líng;ew	481
 乐平	lè;pd píng;au	544
 乐山	lè;pd shān;aa	650
-乐亭	lè;pd tíng;wd	489
 乐业	lè;pd yè;aa	606
 乐至	lè;pd zhì;at	530
 雷波	léi;yt bō;dy	451
@@ -1941,7 +1941,7 @@ sort: by_weight
 萨迦	sà;ci jiā;zk	516
 赛罕	sài;gr hǎn;gg	473
 三重	sān;ae chóng;pa	681
-三都	sān;ae dōu;ue	513
+三都	sān;ae dū;ue	513
 三河	sān;ae hé;dk	600
 三江	sān;ae jiāng;dg	628
 三门	sān;ae mén;dv	659
@@ -4347,13 +4347,13 @@ sort: by_weight
 老城区	lǎo;ub chéng;tg qū;kx	621
 老河口	lǎo;ub hé;dk kǒu;aa	447
 崂山区	láo;sl shān;aa qū;kx	530
+乐亭县	lào;pd tíng;wd xiàn;qv	402
 乐安县	lè;pd ān;gn xiàn;qv	382
 乐昌市	lè;pd chāng;oo shì;wj	349
-乐都区	lè;pd dōu;ue qū;kx	1
+乐都区	lè;pd dū;ue qū;kx	1
 乐陵市	lè;pd líng;ew shì;wj	371
 乐平市	lè;pd píng;au shì;wj	370
 乐山市	lè;pd shān;aa shì;wj	521
-乐亭县	lè;pd tíng;wd xiàn;qv	402
 乐业县	lè;pd yè;aa xiàn;qv	312
 乐至县	lè;pd zhì;at xiàn;qv	401
 雷波县	léi;yt bō;dy xiàn;qv	344
@@ -6642,7 +6642,7 @@ sort: by_weight
 清原满族自治县	qīng;do yuán;ix mǎn;dl zú;fd zì;pm zhì;dk xiàn;qv	264
 融水苗族自治县	róng;ai shuǐ;vn miáo;ct zú;fd zì;pm zhì;dk xiàn;qv	340
 乳源瑶族自治县	rǔ;pv yuán;dx yáo;wf zú;fd zì;pm zhì;dk xiàn;qv	332
-三都水族自治县	sān;ae dōu;ue shuǐ;vn zú;fd zì;pm zhì;dk xiàn;qv	337
+三都水族自治县	sān;ae dū;ue shuǐ;vn zú;fd zì;pm zhì;dk xiàn;qv	337
 三江侗族自治县	sān;ae jiāng;dg dòng;rk zú;fd zì;pm zhì;dk xiàn;qv	357
 石林彝族自治县	shí;ak lín;ll yí;va zú;fd zì;pm zhì;dk xiàn;qv	1
 松桃苗族自治县	sōng;lv táo;lv miáo;ct zú;fd zì;pm zhì;dk xiàn;qv	302
