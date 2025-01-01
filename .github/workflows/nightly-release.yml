@@ -1,0 +1,91 @@
+name: Nightly Build dicts
+
+on:
+  workflow_dispatch: # 手动触发
+  schedule:
+    - cron: "0 22 * * *" # 每天晚上 10 点触发
+
+jobs:
+  nightly-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 检查是否有代码变更（仅定时触发时执行）
+      - name: Check for changes
+        id: check_changes
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+            echo "No changes detected since last run."
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
+            echo "Changes detected."
+            echo "has_changes=true" >> $GITHUB_ENV
+
+      # 如果没有变更且不是手动触发，则退出
+      - name: Skip release if no changes
+        if: github.event_name != 'workflow_dispatch' && env.has_changes == 'false'
+        run: echo "No changes detected. Skipping release."
+
+      # 打包词库文件（始终执行）
+      - name: Pack cn_dicts
+        run: |
+          mkdir -p dist
+          echo "Packing cn_dicts..."
+          zip -r dist/cn_dicts.zip cn_dicts
+          echo "Packing completed: dist/cn_dicts.zip"
+
+      # 删除旧的 Release 和 Tag（如果存在）
+      - name: Delete existing Nightly Release
+        uses: actions/github-script@v6
+        with:
+          github_token: ${{ secrets.AMZ_TOKEN }}
+          script: |
+            const tag = "dict-nightly";
+
+            // 检查现有的 Release
+            const releases = await github.rest.repos.listReleases({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+
+            const existingRelease = releases.data.find(r => r.tag_name === tag);
+            if (existingRelease) {
+              console.log(`Deleting existing Release with ID: ${existingRelease.id}`);
+              await github.rest.repos.deleteRelease({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                release_id: existingRelease.id
+              });
+            } else {
+              console.log("No existing Release found.");
+            }
+
+            // 删除现有的 Tag
+            try {
+              console.log(`Deleting tag: ${tag}`);
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `tags/${tag}`
+              });
+            } catch (error) {
+              console.log("Tag does not exist or already deleted.");
+            }
+
+      # 创建新的 Release
+      - name: Create new Release
+        uses: "softprops/action-gh-release@v2"
+        with:
+          tag_name: dict-nightly
+          name: "每夜构建-词库更新"
+          body: |
+            - `cn_dicts.zip`：最新的中文词库文件。
+          files: dist/cn_dicts.zip
+ #         make_latest: true
+
