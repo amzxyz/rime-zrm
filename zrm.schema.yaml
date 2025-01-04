@@ -108,9 +108,6 @@ engine:
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
 
-# Lua 配置 为字符集过滤预留了一个是否放行英文字母的选项: true 放行, false过滤,也可以直接将外挂中英混输直接去掉
-charset_filter_abc: true  
-
 # Lua 配置 超级注释模块
 pro_comment_format:           
   candidate_length: 1         # 候选词辅助码提醒的生效长度，0为关闭  但同时清空其它，应当使用上面开关来处理
