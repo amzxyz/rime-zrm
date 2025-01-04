@@ -133,7 +133,7 @@ function AZ.run(cand, env, initial_comment)
     -- 遍历分割后的片段，提取拼音和辅助码
     for _, segment in ipairs(segments) do
         local pinyin = segment:match("^[^;]+")  -- 提取注释中的拼音部分
-        local fz = segment:match("^[^;]*;(.+)")  -- 提取分号后面的所有字符作为辅助码
+        local fz = segment:match("^[^;]*;?(.*)")  -- 提取分号后面的所有字符作为辅助码（允许缺失）
 
         if pinyin then
             table.insert(pinyins, pinyin)  -- 收集拼音
@@ -144,10 +144,17 @@ function AZ.run(cand, env, initial_comment)
         end
     end
     -- 如果存在拼音和辅助码，则生成最终注释
-    if #pinyins > 0 and fuzhu then
+    if #pinyins > 0 then
         local pinyin_str = table.concat(pinyins, ",")  -- 用逗号分隔多个拼音
-        final_comment = string.format("〔音%s 辅%s〕", pinyin_str, fuzhu)
+        if fuzhu and fuzhu ~= "" then
+            -- 存在辅助码时，生成带 "辅" 的注释
+            final_comment = string.format("〔音%s 辅%s〕", pinyin_str, fuzhu)
+        else
+            -- 不存在辅助码时，只生成带拼音的注释
+            final_comment = string.format("〔音%s〕", pinyin_str)
+        end
     end
+
 
     return final_comment or ""  -- 确保返回最终值
 end
