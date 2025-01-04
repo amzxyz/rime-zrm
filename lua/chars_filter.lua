@@ -4,14 +4,11 @@ function charsfilter.init(env)
    -- 使用 ReverseLookup 方法加载字符集
    env.charset = ReverseLookup("charset")
    env.memo = {}
-   -- 从配置中读取是否需要过滤英文
-   env.filter_abc = env.engine.schema.config:get_bool("charset_filter_abc") or false
 end
 
 function charsfilter.fini(env)
    env.charset = nil
    env.memo = nil
-   env.filter_abc = nil
    collectgarbage()
 end
 
@@ -24,21 +21,38 @@ function charsfilter.func(t_input, env)
       end
    else
       for cand in t_input:iter() do
-         if charsfilter.InCharset(env, cand.text) then
+         if charsfilter.IsSingleChineseCharacter(cand.text) and charsfilter.InCharset(env, cand.text) then
+            yield(cand)
+         elseif not charsfilter.IsSingleChineseCharacter(cand.text) then
+            -- 对于非汉字字符，直接放行
             yield(cand)
          end
       end
    end
 end
 
+-- 检查字符是否为单个汉字
+function charsfilter.IsSingleChineseCharacter(text)
+   return utf8.len(text) == 1 and charsfilter.IsChineseCharacter(text)
+end
+
+-- 判断字符是否为汉字
+function charsfilter.IsChineseCharacter(text)
+   local codepoint = utf8.codepoint(text)
+   return (codepoint >= 0x4E00 and codepoint <= 0x9FFF)   -- basic
+      or (codepoint >= 0x3400 and codepoint <= 0x4DBF)    -- ext a
+      or (codepoint >= 0x20000 and codepoint <= 0x2A6DF)  -- ext b
+      or (codepoint >= 0x2A700 and codepoint <= 0x2B73F)  -- ext c
+      or (codepoint >= 0x2B740 and codepoint <= 0x2B81F)  -- ext d
+      or (codepoint >= 0x2B820 and codepoint <= 0x2CEAF)  -- ext e
+      or (codepoint >= 0x2CEB0 and codepoint <= 0x2EBE0)  -- ext f
+      or (codepoint >= 0x30000 and codepoint <= 0x3134A)  -- ext g
+      or (codepoint >= 0x31350 and codepoint <= 0x323AF)  -- ext h
+      or (codepoint >= 0x2EBF0 and codepoint <= 0x2EE5F)  -- ext i
+end
+
 -- 检查字符是否在字符集内
 function charsfilter.InCharset(env, text)
-   -- 如果配置要求放行英文，且文本包含字母，则放行
-   if env.filter_abc and charsfilter.ContainsAlpha(text) then
-      return true
-   end
-
-   -- 否则继续逐字符检查
    for i, codepoint in utf8.codes(text) do
       if not charsfilter.CodepointInCharset(env, codepoint) then
          return false
@@ -53,22 +67,10 @@ function charsfilter.CodepointInCharset(env, codepoint)
       return env.memo[codepoint]
    end
 
-   -- 如果配置允许放行英文，且字符是字母（大写或小写），直接返回 true
-   if env.filter_abc and (codepoint >= 0x41 and codepoint <= 0x5A or codepoint >= 0x61 and codepoint <= 0x7A) then
-      env.memo[codepoint] = true
-      return true
-   end
-
-   -- 查询字符是否在 charset 中
    local char = utf8.char(codepoint)
    local res = env.charset:lookup(char) ~= ""
    env.memo[codepoint] = res
    return res
-end
-
--- 判断文本是否包含字母（包括大小写）
-function charsfilter.ContainsAlpha(text)
-   return string.match(text, "%a") ~= nil
 end
 
 function charsfilter.IsReverseLookup(env)
