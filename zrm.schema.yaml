@@ -13,7 +13,7 @@ schema:
     - stroke          #笔画反查
     - radical_pinyin  #部件拆字，反查及辅码
     - melt_eng        #英文输入
-
+    - charset         #字符集过滤器
 
 # 开关
 # reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
@@ -31,10 +31,15 @@ switches:
   - name: emoji
     states: [ 💀, 😄 ]
     reset: 1
+  - name: chinese_english
+    states: [ 译, 翻 ]
   - name: tone_display
     states: [ 调, 音 ]
   - name: fuzhu_switch
     states: [ 助, 辅 ]
+  - name: charset_filter
+    states: [ 小, 大 ]
+    reset: 0
   - name: zrm_chaifen
     states: [ 然, 自 ]
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
@@ -84,6 +89,7 @@ engine:
     - script_translator@add_user_dict
     - lua_translator@*force_gc          # 暴力 GC 降低内存
   filters:
+    - lua_filter@*chars_filter                      #字符集过滤
     - lua_filter@*cold_word_drop.filter
     - lua_filter@*long_word_filter                  #长词优先      
     - lua_filter@*autocap_filter                    # 英文自动大写
@@ -102,6 +108,8 @@ engine:
     - lua_filter@*pro_comment_format                #超级注释模块，支持错词提示、辅助码显示，部件组字读音注释，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
     - uniquifier                                    # 去重
 
+# Lua 配置 为字符集过滤预留了一个是否放行英文字母的选项: true 放行, false过滤,也可以直接将外挂中英混输直接去掉
+charset_filter_abc: true  
 
 # Lua 配置 超级注释模块
 pro_comment_format:           
@@ -325,7 +333,10 @@ key_binder:
     - { when: has_menu, accept: "Control+z", toggle: zrm_chaifen }
 #使用快捷键Control+a开启和关闭辅助码显示,Control+a开启和关闭输入码音调显示
     - { when: has_menu, accept: "Control+a", toggle: fuzhu_switch }
+#通过快捷键Control+s使得输入码显示音调
     - { when: has_menu, accept: "Control+s", toggle: tone_display }
+#通过快捷键Control+g开启字符集过滤
+    - { when: has_menu, accept: "Control+g", toggle: charset_filter }
 # 使用 tab 在不同音节之间跳转
     - { when: has_menu, accept: "Tab", send: "Control+Right" }
 #通过stick.lua显示到注释里，用来上屏带/的简码词汇。最好是用句号，这样可以与手机上可以做同样的定义，保持同样的习惯
