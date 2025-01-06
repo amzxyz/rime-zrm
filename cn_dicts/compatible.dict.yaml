@@ -7,93 +7,78 @@ name: compatible
 version: "2024-11-11"
 sort: by_weight
 ...
-血晕	xiě;pm yùn;oi	222
-血晕	xuè;pm yùn;oi	68
-炸鱼	zhà;hv yú;ea	28
-炸鱼	zhá;hv yú;ea	544
-命中	mìng;re zhōng;aa	708
-命中	mìng;re zhòng;aa	661
-干不干	gàn;au bú;ad gàn;au	380
-干不干	gān;au bù;ad gān;au	80
-美的	měi;ed dì;bu	467
-随行	suí;eo háng;rd	552
-随行	suí;eo xíng;rd	781
-相称	xiāng;lm chèn;hx	404
-相称	xiāng;lm chēng;hx	504
-重活	zhòng;pa huó;dk	391
-重活	chóng;pa huó;dk	120
 罢了	bà;sv le;vv	888
 罢了	bà;sv liǎo;vv	647
-累累	lěi;tx lěi;tx	511
-累累	léi;tx léi;tx	577
-调配	diào;yk pèi;yj	688
-调配	tiáo;yk pèi;yj	622
-数次	shù;mw cì;dr	768
-数次	shuò;mw cì;dr	523
-我为	wǒ;pg wéi;dd	467
-我为	wǒ;pg wèi;dd	663
-更为	gèng;an wéi;dd	915
-更为	gèng;an wèi;dd	965
+白庙	bái;po miào;gy	1
+便宜	biàn;rg yí;gq	201
+不长	bǔ;ad cháng;pn	570
+不为	bú;ad wèi;dd	609
+不为	bù;ad wéi;dd	600
+不长	bù;ad zhǎng;pn	329
 长的	cháng;pn de;bu	802
-长的	zhǎng;pn de;bu	919
-落下	là;ck xià;ab	764
-落下	luò;ck xià;ab	818
+长牙	cháng;pn yá;ap	84
+重活	chóng;pa huó;dk	120
+重天	chóng;pa tiān;ad	497
 穿着	chuān;gy zhe;em	1000
 穿着	chuān;gy zhuó;em	644
-一通	yí;aa tòng;zy	710
-一通	yì;aa tōng;zy	608
-总长	zǒng;ex cháng;pn	705
-总长	zǒng;ex zhǎng;pn	436
-不长	bǔ;ad cháng;pn	570
-不长	bù;ad zhǎng;pn	329
+调配	diào;yk pèi;yj	688
+更为	gèng;an wèi;dd	965
+更为	gèng;an wéi;dd	915
+行长	háng;rd zhǎng;pn	466
+见长	jiàn;av cháng;pn	472
+见长	jiàn;av zhǎng;pn	621
+落下	là;ck xià;ab	764
+累累	léi;tx léi;tx	577
+累累	lěi;tx lěi;tx	511
+落下	luò;ck xià;ab	818
+略长	lüè;tk cháng;pn	447
 掠夺	lüè;fx duó;dc	686
 掠夺	lüě;fx duó;dc	300
 略长	lüè;tk zhǎng;pn	184
-略长	lüè;tk cháng;pn	447
-略长一些	lüè;tk cháng;pn yì;aa xiē;ve	42
-略长几岁	lüè;tk zhǎng;pn jǐ;pv suì;sx	1
-见长	jiàn;av zhǎng;pn	621
-见长	jiàn;av cháng;pn	472
-所长	suǒ;pj cháng;pn	611
-所长	suǒ;pj zhǎng;pn	786
-便宜	biàn;rg yí;gq	201
-便宜	pián;rg yi;gq	560
-便不便宜	biàn;rg bú;ad biàn;rg yí;gq	376
-便宜行事	biàn;rg yí;gq xíng;rd shì;av	281
-便宜之内	biàn;rg yí;gq zhī;dn nèi;ad	110
-越长	yuè;tg cháng;pn	271
-越长	yuè;tg zhǎng;pn	347
-越长大	yuè;tg zhǎng;pn dà;an	321
-越长越快	yuè;tg zhǎng;pn yuè;tg kuài;xn	204
-越长越好	yuè;tg cháng;pn yuè;tg hǎo;nz	230
-越长越	yuè;tg cháng;pn yuè;tg	315
-越长越	yuè;tg zhǎng;pn yuè;tg	265
-行长	háng;rd zhǎng;pn	466
-年长	nián;pa zhǎng;pn	246
-年长	nián;pa cháng;pn	207
-长牙	zhǎng;pn yá;ap	283
-长牙	cháng;pn yá;ap	84
-长相	zhǎng;pn xiàng;lm	429
-白庙	bái;po miào;gy	1
-不为	bú;ad wèi;dd	609
-不为	bù;ad wéi;dd	600
+美的	měi;ed dì;bu	467
+命中	mìng;re zhōng;aa	708
+命中	mìng;re zhòng;aa	661
 年长	nián;pa cháng;pn	447
 年长	nián;pa zhǎng;pn	522
+便宜	pián;rg yi;gq	560
 十四	shí;aa sì;we	1
+数次	shù;mw cì;dr	768
+数次	shuò;mw cì;dr	523
 四十	sì;we shí;aa	1
+随行	suí;eo háng;rd	552
+随行	suí;eo xíng;rd	781
+所长	suǒ;pj cháng;pn	611
+所长	suǒ;pj zhǎng;pn	786
+调配	tiáo;yk pèi;yj	622
+我为	wǒ;pg wèi;dd	663
+我为	wǒ;pg wéi;dd	467
 五行	wǔ;aa háng;rd	558
 五行	wǔ;aa xíng;rd	607
+相称	xiāng;lm chèn;hx	404
+相称	xiāng;lm chēng;hx	504
+血晕	xiě;pm yùn;oi	222
+血晕	xuè;pm yùn;oi	68
 一行	yì;aa háng;rd	620
+一通	yí;aa tòng;zy	710
+一通	yì;aa tōng;zy	608
 一行	yì;aa xíng;rd	530
-重天	chóng;pa tiān;ad	497
-为一名	wéi;dd yì;aa míng;xk	684
-为一名	wèi;dd yì;aa míng;xk	584
+越长	yuè;tg cháng;pn	271
+越长	yuè;tg zhǎng;pn	347
+炸鱼	zhá;hv yú;ea	544
+炸鱼	zhà;hv yú;ea	28
+长的	zhǎng;pn de;bu	919
+长相	zhǎng;pn xiàng;lm	429
+长牙	zhǎng;pn yá;ap	283
+重活	zhòng;pa huó;dk	391
 捉兔	zhuō;fr tù;ed	1
+总长	zǒng;ex cháng;pn	705
+总长	zǒng;ex zhǎng;pn	436
 白石塔	bái;po shí;ak tǎ;tk	1
 板凳宽	bǎn;ly dèng;dj kuān;gj	1
 扁担长	biǎn;hc dàn;fd cháng;pn	1
 剥桔子	bō;ld jú;lk zi;va	1
 常练习	cháng;ej liàn;sd xí;vd	1
+盛鱼翅	chéng;im yú;ea chì;ux	1
 醋湿布	cù;yo shī;dy bù;aj	1
 打罢秋	dǎ;fd bà;sv qiū;hh	1
 打翻醋	dǎ;fd fān;fx cù;yo	1
@@ -104,6 +89,8 @@ sort: by_weight
 放下布	fàng;fw xià;ab bù;aj	1
 飞了鹰	fēi;vd le;vv yīng;gn	1
 粉凤凰	fěn;md fèng;jy huáng;jw	1
+干不干	gàn;au bú;ad gàn;au	380
+干不干	gān;au bù;ad gān;au	80
 哥哥说	gē;ak ge;ak shuō;ye	1
 搁下醋	gē;fk xià;ab cù;yo	1
 红凤凰	hóng;sg fèng;jy huáng;jw	1
@@ -418,7 +405,6 @@ sort: by_weight
 三个隹	sān;ae gè;ra zhuī;ra	1
 三个子	sān;ae gè;ra zi;va	1
 三个足	sān;ae gè;ra zú;kr	1
-盛鱼翅	chéng;im yú;ea chì;ux	1
 十和四	shí;aa hé;hk sì;we	1
 十是十	shí;aa shì;or shí;aa	1
 史肖石	shǐ;an xiào;eo shí;ak	1
@@ -473,16 +459,24 @@ sort: by_weight
 提锡壶	tí;fr xī;jw hú;uy	1
 听物理	tīng;kj wù;nw lǐ;wl	1
 腿说嘴	tuǐ;oh shuō;ye zuǐ;ky	1
+为一名	wéi;dd yì;aa míng;xk	684
+为一名	wèi;dd yì;aa míng;xk	584
 星映灯	xīng;ou yìng;oy dēng;hd	1
 杨家羊	yáng;lp jiā;gn yáng;ea	1
 硬石头	yìng;ug shí;ak tou;dd	1
 游西湖	yóu;dz xī;aa hú;do	1
+越长越	yuè;tg cháng;pn yuè;tg	315
+越长大	yuè;tg zhǎng;pn dà;an	321
+越长越	yuè;tg zhǎng;pn yuè;tg	265
 这是蚕	zhè;zx shì;or cán;ti	1
 紫瓷盘	zǐ;vx cí;dw pán;vm	1
 紫葡萄	zǐ;vx pú;cf táo;cf	1
 嘴不黑	zuǐ;ky bù;ad hēi;ae	1
 嘴说腿	zuǐ;ky shuō;ye tuǐ;oh	1
 白白的鹅	bái;po bái;po de;bu é;wn	1
+便不便宜	biàn;rg bú;ad biàn;rg yí;gq	376
+便宜行事	biàn;rg yí;gq xíng;rd shì;av	281
+便宜之内	biàn;rg yí;gq zhī;dn nèi;ad	110
 不剥桔子	bù;ad bō;ld jú;lk zi;va	1
 不吃桔子	bù;ad chī;ky jú;lk zi;va	1
 不是字纸	bú;ad shì;or zì;gz zhǐ;su	1
@@ -493,12 +487,16 @@ sort: by_weight
 红粉凤凰	hóng;sg fěn;md fèng;jy huáng;jw	1
 蒋家的墙	jiǎng;cc jiā;gn de;bu qiáng;tk	1
 宽宽的河	kuān;gj kuān;gj de;bu hé;dk	1
+略长一些	lüè;tk cháng;pn yì;aa xiē;ve	42
+略长几岁	lüè;tk zhǎng;pn jǐ;pv suì;sx	1
 啪啪砰砰	pā;kb pā;kb pēng;uu pēng;uu	1
 砰砰啪啪	pēng;uu pēng;uu pā;kb pā;kb	1
 同种冬瓜	tóng;ak zhǒng;hv dōng;wd guā;pn	1
 勿理物理	wù;pp lǐ;wl wù;nw lǐ;wl	1
 惜乎锡壶	xī;xo hū;pv xī;jw hú;uy	1
 小直摇头	xiǎo;vd zhí;ua yáo;ff tóu;dd	1
+越长越好	yuè;tg cháng;pn yuè;tg hǎo;nz	230
+越长越快	yuè;tg zhǎng;pn yuè;tg kuài;xn	204
 安心唱爱歌	ān;gn xīn;dd chàng;ko ài;py gē;gr	1
 昂首吸飞蛾	áng;oe shǒu;em xī;kj fēi;vd é;ig	1
 遨游真快活	áo;zw yóu;dz zhēn;ub kuài;xn huó;dk	1
@@ -529,6 +527,7 @@ sort: by_weight
 地下有石头	dì;ty xià;ab yǒu;ao shí;ak tou;dd	1
 弟子三十三	dì;ep zǐ;va sān;ae shí;aa sān;ae	1
 雕吓走了猫	diāo;va xià;kx zǒu;tr le;vv māo;qt	1
+都说要小个	dōu;ue shuō;ye yào;xn xiǎo;vd gè;ra	1
 多多让哥哥	duō;xx duō;xx ràng;yu gē;ak ge;ak	1
 哥哥让多多	gē;ak ge;ak ràng;yu duō;xx duō;xx	1
 鼓上画老虎	gǔ;uy shàng;aa huà;aa lǎo;ub hǔ;aj	1
@@ -576,7 +575,6 @@ sort: by_weight
 石头砸猪头	shí;ak tou;dd zá;uj zhū;qo tóu;dd	1
 树上七只莺	shù;lc shàng;aa qī;av zhǐ;kb yīng;cn	1
 树下蹲条狗	shù;lc xià;ab dūn;zc tiáo;wx gǒu;qk	1
-都说要小个	dōu;ue shuō;ye yào;xn xiǎo;vd gè;ra	1
 四十和十四	sì;we shí;aa hé;hk shí;aa sì;we	1
 四十是四十	sì;we shí;aa shì;or sì;we shí;aa	1
 台上七盏灯	tái;vk shàng;aa qī;av zhǎn;gm dēng;hd	1
@@ -591,13 +589,13 @@ sort: by_weight
 小鸟唱枝头	xiǎo;vd niǎo;pa chàng;ko zhī;ly tóu;dd	1
 小猪扭头瞅	xiǎo;vd zhū;qo niǔ;fi tóu;dd chǒu;mh	1
 小猪怨锄头	xiǎo;vd zhū;qo yuàn;xx chú;jl tou;dd	1
-只需洗掉泥	zhǐ;kb xū;ye xǐ;de diào;fu ní;db	1
 一盘生鱼翅	yì;aa pán;vm shēng;pa yú;ea chì;ux	1
 一盘熟鱼翅	yì;aa pán;vm shú;we yú;ea chì;ux	1
 一天天下雨	yì;aa tiān;ad tiān;ad xià;ab yǔ;ad	1
 有吃又有喝	yǒu;ao chī;ky yòu;vn yǒu;ao hē;kv	1
 沾了一身泥	zhān;dk le;vv yì;aa shēn;pp ní;db	1
 只得去过河	zhǐ;kb de;rc qù;tv guò;zc hé;dk	1
+只需洗掉泥	zhǐ;kb xū;ye xǐ;de diào;fu ní;db	1
 嘴里有舌头	zuǐ;ky lǐ;aa yǒu;ao shé;qk tou;dd	1
 坐下分果果	zuò;rt xià;ab fēn;bd guǒ;an guǒ;an	1
 绊倒了秃丫头	bàn;sb dǎo;rd le;vv tū;hj yā;ea tou;dd	1
@@ -831,9 +829,9 @@ sort: by_weight
 羊蒋家砌了一垛墙	yáng;ea jiǎng;cc jiā;gn qì;ud le;vv yī;aa duǒ;tl qiáng;tk	1
 捉壁虎李虎捉壁虎	zhuō;fr bì;ut hǔ;aj lǐ;lz hǔ;aj zhuō;fr bì;ut hǔ;aj	1
 白家门前一棵白果树	bái;po jiā;gn mén;dv qián;ed yì;aa kē;lg bái;po guǒ;an shù;lc	1
-剥了秕谷壳儿补鼻子	bō;ld le;vv bǐ;hb gǔ;bk ké;uj er;pv bǔ;pb bí;za zi;va	1
 扁担绑在那个板凳上	biǎn;hc dàn;fd bǎng;se zài;at nà;ve gè;ra bǎn;ly dèng;dj shàng;aa	1
 别喇叭的哑巴吹喇叭	bié;kd lǎ;kd bā;kb de;bu yǎ;ky bā;vv chuī;kr lǎ;kd bā;kb	1
+剥了秕谷壳儿补鼻子	bō;ld le;vv bǐ;hb gǔ;bk ké;uj er;pv bǔ;pb bí;za zi;va	1
 不剥秕谷壳儿补鼻子	bù;ad bō;ld bǐ;hb gǔ;bk ké;uj er;pv bǔ;pb bí;za zi;va	1
 不吃葡萄倒吐葡萄皮	bù;ad chī;ky pú;cf táo;cf dào;rd tǔ;kt pú;cf táo;cf pí;vy	1
 不管是天上的热日头	bù;ad guǎn;vg shì;or tiān;ad shàng;aa de;bu rè;fe rì;wa tou;dd	1
