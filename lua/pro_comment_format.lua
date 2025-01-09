@@ -183,7 +183,7 @@ function ZH.func(input, env)
     ZH.init(env)
     CR.init(env)
 
-    --申明反查模式的tag状态
+    --声明反查模式的tag状态
 	local seg = env.engine.context.composition:back()
 	env.is_radical_mode = seg and (
 		seg:has_tag("radical_lookup") 
