@@ -183,17 +183,14 @@ function ZH.func(input, env)
     ZH.init(env)
     CR.init(env)
 
-    local context = env.engine.context
-    -- 进一步检测输入状态的变化，匹配部件组字状态
-    if context.input:len() == 0 then
-        env.is_radical_mode = false  -- 当输入被清空时，退出部件拆字模式
-    elseif context.input:find("^az") then
-        env.is_radical_mode = true  -- 当输入以 "az" 开头时，激活部件拆字模式
-    elseif context.input:find("^ab") then
-        env.is_radical_mode = true  -- 当输入以 "ab" 开头时，激活笔画组字模式
-    else
-        env.is_radical_mode = false  -- 其他情况退出模式
-    end
+    --申明反查模式的tag状态
+	local seg = env.engine.context.composition:back()
+	env.is_radical_mode = seg and (
+		seg:has_tag("radical_lookup") 
+		or seg:has_tag("reverse_stroke") 
+		or seg:has_tag("add_user_dict")
+	) or false
+
 
     -- 遍历输入的候选词
     for cand in input:iter() do
