@@ -520,17 +520,17 @@ user_dict_set:
   spelling_hints: 100
   comment_format: {comment}
   enable_user_dict: true # 是否开启自动调频
-  user_dict: zc.dict
-  db_class: tabledb
+  user_dict: zc
+  #db_class: tabledb
 
   # 自定义词典加词(ac引导)
 add_user_dict:
   tag: add_user_dict
   dictionary: zrm
   initial_quality: -1
-  user_dict: zc.dict
+  user_dict: zc
   # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
-  db_class: tabledb
+  #db_class: tabledb
   enable_charset_filter: false # 是否开启字符集过滤
   enable_completion: false # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
   enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
