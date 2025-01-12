@@ -495,9 +495,10 @@ sort: by_weight
 𪃨	āo;	1
 𪓴	áo;	1
 𪓾	áo;	1
-吧	bā;kb	999
+吧	b;kb	999
+把	bǎ;fb	925
+吧	bā;kb	910
 爸	bà;bb	834
-把	bǎ;fb	825
 八	bā;pn	799
 捌	bā;fd	782
 扒	bā;fb	772
@@ -6006,6 +6007,7 @@ sort: by_weight
 𪉤	cuó;	1
 𪒙	cuō;	1
 𪘓	cuó;	1
+的	d;bu	1000
 大	dà;an	900
 打	dǎ;fd	804
 达	dá;zd	788
@@ -6674,7 +6676,7 @@ sort: by_weight
 𪠤	dāo;	1
 𪥂	dāo;	1
 𫄝	dào;	1
-的	de;bu	1000
+的	de;bu	999
 得	dé;rc	821
 得	de;rc	819
 德	dé;rx	779
@@ -19827,6 +19829,7 @@ sort: by_weight
 𨶐	kuò;	1
 𩋻	kuò;	1
 𪗽	kuò;	1
+了	l;vv	999
 拉	lā;fl	778
 辣	là;lu	717
 啦	la;kl	713
@@ -23538,6 +23541,7 @@ sort: by_weight
 𧑀	lüè;	1
 𧕌	lüè;	1
 𪅅	lüè;	1
+吗	m;km	999
 吗	ma;km	787
 马	mǎ;va	769
 码	mǎ;um	744
