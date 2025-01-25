@@ -7,182 +7,95 @@ name: corrections
 version: "2025-01-01"
 sort: by_weight
 ...
-按捺	àn;fn nà;fx	127
-按耐	àn;fn nài;ec	8	按捺(nà)
-甭价	béng;by jie;rj	0
-甭介	béng;by jie;ra	0	甭价(jie)
-比萨	bǐ;bb sà;ci	197
+膻中	shan;od zhong;aa	364	膻(dàn)中
+按耐	àn;fn nài;ec	0	按捺(nà)
+甭介	béng;by jie;ra	56	甭价(jie)
 别介	bié;kd jie;ra	31	别价(jie)
-别价	bié;kd jie;rj	1
 槟榔	bin;lb lang;le	633	bīng láng
-槟榔	bīng;lb láng;le	633
-脖颈	bó;oz gěng;vr	483
 脖颈	bo;oz jing;vr	483	bó gěng
-掺和	can;fp he;hk	438	chān huo
-掺和	can;fp huo;hk	438	chān huo
-草薙	cǎo;cu tì;cv	88
 草薙	cao;cu zhi;cv	88	cǎo tì
-曾今	céng;eo jīn;rv	105	曾经
-曾经	céng;eo jīng;sg	39759
 掺和	chan;fp he;hk	438	chān huo
-掺和	chān;fp huo;hk	438
-称职	chèn;hx zhí;eb	90
 称职	cheng;hx zhi;eb	90	chèn zhí
 龇牙	ci;vb ya;ap	62	zī yá
-凑合	còu;dt he;rk	1809
 凑活	còu;dt huo;dk	246	凑合(he)
 道行	dao;zm hang;rd	270	dào héng
-道行	dào;zm héng;rd	270
-调换	diào;yk huàn;fd	616
-胴体	dòng;ok tǐ;rb	80
 给予	gei;sk yu;vv	11349	jǐ yǔ
-厚朴	hòu;iz pò;lb	52
 厚朴	hou;iz pu;lb	52	hòu pò
 馄饨	hun;ub dun;ut	898	hún tun
-馄饨	hún;ub tun;ut	898
-给予	jǐ;sk yǔ;vv	11349
 角色	jiao;ey se;eb	20102	jué sè
-结扎	jié;sk zā;fv	126
 结扎	jie;sk zha;fv	126	jié zā
-巨惠	jù;ka huì;ax	0
-钜惠	jù;jj huì;ax	0	巨惠
-角色	jué;ey sè;eb	20102
+钜惠	jù;jj huì;ax	549	巨惠
 六安	liu;wb an;gn	110	lù ān
-弄堂	lòng;wa táng;et	126
-六安	lù;wb ān;gn	110
 埋怨	mai;tl yuan;xx	1138	mán yuàn
-埋怨	mán;tl yuàn;xx	1138
 模板	mo;ld ban;ly	14674	mú bǎn
 模具	mo;ld ju;ab	1935	mú jù
 模样	mo;ld yang;ly	5185	mú yàng
-模板	mú;ld bǎn;ly	14674
-模具	mú;ld jù;ab	1935
 木讷	mu;un na;yn	471	mù nè
-木讷	mù;un nè;yn	471
-模样	mú;ld yàng;ly	5185
 弄堂	nong;wa tang;et	126	lòng táng
-暖和	nuan;oy he;hk	743	nuǎn huo
-暖和	nuǎn;oy huo;hk	743
+暖和	nuan;oy he;hk	590	nuǎn huo
 偌大	nuo;rk da;an	680	偌(ruò)大
 比萨	pi;bb sa;ci	197	bǐ sà
-荨麻	qián;cc má;gl	71
 强劲	qiang;gi jin;vl	1505	qiáng jìng
-强劲	qiáng;gi jìng;vl	1505
-热烈	rè;fe liè;de	1
 热列	rè;fe liè;dd	1	(烈)
-偌大	ruò;rk dà;an	680
-似的	shì;rr de;bu	703
 说服	shui;ye fu;oy	5642	shuō fú
-说服	shuō;ye fú;oy	5642
 似的	si;rr de;bu	703	似(shì)的
 藤蔓	teng;cu man;cy	320	téng wàn
-藤蔓	téng;cu wàn;cy	320
 调换	tiao;yk huan;fd	616	diào huàn
 胴体	tong;ok ti;rb	80	dòng tǐ
 荨麻	xun;cc ma;gl	71	qián má
 吱声	zhi;ky sheng;up	217	zī shēng
 主角	zhu; jiao;ey	24115	zhǔ jué
-主角	zhǔ; jué;ey	24115
-吱声	zī;ky shēng;up	217
-龇牙	zī;vb yá;ap	62
 比萨饼	bǐ;bb sà;ci bǐng;uk	23
-脖颈儿	bó;oz gěng;vr er;pv	1
-脖颈儿	bo;oz jing;vr er;pv	1	bó gěng er
-草薙剑	cǎo;cu tì;cv jiàn;rd	17
-草薙京	cǎo;cu tì;cv jīng;wx	144
+脖颈儿	bo;oz jing;vr er;pv	10	bó gěng er
 草薙剑	cao;cu zhi;cv jian;rd	17	cǎo tì jiàn
 草薙京	cao;cu zhi;cv jing;wx	144	cǎo tì jīng
-吃比萨	chī;ky bǐ;bb sà;ci	5
 吃比萨	chi;ky pi;bb sa;ci	5	chī bǐ sà
 龇着牙	ci;vb zhe;em ya;ap	14	zī zhe yá
 大宛马	da;an wan;gv ma;va	9	dà yuān mǎ
-大宛马	dà;an yuān;gv mǎ;va	9
 独乐乐	du;qi le;pd le;pd	13	dú yuè lè
-独乐乐	dú;qi yuè;pd lè;pd	13
-海参崴	hǎi;dm shēn;vp wǎi;sg	304
 海参崴	hai;dm shen;vp wei;sg	304	hǎi shēn wǎi
 贾平凹	jia;xr ping;au ao;aa	247	jià píng wā
-贾平凹	jià;xr píng;au wā;aa	247
 卡脖子	ka;ub bo;oz zi;va	308	qiǎ bó zi
 六安市	liu;wb an;gn shi;wj	23	lù ān shì
 六安县	liu;wb an;gn xian;qv	3	lù ān xiàn
 六合区	liu;wb he;rk qū;kx	3	lù hé qū
-六安市	lù;wb ān;gn shì;wj	23
-六安县	lù;wb ān;gn xiàn;qv	3
-六合区	lù;wb hé;rk qu;kx	3
 螺蛳粉	luo;ix shi;ij fen;md	645	luó sī fěn
-螺蛳粉	luó;ix sī;ij fěn;md	645
-摩羯座	mó;gu jié;ev zuò;gt	107
 魔蝎座	mó;gv xiē;iv zuò;gt	0	摩羯(jié)座
 鄱阳湖	pan;fe yang;eo hu;do	1336	pó yáng hú
 比萨饼	pi;bb sa;ci bing;uk	23	bǐ sà bǐng
-鄱阳湖	pó;fe yáng;eo hú;do	1336
-契诃夫	qì;fd hē;yk fū;an	437
 契科夫	qī;fd kē;hu fū;an	0	契诃(hē)夫
-卡脖子	qiǎ;ub bó;oz zi;va	308
 荨麻疹	qian;cc ma;gl zhen;bp	198	xún má zhěn
-太行山	tài;dd háng;rd shān;aa	390
 太行山	tai;dd xing;rd shan;aa	390	tài háng shān
-头皮屑	tóu;dd pi;vy xiè;uo	525
 头皮屑	tou;dd pi;vy xue;uo	525	tóu pi xiè
-万柏林	wàn; bǎi;lb lín;ll	2
 万柏林	wàn; bó;lb lín;ll	2	万柏(bǎi)林
 雪佛兰	xue;ya fo;rf lan;es	365	xuě fú lán
-雪佛兰	xuě;ya fú;rf lán;es	365
-荨麻疹	xún;cc má;gl zhěn;bp	198
-鸭绿江	yā;jn lù;su jiāng;dg	152
 鸭绿江	ya;jn lv;su jiang;dg	152	yā lù jiāng
 张柏芝	zhang;gi bai;lb zhi;cv	748	zhāng bó zhī
-张柏芝	zhāng;gi bó;lb zhī;cv	748
 众乐乐	zhong;rr le;pd le;pd	20	zhòng yuè lè
-众乐乐	zhòng;rr yuè;pd lè;pd	20
-龇着牙	zī;vb zhe;em yá;ap	14
 阿弥陀佛	a;ek mi;gx tuo;eb fo;rf	371	ē mí tuó fó
 安徽六安	an;gn hui;rw liu;wb an;gn	16	ān huī lù ān
-安徽六安	ān;gn huī;rw lù;wb ān;gn	16
-按捺不住	àn;fn nà;fx bú;ad zhù;rv	345
 按耐不住	àn;fn nài;ec bú;ad zhù;rv	0	按捺(nà)不住
 龇牙咧嘴	ci;vb ya;ap lie;kd zui;ky	166	zī yá liě zuǐ
 大腹便便	da;an fu;ow bian;rg bian;rg	147	dà fù pián pián
-大腹便便	dà;an fù;ow pián;rg pián;rg	147
-阿弥陀佛	ē;ek mí;gx tuó;eb fó;rf	371
 歇斯底里	jie;or si;qj di;gd li;aa	883	xiē sī dǐ lǐ
-力能扛鼎	lì;vp néng;vb gāng;fg dǐng;mv	26
 力能扛鼎	li;vp neng;vb kang;fg ding;mv	26	lì néng gāng dǐng
-模棱两可	mó;ld léng;lw liǎng;ad kě;av	848
 模棱两可	mo;ld ling;lw liang;ad ke;av	848	mó léng liǎng kě
 南京六合	nan;uu jing;wx liu;wb he;rk	5	nán jīng lù hé
-南京六合	nán;uu jīng;wx lù;wb hé;rk	5
 人模狗样	ren;pn mo;ld gou;qk yang;ly	146	rén mú góu yàng
-人模狗样	rén;pn mú;ld góu;qk yàng;ly	146
-歇斯底里	xiē;or sī;qj dǐ;gd lǐ;aa	883
-心宽体胖	xīn;dd kūan;gj tǐ;rb pán;ob	39
 心宽体胖	xin;dd kuan;gj ti;rb pang;ob	39	xīn kūan tǐ pán
 虚与委蛇	xu;ay yu;aa wei;hn she;ib	93	xū yǔ wēi yí
-虚与委蛇	xū;ay yǔ;aa wēi;hn yí;ib	93
-血脉贲张	xuè;pm mài;oy bēn;ur zhāng;gi	49
 血脉偾张	xuè;pm mài;oy fèn;rr zhāng;gi	0	血脉贲(bēn)张 | 血脉偾(fèn)张
 血脉喷张	xuè;pm mài;oy pēn;kr zhāng;gi	0	血脉贲(bēn)张 | 血脉偾(fèn)张
-一模一样	yi;aa mo;ld yi;aa yang;ly	5083	yī mú yī yàng
-一模一样	yī;aa mú;ld yī;aa yàng;ly	5083
+一模一样	yi;aa mo;ld yi;aa yang;ly	5083	yì mú yí yàng
 饮鸩解渴	yin;ur jiu;dn jie;en ke;dv	0	饮鸩(zhèn)解渴
 饮鸩止渴	yin;ur jiu;dn zhi;ua ke;dv	336	饮鸩(zhèn)止渴
 饮鸩解渴	yin;ur zhen;dn jie;en ke;dv	0	饮鸩(zhèn)解渴
-饮鸩止渴	yǐn;ur zhèn;dn zhǐ;ua kě;dv	336
 有模有样	you;ao mo;ld you;ao yang;ly	279	yǒu mú yǒu yàng
-有模有样	yǒu;ao mú;ld yǒu;ao yàng;ly	279
 装模作样	zhuang;dh mo;ld zuo;rv yang;ly	485	zhuāng mú zuò yàng
-装模作样	zhuāng;dh mú;ld zuò;rv yàng;ly	485
-龇牙咧嘴	zī;vb yá;ap liě;kd zuǐ;ky	166
 安徽六安市	an;gn hui;rw liu;wb an;gn shi;wj	3	ān huī lù ān shì
-安徽六安市	ān;gn huī;rw lù;wb ān;gn shì;wj	3
 南京六合区	nan;uu jing;wx liu;wb he;rk qu;kx	1	nán jīng lù hé qū
-南京六合区	nán;uu jīng;wx lù;wb hé;rk qū;kx	1
 安徽省六安市	an;gn hui;rw sheng;um liu;wb an;gn shi;wj	8	ān huī shěng lù ān shì
-安徽省六安市	ān;gn huī;rw shěng;um lù;wb ān;gn shì;wj	8
 南无阿弥陀佛	na;uu mo;av a;ek mi;gx tuo;eb fo;rf	42	nā mó ē mí tuó fó
-南无阿弥陀佛	nā;uu mó;av ē;ek mí;gx tuó;eb fó;rf	42
 南京市六合区	nan;uu jing;wx shi;wj liu;wb he;rk qu;kx	2	nán jīng shì lù hé qū
-南京市六合区	nán;uu jīng;wx shì;wj lù;wb hé;rk qū;kx	2
 南无阿弥陀佛	nan;uu wu;av a;ek mi;gx tuo;eb fo;rf	42	nā mó ē mí tuó fó
 南无阿弥陀佛	nan;uu wu;av e;ek mi;gx tuo;eb fo;rf	42	nā mó ē mí tuó fó
