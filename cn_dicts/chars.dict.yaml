@@ -6,7 +6,7 @@ name: chars
 version: "2024-11-11"
 sort: by_weight
 ...
-啊	a;kk	778
+啊	a;kk	915
 阿	ā;ek	749
 啊	ā;kk	537
 锕	ā;jk	346
@@ -22,13 +22,13 @@ sort: by_weight
 𥥩	ā;gk	1
 𨉚	ā;ud	1
 爱	ài;py	799
+哎	āi;kx	711
+唉	āi;kd	688
 癌	ái;bs	669
 埃	āi;td	667
 艾	ài;cx	666
 碍	ài;uc	645
-哎	āi;kx	617
 哀	āi;wh	593
-唉	āi;kd	588
 矮	ǎi;un	583
 挨	āi;fd	560
 暧	ài;oy	534
@@ -26869,8 +26869,6 @@ sort: by_weight
 喔	ō;kt	547
 哦	ò;kg	299
 嚄	ǒ;ky	1
-筽	o;	1
-夞	oes;	1
 欧	ōu;kr	731
 偶	ǒu;rd	689
 藕	ǒu;cd	563
@@ -26903,6 +26901,7 @@ sort: by_weight
 膒	ōu;	60
 慪	òu;	38
 藲	ōu;	23
+筽	ōu;	1
 𫭟	ōu;tx	1
 𠙶	ǒu;lk	1
 區	ōu;	1
@@ -38488,6 +38487,7 @@ sort: by_weight
 奦	wù;	38
 鷡	wú;	38
 螐	wū;	23
+筽	wú;	1
 鼿	wù;	1
 齀	wù;	1
 悞	wù;	1
@@ -49373,17 +49373,17 @@ sort: by_weight
 𪇞	zhòu;	1
 𪜺	zhōu;	1
 𫟻	zhōu;	1
+祝	zhù;pe	866
+住	zhù;rv	845
 主	zhǔ;	839
+煮	zhǔ;ue	833
 注	zhù;dv	801
-助	zhù;ql	782
-住	zhù;rv	762
+助	zhù;ql	772
 著	zhù;co	725
 筑	zhù;vf	705
 逐	zhú;zn	704
 猪	zhū;qo	688
 珠	zhū;wv	678
-煮	zhǔ;ue	676
-祝	zhù;pe	666
 诸	zhū;yo	665
 朱	zhū;pw	664
 驻	zhù;mv	658
@@ -50862,6 +50862,7 @@ sort: by_weight
 𪱢	zuò;	1
 𫝶	zuò;	1
 𫝷	zuò;	1
+夞	无;	1
 𥩟	无;	1
 𪸩	无;	1
 𪢠	无;	1
