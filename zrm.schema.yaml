@@ -308,7 +308,7 @@ recognizer:
     punct: "^/([0-9]|10|[A-Za-z]+)$"    # 响应 symbols.yaml 的 symbols
     radical_lookup: "^az[a-z]+$"        # 响应部件拆字的反查，与 radical_lookup/prefix 匹配
     reverse_stroke: "^ab[A-Za-z]*$"     #响应笔画反查，与reverse_stroke/prefix 匹配
-    add_user_dict: "^ac.*$"      #自造词
+    add_user_dict: "^zc[^0-9-=]*$"      #自造词
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
@@ -542,7 +542,7 @@ add_user_dict:
   encode_commit_history: false # 是否对已上屛词自动成词〔仅 table_translator 有效〕
   preedit_format: {comment}   
   comment_format:
-  prefix: "ac"
+  prefix: "zc"
   tips: "〔自造词〕"
 
 
