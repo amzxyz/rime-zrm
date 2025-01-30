@@ -4,9 +4,17 @@
 #兼容词库，对于多字词汇两种读音的场景，手动维护到本表以及一些其他的杂项
 ---
 name: compatible
-version: "2025-01-30 18:15"
+version: "2025-01-30 20:18"
 sort: by_weight
 ...
+单行	dān;ea xíng;rd	504
+单行	dān;ea háng;rd	602
+串行	chuàn;aa xíng;rd	443
+串行	chuàn;aa háng;rd	543
+同行	tóng;ak háng;rd	714
+同行	tóng;ak xíng;rd	601
+多行	duō;xx xíng;rd	355
+多行	duō;xx háng;rd	491
 不了了	bù;ad liǎo;vv liǎo;vv	542
 不了了	bù;ad liǎo;vv le;vv	413
 肚子	dù;ot zi;va	695
@@ -17,8 +25,6 @@ sort: by_weight
 浅浅	qiǎn;dg qiǎn;dg	671
 不了	bù;ad liǎo;vv	892
 不了	bù;ad le;vv	849
-同行	tóng;ak háng;rd	714
-同行	tóng;ak xíng;rd	601
 着人	zhuó;em rén;pn	390
 闲着	xián;ml zhāo;em	367
 闲着	xián;ml zhe;em	567
