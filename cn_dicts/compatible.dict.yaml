@@ -4,9 +4,11 @@
 #兼容词库，对于多字词汇两种读音的场景，手动维护到本表以及一些其他的杂项
 ---
 name: compatible
-version: "2025-02-02 01:03"
+version: "2025-02-02 23:44"
 sort: by_weight
 ...
+朝阳	zhāo;uo yáng;eo	660
+朝阳	cháo;uo yáng;eo	660
 单行	dān;ea xíng;rd	504
 单行	dān;ea háng;rd	602
 串行	chuàn;aa xíng;rd	443

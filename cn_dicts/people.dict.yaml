@@ -5,7 +5,7 @@
 #^(?!.*阿姨|.*爸爸|.*伯伯|.*老师|.*村|.*乡|.*镇|.*老|.*宅|.*店|.*家|.*爷爷|.*奶奶|.*大人|.*先生|.*女士)[夏|宋|徐|丁|崔|白|梁|岳|段|赵|钱|孙|李|周|吴|郑|王|冯|秦|陈|杜|褚|卫|蒋|沈|韩|杨|朱|尤|许|何|吕|张|孔|曹|严|华|金|魏|陶|江|姜|苏|鲁|罗|雷|黄|马|叶]..\t.*\t[1-9][0-3][0-9]{2}$\n
 ---
 name: people
-version: "2025-02-02 01:03"
+version: "2025-02-02 23:44"
 sort: by_weight
 ...
 白波	bái;po bō;dy	375
@@ -511,7 +511,6 @@ sort: by_weight
 黄雷	huáng;cb léi;yt	317
 黄力	huáng;cb lì;vp	354
 黄良	huáng;cb liáng;dh	394
-黄梁	huáng;cb liáng;dl	393
 黄麟	huáng;cb lín;ga	352
 黄娜	huáng;cb nà;ne	302
 黄蘖	huáng;cb niè;cl	208
@@ -40203,6 +40202,32 @@ sort: by_weight
 野泽佳奈	yě;ly zé;da jiā;rt nài;dx	1
 伊加奈伊	yī;ry jiā;lk nài;dx yī;ry	105
 优木加奈	yōu;ry mù;un jiā;lk nài;dx	249
+原田彩枫	yuán;ix tián;wu cǎi;pp fēng;lx	262
+原田春菜	yuán;ix tián;wu chūn;ao cài;cl	1
+原田德子	yuán;ix tián;wu dé;rx zǐ;va	1
+原田芳雄	yuán;ix tián;wu fāng;cf xióng;aa	308
+原田理花	yuán;ix tián;wu lǐ;wl huā;cb	142
+原田明绘	yuán;ix tián;wu míng;oo huì;sv	35
+原田奈奈	yuán;ix tián;wu nài;dx nài;dx	1
+原田淑人	yuán;ix tián;wu shū;dy rén;pn	125
+原田泰造	yuán;ix tián;wu tài;au zào;zk	260
+原田泰治	yuán;ix tián;wu tài;au zhì;dk	230
+原田舞美	yuán;ix tián;wu wǔ;pa měi;ed	35
+原田夏希	yuán;ix tián;wu xià;aw xī;xj	216
+原田亚季	yuán;ix tián;wu yà;ay jì;hz	1
+原田亚希	yuán;ix tián;wu yà;ay xī;xj	1
+猿田彦命	yuán;qh tián;wu yàn;wp mìng;re	134
+猿田彦神	yuán;qh tián;wu yàn;wp shén;pu	142
+猿田彦为	yuán;qh tián;wu yàn;wp wéi;dd	1原田夜舞	yuán tián yè wǔ
+原田樱怜	yuán;ix tián;wu yīng;ln lián;xv	1
+苑田勇一	yuàn;cv tián;wu yǒng;vl yī;aa	125
+原田友贵	yuán;ix tián;wu yǒu;ay guì;vr	162
+原田友美	yuán;ix tián;wu yǒu;ay měi;ed	1
+原田志乃	yuán;ix tián;wu zhì;ux nǎi;vp	1
+原田知世	yuán;ix tián;wu zhī;uk shì;av	310
+原田智英	yuán;ix tián;wu zhì;uo yīng;cy	77
+原田宗时	yuán;ix tián;wu zōng;gx shí;oc	105
+原田祖岳	yuán;ix tián;wu zǔ;pq yuè;qs	1
 植田佳奈	zhí;lv tián;wu jiā;rt nài;dx	414
 仲居加奈	zhòng;rv jū;uk jiā;lk nài;dx	1
 中町加奈	zhōng;aa tīng;td jiā;lk nài;dx	1

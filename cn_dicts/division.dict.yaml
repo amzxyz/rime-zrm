@@ -4,7 +4,7 @@
 #------二级行政区划------
 ---
 name: division
-version: "2025-02-02 01:03"
+version: "2025-02-02 23:44"
 sort: by_weight
 ...
 阿坝	ā;ek bà;tr	601
@@ -219,6 +219,7 @@ sort: by_weight
 巢湖	cháo;vg hú;do	587
 潮南	cháo;do nán;uu	433
 朝天	cháo;uo tiān;ad	676
+朝阳	cháo;uo yáng;eo	767
 潮阳	cháo;do yáng;eo	529
 潮州	cháo;do zhōu;da	682
 车城	chē;aa chéng;tg	569
@@ -2982,7 +2983,6 @@ sort: by_weight
 昭苏	zhāo;ok sū;cb	458
 昭通	zhāo;ok tōng;zy	571
 赵县	zhào;tx xiàn;qv	445
-朝阳	zhāo;uo yáng;eo	767
 昭阳	zhāo;ok yáng;eo	479
 招远	zhāo;fk yuǎn;ze	491
 肇源	zhào;ha yuán;dx	382
@@ -3328,7 +3328,8 @@ sort: by_weight
 朝天区	cháo;uo tiān;ad qū;kx	320
 朝阳区	cháo;uo yáng;eo qū;kx	687
 潮阳区	cháo;do yáng;eo qū;kx	443
-朝阳县	chao;uo yáng;eo xiàn;qv	383
+朝阳市	cháo;uo yáng;eo shì;wj	466
+朝阳县	cháo;uo yáng;eo xiàn;qv	383
 潮州市	cháo;do zhōu;da shì;wj	495
 潮州镇	cháo;do zhōu;da zhèn;jb	1
 车城乡	chē;aa chéng;tg xiāng;vp	1
@@ -6163,7 +6164,6 @@ sort: by_weight
 昭苏县	zhāo;ok sū;cb xiàn;qv	353
 昭通市	zhāo;ok tōng;zy shì;wj	495
 昭阳区	zhāo;ok yáng;eo qū;kx	364
-朝阳市	zhāo;uo yáng;eo shì;wj	466
 招远市	zhāo;fk yuǎn;ze shì;wj	378
 肇源县	zhào;ha yuán;dx xiàn;qv	346
 肇州县	zhào;ha zhōu;da xiàn;qv	319
