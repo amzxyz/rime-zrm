@@ -723,7 +723,7 @@ liquid_keyboard:
     type: SINGLE
     keys: "△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✅❎✔✘✓✗☀☼☽☾◑◐㏂㏘☭♀♂☹☻☠☜☝☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ⇦⇧⇨⇩⇪↖↑↗←↔→↙↓↘⇄⇅⇆⇤↩⇥▸◂▴▾◤◥◣◢㊤㊧㊥㊨㊦❏❐◲〼▢▣↶✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍"
 preset_keyboards:
-  symbols:
+  sym121:
     name: 中文1
     __include: conf/sym
     __patch: conf/bottom
@@ -760,8 +760,8 @@ preset_keyboards:
       - { click: '〕' }
       - { click: '﹂' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/hilited_menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/hilited_menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -806,8 +806,9 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/hilited_menu }
+
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/hilited_menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -815,7 +816,7 @@ preset_keyboards:
       - { click: kb_sym17, __include: styl/menu }
       - { click: kb_sym2, __include: styl/menu }
 
-  sym121:
+  symbols:
     name: 英文1
     __include: conf/sym
     __patch: conf/bottom
@@ -852,8 +853,8 @@ preset_keyboards:
       - { click: '#' }
       - { click: '|' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/hilited_menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -898,8 +899,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/hilited_menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -944,8 +945,8 @@ preset_keyboards:
       - { click: '♚' }
       - { click: '♛' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/hilited_menu }
@@ -990,8 +991,8 @@ preset_keyboards:
       - { click: '囍' }
       - { click: '▓' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/hilited_menu }
@@ -1036,8 +1037,8 @@ preset_keyboards:
       - { click: 'Θ' }
       - { click: '¤' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/hilited_menu }
@@ -1082,8 +1083,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/hilited_menu }
@@ -1128,8 +1129,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/hilited_menu }
@@ -1174,8 +1175,8 @@ preset_keyboards:
       - { click: '㎜' }
       - { click: '㎝' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -1220,8 +1221,8 @@ preset_keyboards:
       - { click: "f'", __include: styl/long_text_size }
       - { click: '∥' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -1266,8 +1267,8 @@ preset_keyboards:
       - { click: '⅜' }
       - { click: '℅' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -1312,8 +1313,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -1358,8 +1359,8 @@ preset_keyboards:
       - { click: '⒎' }
       - { click: '⒏' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -1404,8 +1405,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2554,8 +2555,8 @@ preset_keyboards:
       - { click: '👎' }
       - { click: '🙏' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2600,8 +2601,8 @@ preset_keyboards:
       - { click: '🍓' }
       - { click: '🍉' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2646,8 +2647,8 @@ preset_keyboards:
       - { click: '♨️' }
       - { click: '📫' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2692,8 +2693,8 @@ preset_keyboards:
       - { click: '🐠' }
       - { click: '🐶' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2738,8 +2739,8 @@ preset_keyboards:
       - { click: '📱' }
       - { click: '📠' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -2784,8 +2785,8 @@ preset_keyboards:
       - { click: '' }
       - { click: '' }
       - { click: BackSpace, __include: styl/off_sym }
-      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_sym12, __include: styl/menu }
+      - { click: kb_sym11, __include: styl/menu }
       - { click: kb_emoji, __include: styl/hilited_menu }
       - { click: kb_ywz, __include: styl/menu }
       - { click: kb_sym15, __include: styl/menu }
@@ -4068,12 +4069,12 @@ preset_keys:
   kb_sym1: { label: '◀', send: Eisu_toggle, select: symbols }
   kb_sym2: { label: '▶', send: Eisu_toggle, select: sym211 }
 
-  kb_sym11: { label: '中文', send: Eisu_toggle, select: symbols }
-  kb_sym11u: { label: '▲', send: Eisu_toggle, select: symbols }
+  kb_sym11: { label: '中文', send: Eisu_toggle, select: sym121 }
+  kb_sym11u: { label: '▲', send: Eisu_toggle, select: sym121 }
   kb_sym11d: { label: '▼', send: Eisu_toggle, select: sym112 }
 
-  kb_sym12: { label: '英文', send: Eisu_toggle, select: sym121 }
-  kb_sym12u: { label: '▲', send: Eisu_toggle, select: sym121 }
+  kb_sym12: { label: '英文', send: Eisu_toggle, select: symbols }
+  kb_sym12u: { label: '▲', send: Eisu_toggle, select: symbols }
   kb_sym12d: { label: '▼', send: Eisu_toggle, select: sym122 }
 
   kb_sym15: { label: '特殊', send: Eisu_toggle, select: sym151 }
